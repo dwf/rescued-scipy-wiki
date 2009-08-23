@@ -1,5 +1,5 @@
-Abstract
-++++++++
+Build without warning
+=====================
 
 When building numpy and scipy, we are limited to a quite restricted set of
 warning compilers, thus missing a large class of potential bugs which could
@@ -12,6 +12,7 @@ Warning flags
 
 Each compiler detects a diffferent set of potential errors. The reference
 will be ``gcc -Wall -W -Wextra``. Ideally, a complete set would be nice: ::
+
     -W -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes
     -Waggregate-return -Wcast-align -Wcast-qual -Wnested-externs 
     -Wshadow -Wbad-function-cast -Wwrite-strings
@@ -35,6 +36,7 @@ uses compiler specific code to tag the variable, and mangle it such as it is
 not possible to use it accidentally once it is tagged.
 
 The code to apply compiler specific option could be: ::
+
     #if defined(__GNUC__)
         #define __COMP_NPY_UNUSED __attribute__ ((__unused__))
     # elif defined(__ICC)
@@ -43,15 +45,18 @@ The code to apply compiler specific option could be: ::
         #define __COMP_NPY_UNUSED
     #endif
 
-The variable mangling would be: 
-    ``#define NPY_UNUSED(x) (__NPY_UNUSED_TAGGED ## x) __COMP_NPY_UNUSED``
+The variable mangling would be: ::
+
+    #define NPY_UNUSED(x) (__NPY_UNUSED_TAGGED ## x) __COMP_NPY_UNUSED
 
 
-When applied to a variable, one would get: 
-    ``int foo(int * NPY_UNUSED(dummy))``
+When applied to a variable, one would get: ::
 
-expanded to
-    ``int foo(int * __NPY_UNUSED_TAGGEDdummy __COMP_NPY_UNUSED)``
+    int foo(int * NPY_UNUSED(dummy))
+
+expanded to ::
+
+    int foo(int * __NPY_UNUSED_TAGGEDdummy __COMP_NPY_UNUSED)
 
 signed/unsigned comparison
 --------------------------
