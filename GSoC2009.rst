@@ -1,0 +1,7 @@
+#format rst
+
+.. raw:: html
+   <h1>Google Summer of Code 2009</h1>
+
+
+<p>Google has announced another GSoC.  More details on our <a class="http reference external" href="http://scipy.org/scipy/scipy/wiki/SummerofCodeIdeas">developer wiki</a>.</p>

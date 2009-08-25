@@ -1,0 +1,5 @@
+#format rst
+
+scipy.stats
+-----------
+
