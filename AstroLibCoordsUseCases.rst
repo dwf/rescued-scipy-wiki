@@ -1,3 +1,5 @@
+#format rst
+
 Here is a preliminary list of use cases, in various categories. This is a working document - please comment!
 
 Potential cases are presently grouped by functionality, and may not all be in scope for the first build.

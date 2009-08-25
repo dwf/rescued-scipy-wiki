@@ -1,3 +1,5 @@
+#format rst
+
 * ["Moin configuration"] - configuration requests for this wiki
 
 * ["Navigation bar draft"] - what links hould be listed on the navigation bar (navi bar will appear on the left once the theme is changed to sinorca)

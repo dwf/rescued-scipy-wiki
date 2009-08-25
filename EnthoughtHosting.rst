@@ -1,3 +1,5 @@
+#format rst
+
 Enthought hosting for Python projects
 =====================================
 

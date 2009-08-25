@@ -1,3 +1,5 @@
+#format rst
+
 ExtGen - Python Extension module Generator
 ==========================================
 

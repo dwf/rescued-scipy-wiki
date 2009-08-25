@@ -1,5 +1,11 @@
+<<<<<<< HEAD:AstroLib.rst
 AstroLib
 ========
+=======
+#format rst
+
+<strong class="highlight">.. raw:: html
+>>>>>>> 185e4118f7fe30db29434329fbe64748a0c70ff0:AstroLib.rst
 
 .. raw:: html
 

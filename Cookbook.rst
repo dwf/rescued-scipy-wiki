@@ -1,3 +1,5 @@
+#format rst
+
 This page hosts "recipes", or worked examples of commonly-done tasks.    Some are introductory in nature, while others are quite advanced (these are at the bottom of the page).  We encourage new users to post recipes even for simple tasks that are not yet represented here.  Our goal is an easy learning experience for new users.  Some of these recipes may be incorporated into tutorials in the future.
 
 NumPy / SciPy
