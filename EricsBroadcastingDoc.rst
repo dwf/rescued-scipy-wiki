@@ -31,7 +31,7 @@ numpy's broadcasting rule relaxes this constraint when the arrays' shapes meet c
 
 The result is equivalent to the previous example where ``b`` was an array.  We can think of the scalar ``b`` being *stretched* during the arithmetic operation into an array with the same shape as ``a``.  The new elements in ``b``, as shown in **Figure 1**, are simply copies of the original scalar.  The stretching analogy is only conceptual.  numpy is smart enough to use the original scalar value without actually making copies so that broadcasting operations are as memory and computationally efficient as possible.  Because **Example 2** moves less memory, (``b`` is a scalar, not an array) around during the multiplication, it is about 10% faster than **Example 1** using the standard numpy on Windows 2000 with one million element arrays.
 
-inline:image001.gif
+.. image:: images/EricsBroadcastingDoc/image001.gif
 
 **Figure 1: In the simplest example of broadcasting, the scalar** ``b`` **is** *stretched* **to become an array of with the same shape as** ``a`` **so the shapes are compatible for element-by-element multiplication.**
 
@@ -78,11 +78,11 @@ Below, are several code examples and graphical representations that help make th
 
 As shown in **Figure 2**, ``b`` is added to each row of ``a``.  When ``b`` is longer than the rows of ``a``, as in **Figure 3**, an exception is raised because of the incompatible shapes.
 
-inline:image002.gif
+.. image:: images/EricsBroadcastingDoc/image002.gif
 
 **Figure 2: A two dimensional array multiplied by a one dimensional array results in broadcasting if number of 1-d array elements matches the number of 2-d array columns.**
 
-inline:image003.gif
+.. image:: images/EricsBroadcastingDoc/image003.gif
 
 **Figure 3: When the trailing dimensions of the arrays are unequal, broadcasting fails because it is impossible to align the values in the rows of the 1**:superscript:`st` **array with the elements of the 2**:superscript:`nd` **arrays for element-by-element addition.** 
 
@@ -103,7 +103,7 @@ Broadcasting provides a convenient way of taking the outer product (or any other
 
 Here the ``newaxis`` index operator inserts a new axis into ``a``, making it a two-dimensional 4x1 array.  **Figure 4** illustrates the stretching of both arrays to produce the desired 4x3 output array.
 
-inline:image004.gif
+.. image:: images/EricsBroadcastingDoc/image004.gif
 
 **Figure 4: In some cases, broadcasting stretches both arrays to form an output array larger than either of the initial arrays.** 
 
@@ -112,7 +112,7 @@ A Practical Example: Vector Quantization.
 
 Broadcasting comes up quite often in real world problems.  A typical example occurs in the vector quantization (VQ) algorithm used in information theory, classification, and other related areas.  The basic operation in VQ finds the closest point in a set of points, called ``codes`` in VQ jargon, to a given point, called the ``observation``.  In the very simple two-dimensional case shown in **Figure 5**, the values in ``observation`` describe the weight and height of an athlete to be classified.  The codes represent different classes of athletes.`FootNote(In this example, weight has more impact on the distance calculation than height because of the larger values.  In practice, it is important to normalize the height and weight, often by their standard deviation across the data set, so that both have equal influence on the distance calculation.)`_  Finding the closest point requires calculating the distance between ``observation`` and each of the ``codes``.  The shortest distance provides the best match.  In this example, ``codes[0]`` is the closest class indicating that the athlete is likely a basketball player. 
 
-inline:image005.png
+.. image:: images/EricsBroadcastingDoc/image005.png
 
 **Figure 5: The basic operation of vector quantization calculates the distance between an object to be classified, the dark square, and multiple known codes, the gray circles.  In this simple case, the codes represent individual classes.  More complex cases use multiple codes per class.**
 
@@ -134,13 +134,16 @@ inline:image005.png
 
 Typically, a large number of observations, perhaps read from a database, are compared to a set of codes.  **Figure 6** illustrates how to handle this calculation with a small amount of code and without looping in Python.  While this is very efficient in terms of lines of code, it may or may not be computationally efficient.  The issue is the three-dimensional ``diff`` array calculated in an intermediate step of the algorithm.  For small data sets, creating and operating on the array is likely to be very fast.  However, large data sets will generate a large intermediate array that is computationally inefficient.  The three dimensional array is a consequence of broadcasting, not a necessity for the calculation.  If, instead, each observation is calculated individually using a Python loop around the code in **Example 5**, a much smaller two-dimensional array is used.  This is sometimes more efficient.  As an example, **Table 1** shows that computation time for a data set of 4000 observations with 16 features (i.e., weight, height, and 14 more) categorized into 40 codes. 
 
-inline:image006.gif
+.. image:: images/EricsBroadcastingDoc/image006.gif
 
 **Figure 6: Here, VQ with multiple observation points is done using broadcasting during the difference calculation by flipping the** ``obs`` **and** ``book`` **arrays on their edges.  The resulting difference array is 3-dimensional.  This is certainly efficient in terms of lines of code, and, for small data sets, it can also be computationally efficient.  For large data sets, however, the creation of the large 3-d array may result in sluggish performance.**
 
-<strong class="highlight">.. raw:: html
-
-</strong>[Table not converted]
+============================================ =======
+Algorithm                                    seconds
+============================================ =======
+3-d broadcasting                             2.245
+2-d broadcasting with outer loop in Python   1.637
+============================================ =======
 
 **Table 1: This table compares the run time of a pure broadcasting approach and a hybrid broadcasting/python looping algorithm for VQ calculations on a large data set with 4000 observations and 16 features categorized into 40 codes.  Using the Python loop provides a speedup of 1.36 over the pure broadcasting approach.**
 
