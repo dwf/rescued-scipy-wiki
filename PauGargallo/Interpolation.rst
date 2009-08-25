@@ -1,8 +1,9 @@
-#format rst
+Interpolation
+=============
 
-inline:visual_test.png
+.. image:: ./images/PauGargallo/Interpolation/visual_test.png
 
-Look at ["Cookbook/Interpolation"] before reading this. SciPy probably has the interpolation functions you need.
+Look at "Interpolation" in the SciPy Cookbook before reading this. SciPy probably has the interpolation functions you need.
 
 Here are some **homemade** interpolating functions I use that may be usefull to others. They may still contain a lot of bugs, but...
 

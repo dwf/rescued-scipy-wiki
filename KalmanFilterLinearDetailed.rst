@@ -1,5 +1,3 @@
-#format rst
-
 TableOfContents_
 
 Introduction
@@ -9,19 +7,20 @@ Naive but fairly general implementation of a Kalman Filter, together with some e
 
 This [attachment:kalman.py program] is based on the following paper:
 
-  Greg Welch and Garry Bishop. An Introduction to the Kalman Filter. `http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html`_
+  Greg Welch and Garry Bishop. `An Introduction to the Kalman Filter. <http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html>`_
 
 See also:
 
-  `http://en.wikipedia.org/wiki/Kalman_filter`_
+  `Kalman filter - Wikipedia, the free encyclopedia. <http://en.wikipedia.org/wiki/Kalman_filter>`_
 
 A Kalman filter is an Algorithm to estimate the states of a linear dynamic system from noisy measurements. It must know the system's parameters, as well as the inputs, which may have process noise added to them. 
 
 System Equations:
 
-<strong class="highlight">.. raw:: html
+.. math::
 
-</strong>[Table not converted]
+    x_k = Ax_{k-1} + Bu_k + w_k (Q)
+    z_k = Hx_k + v_k(R)
 
 with:
 
@@ -72,11 +71,11 @@ SysConstVal Experiment
 
 In this experiment the Kalman filter is asked to guess two constant values. The filter can only see the values with random noise (a random number) added to them. The filter is shown many such noisy  measurements, and each time it is asked to estimate the true values. The noise for value 0 (blue) has a big variance, and the noise for value 1 (green) has a small variance. The filter knows the variances.
 
-inline:kalman_filter_constantValue.png
+.. image:: images/KalmanFilterLinearDetailed/kalman_filter_constantValue.png
 
 The filter behaves as an adaptable lowpass filter. When the noise's variance is big (blue) the filter does not trust the measurements very much, and the filter is slow to find the true value. When the noise's variance is small (green) it finds the true values quickly. 
 
-This experiment is very similar to the example in the [`http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html`_ paper] mentioned in the introduction, and in the other [:Cookbook/KalmanFiltering:Kalman Filtering] example.
+This experiment is very similar to the example in the `paper <http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html`>_ mentioned in the introduction, and in the other Kalman filtering example.
 
 SysTank Experiment
 ------------------
@@ -85,14 +84,14 @@ SysTank models a tank with variable inflow and outflow. The the amount of liquid
 
 For comparison a simple moving average filter is applied to the noisy measurements. It averages over 15 steps. As one can see in the image below, the Kalman filter performs significantly better than the averaging filter.
 
-inline:kalman_filter_tank.png
+.. image:: images/KalmanFilterLinearDetailed/kalman_filter_tank.png
 
 Program Code
 ============
 
 Download the program:: [attachment:kalman.py]
 
-.. [inline:kalman.py]
+.. [.. image:: images/KalmanFilterLinearDetailed/kalman.py]
 
 .. ############################################################################
 
