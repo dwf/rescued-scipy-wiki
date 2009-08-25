@@ -1,5 +1,3 @@
-#format rst
-
 Array Broadcasting in numpy
 ===========================
 
@@ -152,13 +150,11 @@ Broadcasting is a powerful tool for writing short and usually intuitive code tha
 Resources
 ---------
 
-* numpy: `http://numpy.scipy.org`_
+* `numpy <http://numpy.scipy.org>`_
 
   The home page has links to the download site as well as more comprehensive documentation of numpy's capabilities.
 
-* Vector Quantization
-
-  J. Makhoul, S. Roucos, and H. Gish, "Vector Quantization in Speech Coding," Proc. IEEE, vol. 73, pp. 1551-1587, Nov. 1985.
+* J. Makhoul, S. Roucos, and H. Gish, "Vector Quantization in Speech Coding," Proc. IEEE, vol. 73, pp. 1551-1587, Nov. 1985.
 
 .. ############################################################################
 
