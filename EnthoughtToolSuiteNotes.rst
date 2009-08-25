@@ -1,5 +1,3 @@
-#format rst
-
 Getting into ETS: A Newbies Experience
 ======================================
 

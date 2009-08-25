@@ -1,6 +1,4 @@
-#format rst
-
-The project scope will most likely emerge from the AstroLibCoordsUseCases_, but we can identify some user communities that we will, or will not, try to serve.
+\The project scope will most likely emerge from the AstroLibCoordsUseCases_, but we can identify some user communities that we will, or will not, try to serve.
 
 Target Users
 ------------

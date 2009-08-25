@@ -1,5 +1,3 @@
-#format rst
-
 TableOfContents_
 
 General questions about numpy

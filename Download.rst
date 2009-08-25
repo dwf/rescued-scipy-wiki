@@ -1,5 +1,3 @@
-#format rst
-
 TableOfContents_
 
 Official source and binary releases

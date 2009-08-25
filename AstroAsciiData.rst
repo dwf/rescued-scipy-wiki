@@ -1,5 +1,3 @@
-#format rst
-
 1. What is AstroAsciiData
 -------------------------
 

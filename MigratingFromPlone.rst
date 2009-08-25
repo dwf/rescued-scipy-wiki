@@ -1,5 +1,3 @@
-#format rst
-
 Here's a page where we list what should be done before we turn this wiki "live".
 
 Priority key:

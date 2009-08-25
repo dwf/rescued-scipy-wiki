@@ -1,5 +1,3 @@
-#format rst
-
 To provide some context for this effort it is useful to briefly outline what STScI is doing on other fronts first.
 
 I. Integration of numarray-dependent software with numpy/scipy. This will first be done by porting pyfits to use numpy (well underway and a beta version should be available soon)

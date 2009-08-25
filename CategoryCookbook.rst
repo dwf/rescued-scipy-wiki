@@ -1,5 +1,3 @@
-#format rst
-
 Category to group recipes for scipy
 -----------------------------------
 

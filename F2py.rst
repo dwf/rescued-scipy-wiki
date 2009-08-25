@@ -1,5 +1,3 @@
-#format rst
-
 F2PY - Fortran to Python interface generator
 ============================================
 

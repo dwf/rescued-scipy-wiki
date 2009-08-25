@@ -1,5 +1,3 @@
-#format rst
-
 Underlying machinery
 --------------------
 

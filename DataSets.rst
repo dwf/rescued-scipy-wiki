@@ -1,5 +1,3 @@
-#format rst
-
 Datasets
 ========
 

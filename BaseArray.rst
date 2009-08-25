@@ -1,5 +1,3 @@
-#format rst
-
 **BaseArray** was a proposed base multidimensional array type, ready-to-include in the Python core sometime in the future. This page aims at summarizing the various efforts that have gone in this direction. The long-term outcome of these is [`http://www.python.org/dev/peps/pep-3118`_ PEP 3118], *Revising the buffer protocol*. Note that alot of the text on this page is taken directly from [`http://svn.scipy.org/svn/PEP/PEP_basearray.txt`_ the text description of the PEP].
 
 Introduction

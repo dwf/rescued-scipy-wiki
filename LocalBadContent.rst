@@ -1,6 +1,3 @@
-#format rst
-#language en
-
 ::
 
 

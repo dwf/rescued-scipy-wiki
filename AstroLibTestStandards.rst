@@ -1,6 +1,5 @@
-#format rst
-
 Proposed Test Standards
+=======================
 
 Submitted code should at the very least come with some doctest tests but also could use unittest in its place. At least standard usage should have tests provided. Unresolved is where to put and control needed data files for tests.
 

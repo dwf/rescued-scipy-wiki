@@ -1,5 +1,3 @@
-#format rst
-
 JSky is a Java library that handles some coordinate manipulations. Its primary focus is sky to image manipulations, such as ["AstroLibWCS"] will perform, but some of its classes are more relevant to purely sky coordinate manipulations.
 
 - The World Coordinates [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/WorldCoordinates.html`_ interface] and [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/WorldCoords.html`_ implementation]

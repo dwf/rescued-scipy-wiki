@@ -1,5 +1,3 @@
-#format rst
-
 This will serve as the project home page for the AstroLibCoords_ project. We invite comments and contributions from the community at all stages of the project.
 
 There is also a [`http://projects.scipy.org/astropy/astrolib/wiki/WikiStart`_ Subversion repository] for this project.

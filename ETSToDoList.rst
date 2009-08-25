@@ -1,5 +1,3 @@
-#format rst
-
 ETS Issues To be resolved
 =========================
 

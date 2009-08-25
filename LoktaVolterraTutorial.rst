@@ -1,5 +1,3 @@
-#format rst
-
 This example describes how to integrate ODEs with the scipy.integrate module, and how to use the matplotlib module to plot trajectories, direction fields and other information.
 
 You can get the source code for this tutorial here: attachment:tutorial_lokta-voltera_v4.py .

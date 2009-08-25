@@ -1,5 +1,3 @@
-#format rst
-
 ::
 
    >>> import coords as C

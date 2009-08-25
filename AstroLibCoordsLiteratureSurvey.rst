@@ -1,5 +1,3 @@
-#format rst
-
 [`http://www.journals.uchicago.edu/AJ/journal/issues/v115n1/970353/970353.html`_ Kaplan 1998,AJ 115:361-372:High precision astrometry, VLBI & optical:]
 
 Abstract: This paper discusses the correspondence between two approaches to astrometric observational reductions: the approach based on angular observables used for optical observations, and the approach based on the interferometric delay observable used for very long baseline radio interferometry (VLBI) observations. A procedure is presented by which VLBI algorithms can be used for optical observations. This scheme can help to guarantee consistent treatment of observational results in the two regimes. Differences between angle- and delay-based algorithms in current use are shown to be less than 1 as. However, the physical models used as the bases for the algorithms must be improved to reach external accuracies at such levels.
