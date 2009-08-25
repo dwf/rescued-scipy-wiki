@@ -1,3 +1,5 @@
+#format rst
+
 Proposed documentation standards:
 
 We are suggesting using epydoc as the means of providing basic reference documentation for contributed software `http://epydoc.sourceforge.net`_ This allows extraction of web pages and pdf's with considerably nicer formatting and cross linking than is available in the ASTRON documentation.

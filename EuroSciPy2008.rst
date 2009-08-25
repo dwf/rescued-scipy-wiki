@@ -1,3 +1,5 @@
+#format rst
+
 EuroScipy 2009
 --------------
 

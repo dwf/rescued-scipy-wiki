@@ -1,3 +1,5 @@
+#format rst
+
 General issues for an ASTRON-like library:
 ------------------------------------------
 

@@ -1,3 +1,5 @@
+#format rst
+
 <p>The following example is provided as the first example of using matrices and linear algebra in numpy (hopefully others will provide more).  Its intent is to provide a concrete example upon which design decisions can be made with regard to the matrix class and the linalg module.</p>
 <div class="section" id="conjugate-gradient">
 <h3>Conjugate Gradient</h3>

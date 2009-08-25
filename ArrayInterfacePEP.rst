@@ -1,3 +1,5 @@
+#format rst
+
 The Array and Buffer interface PEPs
 ===================================
 
