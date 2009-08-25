@@ -2,3 +2,8 @@ This repository contains the dump of the old SciPy.org Moin instance to
 reStructuredText. This was accomplished with an updated version of moin2rst
 available at http://github.com/dwf/moin2rst under the same license as the
 original (GNU GPL).
+
+We're keeping images in images/PageName, for now. Really we need to seriously
+consider each and every page here and figure out where/if they belong on
+the website. Plenty of things (including most/all of the Cookbook) can go into
+the SciPy Documentation Editor (pydocweb) at a later date.
