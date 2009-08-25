@@ -1,17 +1,8 @@
-<<<<<<< HEAD:AstroLib.rst
 AstroLib
 ========
-=======
-#format rst
 
-<strong class="highlight">.. raw:: html
->>>>>>> 185e4118f7fe30db29434329fbe64748a0c70ff0:AstroLib.rst
+.. image:: http://stsdas.stsci.edu/perry/astroliblogo.png
 
-.. raw:: html
-
-    <img src="http://stsdas.stsci.edu/perry/astroliblogo.png">
-
-::
 
 This page is intended to serve as a means for coordinating ideas about how astronomical utility libraries should be built for Python analogous to the ASTRON library for IDL. This project also has a `Trac Site <http://astropy.scipy.org/astropy/astrolib/wiki/WikiStart>`_ , and discussion also occurs on the `Astropy mailing list <http://lists.astropy.scipy.org/mailman/listinfo/astropy>`_. **Note: both the astrolib repository and trac site were relocated to STScI on February 13, 2009.**  The links to the new repository and trac site are:
 
