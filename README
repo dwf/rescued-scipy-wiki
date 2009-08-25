@@ -1,0 +1,4 @@
+This repository contains the dump of the old SciPy.org Moin instance to
+reStructuredText. This was accomplished with an updated version of moin2rst
+available at http://github.com/dwf/moin2rst under the same license as the
+original (GNU GPL).
