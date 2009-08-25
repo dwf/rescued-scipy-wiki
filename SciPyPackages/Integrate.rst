@@ -32,12 +32,7 @@ odeint(func, y0, t, args=(), Dfun=None, col_deriv=0, full_output=0, ml=None, mu=
 
     Integrate a system of ordinary differential equations.
 
-    ::
-
-       #class right
-
-       inline:odeint2.png
-
+.. image:: images/SciPyPackages/Integrate/odeint2.png 
     ::
 
        from scipy import *
