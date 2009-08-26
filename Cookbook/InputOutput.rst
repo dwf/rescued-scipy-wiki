@@ -127,7 +127,7 @@ Raw binary
 
 These file formats simply write out the internal representation of the arrays. This is platform-dependent and includes no information about array shape or datatype, but is quick and easy.
 
-SciPy_ provides  fwrite() from scipy.io.numpyio.  You have to set the size of your data, and optionally, its type (integer, short, float, etc; see [ http://docs.neuroinf.de/api/scipy/scipy.io.numpyio-module.html ]).
+SciPy_ provides  fwrite() from scipy.io.numpyio.  You have to set the size of your data, and optionally, its type (integer, short, float, etc; see http://docs.neuroinf.de/api/scipy/scipy.io.numpyio-module.html).
 
 For reading binary files, scipy.io.numpyio provides fread(). You have to know the datatype of your array, its size and its shape.
 

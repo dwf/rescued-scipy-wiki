@@ -10,7 +10,7 @@ We'll also post a link, when available, to a downloadable ISO for those who can'
 Update
 ------
 
-The i386 torrent can be downloaded here: [ http://code.enthought.com/downloads/scipy2006-i386.iso.torrent ]
+The i386 torrent can be downloaded here: http://code.enthought.com/downloads/scipy2006-i386.iso.torrent
 
 Update 2
 --------

@@ -2,7 +2,7 @@
 
 This page collects tips and tricks to increase the speed  of your code using numpy/scipy.
 
-For general tips and tricks to improve the performance of your Python programs see [ http://wiki.python.org/moin/PythonSpeed/PerformanceTips ].
+For general tips and tricks to improve the performance of your Python programs see http://wiki.python.org/moin/PythonSpeed/PerformanceTips.
 
 Python built-ins vs. numpy functions
 ====================================
