@@ -7,7 +7,7 @@ Introduction
 
 This page gives examples how to read or write a NumPy array to or from a file, be it ascii or binary.  The various methods demonstrated all have copious and sometimes sophisticated options,  call help to get details.
 
-We will consider a trivial example where we create an array of zeros called ``data``, write it to a file ``myfile.txt`` (myfile.dat for the binary case), and read it into ``read_data``.  
+We will consider a trivial example where we create an array of zeros called ``data``, write it to a file ``myfile.txt`` (myfile.dat for the binary case), and read it into ``read_data``.
 
 This documentation could be improved by discussing more sophisticated cases (e.g. multiple arrays), and discussing the costs/benefits of the various approaches presented.
 
@@ -61,7 +61,7 @@ numPy
 csv files
 ---------
 
-Note that csv stands for "comma separated value".  This means that separator (also called a  delimiter), i.e. the character which is used to separate individual values in a file, is a comma.  In the examples above, the default delimiter is a space, but all of the above methods have an option (see their respective help for details), which can be set to a comma in order to read or write a csv file instead.  
+Note that csv stands for "comma separated value".  This means that separator (also called a  delimiter), i.e. the character which is used to separate individual values in a file, is a comma.  In the examples above, the default delimiter is a space, but all of the above methods have an option (see their respective help for details), which can be set to a comma in order to read or write a csv file instead.
 
 A more sophisticated example
 ----------------------------
@@ -183,7 +183,7 @@ And reading back:
 Write a Fortran or C array to a binary file with metadata
 ---------------------------------------------------------
 
-[`http://www.maths.unsw.edu.au/~mclean/libnpy-0.1.tgz`_ libnpy] is a small library that provides simple routines for saving a C or Fortran array to a data file using NumPy_'s own binary format.  For a description of this format, do
+`libnpy <http://www.maths.unsw.edu.au/~mclean/libnpy-0.1.tgz>`_ is a small library that provides simple routines for saving a C or Fortran array to a data file using NumPy_'s own binary format.  For a description of this format, do
 
 ::
 

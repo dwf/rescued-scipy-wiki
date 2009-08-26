@@ -55,11 +55,11 @@ C structures defined
 Related projects
 ================
 
-* NumPy_, the successor of Numeric and [`http://www.stsci.edu/resources/software_hardware/numarray`_ NumArray_], is the starting point -  basearray is in fact a modification of the essential fragments of the numpy core source code. Naturally, the array type in numpy will be the first target to use basearray as a subtype for.
+* NumPy_, the successor of Numeric and `NumArray <http://www.stsci.edu/resources/software_hardware/numarray>`_, is the starting point -  basearray is in fact a modification of the essential fragments of the numpy core source code. Naturally, the array type in numpy will be the first target to use basearray as a subtype for.
 
-* [`http://numeric.scipy.org/array_interface.html`_ Array interface] - a mechanism for a Python object (or PyCObject) to share information about its multidimensional data. This is like a "protocol", which sets the ground rules for objects that wish to be interpreted through this interface by code written to understand it. Interestingly, this array interface surfaced from discussion between developers of Numeric, Numarray, and numpy. 
+* [`http://numeric.scipy.org/array_interface.html`_ Array interface] - a mechanism for a Python object (or PyCObject) to share information about its multidimensional data. This is like a "protocol", which sets the ground rules for objects that wish to be interpreted through this interface by code written to understand it. Interestingly, this array interface surfaced from discussion between developers of Numeric, Numarray, and numpy.
 
-* [`http://svn.scipy.org/svn/numpy/branches/arraykit/`_ Arraykit] - a similar project by Tim Hochberg, which can be used to create custom array-like objects.
+* `Arraykit <http://svn.scipy.org/svn/numpy/branches/arraykit/>`_ - a similar project by Tim Hochberg, which can be used to create custom array-like objects.
 
 Summer of Code Project
 ======================

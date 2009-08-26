@@ -36,7 +36,7 @@ How can I change the default behaviour?
 
    from numpy.lib.scimath import *
 
-to replace ``sqrt`` in the current namespace.  
+to replace ``sqrt`` in the current namespace.
 
 However, it is better style to use
 
@@ -96,7 +96,7 @@ With Python 2.5 it should soon be possible to do
    with errstate(invalid='raise'):
        sqrt(-1) # raise exception
 
-Alternatively, you can simply use complex arrays throughout. 
+Alternatively, you can simply use complex arrays throughout.
 
 Do numpy and scipy behave differently?
 --------------------------------------

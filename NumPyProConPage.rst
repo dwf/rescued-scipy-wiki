@@ -1,6 +1,6 @@
 #format rst
 
-This page is intended to help people evaluate the benefits of some commercial packages against Python+NumPy+SciPy+Matplotlib+IPython (PyLab) for scientific computing.  This is done by listing the advantages of PyLab and its disadvantages compared to other packages.  Basic functionality is similar enough that the detailed stylistic differences are not necessary to document here. 
+This page is intended to help people evaluate the benefits of some commercial packages against Python+NumPy+SciPy+Matplotlib+IPython (PyLab) for scientific computing.  This is done by listing the advantages of PyLab and its disadvantages compared to other packages.  Basic functionality is similar enough that the detailed stylistic differences are not necessary to document here.
 
 PyLab Advantages
 ----------------
@@ -9,7 +9,7 @@ PyLab Advantages
 
 * featureful extended library means sophisticated large-scale programs can be written quickly.
 
-* very easy to extend in C/C++ or Fortran 
+* very easy to extend in C/C++ or Fortran
 
 * many, many third-party libraries (because of the previous point) that allow Python to do almost anything a computer can do
 
@@ -25,9 +25,9 @@ PyLab Advantages
 
   * NumPy array is a sophisticated multi-dimensional array object
 
-  * NumPy arrays can hold complicated data-types including mis-aligned, non native byte-order formats, and record arrays. 
+  * NumPy arrays can hold complicated data-types including mis-aligned, non native byte-order formats, and record arrays.
 
-  * memory-mapped arrays are easily dealt with 
+  * memory-mapped arrays are easily dealt with
 
 * algorithms (mostly) based on fast, robust legacy code
 
@@ -37,7 +37,7 @@ PyLab Advantages
 
 * free as in 'beer' and as in 'speech'
 
-* no licensing issues --- you are not becoming dependent on a single vendor. 
+* no licensing issues --- you are not becoming dependent on a single vendor.
 
 PyLab Disadvantages (compared with MATLAB)
 ------------------------------------------
@@ -69,14 +69,14 @@ PyLab Disadvantages (compared with Maple)
 
 * no equivalent of "notebooks"
 
-* no built-in symbolic manipulation ([`http://code.google.com/p/sympy/`_ SymPy_] is coming along nicely though.)
+* no built-in symbolic manipulation (`SymPy <http://code.google.com/p/sympy/>`_ is coming along nicely though.)
 
 PyLab Disadvantages (compared with Mathematica)
 -----------------------------------------------
 
 * no equivalent of "notebooks"
 
-* no built-in symbolic manipulation ([`http://code.google.com/p/sympy/`_ SymPy_] is coming along nicely though.)
+* no built-in symbolic manipulation (`SymPy <http://code.google.com/p/sympy/>`_ is coming along nicely though.)
 
 Some of these deficiencies are expected to be remedied by packages now in development. See PyLabAwaits_
 

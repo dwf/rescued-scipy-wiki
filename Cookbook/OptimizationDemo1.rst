@@ -6,7 +6,7 @@ SciPy_'s optimization package is scipy.optimize. The most basic non-linear optim
 
 * optimize.fsolve(func, x0), which finds a solution to func(x) = 0 starting with x = x0 (x can be a vector)
 
-* optimize.fminbound(func, x1, x2), which finds the minimum of a scalar function func(x) for the range [x1,x2] (x1,x2 must be a scalar and func(x) must return a scalar) 
+* optimize.fminbound(func, x1, x2), which finds the minimum of a scalar function func(x) for the range [x1,x2] (x1,x2 must be a scalar and func(x) must return a scalar)
 
 See the [`http://docs.scipy.org/doc/scipy/reference/optimize.html`_ scipy.optimze documentation] for details.
 

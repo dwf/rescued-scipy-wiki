@@ -4,7 +4,7 @@ This will serve as the project home page for the AstroLibCoords_ project. We inv
 
 There is also a `Subversion repository <http://projects.scipy.org/astropy/astrolib/wiki/WikiStart>`_ for this project.
 
-**v0.3 release now available!** Download it `here <http://stsdas.stsci.edu/astrolib/>`_ 
+**v0.3 release now available!** Download it `here <http://stsdas.stsci.edu/astrolib/>`_
 
 * `Documentation <http://stsdas.stsci.edu/astrolib/coords_api/index.html>`_, including examples demonstrating "snapshot" of current functionality
 
@@ -14,7 +14,7 @@ There is also a `Subversion repository <http://projects.scipy.org/astropy/astrol
 
   * AstroLibCoordsSoftwareSurvey_ discusses and links to some existing software packages and libraries that either provide functionality similar to what we hope to provide, or provide some underlying machinery that might be wrapped.
 
-  * AstroLibCoordsStartingThoughts_ contains some material written by Perry when he first started thinking about what this object should be able to do. 
+  * AstroLibCoordsStartingThoughts_ contains some material written by Perry when he first started thinking about what this object should be able to do.
 
 * Users, scope, use cases:
 

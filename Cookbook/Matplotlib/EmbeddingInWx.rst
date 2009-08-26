@@ -6,9 +6,9 @@ Matplotlib can be embedded in wxPython applications to provide high quality data
 
 An *embedding library* saves you a lot of time and effort by providing plotting widgets that already support user interactions and other bells and whistles.  There are two such libraries that I am aware of:
 
-1. Matt Newville's [`http://cars9.uchicago.edu/~newville/Python/MPlot/`_ MPlot] package supports drawing 2D line plots using pylab-style ``plot()`` and ``oplot()`` methods.
+1. Matt Newville's `MPlot <http://cars9.uchicago.edu/~newville/Python/MPlot/>`_ package supports drawing 2D line plots using pylab-style ``plot()`` and ``oplot()`` methods.
 
-#. Ken McIvor's [`http://agni.phys.iit.edu/~kmcivor/wxmpl/`_ WxMpl_] module supports drawing all plot types using matplotlib's object-oriented API.
+#. Ken McIvor's `WxMpl <http://agni.phys.iit.edu/~kmcivor/wxmpl/>`_ module supports drawing all plot types using matplotlib's object-oriented API.
 
 Each of these libraries has different benefits and drawbacks, so I encourage you to evaluate each of them and select the one that best meets your needs.
 

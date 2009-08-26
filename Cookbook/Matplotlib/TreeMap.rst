@@ -1,6 +1,6 @@
 #format rst
 
-Treemaps are a nice way of showing tree information not based on a connected node approach. 
+Treemaps are a nice way of showing tree information not based on a connected node approach.
 
 See `http://www.cs.umd.edu/hcil/treemap/`_
 

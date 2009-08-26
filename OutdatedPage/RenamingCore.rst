@@ -21,7 +21,7 @@ Numerix ( and numerics, numerik, numeriks) are out due to a desire to avoid trad
 
 psipi -- a cute transliteration of "SciPy" into mathy Greek letters (could use symbols in print...)
 
-nagini --- "he who should remain nameless" 's snake in Harry Potter (since we are having such trouble with a name) 
+nagini --- "he who should remain nameless" 's snake in Harry Potter (since we are having such trouble with a name)
 
 muscle --- Multidimensional-arrays Uniting for Scientific and Computational Library Enhancement
 

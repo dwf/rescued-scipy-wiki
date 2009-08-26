@@ -81,7 +81,7 @@ Furthermore there is the possibility to access array-elements using bool-arrays.
    >>>t[i]
    array([ 1.7951958 ,  3.5903916 ,  5.38558741])
 
- 
+
 
 We can use this syntax to make slightly more elaborate constructs. Consider the data[:] and t[:] arrays defined before. Suppose we want to get the four (t[i]/data[i])-pairs with the four t[i]-values being closest to a point p=1.8. We could proceed as follows:
 

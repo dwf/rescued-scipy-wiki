@@ -107,7 +107,7 @@ Installation on a Windows box
 
 **Installation with Enthon:** For Windows, you can download the enthought edition at `http://code.enthought.com/enthon`_ (>=0.9.3).  This includes Python itself along with MayaVi2 and many other tools.
 
-**Installation with easy_install:** The enthought tools are now also available via individual [`http://peak.telecommunity.com/DevCenter/PythonEggs`_ eggs] that can be installed on top of an existing Python using [`http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install`_ easy_install].  Assuming you've already [`http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install`_ installed easy_install] the following command will do it:
+**Installation with easy_install:** The enthought tools are now also available via individual `eggs <http://peak.telecommunity.com/DevCenter/PythonEggs>`_ that can be installed on top of an existing Python using `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_.  Assuming you've already [`http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install`_ installed easy_install] the following command will do it:
 
 ::
 
@@ -119,12 +119,12 @@ The enthought egg contains the whole [`http://code.enthought.com/ets/`_ Enthough
 
      easy_install -f http://code.enthought.com/enstaller/eggs numpy scipy wx VTK
 
-**Installation with Enstaller:** Enthought has also written a graphical front end to easy_install called [`http://code.enthought.com/enstaller/`_ Enstaller].  You can install Enstaller by running this script: [`http://code.enthought.com/enstaller/run_enstaller.py`_ run_enstaller.py].  Enstaller is still quite new, so you may or may not find it an improvement over the easy_install method at this time.
+**Installation with Enstaller:** Enthought has also written a graphical front end to easy_install called `Enstaller <http://code.enthought.com/enstaller/>`_.  You can install Enstaller by running this script: [`http://code.enthought.com/enstaller/run_enstaller.py`_ run_enstaller.py].  Enstaller is still quite new, so you may or may not find it an improvement over the easy_install method at this time.
 
 Creation of a Live CD (based on Debian) including MV2
 =====================================================
 
-A step-by-step guide to creating your own bootable CD-ROM, running [`http://www.debian.org`_ Debian] and containing mayavi2 is given [:Cookbook/MayaVi/Installation/DebianLiveCD: here].
+A step-by-step guide to creating your own bootable CD-ROM, running `Debian <http://www.debian.org>`_ and containing mayavi2 is given [:Cookbook/MayaVi/Installation/DebianLiveCD: here].
 
 -------------------------
 

@@ -134,7 +134,7 @@ Here is an example of how that application does multiline plotting with "in plac
        ticklocs.append(offset)
    ax.set_yticks(ticklocs)
    ax.set_yticklabels(['S%d'%(i+1) for i in range(len(signals))])
-   # place all the y tick attributes in axes coords 
+   # place all the y tick attributes in axes coords
    all = []
    labels = []
    ax.set_yticks(ticklocs)

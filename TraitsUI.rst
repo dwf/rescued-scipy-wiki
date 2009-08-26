@@ -1,6 +1,6 @@
 #format rst
 
-[`http://code.enthought.com/traits/`_ TraitsUI] is a module that allows automatic generation of [`http://www.wxpython.org`_ WxPython_] dialogs to edit the properties of objects.
+`TraitsUI <http://code.enthought.com/traits/>`_ is a module that allows automatic generation of `WxPython <http://www.wxpython.org>`_ dialogs to edit the properties of objects.
 
 It makes building interactive graphical user interfaces much easier than working directly with the widgets.
 

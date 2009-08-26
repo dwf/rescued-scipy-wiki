@@ -15,7 +15,7 @@ A. Atomic operations for interactive use
 
 #. Transform decimal degrees to hmsdms
 
-Comments on category A: 
+Comments on category A:
 
 These would be basic items I would look for in a coord library. If I can't do these things, I'll look for another toolkit.
 
@@ -39,7 +39,7 @@ C. Working with pairs of objects
 
 #. Determine whether a pair of objects are co-incident within their errors
 
-Comments on category C: 
+Comments on category C:
 
 The first item might nicely hook into a matplotlib clicker function. The second would be very useful for matching observations taken at different resolutions.
 
@@ -105,11 +105,11 @@ I know you won't be writing the interactive part, but the functions to convert i
 
 From laidler Mon May 2 13:28:17 -0500 2005 From: laidler Date: Mon, 02 May 2005 13:28:17 -0500 Subject: Planetary use cases Message-ID: <`20050502132817-0500@www.scipy.org`_>
 
-Most of these sound like cases for the ["AstroLibWCS"] library to me, as they convert image (X,Y) coordinates to sky or planetary coordinates. 
+Most of these sound like cases for the ["AstroLibWCS"] library to me, as they convert image (X,Y) coordinates to sky or planetary coordinates.
 
 Are there cases of interest to planetary astronomers that involve transformations between coordinate systems that **don't** involve images? Some of these look like they might but I can't quite tell.
 
-When I think of "coordinates" and "planets", I think of moving target considerations and ephemerides to identify the location of a planet in the sky on a particular date. 
+When I think of "coordinates" and "planets", I think of moving target considerations and ephemerides to identify the location of a planet in the sky on a particular date.
 
 .. ############################################################################
 

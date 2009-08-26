@@ -1,8 +1,8 @@
 #format rst
 
-[`http://code.enthought.com/projects/mayavi/`_ MayaVi2_] is the successor of [`http://mayavi.sf.net`_ MayaVi_] for 3D visualization. It is a interactive program allowing elaborate plots of scientific data.
+`MayaVi2 <http://code.enthought.com/projects/mayavi/>`_ is the successor of `MayaVi <http://mayavi.sf.net>`_ for 3D visualization. It is a interactive program allowing elaborate plots of scientific data.
 
-MayaVi2 relies on [`http://www.vtk.org`_ VTK], and especially a python interface to it: [`https://svn.enthought.com/enthought/wiki/TVTK`_ TVTK].
+MayaVi2 relies on `VTK <http://www.vtk.org>`_, and especially a python interface to it: [`https://svn.enthought.com/enthought/wiki/TVTK`_ TVTK].
 
 <strong class="highlight">.. raw:: html
 

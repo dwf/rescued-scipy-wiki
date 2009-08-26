@@ -75,10 +75,10 @@ Here is how you can discretize a continuous colormap.
 
    def cmap_discretize(cmap, N):
        """Return a discrete colormap from the continuous colormap cmap.
-      
+
            cmap: colormap instance, eg. cm.jet.
            N: Number of colors.
-      
+
        Example
            x = resize(arange(100), (5,100))
            djet = cmap_discretize(cm.jet, 5)

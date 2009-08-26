@@ -314,7 +314,7 @@ The function looks long but is not too hard to write. It is also possible to wri
 Using Matlab and Octave
 -----------------------
 
-We have implemented the Numeric version in Matlab and Octave ( attachment:laplace.m ) and run the tests on a different computer (hence the "estimate" values in the table below). We have found that no significant speed-up is obtained in Matlab, while Octave runs twice slower than NumPy_. Detailed graphs can be found [`http://lbolla.wordpress.com/2007/04/11/numerical-computing-matlab-vs-pythonnumpyweave/`_ here].
+We have implemented the Numeric version in Matlab and Octave ( attachment:laplace.m ) and run the tests on a different computer (hence the "estimate" values in the table below). We have found that no significant speed-up is obtained in Matlab, while Octave runs twice slower than NumPy_. Detailed graphs can be found `here <http://lbolla.wordpress.com/2007/04/11/numerical-computing-matlab-vs-pythonnumpyweave/>`_.
 
 An implementation in C++
 ------------------------

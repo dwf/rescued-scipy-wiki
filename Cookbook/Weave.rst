@@ -62,7 +62,7 @@ There are two other iterator applications in [attachment:iterators_example.py it
 Deeper into the "inline" method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The [`http://www.scipy.org/scipy/scipy/browser/trunk/scipy/weave/inline_tools.py`_ docstring] for **inline** is enormous, and indicates that all kinds of compiling options are supported when integrating your inline code. I've taken advantage of this to make some specialized FFTW calls a lot more simple, and in only a few additional lines add support for inline FFTs. In this example, I read in a file of pure C code and use it as **support_code** in my inline statement. I also use a tool from Numpy's distutils to locate my FFTW libraries and headers.
+The `docstring <http://www.scipy.org/scipy/scipy/browser/trunk/scipy/weave/inline_tools.py>`_ for **inline** is enormous, and indicates that all kinds of compiling options are supported when integrating your inline code. I've taken advantage of this to make some specialized FFTW calls a lot more simple, and in only a few additional lines add support for inline FFTs. In this example, I read in a file of pure C code and use it as **support_code** in my inline statement. I also use a tool from Numpy's distutils to locate my FFTW libraries and headers.
 
 ::
 

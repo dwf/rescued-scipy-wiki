@@ -18,7 +18,7 @@ Example 1 - PIL Buffer
    # file charts.py
    def simple(request):
        import random
-      
+
        from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
        from matplotlib.figure import Figure
        from matplotlib.dates import DateFormatter

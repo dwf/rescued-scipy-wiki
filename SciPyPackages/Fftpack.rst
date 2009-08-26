@@ -8,7 +8,7 @@ The package ``scipy.fftpack`` does two things: fast Fourier transforms, and diff
 Fast Fourier Transforms
 -----------------------
 
-The fft() function can be used by importing scipy, ie import scipy * However, other functions such as fft2 and the helper functions require the import of fftpack explicitly.  
+The fft() function can be used by importing scipy, ie import scipy * However, other functions such as fft2 and the helper functions require the import of fftpack explicitly.
 
 fft(a)
   performs an Fourier transform on the array **a** and returns a complex array

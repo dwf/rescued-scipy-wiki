@@ -6,7 +6,7 @@ Abstract: This paper discusses the correspondence between two approaches to astr
 
 Abstract: A set of algorithms is presented for computing the apparent directions of planets and stars on any date to milliarcsecond precision. The expressions are consistent with the new IAU astronomical reference system for epoch J2000.0. The algorithms define the transformation between fundamental reference data, such as star and radio-source catalogs and planetary ephemerides, and astrometric observables.
 
-`Percival 1994, ADASS III, State machine for computing astron. coords: <http://cadcwww.dao.nrc.ca/ADASS/adass_proc/adass3/papers/percivalj/percivalj.html>`_ 
+`Percival 1994, ADASS III, State machine for computing astron. coords: <http://cadcwww.dao.nrc.ca/ADASS/adass_proc/adass3/papers/percivalj/percivalj.html>`_
 
 Abstract: We consider the common problem of computing apparent and topocentric places of stars for the purpose of pointing a telescope. Detailed algorithmic descriptions exist (see, for example, Kaplan et al. 1989). In addition, several software packages such as NOVAS and Starlink's SLALIB by Patrick Wallace considerably ease the burden in building specific application programs. A few problems remain, however. Portability can be a problem, in that some real-time platforms have grudging or non-existent support for Fortran, which is the language of implementation for NOVAS and SLALIB (SLALIB in C is now available). Also, efficiency can be a problem if the subroutines try to do too much, not allowing the programmer to fragment the calculation as needed. SLALIB offers many convenient entry points, which avoids this problem, but the programmer is still left to weave the subroutines together to achieve a desired result.
 
@@ -16,5 +16,5 @@ A very nice background page describing "celestial coordinate issues from the Ast
 
 `Virtual Observatory Metadata specification for Space Time Coordinates <http://hea-www.harvard.edu/~arots/nvometa/SpaceTime.html>`_:
 
-A proposed implementation of "crossmatching catalogues": `http://wiki.astrogrid.org/pub/Astrogrid/DataDocs/crossmatch.html`_ from AstroGrid 
+A proposed implementation of "crossmatching catalogues": `http://wiki.astrogrid.org/pub/Astrogrid/DataDocs/crossmatch.html`_ from AstroGrid
 

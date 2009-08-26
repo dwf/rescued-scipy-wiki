@@ -130,7 +130,7 @@ To load a VTK data file, say heart.vtk file in mayavi/examples/data/ directory, 
    src = VTKFileReader()
    src.initialize("heart.vtk")
 
-Note: Files with .vtk extension are called "legacy VTK" files. MayaVi2 can read a lot of other files formats (XML, files from Ensight, Plot3D and so on). For example, you can load an XML file (with extension .vti, .vtp, .vtr, .vts, .vtu, etc) using VTKXML!FileReader_ method. 
+Note: Files with .vtk extension are called "legacy VTK" files. MayaVi2 can read a lot of other files formats (XML, files from Ensight, Plot3D and so on). For example, you can load an XML file (with extension .vti, .vtp, .vtr, .vts, .vtu, etc) using VTKXML!FileReader_ method.
 
 Add the source to your MayaVi2 class
 ------------------------------------

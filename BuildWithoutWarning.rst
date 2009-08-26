@@ -14,7 +14,7 @@ Each compiler detects a diffferent set of potential errors. The reference
 will be ``gcc -Wall -W -Wextra``. Ideally, a complete set would be nice: ::
 
     -W -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes
-    -Waggregate-return -Wcast-align -Wcast-qual -Wnested-externs 
+    -Waggregate-return -Wcast-align -Wcast-qual -Wnested-externs
     -Wshadow -Wbad-function-cast -Wwrite-strings
 
 Intel compiler, VS with ``/W3 /Wall``, Sun compilers have extra warnings too.

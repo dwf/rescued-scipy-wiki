@@ -1,6 +1,6 @@
 #format rst
 
-Example of how to replace the default log-plot exponential labels with integer labels. The same method will work for any kind of custom labeling. This example was pulled from the Python-list mailing list and the original can be found [`http://mail.python.org/pipermail/python-list/2006-February/369976.html`_ here].
+Example of how to replace the default log-plot exponential labels with integer labels. The same method will work for any kind of custom labeling. This example was pulled from the Python-list mailing list and the original can be found `here <http://mail.python.org/pipermail/python-list/2006-February/369976.html>`_.
 
 ::
 

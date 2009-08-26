@@ -12,7 +12,7 @@ The weave package allows the inclusion of C/C++ within Python code and is useful
    cd weave
    sudo python setup.py install
 
-* Current documentation (which is still being updated to reflect the move to NumPy_) can be seen [`http://projects.scipy.org/scipy/scipy/browser/trunk/scipy/weave/doc/tutorial.txt?format=raw`_ here]
+* Current documentation (which is still being updated to reflect the move to NumPy_) can be seen `here <http://projects.scipy.org/scipy/scipy/browser/trunk/scipy/weave/doc/tutorial.txt?format=raw>`_
 
 * PerformancePython_: A comparison of various ways to improve the performance of Python code using Numeric,  weave, Pyrex, Psyco and Fortran (f2py) for solving Laplace's equation.  These are compared with code written in C++.
 

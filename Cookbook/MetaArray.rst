@@ -58,7 +58,7 @@ Documentation
 Instantiation
 ~~~~~~~~~~~~~
 
-  Accepted Syntaxes: 
+  Accepted Syntaxes:
 
 ::
 
@@ -140,7 +140,7 @@ Data can be accessed through a variety of methods:
      sel = data["ColumnName", 0, 0] > 0.2
      data[sel]
 
-* Access axis values using MetaArray_.axisValues(), or .xvals() for short. 
+* Access axis values using MetaArray_.axisValues(), or .xvals() for short.
 
 * Access axis units using .axisUnits(), column units using .columnUnits()
 
@@ -163,7 +163,7 @@ MetaArray_ is a subclass of ndarray which overrides the :underline:`getitem` and
 
      data = MetaArray(...)
      data.mean()                ## Very slow
-     data.view(ndarray).mean()  ## native speed 
+     data.view(ndarray).mean()  ## native speed
 
 More Examples
 ~~~~~~~~~~~~~
@@ -212,7 +212,7 @@ More Examples
 Contact
 ~~~~~~~
 
-Luke Campagnola - `lcampagn@email.unc.edu`_ 
+Luke Campagnola - `lcampagn@email.unc.edu`_
 
 -------------------------
 

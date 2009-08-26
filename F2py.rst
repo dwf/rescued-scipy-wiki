@@ -22,7 +22,7 @@ The generated extension modules facilitate:
 
 * Automatically handling the difference in the data storage order of multi-dimensional Fortran and Numerical Python (i.e. C) arrays.
 
-In addition, F2PY can build the generated extension modules to shared libraries with only one command. F2PY uses the ``numpy.distutils`` module from NumPy_ that supports a number of major Fortran compilers. F2PY generated extension modules depend on NumPy_ that provides a fast multi-dimensional array language facility to Python. For building extension modules with Numeric or Numarray array backend, one can use the older and unmaintained version of F2PY: [`http://cens.ioc.ee/projects/f2py2e/`_ f2py2e].
+In addition, F2PY can build the generated extension modules to shared libraries with only one command. F2PY uses the ``numpy.distutils`` module from NumPy_ that supports a number of major Fortran compilers. F2PY generated extension modules depend on NumPy_ that provides a fast multi-dimensional array language facility to Python. For building extension modules with Numeric or Numarray array backend, one can use the older and unmaintained version of F2PY: `f2py2e <http://cens.ioc.ee/projects/f2py2e/>`_.
 
 Main features
 -------------
@@ -47,7 +47,7 @@ The syntax of signature files is borrowed from the Fortran 90/95 language specif
 
   * All basic Fortran types:
 
-     
+
 
       ::
 
@@ -65,7 +65,7 @@ The syntax of signature files is borrowed from the Fortran 90/95 language specif
 
   * Attributes and statements:
 
-     
+
 
       ::
 
@@ -91,14 +91,14 @@ The syntax of signature files is borrowed from the Fortran 90/95 language specif
 Prerequisites
 -------------
 
-Since F2PY is a part of NumPy_, the same prerequisites apply, that is, Python 2.3 or newer with ``distutils`` package must be installed. 
+Since F2PY is a part of NumPy_, the same prerequisites apply, that is, Python 2.3 or newer with ``distutils`` package must be installed.
 
 Of course, to build extension modules, one also needs a working C and/or Fortran compilers installed.
 
 Download and installation
 -------------------------
 
-[`http://www.scipy.org/Download`_ Download] and install NumPy_ in the usual way: ``python setup.py install``.
+`Download <http://www.scipy.org/Download>`_ and install NumPy_ in the usual way: ``python setup.py install``.
 
 Usage
 -----

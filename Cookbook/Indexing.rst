@@ -47,7 +47,7 @@ The simplest way to pick one or some elements of an array looks very similar to 
    >>> C[1,0,2]
    14
 
-That is, to pick out a particular element, you simply put the indices into square brackets after it. As is standard for python, element numbers start at zero. 
+That is, to pick out a particular element, you simply put the indices into square brackets after it. As is standard for python, element numbers start at zero.
 
 If you want to change an array value in-place, you can simply use the syntax above in an assignment:
 
@@ -268,7 +268,7 @@ If you think the error message sounds confusing, I have to agree, but there is a
    >>> T
    array([0, 1, 1, 0, 4, 5, 6, 7, 8, 9])
 
-So in order for assignment to work, it is not simply enough to have the right number of elements - they must be arranged in an array of the right shape. 
+So in order for assignment to work, it is not simply enough to have the right number of elements - they must be arranged in an array of the right shape.
 
 There is another issue complicating the error message: numpy has some extremely convenient rules for converting lower-dimensional arrays into higher-dimensional arrays, and for implicitly repeating arrays along axes. This process is called "broadcasting". We will see more of it elsewhere, but here it is in its simplest possible form:
 
@@ -386,7 +386,7 @@ As with one-dimensional arrays, if you specify a slice that happens to have only
    >>> B[:,0]
    array([0, 3, 6])
 
-numpy also has a few shortcuts well-suited to dealing with arrays with an indeterminate number of dimensions. If this seems like something unreasonable, keep in mind that many of numpy's functions (for example np.sort(), np.sum(), and np.transpose()) must work on arrays of arbitrary dimension. It is of course possible to extract the number of dimensions from an array and work with it explicitly, but one's code tends to fill up with things like (slice(None,None,None),)*(C.ndim-1), making it unpleasant to read. So numpy has some shortcuts which often simplify things. 
+numpy also has a few shortcuts well-suited to dealing with arrays with an indeterminate number of dimensions. If this seems like something unreasonable, keep in mind that many of numpy's functions (for example np.sort(), np.sum(), and np.transpose()) must work on arrays of arbitrary dimension. It is of course possible to extract the number of dimensions from an array and work with it explicitly, but one's code tends to fill up with things like (slice(None,None,None),)*(C.ndim-1), making it unpleasant to read. So numpy has some shortcuts which often simplify things.
 
 First the Ellipsis object:
 
@@ -407,7 +407,7 @@ First the Ellipsis object:
    >>> C[0,Ellipsis,0]
    array([0, 4, 8])
 
-The ellipsis (three dots) indicates "as many ':' as needed". (Its name for use in index-fiddling code is Ellipsis, and it's not numpy-specific.) This makes it easy to manipulate only one dimension of an array, letting numpy do array-wise operations over the "unwanted" dimensions. You can only really have one ellipsis in any given indexing expression, or else the expression would be ambiguous about how many ':' should be put in each. (In fact, for some reason it is allowed to have something like "C[...,...]"; this is not actually ambiguous.) 
+The ellipsis (three dots) indicates "as many ':' as needed". (Its name for use in index-fiddling code is Ellipsis, and it's not numpy-specific.) This makes it easy to manipulate only one dimension of an array, letting numpy do array-wise operations over the "unwanted" dimensions. You can only really have one ellipsis in any given indexing expression, or else the expression would be ambiguous about how many ':' should be put in each. (In fact, for some reason it is allowed to have something like "C[...,...]"; this is not actually ambiguous.)
 
 In some circumstances, it is convenient to omit the ellipsis entirely:
 
@@ -435,7 +435,7 @@ If you don't supply enough indices to an array, an ellipsis is silently appended
    array([[3, 3, 3],
           [3, 3, 3]])
 
-It works, unmodified, to take the differences along the first axis of a two-dimensional array. 
+It works, unmodified, to take the differences along the first axis of a two-dimensional array.
 
 Writing to multidimensional slices works just the way writing to one-dimensional slices does:
 
@@ -683,7 +683,7 @@ One can also, not too surprisingly, use list-of-locations indexing on multidimen
    >>> [B[0,0],B[1,2],B[0,1]]
    [0, 5, 1]
 
-This may seem weird - why not provide a list of tuples representing coordinates? Well, the reason is basically that for large arrays, lists and tuples are very inefficient, so numpy is designed to work with arrays only, for indices as well as values. This means that something like B[ [(0,0),(1,2),(0,1)] ] looks just like indexing B with a two-dimensional array, which as we saw above just means that B should be used as a look-up table yielding a two-dimensional array of results (each of which is one-dimensional, as usual when we supply only one index to a two-dimensional array). 
+This may seem weird - why not provide a list of tuples representing coordinates? Well, the reason is basically that for large arrays, lists and tuples are very inefficient, so numpy is designed to work with arrays only, for indices as well as values. This means that something like B[ [(0,0),(1,2),(0,1)] ] looks just like indexing B with a two-dimensional array, which as we saw above just means that B should be used as a look-up table yielding a two-dimensional array of results (each of which is one-dimensional, as usual when we supply only one index to a two-dimensional array).
 
 In summary, in list-of-locations indexing, you supply an array of values for each coordinate, all the same shape, and numpy returns an array of the same shape containing the values obtained by looking up each set of coordinates in the original array. If the coordinate arrays are not the same shape, numpy's broadcasting rules are applied to them to try to make their shapes the same. If there are not as many arrays as the original array has dimensions, the original array is regarded as containing arrays, and the extra dimensions appear on the result array.
 
@@ -725,7 +725,7 @@ What happens when you try to mix slice indexing, element indexing, boolean index
 How indexing works under the hood
 ---------------------------------
 
-A numpy array is a block of memory, a data type for interpreting memory locations, a list of sizes, and a list of strides. So for example, C[i,j,k] is the element starting at position i*strides[0]+j*strides[1]+k*strides[2]. This means, for example, that transposing amatrix can be done very efficiently: just reverse the strides and sizes arrays. This is why slices are efficient and can return views, but fancy indexing is slower and can't. 
+A numpy array is a block of memory, a data type for interpreting memory locations, a list of sizes, and a list of strides. So for example, C[i,j,k] is the element starting at position i*strides[0]+j*strides[1]+k*strides[2]. This means, for example, that transposing amatrix can be done very efficiently: just reverse the strides and sizes arrays. This is why slices are efficient and can return views, but fancy indexing is slower and can't.
 
 At a python level, numpy's indexing works by overriding the :underline:`getitem` and :underline:`setitem` methods in an ndarray object. These methods are called when arrays are indexed, and they allow arbitrary implementations:
 

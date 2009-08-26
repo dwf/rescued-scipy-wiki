@@ -6,14 +6,14 @@ Cookbook/Matplotlib/Legend
 Legends for overlaid lines and markers
 --------------------------------------
 
-If you have a lot of points to plot, you may want to set a marker only once every *n* points, e.g. 
+If you have a lot of points to plot, you may want to set a marker only once every *n* points, e.g.
 
 ::
 
    plot(x, y, '-r')
    plot(x[::20], y[::20], 'ro')
 
-Then the automatic legend sees this as two different plots. One approach is to create an extra line object that is not plotted anywhere but used only for the legend: 
+Then the automatic legend sees this as two different plots. One approach is to create an extra line object that is not plotted anywhere but used only for the legend:
 
 ::
 
@@ -21,7 +21,7 @@ Then the automatic legend sees this as two different plots. One approach is to c
    line = Line2D(range(10), range(10), linestyle='-', marker='o')
    legend((line,), (label,))
 
-Another possibility is to modify the line object within the legend: 
+Another possibility is to modify the line object within the legend:
 
 ::
 

@@ -86,7 +86,7 @@ Attendee list
 
 * Rhys Ulerich (Graduate Student, Computational and Applied Mathematics, The University of Texas at Austin)
 
-* [:RichardBoland:Richard Boland] ([`http://www.networkip.net/`_ NetworkIP])
+* [:RichardBoland:Richard Boland] (`NetworkIP <http://www.networkip.net/>`_)
 
 * Gary Bankston (M6 Research)
 
@@ -94,7 +94,7 @@ Attendee list
 
 * Nick Luchsinger (Student, CS, The University of Texas at Austin)
 
-* [`http://www.nigels.com`_ Nigel Stewart] ([`http://www.nvidia.com`_ NVIDIA])
+* [`http://www.nigels.com`_ Nigel Stewart] (`NVIDIA <http://www.nvidia.com>`_)
 
 * Gregory Matous (Momentum Software)
 

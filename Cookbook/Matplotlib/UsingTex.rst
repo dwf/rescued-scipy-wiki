@@ -1,8 +1,8 @@
 #format rst
 
-Matplotlib can use LaTeX to handle the text layout in your figures.  This option (which is still somewhat experimental) can be activated by setting text.usetex : true in your rc settings.  Text handling with matplotlib's LaTeX support is slower than standard text handling, but is more flexible, and produces publication-quality plots.  The results are striking, especially when you take care to use the same fonts in your figures as in the main document.  
+Matplotlib can use LaTeX to handle the text layout in your figures.  This option (which is still somewhat experimental) can be activated by setting text.usetex : true in your rc settings.  Text handling with matplotlib's LaTeX support is slower than standard text handling, but is more flexible, and produces publication-quality plots.  The results are striking, especially when you take care to use the same fonts in your figures as in the main document.
 
-Matplotlib's LaTeX support is still under development, although at least two individuals have relied upon it to generate the figures for their doctoral dissertations.  Many improvements have been made beginning with matplotlib-0.87, please update matplotlib if you have an earlier version.  This option requires a working LaTeX installation, [`http://sourceforge.net/projects/dvipng`_ dvipng] (which may be included with your TeX installation), and ghostscript ([`http://www.cs.wisc.edu/~ghost/`_ AFPL, GPL], or [`http://www.cups.org/espgs/index.php`_ ESP] ghostscript should all work, but GPL ghostscript-8.60 or later is recommended).  The executables for these external dependencies must be located on your PATH.
+Matplotlib's LaTeX support is still under development, although at least two individuals have relied upon it to generate the figures for their doctoral dissertations.  Many improvements have been made beginning with matplotlib-0.87, please update matplotlib if you have an earlier version.  This option requires a working LaTeX installation, `dvipng <http://sourceforge.net/projects/dvipng>`_ (which may be included with your TeX installation), and ghostscript ([`http://www.cs.wisc.edu/~ghost/`_ AFPL, GPL], or `ESP <http://www.cups.org/espgs/index.php>`_ ghostscript should all work, but GPL ghostscript-8.60 or later is recommended).  The executables for these external dependencies must be located on your PATH.
 
 There are a couple of options to mention, which can be changed using rc settings, either using a matplotlibrc file, or the rcParams dict in your program. Here is an example matplotlibrc file:
 
@@ -54,7 +54,7 @@ attachment:tex_demo.png
 
 Note that when TeX/LaTeX support is enabled, you can mix text and math modes. Display math mode ($$ e=mc^2 $$) is  not supported, but adding the command \displaystyle, as in tex_demo.py, will produce the same results.
 
-In order to produce encapsulated postscript files that can be embedded in a new LaTeX document, the default behavior of matplotlib is to distill the output, which removes some postscript operators used by LaTeX that are illegal in an eps file.  This step produces fonts which may be unacceptable to some users. One workaround is to to set ps.distiller.res to a higher value (perhaps 6000) in your rc settings. A better workaround, which requires [`http://www.foolabs.com/xpdf/download.html`_ xpdf] or [`http://poppler.freedesktop.org/`_ poppler] (the new backend to xpdf) can be activated by changing the rc ps.usedistiller setting to xpdf. The xpdf alternative produces postscript with text that can be edited in Adobe Illustrator, or searched for once converted to pdf.
+In order to produce encapsulated postscript files that can be embedded in a new LaTeX document, the default behavior of matplotlib is to distill the output, which removes some postscript operators used by LaTeX that are illegal in an eps file.  This step produces fonts which may be unacceptable to some users. One workaround is to to set ps.distiller.res to a higher value (perhaps 6000) in your rc settings. A better workaround, which requires `xpdf <http://www.foolabs.com/xpdf/download.html>`_ or `poppler <http://poppler.freedesktop.org/>`_ (the new backend to xpdf) can be activated by changing the rc ps.usedistiller setting to xpdf. The xpdf alternative produces postscript with text that can be edited in Adobe Illustrator, or searched for once converted to pdf.
 
 Possible Hangups
 ================
@@ -67,7 +67,7 @@ Possible Hangups
 
 * On Ubuntu and Gentoo, the base texlive install does not ship with the type1cm package. You may need to install some of the extra packages to get all the goodies that come bundled with other latex distributions.
 
-* Some progress has been made so Matplotlib uses the dvi files directly for text layout. This allows latex to be used for text layout with the pdf and svg backends, as well as the *Agg and PS backends. In the future, a latex installation may be the only external dependency. 
+* Some progress has been made so Matplotlib uses the dvi files directly for text layout. This allows latex to be used for text layout with the pdf and svg backends, as well as the *Agg and PS backends. In the future, a latex installation may be the only external dependency.
 
 In the event that things dont work
 ==================================

@@ -126,17 +126,17 @@ The main idea here is:
 
   * sidebar with brief news summary
 
-  * pic with nice graphics made with SciPy  
+  * pic with nice graphics made with SciPy
 
 * News
 
   * Maybe omit the link to news page from navigation bar and only leave it as "More news" at the bottom of News sidebar.
 
-* About SciPy 
+* About SciPy
 
-  * Somewhat longer explanation of what's SciPy and what's it good for, 
+  * Somewhat longer explanation of what's SciPy and what's it good for,
 
-  * mention that SciPy is based on scipy_core which is usable separately and that scypy_core is intended to replace numarray and numeric. 
+  * mention that SciPy is based on scipy_core which is usable separately and that scypy_core is intended to replace numarray and numeric.
 
   * Some pointers for new users.
 
@@ -164,7 +164,7 @@ The main idea here is:
 
   * Link to installation instructions
 
-  * Link to "Getting started" 
+  * Link to "Getting started"
 
   * Sources - (very briefly, link to "Development" for details)
 

@@ -7,7 +7,7 @@ Submitted Slides for EuroSciPy 2008
 
 * [attachment:simpy_mueller.pdf Klaus G. Müller SimPy_, a discrete event simulation package in Python]
 
-* [attachment:sfepy_cimrman_certik.pdf R. Cimrman and O. Èertík: SfePy_ - Simple Finite Elements in Python] 
+* [attachment:sfepy_cimrman_certik.pdf R. Cimrman and O. Èertík: SfePy_ - Simple Finite Elements in Python]
 
 * [attachment:mlpy_albanese_etal_new.pdf D. Albanese: mlpy - Machine Learning Py - A High-Performance Python/!NumPy_ Based Package for Machine Learning]
 

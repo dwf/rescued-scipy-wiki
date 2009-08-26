@@ -134,9 +134,9 @@ Apply this patch to make PIL Image objects both export and consume the array int
    +    size = shape[:2][::-1]
    +    if strides is not None:
    +        obj = obj.tostring()
-   +       
+   +
    +    return frombuffer(mode, size, obj)
-   +   
+   +
    +##
     # Opens and identifies the given image file.
     # <p>

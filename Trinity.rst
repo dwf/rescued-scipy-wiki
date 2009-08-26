@@ -8,7 +8,7 @@ A blast wave is a spherical shock that arises when a large amount of energy is d
 
 I will not go into the details of the solution any more than necessary. It proceeds by assuming the blast wave's evolution is self-similar, that is, the pressure (P), density (d), and velocity (v) profiles remain the same, simply scaling as the wave evolves. Specifically, when the blast has radius R, we assume that
 
-  P(r/R)/P0 = R**(-3)*f1(r/R) 
+  P(r/R)/P0 = R**(-3)*f1(r/R)
 
   d(r/R)/d0 = psi(r/R)
 

@@ -7,7 +7,7 @@ TableOfContents_
 Performance
 ===========
 
-matplotlib supports 5 different graphical user interfaces (GTK, WX, Qt, Tkinter, FLTK) and for some of those GUIs, there are various ways to draw to the canvas.  For example, for GTK, you can use native [`http://www.pygtk.org/pygtk2reference/class-gdkdrawable.html`_ GDK drawing], [`http://antigrain.com`_ antigrain], or [`http://cairographics.org/`_ cairo].  A GUI toolkit combined with some method of drawing comprises a [`http://matplotlib.sourceforge.net/backends.html`_ backend].  For example, drawing to a GTK canvas with the antigrain drawing toolkit is called the GTKAgg backend.  This is important because different backends have different performance characteristics, and the difference can be considerable.
+matplotlib supports 5 different graphical user interfaces (GTK, WX, Qt, Tkinter, FLTK) and for some of those GUIs, there are various ways to draw to the canvas.  For example, for GTK, you can use native [`http://www.pygtk.org/pygtk2reference/class-gdkdrawable.html`_ GDK drawing], `antigrain <http://antigrain.com>`_, or `cairo <http://cairographics.org/>`_.  A GUI toolkit combined with some method of drawing comprises a `backend <http://matplotlib.sourceforge.net/backends.html>`_.  For example, drawing to a GTK canvas with the antigrain drawing toolkit is called the GTKAgg backend.  This is important because different backends have different performance characteristics, and the difference can be considerable.
 
 When considering performance, the typical measure is frames per second.  Television is 30 frames per second, and for many application if you can get 10 or more frames per second the animation is smooth enough to "look good".  Monitors refresh at 75-80 frames per second typically, and so this is an upper limit for performance.  Any faster is probably wasted CPU cycles.
 
@@ -23,7 +23,7 @@ Here are the results.  Note that these should be interpreted cautiously, because
 ::
 
    Backend  Frames/second
-    GTK         43  
+    GTK         43
     GTKAgg      36
     TkAgg       20
     WX          11
@@ -32,7 +32,7 @@ Here are the results.  Note that these should be interpreted cautiously, because
 GUI neutral animation in pylab
 ==============================
 
-The pylab interface supports animation that does not depend on a specific GUI toolkit.  This is not recommended for production use, but is often a good way to make a quick-and-dirty, throw away animation. After importing pylab, you need to turn interaction on with the [`http://matplotlib.sf.net/matplotlib.pylab.html#-ion`_ ion] command. You can then force a draw at any time with [`http://matplotlib.sf.net/matplotlib.pylab.html#-draw`_ draw].  In interactive mode, a new draw command is issued after each pylab command, and you can also temporarily turn off this behavior for a block of plotting commands in which you do not want an update with the [`http://matplotlib.sf.net/matplotlib.pylab.html#-ioff`_ ioff] commands.  This is described in more detail on the [`http://matplotlib.sf.net/interactive.html`_ interactive] page.
+The pylab interface supports animation that does not depend on a specific GUI toolkit.  This is not recommended for production use, but is often a good way to make a quick-and-dirty, throw away animation. After importing pylab, you need to turn interaction on with the `ion <http://matplotlib.sf.net/matplotlib.pylab.html#-ion>`_ command. You can then force a draw at any time with `draw <http://matplotlib.sf.net/matplotlib.pylab.html#-draw>`_.  In interactive mode, a new draw command is issued after each pylab command, and you can also temporarily turn off this behavior for a block of plotting commands in which you do not want an update with the `ioff <http://matplotlib.sf.net/matplotlib.pylab.html#-ioff>`_ commands.  This is described in more detail on the `interactive <http://matplotlib.sf.net/interactive.html>`_ page.
 
 Here is the anim.py script that was used to generate the profiling numbers across backends in the table above
 
@@ -49,7 +49,7 @@ Here is the anim.py script that was used to generate the profiling numbers acros
        draw()                         # redraw the canvas
    print 'FPS:' , 200/(time.time()-tstart)
 
-Note the technique of creating a line with the call to [`http://matplotlib.sf.net/matplotlib.pylab.html#-plot`_ plot]:
+Note the technique of creating a line with the call to `plot <http://matplotlib.sf.net/matplotlib.pylab.html#-plot>`_:
 
 ::
 
@@ -93,7 +93,7 @@ Animating selected plot elements
 
 One limitation of the methods presented above is that all figure elements are redrawn with every call to draw, but we are only updating a single element.  Often what we want to do is draw a background, and animate just one or two elements on top of it.  As of matplotlib-0.87,  GTKAgg, TkAgg, WXAgg, and FLTKAgg support the methods discussed here.
 
-The basic idea is to set the 'animated' property of the Artist you want to animate (all figure elements from Figure to Axes to Line2D to Text derive from the base class [`http://matplotlib.sf.net/matplotlib.artist.html`_ Artist]).  Then, when the standard canvas draw operation is called, all the artists except the animated one will be drawn.  You can then use the method ``background = canvas.copy_from_bbox(bbox)`` to copy a rectangular region (eg the axes bounding box) into a a pixel buffer.  In animation, you restore the background with ``canvas.restore_region(background)``, and then call ``ax.draw_artist(something)`` to draw your animated artist onto the clean background, and ``canvas.blit(bbox)`` to blit the updated axes rectangle to the figure.  When I run the example below in the same environment that produced 36 FPS for GTKAgg above, I measure 327 FPS with the techniques below.  See the caveats on performance numbers mentioned above.  Suffice it to say, quantitatively and qualitiatively it is much faster.
+The basic idea is to set the 'animated' property of the Artist you want to animate (all figure elements from Figure to Axes to Line2D to Text derive from the base class `Artist <http://matplotlib.sf.net/matplotlib.artist.html>`_).  Then, when the standard canvas draw operation is called, all the artists except the animated one will be drawn.  You can then use the method ``background = canvas.copy_from_bbox(bbox)`` to copy a rectangular region (eg the axes bounding box) into a a pixel buffer.  In animation, you restore the background with ``canvas.restore_region(background)``, and then call ``ax.draw_artist(something)`` to draw your animated artist onto the clean background, and ``canvas.blit(bbox)`` to blit the updated axes rectangle to the figure.  When I run the example below in the same environment that produced 36 FPS for GTKAgg above, I measure 327 FPS with the techniques below.  See the caveats on performance numbers mentioned above.  Suffice it to say, quantitatively and qualitiatively it is much faster.
 
 ::
 
@@ -146,7 +146,7 @@ matplotlib 0.83.2 introduced a cursor class which can utilize these blit methods
    ax.plot(x,y,'o')
    ax.set_xlim(-2,2)
    ax.set_ylim(-2,2)
-   # set useblit = True on gtkagg for enhanced performance   
+   # set useblit = True on gtkagg for enhanced performance
    cursor = Cursor(ax, useblit=True, color='red', linewidth=2 )
    pylab.show()
 
@@ -160,7 +160,7 @@ Figure canvas methods
 
 * ``background = canvas.copy_from_bbox(ax.bbox)`` - copy the region in ax.bbox into a pixel buffer and return it in an object type of your choosing.  bbox is a matplotlib BBox instance from the [`http://matplotlib.sf.net/transforms.html`_ transforms module]. ``background`` is not used by the matplotlib frontend, but it stores it and passes it back to the backend in the ``restore_region`` method. You will probably want to store not only the pixel buffer but the rectangular region of the canvas from whence it came in the background object.
 
-* ``canvas.restore_region(background)`` - restore the region copied above to the canvas.  
+* ``canvas.restore_region(background)`` - restore the region copied above to the canvas.
 
 * ``canvas.blit(bbox)`` - transfer the pixel buffer in region bounded by bbox to the canvas.
 

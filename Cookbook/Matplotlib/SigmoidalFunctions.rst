@@ -34,7 +34,7 @@ Rich Shepard was interested in plotting "S curves" and "Z curves", and a little 
 
 See also [`http://mathworld.wolfram.com/SigmoidFunction.html`_ sigmoids at mathworld].
 
-People often want to shade an area under these curves, eg [`http://www.appl-ecosys.com/newstuff.html`_ under their intersection], which you can do with the magic of numerix and the matplotlib [`http://matplotlib.sourceforge.net/matplotlib.pylab.html#-fill`_ fill] function:
+People often want to shade an area under these curves, eg [`http://www.appl-ecosys.com/newstuff.html`_ under their intersection], which you can do with the magic of numerix and the matplotlib `fill <http://matplotlib.sourceforge.net/matplotlib.pylab.html#-fill>`_ function:
 
 ::
 

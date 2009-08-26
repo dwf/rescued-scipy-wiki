@@ -14,11 +14,11 @@
 Formatting
 ----------
 
-*italic* **bold** ``typewriter`` 
+*italic* **bold** ``typewriter``
 
 ``backtick typewriter`` (configurable)
 
-:big:`bigger`  :small:`smaller` 
+:big:`bigger`  :small:`smaller`
 
 ::
 

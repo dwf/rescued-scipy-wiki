@@ -61,7 +61,7 @@ Issues related to any redesign:
 
 * Yet, we don't want to exclude the possibility (and usefulness) of literal translations. We think that we should allow those that wish to contribute such version to a corresponding Python library. It is likely that there is at least a fairly large subset of Astronomical Utilities procedures that are suitable as literal translations in any case.
 
-* We propose creating an "astron" module to contain all the literal equivalents of IDL routines. Nonliteral versions should go into different modules (astrolib and others?). Any better ideas for categorizing routines? Use a package instead? Any other suggestions for names? Astrolib doesn't to be used within the Python context but there is a Java library of the same name. Some alternatives: astropy, astro 
+* We propose creating an "astron" module to contain all the literal equivalents of IDL routines. Nonliteral versions should go into different modules (astrolib and others?). Any better ideas for categorizing routines? Use a package instead? Any other suggestions for names? Astrolib doesn't to be used within the Python context but there is a Java library of the same name. Some alternatives: astropy, astro
 
 .. ############################################################################
 

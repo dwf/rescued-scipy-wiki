@@ -1,6 +1,6 @@
 #format rst
 
-Examples showing how to rebin data to produce a smaller or bigger array without (and with) using interpolation. 
+Examples showing how to rebin data to produce a smaller or bigger array without (and with) using interpolation.
 
 Example 1
 ---------
@@ -123,7 +123,7 @@ A python version of congrid, used in IDL, for resampling of data to arbitrary si
        '''Arbitrary resampling of source array to new dimension sizes.
        Currently only supports maintaining the same number of dimensions.
        To use 1-D arrays, first promote them to shape (x,1).
-      
+
        Uses the same parameters and creates the same co-ordinate lookup points
        as IDL''s congrid routine, which apparently originally came from a VAX/VMS
        routine of the same name.

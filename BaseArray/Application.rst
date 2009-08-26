@@ -38,7 +38,7 @@ After creating a working interface for a N-D array object, I will proceed to att
 
 * NumPy_ (the present N-D array implementation, successor of Numeric and numarry) - this is the first and most obvious target, in which the native array interface will be simply replaced by the new built-in interface,
 
-* [`http://www.wxpython.org/`_ wxPython] - the parts of this module that use data stored in array-like objects will be patched to use the new array interface,
+* `wxPython <http://www.wxpython.org/>`_ - the parts of this module that use data stored in array-like objects will be patched to use the new array interface,
 
 * [`http://www.pythonware.com/products/pil/`_ Python Imaging Library (PIL)] - using a base array type will allow image data to be represented in a natural way, and for some applications perhaps this will be efficient. A means to transfer data from the current image type to an instance carrying the new array object will be provided, along with examples of how to use the array interface.
 

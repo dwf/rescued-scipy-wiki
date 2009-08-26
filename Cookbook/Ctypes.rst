@@ -8,7 +8,7 @@ TableOfContents_
 Introduction
 ============
 
-[`http://starship.python.net/crew/theller/ctypes/`_ ctypes] is an advanced Foreign Function Interface package for Python 2.3 and higher. It is included in the standard library for Python 2.5.
+`ctypes <http://starship.python.net/crew/theller/ctypes/>`_ is an advanced Foreign Function Interface package for Python 2.3 and higher. It is included in the standard library for Python 2.5.
 
 ctypes allows to call functions exposed from DLLs/shared libraries and has extensive facilities to create, access and manipulate simple and complicated C data types in Python - in other words: wrap libraries in pure Python. It is even possible to implement C callback functions in pure Python.
 
@@ -23,7 +23,7 @@ The [`http://starship.python.net/crew/theller/ctypes/tutorial.html`_ ctypes tuto
 
 Assuming you've built a library called ``foo.dll`` or ``libfoo.so`` containing a function called ``bar`` that takes a pointer to a buffer of doubles and an int as arguments and returns an int, the following code should get you up and running. The following sections cover some possible build scripts, C code and Python code.
 
-If you would like to build your DLL/shared library with distutils, take a look at the SharedLibrary distutils extension included with [`http://www.ctcms.nist.gov/oof/oof2/index.html`_ OOF2]. This should probably be included in numpy.distutils at some point.
+If you would like to build your DLL/shared library with distutils, take a look at the SharedLibrary distutils extension included with `OOF2 <http://www.ctcms.nist.gov/oof/oof2/index.html>`_. This should probably be included in numpy.distutils at some point.
 
 Nmake Makefile (Windows)
 ------------------------
@@ -64,7 +64,7 @@ You should be able to build the DLL with any version of the Visual Studio compil
 SConstruct (GCC)
 ----------------
 
-You can use the following file with [`http://www.scons.org`_ SCons] to build a shared library.
+You can use the following file with `SCons <http://www.scons.org>`_ to build a shared library.
 
 ::
 
@@ -177,7 +177,7 @@ See also the mailing list thread on [`http://thread.gmane.org/gmane.comp.python.
 Dynamic allocation through callbacks
 ====================================
 
-ctypes supports the idea of [`http://docs.python.org/lib/ctypes-callback-functions.html`_ callbacks], allowing C code to call back into Python through a function pointer. This is possible because ctypes releases the Python Global Interpreter Lock (GIL) before calling the C function.
+ctypes supports the idea of `callbacks <http://docs.python.org/lib/ctypes-callback-functions.html>`_, allowing C code to call back into Python through a function pointer. This is possible because ctypes releases the Python Global Interpreter Lock (GIL) before calling the C function.
 
 We can use this feature to allocate NumPy arrays if and when we need a buffer for C code to operate on. This could avoid having to copy data in certain cases. You also don't have to worry about freeing the C data after you're done with it. By allocating your buffers as NumPy arrays, the Python garbage collector can take care of this.
 

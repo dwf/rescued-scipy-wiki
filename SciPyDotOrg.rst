@@ -5,7 +5,7 @@ SciPy.org the Site
 
 **scipy.org** is a community site.  The term "SciPy" means different things depending on the context.  Here are some of the representations and various (at times, concurrent) meanings:
 
-* SciPy.org (or scipy.org): 
+* SciPy.org (or scipy.org):
 
   * 1) the community of users of Python for scientific computing.
 

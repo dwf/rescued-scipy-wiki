@@ -111,7 +111,7 @@ Another example, just run examples/contour.py and type/cut/paste the following t
    s = e.scenes[0].children[0].children[0].children[-1]
    # Think scene.datafile.module_manager.last_module
 
-It is possible to use Mayavi2 from within [`http://ipython.scipy.org`_ IPython] and script it. You must first start IPython with the '-wthread' command line option. Here is an example:
+It is possible to use Mayavi2 from within `IPython <http://ipython.scipy.org>`_ and script it. You must first start IPython with the '-wthread' command line option. Here is an example:
 
 ::
 

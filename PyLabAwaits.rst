@@ -24,7 +24,7 @@ Valuable
 
 * ScientificCalculationHowto_
 
-* [`http://pydstool.sourceforge.net`_ PyDSTool]
+* `PyDSTool <http://pydstool.sourceforge.net>`_
 
 * python MPI interface
 
@@ -42,7 +42,7 @@ Wishlist
 Conversion utilities
 --------------------
 
-* Convert XML vector field specifications for ODEs/DDEs automatically using [`http://www.warrenweckesser.net/vfgen/`_ VFGEN] -- to use with PyDSTool or Scipy integrators. 
+* Convert XML vector field specifications for ODEs/DDEs automatically using `VFGEN <http://www.warrenweckesser.net/vfgen/>`_ -- to use with PyDSTool or Scipy integrators.
 
 See also NumPyProConPage_ and NumPyProConDiscussion_.
 

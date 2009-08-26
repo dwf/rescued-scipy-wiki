@@ -11,7 +11,7 @@ Integration
 
 * Presenting a single, more-or-less uniform UI to the user would make their life much easier
 
-* Putting the pieces together in one package would allow developers to focus on making the pieces fit together well - for example, will pylab plot Matrix objects without complaining? 
+* Putting the pieces together in one package would allow developers to focus on making the pieces fit together well - for example, will pylab plot Matrix objects without complaining?
 
 * Providing a canonical bundle would resolve the "which package do I want?" problem for users, and focus developer attention on a smaller number of packages. (Of course, this isn't so good if one chooses *bad* packages for the bundle...)
 
@@ -20,7 +20,7 @@ Integration
 UI
 --
 
-* For the command-line Linux wonks, the UI seems quite satisfactory - ipython+editor of choice seems more or less adequate 
+* For the command-line Linux wonks, the UI seems quite satisfactory - ipython+editor of choice seems more or less adequate
 
   * Can the editor communicate with a running ipython? ("put a breakpoint here and run the file again" or "take me to the line where the exception occurred")
 
@@ -34,7 +34,7 @@ UI
 
   * Are we interested in xmaple-style "worksheets" with embedded plots and (possibly) pretty-printed results?
 
-    * **GV** I have tryed to offer part of this functionality throught [`http://gael-varoquaux.info/computers/pyreport`_ pyreport], eventhought it does not offer the interactive part of the notebooks. At least it ease editor agnostic and uses files that are still standard python files.
+    * **GV** I have tryed to offer part of this functionality throught `pyreport <http://gael-varoquaux.info/computers/pyreport>`_, eventhought it does not offer the interactive part of the notebooks. At least it ease editor agnostic and uses files that are still standard python files.
 
 * OpenMath_ cut-and-paste?
 
@@ -49,19 +49,19 @@ Symbolic computation
 
 * There seem to be a number of choices:
 
-  * [`http://code.google.com/p/sympy/`_ sympy] - written in python, extremely simple
+  * `sympy <http://code.google.com/p/sympy/>`_ - written in python, extremely simple
 
-  * [`http://www.cam.cornell.edu/~rclewley/cgi-bin/moin.cgi/Symbolic`_ PyDSTool]'s Symbolic - written in python and based on the Maple syntax model.
+  * `PyDSTool <http://www.cam.cornell.edu/~rclewley/cgi-bin/moin.cgi/Symbolic>`_'s Symbolic - written in python and based on the Maple syntax model.
 
-  * [`http://swik.net/swiginac`_ swiginac] - automatic wrapper around [`http://www.ginac.de/`_ ginac] (a fast, well-tested C++ library for computer algebra)
+  * `swiginac <http://swik.net/swiginac>`_ - automatic wrapper around `ginac <http://www.ginac.de/>`_ (a fast, well-tested C++ library for computer algebra)
 
-  * [`http://www.tildesoft.com/Pythonica.html`_ pythonica] - older code (last web update 2004) based on the Mathematica syntax model.
+  * `pythonica <http://www.tildesoft.com/Pythonica.html>`_ - older code (last web update 2004) based on the Mathematica syntax model.
 
     * **AMA** My personal feeling is that symbolic computation is a very big job to get right, and we're better off using a system that's been pounded on a bit. It's akin to using ODEPACK or LAPACK instead of writing our own DE solver or LU factorization system. "It's python, of course it's slow" is a bit disingenuous - when the hard work is done by somebody else's optimized library, python need not be slow.
 
       * **MMF =** MichaelMcNeilForbes_ Some of the need for symbolic computations may be relieved if a good, easy to use automatic differentiation package existed.  In particular, for solvers that require jacobians etc. automatic differentiation can work very nicely.
 
-        * **AMA** I agree, symbolic differentiation is relatively easy and would cover a lot of what people need. In fact, if we want symbolic derivatives of everything in scipy.special, we will probably need to implement them more-or-less by hand no matter which tool we choose. 
+        * **AMA** I agree, symbolic differentiation is relatively easy and would cover a lot of what people need. In fact, if we want symbolic derivatives of everything in scipy.special, we will probably need to implement them more-or-less by hand no matter which tool we choose.
 
         * **OC** SymPy_ can differentiate symbolically. Please report everything, that you find not working, or too difficult to use. It can also solve some differential equations symbolically, if you need more, please write into the Issues on the sympy webpage what functionality you need and sympy developers will help you implement it.
 

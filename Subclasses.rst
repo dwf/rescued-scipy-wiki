@@ -36,7 +36,7 @@ The definition of default values for subclass attributes (as opposed to instance
 The __array_finalize__ method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-According to the numpy documentation, the ``.__array_finalize__(self, obj)`` method  
+According to the numpy documentation, the ``.__array_finalize__(self, obj)`` method
 
 ::
 
@@ -50,7 +50,7 @@ In other terms, ``__array_finalize__`` is called:
 
 * Each time an array is created as a view from another array. In that case, the ``obj`` argument is the array that calls the ``view`` method.
 
-Note that if a method returns nothing, then ``__array_finalize__`` won't be called. 
+Note that if a method returns nothing, then ``__array_finalize__`` won't be called.
 
 ``__array_finalize__`` is thus where we need to transform the attributes from class-generic (as they were defined by ``__new__``) to instance-specific. More generally, it is where we must define the default attributes of the subclass.
 

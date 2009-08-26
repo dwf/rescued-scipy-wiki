@@ -149,7 +149,7 @@ by David Shupe
 
    IPython has 4-5 steady developers and a few occasional contributors.
    Numpy has maybe 10 active.  Same for SciPy.  Matplotlib has 5-6
-   steady developers. 
+   steady developers.
 
 
    Titus Brown: Idiommatic Python

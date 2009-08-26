@@ -57,7 +57,7 @@ Between sessions with Bryce, Christfried, Gael and Prabhu
 
 -------------------------
 
- 
+
 
 attachment:IMG_4893.jpg
 

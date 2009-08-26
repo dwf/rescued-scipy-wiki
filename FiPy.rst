@@ -19,7 +19,7 @@ FiPy has been developed mainly for materials science continuum models that broad
 
 Our approach, combining the FV method and Python, provides a tool that is extensible, powerful and freely available. The framework allows arbitrary combinations of equations to be coupled and solved, while program flow is entirely under user control. This is a different approach from traditional numerical codes written in FORTRAN or C where the program flow is hardwired into the main body of the code.
 
-A few examples will be presented highlighting how one poses problems and then obtains results in FiPy for simple as well as complex systems. We will also describe and quantify FiPy efficiency data relating to the Numeric and weave modules. Furthermore, we will discuss issues relating to sparse solvers (PySparse_, scipy.linalg) and viewing capabilities. 
+A few examples will be presented highlighting how one poses problems and then obtains results in FiPy for simple as well as complex systems. We will also describe and quantify FiPy efficiency data relating to the Numeric and weave modules. Furthermore, we will discuss issues relating to sparse solvers (PySparse_, scipy.linalg) and viewing capabilities.
 
 .. ############################################################################
 

@@ -58,7 +58,7 @@ PyLab should be the name of the entire suite, and I feel strongly that the corre
 
    from pylab import *
 
-This should include the core parts of numpy, scipy, and matplotlib. This should also be the default namespace set up when the program is launched interactively via 'pylab'. Whether the other components (such as numpy.linalg.*) should be included in this import is up for debate. 
+This should include the core parts of numpy, scipy, and matplotlib. This should also be the default namespace set up when the program is launched interactively via 'pylab'. Whether the other components (such as numpy.linalg.*) should be included in this import is up for debate.
 
 1. Revamping the Documentation
 ==============================
@@ -73,7 +73,7 @@ Travis Oliphant posted a [`http://article.gmane.org/gmane.comp.python.scientific
 Available modules in docstrings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Examples in docstrings are extremely valuable. However, it is currently never the case that the docstrings in either NumPy_ or SciPy_ use any of the functionality offered by matplotlib. This in unfortunate, especially in the case of SciPy_, because often the clearest way of demonstrating a function is to plot something. 
+Examples in docstrings are extremely valuable. However, it is currently never the case that the docstrings in either NumPy_ or SciPy_ use any of the functionality offered by matplotlib. This in unfortunate, especially in the case of SciPy_, because often the clearest way of demonstrating a function is to plot something.
 
 While it is true that there is an argument which says that SciPy_ should not become dependent on matplotlib, it appears that this dependence already exists for all intents and purposes. It is likely that only in the most extreme cases one would want to use SciPy_ without matplotlib. Furthermore, the dependency would only be in the case where a user is executing docstrings in the interactive interpreter; in this case, it is highly likely that the user is doing something which requires some sort of plotting package regardless.
 
@@ -176,7 +176,7 @@ The installation process has certainly gotten easier over the years; however, th
 4. Fixing the Build process
 ===========================
 
-Building a basic PyLab setup is straightforward on Debian and Ubuntu thanks to package management, provided one is capable of fishing around for the required build packages. However, a straight forward 
+Building a basic PyLab setup is straightforward on Debian and Ubuntu thanks to package management, provided one is capable of fishing around for the required build packages. However, a straight forward
 
 ::
 
@@ -187,9 +187,9 @@ will not produce the most optimized executable; in order to get a highly optimiz
 Becoming a better foundation for SAGE
 =====================================
 
-There is a package called [`http://sage.math.washington.edu/sage/`_ SAGE] which aims for almost exactly the same goals as PyLab. However, it is even more extreme than the PyLab vision outlined here, because SAGE includes many third party programs for cutting-edge support of symbolic computation. It also makes some incompatible changes to the Python syntax. 
+There is a package called `SAGE <http://sage.math.washington.edu/sage/>`_ which aims for almost exactly the same goals as PyLab. However, it is even more extreme than the PyLab vision outlined here, because SAGE includes many third party programs for cutting-edge support of symbolic computation. It also makes some incompatible changes to the Python syntax.
 
-SAGE is built from a core of Python, IPython, and NumPy_. In a [`http://arcknowledge.com/gmane.comp.mathematics.sage.devel/2006-12/msg00111.html`_ posting] to the SAGE developer list, the lead SAGE developer, William Stein, described how he wishes NumPy_ and SciPy_ would follow more consistent documentation standards. Shortly thereafter Travis Oliphant committed the documentation standard which should be used in NumPy_ and SciPy_. **By slowly working the docstring documentation into a consistent state, PyLab can form a more consistent and usable foundation for SAGE.**
+SAGE is built from a core of Python, IPython, and NumPy_. In a `posting <http://arcknowledge.com/gmane.comp.mathematics.sage.devel/2006-12/msg00111.html>`_ to the SAGE developer list, the lead SAGE developer, William Stein, described how he wishes NumPy_ and SciPy_ would follow more consistent documentation standards. Shortly thereafter Travis Oliphant committed the documentation standard which should be used in NumPy_ and SciPy_. **By slowly working the docstring documentation into a consistent state, PyLab can form a more consistent and usable foundation for SAGE.**
 
 .. ############################################################################
 

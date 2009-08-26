@@ -21,7 +21,7 @@ Texas Regional Python Unconference 2008
 
 This is the Second Annual Texas Regional Unconference for Python.  Like last year, this unconference is intended to be a FREE event for Pythoneers from all over the Texas region to gather and share experiences and developments.  Again, the topics to be presented are purely up to the participants.
 
-Please add yourself to the list of presenters and attendees so we'll know you're coming.  As is the tradition for [`http://en.wikipedia.org/wiki/Unconference`_ unconferences], this is a completely self-organizing meeting. Last year there were two main tracks of talks: Python in Scientific Computing, and Python in Web Frameworks.  We welcome any other presentations as well.
+Please add yourself to the list of presenters and attendees so we'll know you're coming.  As is the tradition for `unconferences <http://en.wikipedia.org/wiki/Unconference>`_, this is a completely self-organizing meeting. Last year there were two main tracks of talks: Python in Scientific Computing, and Python in Web Frameworks.  We welcome any other presentations as well.
 
 You may edit any of these pages by logging in (or clicking login and then following the appropriate link to register yourself).
 
@@ -41,7 +41,7 @@ attachment:uncon2008.jpg
 
 Many thanks to the University of Texas for hosting the event (esp. Dave Campbell, Brad Knowles and Robert Myers) and providing such a nice venue.
 
-Also thanks to [`http://www.zenoss.org`_ Zenoss] for sponsoring the lunch on Saturday.
+Also thanks to `Zenoss <http://www.zenoss.org>`_ for sponsoring the lunch on Saturday.
 
 -------------------------
 

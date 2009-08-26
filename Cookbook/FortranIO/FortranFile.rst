@@ -100,7 +100,7 @@ This subclass of file is designed to simplify reading of Fortran unformatted bin
 
        def __init__(self, fname, endian='@', header_prec='i', *args, **kwargs):
            """Open a Fortran unformatted file for writing.
-          
+
            Parameters
            ----------
            endian : character, optional
@@ -163,7 +163,7 @@ This subclass of file is designed to simplify reading of Fortran unformatted bin
            Parameters
            ----------
            s : the string to write
-          
+
            """
            self.writeRecord(s)
 
@@ -171,22 +171,22 @@ This subclass of file is designed to simplify reading of Fortran unformatted bin
 
        def readReals(self, prec='f'):
            """Read in an array of real numbers.
-          
+
            Parameters
            ----------
            prec : character, optional
                Specify the precision of the array using character codes from
                Python's struct module.  Possible values are 'd' and 'f'.
-              
+
            """
-          
+
            _numpy_precisions = {'d': numpy.float64,
                                 'f': numpy.float32
                                }
 
            if prec not in self._real_precisions:
                raise ValueError('Not an appropriate precision')
-              
+
            data_str = self.readRecord()
            num = len(data_str)/struct.calcsize(prec)
            numbers =struct.unpack(self.ENDIAN+str(num)+prec,data_str)
@@ -204,7 +204,7 @@ This subclass of file is designed to simplify reading of Fortran unformatted bin
            """
            if prec not in self._real_precisions:
                raise ValueError('Not an appropriate precision')
-          
+
            # Don't use writeRecord to avoid having to form a
            # string as large as the array of numbers
            length_bytes = len(reals)*struct.calcsize(prec)
@@ -213,23 +213,23 @@ This subclass of file is designed to simplify reading of Fortran unformatted bin
            for r in reals:
                self.write(struct.pack(_fmt,r))
            self._write_check(length_bytes)
-      
+
        _int_precisions = 'hilq'
 
        def readInts(self, prec='i'):
            """Read an array of integers.
-          
+
            Parameters
            ----------
            prec : character, optional
                Specify the precision of the data to be read using
                character codes from Python's struct module.  Possible
                values are 'h', 'i', 'l' and 'q'
-              
+
            """
            if prec not in self._int_precisions:
                raise ValueError('Not an appropriate precision')
-              
+
            data_str = self.readRecord()
            num = len(data_str)/struct.calcsize(prec)
            return numpy.array(struct.unpack(self.ENDIAN+str(num)+prec,data_str))
@@ -246,7 +246,7 @@ This subclass of file is designed to simplify reading of Fortran unformatted bin
            """
            if prec not in self._int_precisions:
                raise ValueError('Not an appropriate precision')
-          
+
            # Don't use writeRecord to avoid having to form a
            # string as large as the array of numbers
            length_bytes = len(ints)*struct.calcsize(prec)

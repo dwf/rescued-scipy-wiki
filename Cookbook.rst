@@ -59,7 +59,7 @@ NumPy / SciPy
 
 * [:LoktaVolterraTutorial:Lotka-Volterra Tutorial] Solving ordinary differential equations with Scipy
 
-* [:Cookbook/CoupledSpringMassSystem:A coupled spring-mass system] Another example of solving differential equations. 
+* [:Cookbook/CoupledSpringMassSystem:A coupled spring-mass system] Another example of solving differential equations.
 
 * [:Cookbook/Solving Large Markov Chains:Large Markov Chains] Find the stationary distribution of a large Markov chain; the M/M/1 tandem queue
 
@@ -80,9 +80,9 @@ Compiling Extensions
 SciKits
 =======
 
-* [`http://scipy.org/scipy/scikits/wiki/OpenOpt`_ OpenOpt_] numerical optimization example for [`http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/nlp_ALGENCAN.py`_ NLP] (non-linear problem), [`http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/nsp_1.py`_ NSP] (non-smooth), [`http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/qp_1.py`_ QP] (quadratic), [`http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/lp_1.py`_ LP] (linear), [`http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/milp_1.py`_ MILP] (mixed-integer LP)
+* `OpenOpt <http://scipy.org/scipy/scikits/wiki/OpenOpt>`_ numerical optimization example for `NLP <http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/nlp_ALGENCAN.py>`_ (non-linear problem), `NSP <http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/nsp_1.py>`_ (non-smooth), `QP <http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/qp_1.py>`_ (quadratic), `LP <http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/lp_1.py>`_ (linear), `MILP <http://projects.scipy.org/scipy/scikits/browser/trunk/openopt/scikits/openopt/examples/milp_1.py>`_ (mixed-integer LP)
 
-* [`http://pytseries.sourceforge.net`_ timeseries] Includes examples for plotting, reporting, frequency conversion, and more. Some recipies at ["/TimeSeries/FAQ"].
+* `timeseries <http://pytseries.sourceforge.net>`_ Includes examples for plotting, reporting, frequency conversion, and more. Some recipies at ["/TimeSeries/FAQ"].
 
 Scientific Scripts
 ==================

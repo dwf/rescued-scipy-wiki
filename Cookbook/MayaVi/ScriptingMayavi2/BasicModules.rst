@@ -22,7 +22,7 @@ Note: You can set color for each module/filter (when available, of course), as a
 Outline module
 ==============
 
-Nothing special for this very simple module. 
+Nothing special for this very simple module.
 
 Begin to import the Outline module:
 
@@ -226,7 +226,7 @@ If you want to change background color, you may need to also change foreground c
    # setting background color for the scene.
    t.scene.background = bg_color
 
-Some points of view are also predefined in MayaVi2. 
+Some points of view are also predefined in MayaVi2.
 
 If you want:
 

@@ -20,15 +20,15 @@ by David Shupe
    Works with a great teacher.  Not at all with no teacher.  1.2 billion
    kids, 75% with inadequate access to education.
 
-   Top down fixing of schools? takes 50-100 yr and others are working on it. 
+   Top down fixing of schools? takes 50-100 yr and others are working on it.
    Try a peer-based approach.  Can do laptops now.
    AMD Geode LX 0.8Wh, 433 MHz, 256 MB RAM, 1GB flash.  Like a desktop
-   machine around 2000.  Readable in sunlight! 
+   machine around 2000.  Readable in sunlight!
    Mesh networking: self-contained ARM processor on separate power
    rail, operational during suspend.  802.11s pre-implementation (also
-   exising b and g). 
+   exising b and g).
 
-   Touchpad: capacitive (normal) and resistive (thermal?). 
+   Touchpad: capacitive (normal) and resistive (thermal?).
    Open source, new gui called Sugar, optimized for kids, emphasizes
    collaboration and simplicity.  New security platform called Bitfrost,
    very high security w/o user involvement.  Tried and true stack mostly,
@@ -44,7 +44,7 @@ by David Shupe
    A: Has to be small. OS has to fit in 100-150 MB. Don't want to have
    to recharge every 3-4 hr when just reading.  Aggressive approach to
    power management.  Want to suspend in 150msec and resume in 150msec,
-   every few seconds -- very challenging for software. 
+   every few seconds -- very challenging for software.
 
    Q: How much space left over after infrastructure? A: TBD.
    OS takes 200-250 MB, want 100-150 MB.
@@ -55,7 +55,7 @@ by David Shupe
    A: Allen Kaye, Seymour Papert are constructionists.  Wanted something
    kids can take apart and see how it works, without CS degree.  Python
    is one of the friendliest languages that you can write production code.
-   Ivan is one of the drivers for using Python.  Reduces complexity. 
+   Ivan is one of the drivers for using Python.  Reduces complexity.
 
    Perry: How do you know this is what is really needed?  Trying out
    prototypes?
@@ -95,7 +95,7 @@ by David Shupe
    journalism explanations of science take a lot of work. ]
 
    Demo
-   Measure activity.  Response to lighter flame. 
+   Measure activity.  Response to lighter flame.
    Australia: water leak from PVC pipe.  Set up XO with a motion detector
    and camera.  After a few days had photos of 10 different species of birds.
    Buttons: Measure A, Set bias o, Show Deta, Stop, Show FFT.
@@ -120,7 +120,7 @@ by David Shupe
    more attention from Python developers.  May take 10 yr??)
 
    Array interface:
-   Numeric, numarray, NumPy all use to share data. 
+   Numeric, numarray, NumPy all use to share data.
    Hatched idea after talking to Guido last SciPy (2006), of buffer
    protocol.  With help of Carl Banks and Greg Ewing and others on
    py3k-dev, PEP 3118 grew out of TO's early efforts. (harder than
@@ -341,7 +341,7 @@ by David Shupe
    to selected data.  Got a pretty good deal on his house assessment.
 
    Prosper.com.  Peer-to-peer lending.  3-yr loans, not collateralized,
-   up to $25k. 
+   up to $25k.
    Plot lender rate history for different borrower credit ratings.
    Can get a dump of Prosper credit data.
    1. Get data.
@@ -356,10 +356,10 @@ by David Shupe
    Multitouch scatter plot.  IR illumination blasting screen from behind.
    Camera reads finger spots.  Image processing of spots, which moved
    between frames and which did not.  60 fps camera, can keep up with
-   processing. 
+   processing.
 
    Chris Lee - "PyGr: The Python Graph Database Framework for Bioinformatics"
-   (UCLA, Ctr for Computational Biology) 
+   (UCLA, Ctr for Computational Biology)
 
    What is PyGr?
    - sequence analysis & comparative genomics tools.
@@ -493,7 +493,7 @@ by David Shupe
    Numenta - startup in Menlo Park in NoCal
    Hierarchicaal Temporal Memory (HTM)
 
-   Can break up local computations. 
+   Can break up local computations.
 
    **Bill Spotz: Numpy.i
    Officially released.  Prabhu says, documentation is awesome!

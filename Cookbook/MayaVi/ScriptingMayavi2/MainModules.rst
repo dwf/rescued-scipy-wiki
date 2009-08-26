@@ -18,11 +18,11 @@ ImagePlaneWidget/ScalarCutPlane/SliceUnstructuredGrid module
 
 The simpliest (and easiest, but not the most impressive |;-)| ) way to display 3D data is doubtless to slice it on some planes, normal to Ox, Oy or Oz axis, or oblique.
 
-One of the modules you can use to do this is called ScalarCutPlane. It works for any data. 
+One of the modules you can use to do this is called ScalarCutPlane. It works for any data.
 
 Note: As the ImagePlaneWidget module also display scalars data on a plane (but it does not "cut" data), please see [:Cookbook/MayaVi/Examples: Example with a 3D array as numerical source (numeric_source.py)] or [:Cookbook/MayaVi/Examples: Example using ImagePlaneWidget_ Module (test.py)] to get more information on how you can use this module.
 
-You have to set several parameters: 
+You have to set several parameters:
 
 * plane normal;
 
@@ -192,7 +192,7 @@ Using GridPlane module cuts also your grid, but quite differently from ScalarCut
 
 The StructuredGridOutline module does the same as Outline module, but for conformal mesh.
 
-To illustrate how can we use these modules, let's consider a example provided in the VTKData directory, combxyz.bin & combq.bin files (Plot3D format) from the tarball vtkdata-5.0.3.tar.gz you can download [`http://www.vtk.org/get-software.php#latest`_ here].
+To illustrate how can we use these modules, let's consider a example provided in the VTKData directory, combxyz.bin & combq.bin files (Plot3D format) from the tarball vtkdata-5.0.3.tar.gz you can download `here <http://www.vtk.org/get-software.php#latest>`_.
 
 So, type:
 
@@ -481,7 +481,7 @@ Streamline module
 
 Another way to display vectors fields is to use the Streamline module.
 
-We consider here others Plot3D files: postxyz.bin & postq.bin that you can download [`http://www.vtk.org/files/VTKTextbook/Data.tgz`_ here]. You can find some screenshots using these files on the VTK home page [`http://www.vtk.org`_ here].
+We consider here others Plot3D files: postxyz.bin & postq.bin that you can download `here <http://www.vtk.org/files/VTKTextbook/Data.tgz>`_. You can find some screenshots using these files on the VTK home page `here <http://www.vtk.org>`_.
 
 You can set several parameters for this module: for instance, the type of the streamline (tube, ribbon or line) with its properties, and the "seed".
 

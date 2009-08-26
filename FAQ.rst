@@ -8,7 +8,7 @@ General questions about numpy
 What is numpy?
 --------------
 
-numpy is a python extension module to support efficient operation on arrays of homogeneous data. It allows python to serve as a high-level language for manipulating numerical data, much like IDL, MATLAB, or Yorick. 
+numpy is a python extension module to support efficient operation on arrays of homogeneous data. It allows python to serve as a high-level language for manipulating numerical data, much like IDL, MATLAB, or Yorick.
 
 Why use numpy rather than IDL, MATLAB, Octave, or Yorick?
 ---------------------------------------------------------
@@ -123,7 +123,7 @@ stats
 weave
   compilation of numeric expressions to C++ for fast execution
 
-See [`http://scipy.org/scipy/scikits`_ scikits] for more packages: MlabWrap_, AudioLab_, [`http://scipy.org/scipy/scikits/wiki/MachineLearning`_ Learn], [`http://scipy.org/scipy/scikits/wiki/Optimization`_ GenericOpt_], [`http://scipy.org/scipy/scikits/wiki/OpenOpt`_ OpenOpt_] etc
+See `scikits <http://scipy.org/scipy/scikits>`_ for more packages: MlabWrap_, AudioLab_, `Learn <http://scipy.org/scipy/scikits/wiki/MachineLearning>`_, `GenericOpt <http://scipy.org/scipy/scikits/wiki/Optimization>`_, `OpenOpt <http://scipy.org/scipy/scikits/wiki/OpenOpt>`_ etc
 
 The following modules are in testing in the "sandbox":
 
@@ -212,7 +212,7 @@ We're open to pretty much any suggestions, so let us know what fields are of int
 I've found a bug.  What do I do?
 --------------------------------
 
-The SciPy development team works hard to make SciPy as reliable as possible, but, as in any software product, bugs do occur. If you find bugs that affect your software, please tell us by entering a ticket in the [`http://projects.scipy.org/scipy/scipy/report/1:ticket`_ tracker].
+The SciPy development team works hard to make SciPy as reliable as possible, but, as in any software product, bugs do occur. If you find bugs that affect your software, please tell us by entering a ticket in the `tracker <http://projects.scipy.org/scipy/scipy/report/1:ticket>`_.
 
 How can I get involved in SciPy?
 --------------------------------
@@ -262,9 +262,9 @@ numpy's basic data type is the multidimensional array. These can be one-dimensio
 
 However, some users find that they are doing so many matrix multiplications that always having to write dot() is too cumbersome, or they really want to keep row and column vectors separate. For these users, there is a matrix class. This is simply a transparent wrapper around arrays that forces arrays to be at least two-dimensional, and that overloads the multiplication and exponentiation operations. Multiplication becomes matrix multiplication, and exponentiation becomes matrix exponentiation. If you want elementwise multiplication, use numpy.multiply().
 
-The function asmatrix() converts an array into a matrix (without ever copying any data); asarray() converts matrices to arrays. asanyarray() makes sure that the result is either a matrix or an array (but not, say, a list). Unfortunately, a few of numpy's many functions use asarray() when they should use asanyarray(), so from time to time you may find your matrices accidentally get converted into arrays. Just use asmatrix(), and consider filing a bug. 
+The function asmatrix() converts an array into a matrix (without ever copying any data); asarray() converts matrices to arrays. asanyarray() makes sure that the result is either a matrix or an array (but not, say, a list). Unfortunately, a few of numpy's many functions use asarray() when they should use asanyarray(), so from time to time you may find your matrices accidentally get converted into arrays. Just use asmatrix(), and consider filing a bug.
 
-I personally never use matrices. dot() really isn't much trouble, and it's more or less the only difference. 
+I personally never use matrices. dot() really isn't much trouble, and it's more or less the only difference.
 
 Why not just have a separate operator for matrix multiplication?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -314,7 +314,7 @@ There are a variety of techniques, but none of them are automatic. See ParallelP
 Why doesn't A[[0,1,1,2]]+=1 do what I think it should?
 ------------------------------------------------------
 
-This comes up from time to time on the mailing list. See [`http://projects.scipy.org/pipermail/numpy-discussion/2006-March/006877.html`_ here] for one extensive discussion.
+This comes up from time to time on the mailing list. See `here <http://projects.scipy.org/pipermail/numpy-discussion/2006-March/006877.html>`_ for one extensive discussion.
 
 ::
 
@@ -323,7 +323,7 @@ This comes up from time to time on the mailing list. See [`http://projects.scipy
    >>> A
    array([ 1.,  1.,  1.])
 
-One might, quite reasonably, have expected A to contain [1,2,1]. Unfortunately this is not what is implemented in numpy. More, the [`http://docs.python.org/ref/augassign.html`_ Python Reference Manual] specifies that 
+One might, quite reasonably, have expected A to contain [1,2,1]. Unfortunately this is not what is implemented in numpy. More, the [`http://docs.python.org/ref/augassign.html`_ Python Reference Manual] specifies that
 
 ::
 
@@ -360,7 +360,7 @@ Prerequisities
 
 NumPy requires the following software installed:
 
-1. [`http://www.python.org`_ Python] 2.4.x or 2.5.x
+1. `Python <http://www.python.org>`_ 2.4.x or 2.5.x
 
 Debian packages: python python-dev
 
@@ -374,15 +374,15 @@ Python must also be compiled with the zlib module enabled.
 
 Scipy requires the following software installed:
 
-1. [`http://www.numpy.org/`_ NumPy_] 0.9.2 or newer and its prerequisities.
+1. `NumPy <http://www.numpy.org/>`_ 0.9.2 or newer and its prerequisities.
 
-2. Complete [`http://www.netlib.org/lapack/`_ LAPACK] library.
+2. Complete `LAPACK <http://www.netlib.org/lapack/>`_ library.
 
 Debian packages: atlas2-headers atlas2-base atlas2-base-dev
 
-Various SciPy_ packages do linear algebra computations using the LAPACK routines. SciPy_'s setup.py scripts can use number of different LAPACK library setups, including optimized LAPACK libraries such as ATLAS :underline:`or the Accelerate/vecLib framework on OS X. The notes below give more information on how to prepare the build environment so that` SciPy_:underline:`'s setup.py scripts can use whatever LAPACK library setup one has.` 
+Various SciPy_ packages do linear algebra computations using the LAPACK routines. SciPy_'s setup.py scripts can use number of different LAPACK library setups, including optimized LAPACK libraries such as ATLAS :underline:`or the Accelerate/vecLib framework on OS X. The notes below give more information on how to prepare the build environment so that` SciPy_:underline:`'s setup.py scripts can use whatever LAPACK library setup one has.`
 
-:underline:`3. C and Fortran compilers.` 
+:underline:`3. C and Fortran compilers.`
 
 Installation using tar-ball
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -562,7 +562,7 @@ More precisely: add_headers install headers system-wide (e.g. in /usr/include/ o
 Troubleshooting
 ---------------
 
-If you experience problems when building/installing/testing SciPy_, you can ask help from `scipy-user@scipy.org`_ or `scipy-dev@scipy.org`_ mailing lists. Please include the following information in your message: os.name, ``uname -a``, sys.platform, sys.version, numpy.version:underline:`, ATLAS version, compiler versions, etc.  This information can be generated by executing:` 
+If you experience problems when building/installing/testing SciPy_, you can ask help from `scipy-user@scipy.org`_ or `scipy-dev@scipy.org`_ mailing lists. Please include the following information in your message: os.name, ``uname -a``, sys.platform, sys.version, numpy.version:underline:`, ATLAS version, compiler versions, etc.  This information can be generated by executing:`
 
 ::
 

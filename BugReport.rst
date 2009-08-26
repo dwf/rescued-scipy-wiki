@@ -2,7 +2,7 @@
 
 **Please help us by reporting any problems you find.**
 
-We make use of [`http://trac.edgewall.org/`_ Trac] to do project management.  There, you can see what we are currently working on, as well as file bug-reports (known as *tickets*).
+We make use of `Trac <http://trac.edgewall.org/>`_ to do project management.  There, you can see what we are currently working on, as well as file bug-reports (known as *tickets*).
 
 1. Go to the relevant Trac page:
 

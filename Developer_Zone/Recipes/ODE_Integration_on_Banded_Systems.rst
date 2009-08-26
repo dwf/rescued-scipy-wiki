@@ -37,26 +37,26 @@ Regards /Jesper
    from scipy.integrate import ode
    def test_ode_banded():
        """Banded example copied from CVODE.
-      
+
        The following is a simple example problem with a banded Jacobian,
        with the program for its solution by CVODE.
        The problem is the semi-discrete form of the advection-diffusion
-       equation in 2-D:                                                
-         du/dt = d2 u / dx2 + 0.5 du/dx + d2 u / dy2                
-       on the rectangle 0 <= x <= 2, 0 <= y <= 1, and the time         
+       equation in 2-D:
+         du/dt = d2 u / dx2 + 0.5 du/dx + d2 u / dy2
+       on the rectangle 0 <= x <= 2, 0 <= y <= 1, and the time
        interval 0 <= t <= 1.  Homogeneous Dirichlet boundary conditions
-       are posed, and the initial condition is                         
-         u(x,y,t=0) = x(2-x)y(1-y)exp(5xy) .                           
-       The PDE is discretized on a uniform MX+2 by MY+2 grid with      
-       central differencing, and with boundary values eliminated,      
-       leaving an ODE system of size NEQ = MX*MY.                      
+       are posed, and the initial condition is
+         u(x,y,t=0) = x(2-x)y(1-y)exp(5xy) .
+       The PDE is discretized on a uniform MX+2 by MY+2 grid with
+       central differencing, and with boundary values eliminated,
+       leaving an ODE system of size NEQ = MX*MY.
        Assuming that MY < MX a minimum bandwidth banded system can be
        constructed by arranging the grid points along columns. This
        results in the lower and upper bandwidths ml = mu = MY.
-       This function solves the problem with the BDF method, Newton     
+       This function solves the problem with the BDF method, Newton
        iteration with the VODE band linear solver, and a user-supplied
        Jacobian routine. It uses scalar relative and absolute tolerances.
-       Output is printed at t = 0., .1, .2, ..., 1.                        
+       Output is printed at t = 0., .1, .2, ..., 1.
        """
        # Some constants
        xmax = 2.0              # domain boundaries

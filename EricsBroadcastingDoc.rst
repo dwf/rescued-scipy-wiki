@@ -38,7 +38,7 @@ The rule governing whether two arrays have compatible shapes for broadcasting ca
 The Broadcasting Rule
 ---------------------
 
-  In order to broadcast, the size of the *trailing* axes for both arrays in an operation must either be the same size or one of them must be one.  
+  In order to broadcast, the size of the *trailing* axes for both arrays in an operation must either be the same size or one of them must be one.
 
 If this condition is not met, a ``ValueError: frames are not aligned`` exception is thrown indicating that the arrays have incompatible shapes.   The size of the result array created by broadcast operations is the maximum size along each dimension from the input arrays.  Note that the rule does not say anything about the two arrays needing to have the same number of dimensions.  So, for example, if you have a 256x256x3 array of RGB values, and you want to scale each color in the image by a different value, you can multiply the image by a one-dimensional array with 3 values.  Lining up the sizes of the trailing axes of these arrays according to the broadcast rule shows that they are compatible:
 
@@ -82,7 +82,7 @@ As shown in **Figure 2**, ``b`` is added to each row of ``a``.  When ``b`` is lo
 
 .. image:: images/EricsBroadcastingDoc/image003.gif
 
-**Figure 3: When the trailing dimensions of the arrays are unequal, broadcasting fails because it is impossible to align the values in the rows of the 1**:superscript:`st` **array with the elements of the 2**:superscript:`nd` **arrays for element-by-element addition.** 
+**Figure 3: When the trailing dimensions of the arrays are unequal, broadcasting fails because it is impossible to align the values in the rows of the 1**:superscript:`st` **array with the elements of the 2**:superscript:`nd` **arrays for element-by-element addition.**
 
 Broadcasting provides a convenient way of taking the outer product (or any other outer operation) of two arrays.  The following example shows an outer addition operation of two 1-d arrays that produces the same result as **Example 3**.
 
@@ -103,12 +103,12 @@ Here the ``newaxis`` index operator inserts a new axis into ``a``, making it a t
 
 .. image:: images/EricsBroadcastingDoc/image004.gif
 
-**Figure 4: In some cases, broadcasting stretches both arrays to form an output array larger than either of the initial arrays.** 
+**Figure 4: In some cases, broadcasting stretches both arrays to form an output array larger than either of the initial arrays.**
 
 A Practical Example: Vector Quantization.
 -----------------------------------------
 
-Broadcasting comes up quite often in real world problems.  A typical example occurs in the vector quantization (VQ) algorithm used in information theory, classification, and other related areas.  The basic operation in VQ finds the closest point in a set of points, called ``codes`` in VQ jargon, to a given point, called the ``observation``.  In the very simple two-dimensional case shown in **Figure 5**, the values in ``observation`` describe the weight and height of an athlete to be classified.  The codes represent different classes of athletes.`FootNote(In this example, weight has more impact on the distance calculation than height because of the larger values.  In practice, it is important to normalize the height and weight, often by their standard deviation across the data set, so that both have equal influence on the distance calculation.)`_  Finding the closest point requires calculating the distance between ``observation`` and each of the ``codes``.  The shortest distance provides the best match.  In this example, ``codes[0]`` is the closest class indicating that the athlete is likely a basketball player. 
+Broadcasting comes up quite often in real world problems.  A typical example occurs in the vector quantization (VQ) algorithm used in information theory, classification, and other related areas.  The basic operation in VQ finds the closest point in a set of points, called ``codes`` in VQ jargon, to a given point, called the ``observation``.  In the very simple two-dimensional case shown in **Figure 5**, the values in ``observation`` describe the weight and height of an athlete to be classified.  The codes represent different classes of athletes.`FootNote(In this example, weight has more impact on the distance calculation than height because of the larger values.  In practice, it is important to normalize the height and weight, often by their standard deviation across the data set, so that both have equal influence on the distance calculation.)`_  Finding the closest point requires calculating the distance between ``observation`` and each of the ``codes``.  The shortest distance provides the best match.  In this example, ``codes[0]`` is the closest class indicating that the athlete is likely a basketball player.
 
 .. image:: images/EricsBroadcastingDoc/image005.png
 
@@ -130,7 +130,7 @@ Broadcasting comes up quite often in real world problems.  A typical example occ
    >>> nearest = argmin(dist)
    0
 
-Typically, a large number of observations, perhaps read from a database, are compared to a set of codes.  **Figure 6** illustrates how to handle this calculation with a small amount of code and without looping in Python.  While this is very efficient in terms of lines of code, it may or may not be computationally efficient.  The issue is the three-dimensional ``diff`` array calculated in an intermediate step of the algorithm.  For small data sets, creating and operating on the array is likely to be very fast.  However, large data sets will generate a large intermediate array that is computationally inefficient.  The three dimensional array is a consequence of broadcasting, not a necessity for the calculation.  If, instead, each observation is calculated individually using a Python loop around the code in **Example 5**, a much smaller two-dimensional array is used.  This is sometimes more efficient.  As an example, **Table 1** shows that computation time for a data set of 4000 observations with 16 features (i.e., weight, height, and 14 more) categorized into 40 codes. 
+Typically, a large number of observations, perhaps read from a database, are compared to a set of codes.  **Figure 6** illustrates how to handle this calculation with a small amount of code and without looping in Python.  While this is very efficient in terms of lines of code, it may or may not be computationally efficient.  The issue is the three-dimensional ``diff`` array calculated in an intermediate step of the algorithm.  For small data sets, creating and operating on the array is likely to be very fast.  However, large data sets will generate a large intermediate array that is computationally inefficient.  The three dimensional array is a consequence of broadcasting, not a necessity for the calculation.  If, instead, each observation is calculated individually using a Python loop around the code in **Example 5**, a much smaller two-dimensional array is used.  This is sometimes more efficient.  As an example, **Table 1** shows that computation time for a data set of 4000 observations with 16 features (i.e., weight, height, and 14 more) categorized into 40 codes.
 
 .. image:: images/EricsBroadcastingDoc/image006.gif
 

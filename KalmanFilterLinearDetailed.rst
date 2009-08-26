@@ -13,7 +13,7 @@ See also:
 
   `Kalman filter - Wikipedia, the free encyclopedia. <http://en.wikipedia.org/wiki/Kalman_filter>`_
 
-A Kalman filter is an Algorithm to estimate the states of a linear dynamic system from noisy measurements. It must know the system's parameters, as well as the inputs, which may have process noise added to them. 
+A Kalman filter is an Algorithm to estimate the states of a linear dynamic system from noisy measurements. It must know the system's parameters, as well as the inputs, which may have process noise added to them.
 
 System Equations:
 
@@ -30,7 +30,7 @@ with:
 
 * z: Outputs (vector)
 
-* w: Random noise (vector) with covariance Q 
+* w: Random noise (vector) with covariance Q
 
 * v: Random noise (vector) with covariance R
 
@@ -49,7 +49,7 @@ The program ([attachment:kalman.py]) is fairly large (~1000 lines), however much
 
 * **KalmanFilter**: The Kalman filter. Needs a LinSys class to know the system's parameters.
 
-* **PidController**: A very simple PID controller. 
+* **PidController**: A very simple PID controller.
 
 Then come some example systems. These classes all inherit from LinSys. To create your own dynamic systems see the docstring of the LinSys class, and use one of the example systems as a starting point.
 
@@ -57,7 +57,7 @@ Then come some example systems. These classes all inherit from LinSys. To create
 
 * **SysTank**: Tank with variable input and output.
 
-* **SysSpringPendulum** A damped spring pendulum. Forces are applied to pendulum's mass. 
+* **SysSpringPendulum** A damped spring pendulum. Forces are applied to pendulum's mass.
 
 Finally there are several numerical experiments, which are described in the next section.
 
@@ -73,14 +73,14 @@ In this experiment the Kalman filter is asked to guess two constant values. The 
 
 .. image:: images/KalmanFilterLinearDetailed/kalman_filter_constantValue.png
 
-The filter behaves as an adaptable lowpass filter. When the noise's variance is big (blue) the filter does not trust the measurements very much, and the filter is slow to find the true value. When the noise's variance is small (green) it finds the true values quickly. 
+The filter behaves as an adaptable lowpass filter. When the noise's variance is big (blue) the filter does not trust the measurements very much, and the filter is slow to find the true value. When the noise's variance is small (green) it finds the true values quickly.
 
 This experiment is very similar to the example in the `paper <http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html`>_ mentioned in the introduction, and in the other Kalman filtering example.
 
 SysTank Experiment
 ------------------
 
-SysTank models a tank with variable inflow and outflow. The the amount of liquid in the tank is measured, but with a lot of noise added to it. The inflow and the outflow rates are known, and considerable process noise is added to them too. The Kalman filter is asked to estimate the amount of liquid in the tank. 
+SysTank models a tank with variable inflow and outflow. The the amount of liquid in the tank is measured, but with a lot of noise added to it. The inflow and the outflow rates are known, and considerable process noise is added to them too. The Kalman filter is asked to estimate the amount of liquid in the tank.
 
 For comparison a simple moving average filter is applied to the noisy measurements. It averages over 15 steps. As one can see in the image below, the Kalman filter performs significantly better than the averaging filter.
 

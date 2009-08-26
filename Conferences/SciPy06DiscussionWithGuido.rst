@@ -25,10 +25,10 @@ Existing solutions
 Getting some part of NumPy into Python 2.6
 ------------------------------------------
 
-We need to decide and explain to Guido what part of NumPy we would like to see get into Python 2.6.  Basically, we want a base-class with the C-structure of NumPy with few or no methods defined.   This could serve as a data-transfer object.  Coupled with a proper data-descriptor object, it could allow many extensions to communicate easily with each other about raw bytes. 
+We need to decide and explain to Guido what part of NumPy we would like to see get into Python 2.6.  Basically, we want a base-class with the C-structure of NumPy with few or no methods defined.   This could serve as a data-transfer object.  Coupled with a proper data-descriptor object, it could allow many extensions to communicate easily with each other about raw bytes.
 
 Raw memory allocator
 --------------------
 
-The problems with the buffer protocol exposed by the array object could be alleviated by defining a simple Python object that simply holds a pointer to memory (perhaps with its size stored).   This pointer to memory could then be properly reference counted and all objects that use the buffer protocol be required (or strongly advised) to use  this object instead of raw memory.   A simple C-API implementing the equivalent of malloc, free (simply a DECREF), and realloc would be all that was needed.   This would help ctypes by defining a standard for a void * pointer object. 
+The problems with the buffer protocol exposed by the array object could be alleviated by defining a simple Python object that simply holds a pointer to memory (perhaps with its size stored).   This pointer to memory could then be properly reference counted and all objects that use the buffer protocol be required (or strongly advised) to use  this object instead of raw memory.   A simple C-API implementing the equivalent of malloc, free (simply a DECREF), and realloc would be all that was needed.   This would help ctypes by defining a standard for a void * pointer object.
 

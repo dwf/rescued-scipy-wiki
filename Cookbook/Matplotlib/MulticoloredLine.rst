@@ -46,7 +46,7 @@ Here is the script:
    savefig('colored_line.png', dpi=70)
    show()
 
-Note that the number of segments is one less than the number of points.  
+Note that the number of segments is one less than the number of points.
 
 An alternative strategy would be to generate one segment for each contiguous region of a given color.
 

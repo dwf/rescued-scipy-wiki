@@ -12,7 +12,7 @@ Getting the data
 
 Observations were conducted with the Rossi X-ray Timing Explorer, an X-ray timing satellite. Data taken by satellite observatories is normally kept proprietary for one year, so that the astronomers who requested the data can have exclusive access, but after a year it becomes publicly available. The burst which showed the oscillations occurred on Nov. 4 2005. Thus the data should be available.
 
-First, go to [`http://heasarc.gsfc.nasa.gov/db-perl/W3Browse/w3browse.pl`_ HEASARC], NASA's online database access tool. If we ask for observations of XTE J1739-285, we find many. Select "XTE Master Catalog", and you obtain a list of observations done with XTE. We want the observation on 2007-11-04, which has observation ID 91015-03-04-00. Click on the "D" in this row, for "list data products", select them all, and request a tar file of the lot. (X-ray data is not especially large; the tar file is 50 MB.) 
+First, go to `HEASARC <http://heasarc.gsfc.nasa.gov/db-perl/W3Browse/w3browse.pl>`_, NASA's online database access tool. If we ask for observations of XTE J1739-285, we find many. Select "XTE Master Catalog", and you obtain a list of observations done with XTE. We want the observation on 2007-11-04, which has observation ID 91015-03-04-00. Click on the "D" in this row, for "list data products", select them all, and request a tar file of the lot. (X-ray data is not especially large; the tar file is 50 MB.)
 
 Expand the tar file in a new directory. All its contents should go in a directory P91015, apart from the abstract.
 
@@ -21,7 +21,7 @@ Reading the data
 
 The data we are interested in is taken with RXTE's Proportional Counter Array (PCA). This instrument simply collects individual X-ray photons, recording their arrival time and energy. It has a very broad field of view - one degree - and can't do imaging, but it has a large collecting area and a good time resolution. For more information on RXTE instruments and data formats see [`http://heasarc.gsfc.nasa.gov/docs/xte/abc/contents.html`_ The ABC of XTE].
 
-We will use [`http://www.stsci.edu/resources/software_hardware/pyfits`_ PyFITS] to access the data, rather than rely on NASA's FTOOLS. 
+We will use `PyFITS <http://www.stsci.edu/resources/software_hardware/pyfits>`_ to access the data, rather than rely on NASA's FTOOLS.
 
 The data we want are stored in the directory P91015/91015-03-04-00/pca/, and are gzipped. Copy them to your working directory and extract them. Their names are, as you can see, unhelpful, but the ones beginning with "FH" are housekeeping and the ones beginning with "FS" are science. The single observation is broken up into a number of pieces, so we will want to extract all photon arrival times from all the "FS" files.
 

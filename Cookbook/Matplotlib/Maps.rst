@@ -51,7 +51,7 @@ Now, suppose you would like to plot the locations of five cities on this map.  A
 
 inline:basemap1b.png
 
-Calling a basemap class instance with arrays of longitudes and latitudes returns those locations in native map projection coordinates using the [`http://proj.maptools.org`_ proj4] library. Now suppose you have some data on a regular latitude/longitude grid and you would like to plot contours of that data over the map.  Try adding the following lines just before ``p.show()``
+Calling a basemap class instance with arrays of longitudes and latitudes returns those locations in native map projection coordinates using the `proj4 <http://proj.maptools.org>`_ library. Now suppose you have some data on a regular latitude/longitude grid and you would like to plot contours of that data over the map.  Try adding the following lines just before ``p.show()``
 
 ::
 

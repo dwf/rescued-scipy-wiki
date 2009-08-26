@@ -65,7 +65,7 @@ Filters
 
     | 1    2   1 |
 
- 
+
 
 **generic_laplace**(input, derivative2, output=None, mode='reflect', cval=0.0, extra_arguments=(), extra_keywords={})
 
@@ -181,7 +181,7 @@ Interpolation
 
   Apply an arbritrary geometric transform. The given mapping function is used to find, for each point in the output, the corresponding coordinates in the input. The value of the input at those coordinates is determined by spline interpolation of the requested order. *mapping* must be a callable object that accepts a tuple of length equal to the output array rank and returns the corresponding input coordinates as a tuple of length equal to the input array rank. Points outside the boundaries of the input are filled according to the given *mode* ('constant', 'nearest', 'reflect' or 'wrap'). The output shape can optionally be given. If not given, it is equal to the input shape. The parameter *prefilter* determines if the input is pre-filtered before interpolation (necessary for spline interpolation of order > 1).  If False it is assumed that the input is already filtered. The extra_arguments and extra_keywords arguments can be used to provide extra arguments and keywords that are passed to the mapping function at each call. Example usage:
 
-   
+
 
     ::
 
@@ -199,7 +199,7 @@ Interpolation
 
   Apply an arbritrary coordinate transformation. The array of coordinates is used to find, for each point in the output, the corresponding coordinates in the input. The value of the input at that coordinates is determined by spline interpolation of the requested order. The shape of the output is derived from that of the coordinate array by dropping the first axis. The values of the array along the first axis are the coordinates in the input array at which the output value is found.  For example, if the input has dimensions (100,200,3), then the shape of coordinates will be (3,100,200,3), where ``coordinates[:,1,2,3]`` specify the input coordinate at which ``output[1,2,3]`` is found. Points outside the boundaries of the input are filled according to the given mode ('constant', 'nearest', 'reflect' or 'wrap'). The parameter prefilter determines if the input is pre-filtered before interpolation (necessary for spline interpolation of order > 1). If False it is assumed that the input is already filtered. Example usage:
 
-   
+
 
     ::
 

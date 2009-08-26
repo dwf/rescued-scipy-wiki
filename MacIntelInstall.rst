@@ -1,6 +1,6 @@
 #format rst
 
-Installing SciPy on the Mac requires a g77-compatible compiler.  Unfortunately, g77 has not been ported to Mac Intel and gfortran (which you can get) does not yet support all the Fortran code used in SciPy.  However, g95, does seem to compile most of the Fortran code correctly and can be used to get SciPy to work. 
+Installing SciPy on the Mac requires a g77-compatible compiler.  Unfortunately, g77 has not been ported to Mac Intel and gfortran (which you can get) does not yet support all the Fortran code used in SciPy.  However, g95, does seem to compile most of the Fortran code correctly and can be used to get SciPy to work.
 
 One way that is known to work to get SciPy installed is to use the Fink package. Here are the instructions from Jeff Whitaker:
 
@@ -18,7 +18,7 @@ You can also get svn (fink install svn) and matplotlib (fink install matplotlib-
 
 The system python is still python but the python with SciPy_ installed will be python2.3
 
-sudo gcc_select 4.0  will select gcc 4.0 to use as the compiler.  This is the configuration I've used and found to work, but gcc 3.3 may also work. 
+sudo gcc_select 4.0  will select gcc 4.0 to use as the compiler.  This is the configuration I've used and found to work, but gcc 3.3 may also work.
 
 -Travis Oliphant
 

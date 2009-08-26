@@ -8,7 +8,7 @@ The ``numexpr`` package supplies routines for the fast evaluation of array expre
 Building
 --------
 
-The project is hosted [`http://code.google.com/p/numexpr/wiki/Overview`_ here].
+The project is hosted `here <http://code.google.com/p/numexpr/wiki/Overview>`_.
 
 To use it as a standalone package, you can grab it from the Subversion repository at `http://numexpr.googlecode.com/svn/trunk/`_, and do the usual ``python setup.py install``. You will need NumPy_ installed.
 

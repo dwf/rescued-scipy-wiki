@@ -99,7 +99,7 @@ SfePy is a finite element solver written in Python, with the time demanding part
 Topographica
 ------------
 
-Topographica is a neural-network modeling package focusing on biologically detailed simulations of large sheets of neurons in the cortex and other brain areas.  Topographica is designed to allow neuroscientists and computational scientists to simulate and understand how topographic maps contribute to brain function.  The simulator uses NumPy_ arrays throughout to represent two-dimensional arrays of neurons, connections, and patterns of neural activity. 
+Topographica is a neural-network modeling package focusing on biologically detailed simulations of large sheets of neurons in the cortex and other brain areas.  Topographica is designed to allow neuroscientists and computational scientists to simulate and understand how topographic maps contribute to brain function.  The simulator uses NumPy_ arrays throughout to represent two-dimensional arrays of neurons, connections, and patterns of neural activity.
 
 * **Link:** `http://topographica.org`_
 
@@ -108,7 +108,7 @@ Topographica is a neural-network modeling package focusing on biologically detai
 PyPIV
 -----
 
-PyPIV is a Particle Image Velocimetry (PIV) analysis tool focusing on simple, FFT-based cross-correlation interrogation algorithm to assess the flow velocity fields from the image of flows seeded with tracers.  PyPIV is designed to allow fluid mechanics students and researchers to analyze the PIV realizations.  The algorithm uses NumPy/SciPy/PIL/Matplotlib functions to read images, iteratively cross-correlate through the arbitrary shaped interrogation windows and obtain flow velocity vector maps, shown by a quiver plot. PyPIV is a clone of a popular Matlab(tm) open-source toolbox, abbreviated URAPIV (since 1997). 
+PyPIV is a Particle Image Velocimetry (PIV) analysis tool focusing on simple, FFT-based cross-correlation interrogation algorithm to assess the flow velocity fields from the image of flows seeded with tracers.  PyPIV is designed to allow fluid mechanics students and researchers to analyze the PIV realizations.  The algorithm uses NumPy/SciPy/PIL/Matplotlib functions to read images, iteratively cross-correlate through the arbitrary shaped interrogation windows and obtain flow velocity vector maps, shown by a quiver plot. PyPIV is a clone of a popular Matlab(tm) open-source toolbox, abbreviated URAPIV (since 1997).
 
 * **Link:** `http://urapiv.wordpress.com/2006/02/08/i-want-to-break-free/`_
 
@@ -117,7 +117,7 @@ PyPIV is a Particle Image Velocimetry (PIV) analysis tool focusing on simple, FF
 MDP
 ---
 
-Modular toolkit for Data Processing (MDP) is a Python data processing framework. From the user's perspective, MDP is a collection of supervised and unsupervised learning algorithms and other data processing units that can be combined into data processing sequences and more complex feed-forward network architectures. From the scientific developer's perspective, MDP is a modular framework, which can easily be expanded. The implementation of new algorithms is easy and intuitive. The new implemented units are then automatically integrated with the rest of the library. The base of available algorithms is steadily increasing and includes, to name but the most common, Principal Component Analysis (PCA and NIPALS), several Independent Component Analysis algorithms (CuBICA, FastICA, TDSEP, and JADE), Slow Feature Analysis, Gaussian Classifiers, Restricted Boltzmann Machine, and Locally Linear Embedding. 
+Modular toolkit for Data Processing (MDP) is a Python data processing framework. From the user's perspective, MDP is a collection of supervised and unsupervised learning algorithms and other data processing units that can be combined into data processing sequences and more complex feed-forward network architectures. From the scientific developer's perspective, MDP is a modular framework, which can easily be expanded. The implementation of new algorithms is easy and intuitive. The new implemented units are then automatically integrated with the rest of the library. The base of available algorithms is steadily increasing and includes, to name but the most common, Principal Component Analysis (PCA and NIPALS), several Independent Component Analysis algorithms (CuBICA, FastICA, TDSEP, and JADE), Slow Feature Analysis, Gaussian Classifiers, Restricted Boltzmann Machine, and Locally Linear Embedding.
 
 * **Link:** `http://mdp-toolkit.sourceforge.net`_
 

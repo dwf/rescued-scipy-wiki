@@ -55,7 +55,7 @@ Building a kd-tree
                _data = data.copy()
                leaf = (_didx, _data, None, None, 0, 0)
                tree.append(leaf)
-           # not a leaf, split the data in two     
+           # not a leaf, split the data in two
            else:
                splitdim = depth % ndim
                idx = numpy.argsort(data[splitdim,:], kind='mergesort')
@@ -141,7 +141,7 @@ Searching a kd-tree
 Quadratic search for small data sets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In contrast to the kd-tree, straight forward exhaustive search has quadratic complexity with respect to sample size. It can be faster than using a kd-tree when the sample size is very small. On my computer that is approximately 500 samples or less. 
+In contrast to the kd-tree, straight forward exhaustive search has quadratic complexity with respect to sample size. It can be faster than using a kd-tree when the sample size is very small. On my computer that is approximately 500 samples or less.
 
 ::
 
@@ -159,7 +159,7 @@ In contrast to the kd-tree, straight forward exhaustive search has quadratic com
 Parallel search for large data sets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-While creating a kd-tree is very fast, searching it can be time consuming. Due to Python's dreaded "Global Interpreter Lock" (GIL), threads cannot be used to conduct multiple searches in parallel. That is, Python threads can be used for asynchrony but not concurrency. However, we can use multiple processes (multiple interpreters). The [`http://pyprocessing.berlios.de/`_ pyprocessing] package makes this easy. It has an API similar to Python's threading and Queue standard modules, but work with processes instead of threads. Beginning with Python 2.6, pyprocessing is already included in Python's standard library as the "multiprocessing" module. There is a small overhead of using multiple processes, including process creation, process startup, IPC, and process termination. However, because processes run in separate address spaces, no memory contention is incurred. In the following example, the overhead of using multiple processes is very small compared to the computation, giving a speed-up close to the number of CPUs on the computer.
+While creating a kd-tree is very fast, searching it can be time consuming. Due to Python's dreaded "Global Interpreter Lock" (GIL), threads cannot be used to conduct multiple searches in parallel. That is, Python threads can be used for asynchrony but not concurrency. However, we can use multiple processes (multiple interpreters). The `pyprocessing <http://pyprocessing.berlios.de/>`_ package makes this easy. It has an API similar to Python's threading and Queue standard modules, but work with processes instead of threads. Beginning with Python 2.6, pyprocessing is already included in Python's standard library as the "multiprocessing" module. There is a small overhead of using multiple processes, including process creation, process startup, IPC, and process termination. However, because processes run in separate address spaces, no memory contention is incurred. In the following example, the overhead of using multiple processes is very small compared to the computation, giving a speed-up close to the number of CPUs on the computer.
 
 ::
 

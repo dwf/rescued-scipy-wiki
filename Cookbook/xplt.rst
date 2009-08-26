@@ -1,6 +1,6 @@
 #format rst
 
-This shows a simple example of how to create a quick 3-d surface visualization using xplt.  
+This shows a simple example of how to create a quick 3-d surface visualization using xplt.
 
 ::
 

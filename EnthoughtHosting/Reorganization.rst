@@ -95,7 +95,7 @@ Moin improvements
 More hardware
 :::::::::::::
 
-* Load average has increased 4 to 5 times in the last year 
+* Load average has increased 4 to 5 times in the last year
 
 * Should we utilize it by putting different services or different projects on separate servers?
 

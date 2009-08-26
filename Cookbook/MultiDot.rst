@@ -12,7 +12,7 @@ versus infix notation where you'd just be able to write
 
      a*b*c*d
 
-There are a couple of ways to define an 'mdot' function that acts like dot but accepts more than two arguments.  Using one of these allows you to write the above expression as 
+There are a couple of ways to define an 'mdot' function that acts like dot but accepts more than two arguments.  Using one of these allows you to write the above expression as
 
 ::
 
@@ -38,7 +38,7 @@ Or use the equivalent loop (which is apparently the preferred style [`http://www
            ret = dot(ret,a)
        return ret
 
-This will always give you left to right associativity, i.e. the expression is interpreted as ``(((a*b)*c)*d)``.  
+This will always give you left to right associativity, i.e. the expression is interpreted as ``(((a*b)*c)*d)``.
 
 You also can make a right-associative version of the loop:
 

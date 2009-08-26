@@ -17,7 +17,7 @@ RecentChanges_
 
 -------------------------
 
- This page contains a list of recent changes in this wiki... of '''[[PageCount]] pages''' 
+ This page contains a list of recent changes in this wiki... of '''[[PageCount]] pages'''
 
 .. ############################################################################
 

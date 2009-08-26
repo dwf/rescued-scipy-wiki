@@ -53,7 +53,7 @@ Sponsors:
 
 </strong>[Table not converted]
 
-More generally, information is also available on SciPy_ meetings as a whole. 
+More generally, information is also available on SciPy_ meetings as a whole.
 
 .. ############################################################################
 

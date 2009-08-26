@@ -65,7 +65,7 @@ This works, but requires us to keep track of the dimensions and what they repres
           [(0.0, 1.0, 0.0), (0.0, 0.0, 1.0)]],
          dtype=[('r','<f4'),('g','<f4'),('b','<f4')])
 
-Note the descriptor type here, which is given in the array interface format as a list of tuples where each tuple is (<name>, <data-type>). 
+Note the descriptor type here, which is given in the array interface format as a list of tuples where each tuple is (<name>, <data-type>).
 
 Again, we can examine the colour components, but this time by name, e.g.
 

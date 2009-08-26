@@ -109,13 +109,13 @@ Typesetting
 Misc
 ====
 
-* [:Cookbook/Matplotlib/EmbeddingInWx:Embedding in WX] - advice on how to embed matplotlib figures in [`http://www.wxpython.org`_ wxPython] applications
+* [:Cookbook/Matplotlib/EmbeddingInWx:Embedding in WX] - advice on how to embed matplotlib figures in `wxPython <http://www.wxpython.org>`_ applications
 
 * [:Cookbook/Matplotlib/LoadImage:Load and display an image] - shows a simple way to import a PNG image to a numpy array
 
 * [:Cookbook/Matplotlib/Interactive Plotting:Interactive Plotting] - Adding mouse interaction to identify data annotations.
 
-* [:Cookbook/Matplotlib/Matplotlib and Zope:Matplotlib and Zope] - How to use Matplotlib within the application server [`http://www.zope.org`_ Zope].
+* [:Cookbook/Matplotlib/Matplotlib and Zope:Matplotlib and Zope] - How to use Matplotlib within the application server `Zope <http://www.zope.org>`_.
 
 * [:Cookbook/Matplotlib/Qt with IPython and Designer:Qt with IPython and Designer] - How to design a GUI using Qt's Designer tool using Matplotlib widgets, and that can be interactively controlled from the IPython command line.
 
@@ -143,7 +143,7 @@ Misc
 
 * [`http://www.nabble.com/Multiple-Y-axis-td10734643.html`_ Multiple Y-axis] - How to plot different variables on the same plot but different Y-Axis (one left and one right)
 
-* [`http://agni.phys.iit.edu/~kmcivor/wxmpl`_ WxMpl_]: Integration of matplotlib into WxPython_ GUIs
+* `WxMpl <http://agni.phys.iit.edu/~kmcivor/wxmpl>`_: Integration of matplotlib into WxPython_ GUIs
 
 * [`http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html`_ Gael Varoquax's scientific GUI tutorial] includes an instructive example of embedding matplotlib in a Traits GUI.
 

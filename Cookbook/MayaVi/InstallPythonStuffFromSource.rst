@@ -93,14 +93,14 @@ Press "c" to continue configuration:
    PYTHON_INCLUDE_PATH             *DESTDIR/include/python2.4
    PYTHON_LIBRARY                  *DESTDIR/lib/libpython2.4.so
    TCL_INCLUDE_PATH                */usr/include/tcl8.4
-   TCL_LIBRARY                     */usr/lib/libtcl8.4.so                                           
+   TCL_LIBRARY                     */usr/lib/libtcl8.4.so
    TK_INCLUDE_PATH                 */usr/include/tcl8.4
    TK_LIBRARY                      */usr/lib/libtk8.4.so
    VTK_USE_RPATH                   *OFF
    BUILD_EXAMPLES                   ON
    BUILD_SHARED_LIBS                ON
    CMAKE_BACKWARDS_COMPATIBILITY    2.0
-   CMAKE_BUILD_TYPE                
+   CMAKE_BUILD_TYPE
    CMAKE_INSTALL_PREFIX             DESTDIR
    VTK_DATA_ROOT                    DESTDIR/VTKData
    VTK_USE_PARALLEL                 OFF

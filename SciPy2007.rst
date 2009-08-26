@@ -40,7 +40,7 @@ Please follow the links below to view various artifacts from the Conference.
 
 * The schedule includes a [:`SciPy2007/LightningTalks`_: Lightning Talks] session Thursday afternoon. If you are interested in presenting a 5-10 minute talk, please add yourself to the list on the wiki or email travis at enthought.com and he'll add you.
 
-* :superscript:`++` [:SciPy2007/Tutorials: List of Tutorials] 
+* :superscript:`++` [:SciPy2007/Tutorials: List of Tutorials]
 
 * [:`SciPy2007/BoFs`_: Birds-of-a-feather meetings (BOFs)]
 
@@ -78,7 +78,7 @@ Some helpful links:
 
 * [`http://admissions.caltech.edu/visiting/accommodations`_ Nearby accomodations]
 
-* [`http://www.admissions.caltech.edu/visiting/getting-here/`_ Directions]
+* `Directions <http://www.admissions.caltech.edu/visiting/getting-here/>`_
 
 * [`http://www.cacr.caltech.edu/visit_contact/index.cfm`_ Visit CACR site]
 

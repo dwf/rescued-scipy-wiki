@@ -13,7 +13,7 @@ The Lightning Talk session is scheduled for 50 minutes beginning at 3:40pm Thurs
 
 * Rick Wagner, Laboratory for Computational Astrophysics, University of California, San Diego, [`http://lca.ucsd.edu/projects/scicomp`_ "Teaching Scientific Computing with Python"]
 
-* Brian Granger, Tech-X Corporation, "[`http://code.google.com/p/pystream`_ PyStream_]: Stream and GPU computing in Python"
+* Brian Granger, Tech-X Corporation, "`PyStream <http://code.google.com/p/pystream>`_: Stream and GPU computing in Python"
 
 * Prabhu Ramachandran, IIT Mumbai, "TVTK and MayaVi2" - [`https://svn.enthought.com/enthought/attachment/wiki/MayaVi/tvtk_mayavi2_lightning_scipy07.pdf`_ slides (PDF)]
 
@@ -21,7 +21,7 @@ The Lightning Talk session is scheduled for 50 minutes beginning at 3:40pm Thurs
 
 * Fernando Perez, University of Colorado at Boulder. "[:SciPy2007/TConfig: TConfig] - Traits-based declarative configuration for programs"
 
-* [:BillSpotz:Bill Spotz], Sandia National Laboratories.  A plug for numpy.i (swig interface file), and release 8.0 of [`http://trilinos.sandia.gov`_ Trilinos], including the [`http://trilinos.sandia.gov/packages/pytrilinos`_ PyTrilinos_] package.
+* [:BillSpotz:Bill Spotz], Sandia National Laboratories.  A plug for numpy.i (swig interface file), and release 8.0 of `Trilinos <http://trilinos.sandia.gov>`_, including the `PyTrilinos <http://trilinos.sandia.gov/packages/pytrilinos>`_ package.
 
 -------------------------
 

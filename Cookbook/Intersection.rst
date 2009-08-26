@@ -20,7 +20,7 @@ Consider the  example of finding the intersection of a polynomial and a line:
       return z
    fsolve(f, [1.0, 2.0])
 
-The result of this should be: 
+The result of this should be:
 
 ::
 

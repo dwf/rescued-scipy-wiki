@@ -212,11 +212,11 @@ Diane Trout's Notes
 
 * Where is the community
 
-  * Mailing List  
+  * Mailing List
 
   * Wiki
 
-  * Rss/Planet/Blog/planet 
+  * Rss/Planet/Blog/planet
 
     * bioinformatics.org
 
@@ -232,7 +232,7 @@ Diane Trout's Notes
 
       * testing
 
-      * PEP8 compliance & docstrings 
+      * PEP8 compliance & docstrings
 
       * setup.py distutils
 

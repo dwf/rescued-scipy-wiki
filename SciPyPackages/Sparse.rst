@@ -284,7 +284,7 @@ constructing from scratch faster, with coo_matrix
 
 Here's the result
 
- 
+
 
   ::
 
@@ -294,7 +294,7 @@ Here's the result
 
 The ``coo_matrix`` method is clearly the fastest, beating the others by a factor of 500.  Interestingly, constructing a matrix in COO first, and then converting to LIL or DOK is still faster than using those formats directly:
 
- 
+
 
   ::
 
@@ -382,7 +382,7 @@ Sparse Matrix File Input/Output
 MatrixMarket
 ------------
 
-  The [`http://math.nist.gov/MatrixMarket/formats.html#MMformat`_ MatrixMarket_] format stores matrices in a simple ASCII file format.  Software for reading and writing MatrixMatrix_ in various programming languages files is [`http://math.nist.gov/MatrixMarket/formats.html#MMformat`_ freely available].  The [`http://bebop.cs.berkeley.edu/smc/`_ BeBOP sparse matrix converter] can be used to convert between the MatrixMarket_ format and other sparse formats (e.g. Harwell-Boeing).
+  The `MatrixMarket <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_ format stores matrices in a simple ASCII file format.  Software for reading and writing MatrixMatrix_ in various programming languages files is [`http://math.nist.gov/MatrixMarket/formats.html#MMformat`_ freely available].  The [`http://bebop.cs.berkeley.edu/smc/`_ BeBOP sparse matrix converter] can be used to convert between the MatrixMarket_ format and other sparse formats (e.g. Harwell-Boeing).
 
   Reading and writing files in the MatrixMarket_ format is easy:
 
@@ -436,15 +436,15 @@ Additional Resources
 Python
 ------
 
-* [`http://code.google.com/p/sfepy/`_ PyAMG] : Algebraic Multigrid Solvers in Python.
+* `PyAMG <http://code.google.com/p/sfepy/>`_ : Algebraic Multigrid Solvers in Python.
 
-* [`http://code.google.com/p/sfepy/`_ SfePy_] : Simple Finite Elements in Python.
+* `SfePy <http://code.google.com/p/sfepy/>`_ : Simple Finite Elements in Python.
 
-* [`http://www.ctcms.nist.gov/fipy/`_ FiPy_] : A Finite Volume PDE Solver Using Python
+* `FiPy <http://www.ctcms.nist.gov/fipy/>`_ : A Finite Volume PDE Solver Using Python
 
-* [`http://scipy.org/scipy/scikits/`_ UMFPACK] : Support for the UMFPACK sparse solver library.
+* `UMFPACK <http://scipy.org/scipy/scikits/>`_ : Support for the UMFPACK sparse solver library.
 
-* [`http://trilinos.sandia.gov/packages/pytrilinos/`_ Pytrilinos]: High-Performance Distributed-Memory Solvers for Python
+* `Pytrilinos <http://trilinos.sandia.gov/packages/pytrilinos/>`_: High-Performance Distributed-Memory Solvers for Python
 
 Books
 -----
@@ -454,9 +454,9 @@ Books
 Other Packages and Libraries
 ----------------------------
 
-* [`http://www-users.cs.umn.edu/~saad/software/SPARSKIT/sparskit.html`_ SPARSKIT] : A basic tool-kit for sparse matrix computations.
+* `SPARSKIT <http://www-users.cs.umn.edu/~saad/software/SPARSKIT/sparskit.html>`_ : A basic tool-kit for sparse matrix computations.
 
-* [`http://trilinos.sandia.gov/`_ Trilinos] : An extensive collection of distributed-memory solvers.
+* `Trilinos <http://trilinos.sandia.gov/>`_ : An extensive collection of distributed-memory solvers.
 
 TODO: update and integrate this information where possible
 ==========================================================
@@ -467,7 +467,7 @@ To perform manipulations such as multiplication or inversion, first convert the 
 
 Notes:
 
-* CSC format is also called [`http://math.nist.gov/MatrixMarket/formats.html#hb`_ Harwell-Boeing] format, and used in other libraries or software ([`http://www.mathworks.com/access/helpdesk/help/techdoc/math/sparse3.html#12993`_ Matlab] for example).
+* CSC format is also called [`http://math.nist.gov/MatrixMarket/formats.html#hb`_ Harwell-Boeing] format, and used in other libraries or software (`Matlab <http://www.mathworks.com/access/helpdesk/help/techdoc/math/sparse3.html#12993>`_ for example).
 
 Examples (TODO: update)
 =======================
@@ -477,7 +477,7 @@ Example 1
 
 This is a very simple example illustrating basic usage of ``linsolve``, ``sparse`` and some other useful things (use the latest version of linsolve.py). If you don't know how to get hold of the latest modules, spend some time in the ["Developer Zone"] and see the **SOURCE CODE** section.
 
-We're going to solve a trivial case of ``Ax = b``, where ``A`` is a matrix, ``b`` a vector (the RHS) and ``x`` the unknowns. In this example ``A`` refers to the 'normal' matrix, and ``Asp`` to the **sparse representation** of ``A``, ``x`` for the 'normal' solution and ``xsp`` for the solution arising from using the sparse method. (You'll most probably find it useful to use [`http://ipython.scipy.org`_ IPython] when going through this example, especially if you're used to Matlab®. The normal Python prompt looks like this ``>>>``, IPython's default prompt (one can change it) looks like this ``In [x]:``, where the ``x`` is a number).
+We're going to solve a trivial case of ``Ax = b``, where ``A`` is a matrix, ``b`` a vector (the RHS) and ``x`` the unknowns. In this example ``A`` refers to the 'normal' matrix, and ``Asp`` to the **sparse representation** of ``A``, ``x`` for the 'normal' solution and ``xsp`` for the solution arising from using the sparse method. (You'll most probably find it useful to use `IPython <http://ipython.scipy.org>`_ when going through this example, especially if you're used to Matlab®. The normal Python prompt looks like this ``>>>``, IPython's default prompt (one can change it) looks like this ``In [x]:``, where the ``x`` is a number).
 
 Import the necessary commands from the numpy and scipy modules:
 

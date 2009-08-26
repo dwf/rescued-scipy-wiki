@@ -15,7 +15,7 @@ This page contains feedback and summaries from the SciPy_ 2007 Conference.  Plea
 
   * [:`SciPy2007/ShupeNotes4`_: Conference Day 2]
 
-* [`http://advogato.org/person/titus/diary/294.html`_ Titus Brown's Blog entry]... and another one from Titus [`http://ivory.idyll.org/blog/aug-07/scipy-testing-bof`_ here]
+* [`http://advogato.org/person/titus/diary/294.html`_ Titus Brown's Blog entry]... and another one from Titus `here <http://ivory.idyll.org/blog/aug-07/scipy-testing-bof>`_
 
 * [`https://www.osc.edu/blogs/index.php/sip/2007/08/22/p36`_ Jose Unpingco's Blog entry]
 

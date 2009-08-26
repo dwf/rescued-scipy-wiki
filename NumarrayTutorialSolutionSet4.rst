@@ -51,5 +51,5 @@ Exercise 2:
     --> findkey pix.fits naxis.*
     ext=0 NAXIS   =                    2 / Number of axes
     ext=0 NAXIS1  =                  512 / Axis length
-    ext=0 NAXIS2  =                  512 / Axis length  
+    ext=0 NAXIS2  =                  512 / Axis length
 

@@ -3,7 +3,7 @@
 SciPy 2006 Coding Sprints
 =========================
 
-The coding sprints will be Monday and Tuesday the 14th and 15th of August.  We will meet in the Powell-Booth building as noted on the [`http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf`_ map].  Please follow the signs to find the meeting room.
+The coding sprints will be Monday and Tuesday the 14th and 15th of August.  We will meet in the Powell-Booth building as noted on the `map <http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf>`_.  Please follow the signs to find the meeting room.
 
   Please list any code areas you're interested in Sprinting over below:
 

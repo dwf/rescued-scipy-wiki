@@ -23,7 +23,7 @@ Morning Sessions
 
 
 
-  [`http://numpy.scipy.org`_ NumPy_] Tricks and Tips - Travis Oliphant (Enthought, Inc.)
+  `NumPy <http://numpy.scipy.org>`_ Tricks and Tips - Travis Oliphant (Enthought, Inc.)
 
 -------------------------
 
@@ -35,7 +35,7 @@ Morning Sessions
 
 
 
-  2D Visualization using [`http://code.enthought.com/projects/chaco`_ Chaco] - Peter Wang (Enthought, Inc.)
+  2D Visualization using `Chaco <http://code.enthought.com/projects/chaco>`_ - Peter Wang (Enthought, Inc.)
 
 Afternoon Sessions
 ~~~~~~~~~~~~~~~~~~
@@ -44,7 +44,7 @@ Afternoon Sessions
 
 
 
-  New Directions in Literate Programming with [`http://rsf.sourceforge.net`_ Madagascar] - Michael Tobis (Bureau of Economic Geology)
+  New Directions in Literate Programming with `Madagascar <http://rsf.sourceforge.net>`_ - Michael Tobis (Bureau of Economic Geology)
 
 -------------------------
 
@@ -56,7 +56,7 @@ Afternoon Sessions
 
 
 
-  An introduction to [`http://zenoss.com`_ Zenoss], a Python-powered systems management and monitoring platform - Matt Ray (Zenoss)
+  An introduction to `Zenoss <http://zenoss.com>`_, a Python-powered systems management and monitoring platform - Matt Ray (Zenoss)
 
 -------------------------
 
@@ -74,7 +74,7 @@ Afternoon Sessions
 
 
 
-  Pyparsing Quick Start - Paul McGuire_ (`http://pyparsing.wikispaces.com`_) (an updated version of my PyCon2006_ talk, with new examples and library features) ([`http://www.geocities.com/ptmcg/python/confs/TxUnconf2008Pyparsing.html`_ Slides])
+  Pyparsing Quick Start - Paul McGuire_ (`http://pyparsing.wikispaces.com`_) (an updated version of my PyCon2006_ talk, with new examples and library features) (`Slides <http://www.geocities.com/ptmcg/python/confs/TxUnconf2008Pyparsing.html>`_)
 
 Sunday, October 5
 -----------------
@@ -108,7 +108,7 @@ More Lightning Talks
 
 
 
-  GUIs Made Simple - Kenneth Miller - A quick introduction to creating simple Python GUIs with PyroGlyph_ and Wildfire. ([`http://sites.google.com/site/xkenneth/presentations`_ Slides])
+  GUIs Made Simple - Kenneth Miller - A quick introduction to creating simple Python GUIs with PyroGlyph_ and Wildfire. (`Slides <http://sites.google.com/site/xkenneth/presentations>`_)
 
 Afternoon Sessions
 ~~~~~~~~~~~~~~~~~~

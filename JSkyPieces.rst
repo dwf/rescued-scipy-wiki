@@ -8,7 +8,7 @@ JSky is a Java library that handles some coordinate manipulations. Its primary f
 
 - The JPrec [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/JPrec.html`_ precession] class
 
-- The [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/Cotr.html`_ Cotr] class works with rotation matrices to transform from one system of spherical coordinates to another 
+- The [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/Cotr.html`_ Cotr] class works with rotation matrices to transform from one system of spherical coordinates to another
 
 - The [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/HMS.html`_ HMS] and [`ftp://ftp.eso.org/pub/archive/jsky/javadoc/jsky/coords/DMS.html`_ DMS] classes
 
