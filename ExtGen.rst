@@ -33,11 +33,11 @@ Hello example
 Documentation
 -------------
 
-* [`http://docs.python.org/ext/`_ "Extending and Embedding the Python Interpreter"]
+* `"Extending and Embedding the Python Interpreter" <http://docs.python.org/ext/>`_
 
-* [`http://docs.python.org/api/`_ "Python/C API Reference Manual"]
+* `"Python/C API Reference Manual" <http://docs.python.org/api/>`_
 
-* [`http://projects.scipy.org/scipy/numpy/wiki/G3F2PY/ExtGenDoc`_ "ExtGen Reference Manual"]
+* `"ExtGen Reference Manual" <http://projects.scipy.org/scipy/numpy/wiki/G3F2PY/ExtGenDoc>`_
 
 For more examples and documentation, see the documentation strings of the component classes such as PyCModule, PyCFunction, etc.
 

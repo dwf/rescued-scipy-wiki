@@ -40,7 +40,7 @@ After creating a working interface for a N-D array object, I will proceed to att
 
 * `wxPython <http://www.wxpython.org/>`_ - the parts of this module that use data stored in array-like objects will be patched to use the new array interface,
 
-* [`http://www.pythonware.com/products/pil/`_ Python Imaging Library (PIL)] - using a base array type will allow image data to be represented in a natural way, and for some applications perhaps this will be efficient. A means to transfer data from the current image type to an instance carrying the new array object will be provided, along with examples of how to use the array interface.
+* `Python Imaging Library (PIL) <http://www.pythonware.com/products/pil/>`_ - using a base array type will allow image data to be represented in a natural way, and for some applications perhaps this will be efficient. A means to transfer data from the current image type to an instance carrying the new array object will be provided, along with examples of how to use the array interface.
 
 During the course of the program, the progress made and current state of the project will be published on a public site - one of the python wikis or a personal web page. Besides seeking technical comments and suggestions on channels related to numpy, the idea of including an array interface in the Python core will be further promoted and the current PEP pushed forward.
 

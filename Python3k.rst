@@ -6,7 +6,7 @@ This page will (for now) hold information and discussion about transitioning to 
 
  Note that some effort in documenting the migration is currently happening upstream:
 
-* [`http://svn.python.org/view/python/trunk/Doc/howto/cporting.rst?rev=66629&view=log`_ Official C-API howto porting guide]
+* `Official C-API howto porting guide <http://svn.python.org/view/python/trunk/Doc/howto/cporting.rst?rev=66629&view=log>`_
 
 * `Py3kExtensionModules <http://wiki.python.org/moin/Py3kExtensionModules>`_
 
@@ -14,7 +14,7 @@ This page will (for now) hold information and discussion about transitioning to 
 
 of some interest, too:
 
-* [`http://pythonology.blogspot.com/2009/02/making-code-run-on-python-20-through-30.html`_ Making code run on Python 2.0 through 3.0]
+* `Making code run on Python 2.0 through 3.0 <http://pythonology.blogspot.com/2009/02/making-code-run-on-python-20-through-30.html>`_
 
 -------------------------
 

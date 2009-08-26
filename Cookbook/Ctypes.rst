@@ -105,7 +105,7 @@ foo.cpp
 
 When building the DLL for foo on Windows, define ``FOO_DLL`` and ``FOO_EXPORTS`` (this is what you want to do when building a DLL for use with ctypes). When linking against the DLL, define ``FOO_DLL``. When linking against a static library that contains foo, or when including foo in an executable, don't define anything.
 
-If you're unclear about what ``extern "C"`` is for, read [`http://www.tldp.org/HOWTO/C++-dlopen/thesolution.html`_ section 3 of the C++ dlopen mini HOWTO]. This allows you to write function wrappers with C linkage on top of a bunch of C++ classes so that you can use them with ctypes. Alternatively, you might prefer to write C code.
+If you're unclear about what ``extern "C"`` is for, read `section 3 of the C++ dlopen mini HOWTO <http://www.tldp.org/HOWTO/C++-dlopen/thesolution.html>`_. This allows you to write function wrappers with C linkage on top of a bunch of C++ classes so that you can use them with ctypes. Alternatively, you might prefer to write C code.
 
 foo.py
 ------
@@ -208,9 +208,9 @@ The following also seems to cause problems:
 
 Possible failures include a SystemError exception being raised, the interpreter crashing or the interpreter hanging. Check these mailing list threads for more details:
 
-* [`http://thread.gmane.org/gmane.comp.python.ctypes/2979`_ Pointer-to-pointer unchanged when assigning in callback]
+* `Pointer-to-pointer unchanged when assigning in callback <http://thread.gmane.org/gmane.comp.python.ctypes/2979>`_
 
-* [`http://thread.gmane.org/gmane.comp.python.ctypes/2974`_ Hang with callback returning POINTER(c_float)]
+* `Hang with callback returning POINTER(c_float) <http://thread.gmane.org/gmane.comp.python.ctypes/2974>`_
 
 * `Error with callback function and as_parameter with NumPy_ ndpointer <http://thread.gmane.org/gmane.comp.python.ctypes/2972>`_
 
@@ -563,11 +563,11 @@ Pertinent Mailing List Threads
 
 Some useful threads on the ctypes-users mailing list:
 
-* [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3119087`_ IndexError_ when indexing on POINTER(POINTER(ctype))]
+* `IndexError_ when indexing on POINTER(POINTER(ctype)) <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3119087>`_
 
 * `Adding ctypes support to NumPy <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118513>`_
 
-* [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118656`_ Determining if a ctype is a pointer type (was RE: Adding ctypes support to NumPy_)]
+* `Determining if a ctype is a pointer type (was RE: Adding ctypes support to NumPy_) <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118656>`_
 
 * `Check for NULL pointer without ValueError <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3117306>`_
 
@@ -584,7 +584,7 @@ Documentation
 
 * `ctypes tutorial <http://starship.python.net/crew/theller/ctypes/tutorial.html>`_
 
-* [`http://docs.python.org/dev/lib/module-ctypes.html`_ 13.14 ctypes -- A foreign function library for Python.]
+* `13.14 ctypes -- A foreign function library for Python. <http://docs.python.org/dev/lib/module-ctypes.html>`_
 
 -------------------------
 

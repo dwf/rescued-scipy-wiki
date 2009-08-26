@@ -467,7 +467,7 @@ To perform manipulations such as multiplication or inversion, first convert the 
 
 Notes:
 
-* CSC format is also called [`http://math.nist.gov/MatrixMarket/formats.html#hb`_ Harwell-Boeing] format, and used in other libraries or software (`Matlab <http://www.mathworks.com/access/helpdesk/help/techdoc/math/sparse3.html#12993>`_ for example).
+* CSC format is also called `Harwell-Boeing <http://math.nist.gov/MatrixMarket/formats.html#hb>`_ format, and used in other libraries or software (`Matlab <http://www.mathworks.com/access/helpdesk/help/techdoc/math/sparse3.html#12993>`_ for example).
 
 Examples (TODO: update)
 =======================

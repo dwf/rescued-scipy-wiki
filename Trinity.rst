@@ -1,6 +1,6 @@
 #format rst
 
-In 1950, Taylor published two papers ([`http://adsabs.harvard.edu/abs/1950RSPSA.201..159T`_ The Formation of a Blast Wave by a Very Intense Explosion. I. Theoretical Discussion] and [`http://adsabs.harvard.edu/abs/1950RSPSA.201..175T`_ The Formation of a Blast Wave by a Very Intense Explosion. II. The Atomic Explosion of 1945], both of which I will follow closely). The first describes numerically the evolution of a blast wave, and the second uses declassified photographs to compute the energy released by the Trinity atomic bomb test. Evaluating the required integrals numerically was a laborious process in 1950, but it can be done quite straightforwardly now.
+In 1950, Taylor published two papers (`The Formation of a Blast Wave by a Very Intense Explosion. I. Theoretical Discussion <http://adsabs.harvard.edu/abs/1950RSPSA.201..159T>`_ and `The Formation of a Blast Wave by a Very Intense Explosion. II. The Atomic Explosion of 1945 <http://adsabs.harvard.edu/abs/1950RSPSA.201..175T>`_, both of which I will follow closely). The first describes numerically the evolution of a blast wave, and the second uses declassified photographs to compute the energy released by the Trinity atomic bomb test. Evaluating the required integrals numerically was a laborious process in 1950, but it can be done quite straightforwardly now.
 
 attachment:Trinity_explosion.jpg
 

@@ -69,5 +69,5 @@ If you find yourself doing this often use a function such as
        ax.legend_ = None
        draw()
 
-(Source: [`http://osdir.com/ml/python.matplotlib.general/2005-07/msg00285.html`_ Re: How to delete legend with matplotlib OO from a graph?])
+(Source: `Re: How to delete legend with matplotlib OO from a graph? <http://osdir.com/ml/python.matplotlib.general/2005-07/msg00285.html>`_)
 

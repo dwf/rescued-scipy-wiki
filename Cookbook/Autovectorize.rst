@@ -3,7 +3,7 @@
 Autovectorization
 =================
 
-There are instances where it is very convenient to have a function defined in the language of scalars that can operate on arrays. [`http://docs.scipy.org/doc/numpy/reference/generated/numpy.vectorize.html`_ numpy.vectorize] provides such a conversion.
+There are instances where it is very convenient to have a function defined in the language of scalars that can operate on arrays. `numpy.vectorize <http://docs.scipy.org/doc/numpy/reference/generated/numpy.vectorize.html>`_ provides such a conversion.
 
 In simplier language: This function basically makes a functions which calculate single values (e. g. math.sin) operate on array.
 

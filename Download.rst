@@ -53,9 +53,9 @@ Unofficial releases
 
 * Mac OS X binaries from svn by Chris Fonnesbeck: http://macinscience.org
 
-  * Make sure you are using OSX 10.5 Leopard's preinstalled Python 2.5.1, [`http://www.activestate.com/Products/ActivePython/`_ ActivePython_ 2.5] or [`http://www.pythonmac.org/packages/`_ MacPython_ 2.5]. Note: The Superpack's version detection may fail with other Python distributions (e.g., fink, Darwin Ports), and it will refuse to install.
+  * Make sure you are using OSX 10.5 Leopard's preinstalled Python 2.5.1, `ActivePython_ 2.5 <http://www.activestate.com/Products/ActivePython/>`_ or `MacPython_ 2.5 <http://www.pythonmac.org/packages/>`_. Note: The Superpack's version detection may fail with other Python distributions (e.g., fink, Darwin Ports), and it will refuse to install.
 
-  * Download the [`http://macinscience.org/?page_id=6`_ SciPy_ Superpack for Python 2.5]
+  * Download the `SciPy_ Superpack for Python 2.5 <http://macinscience.org/?page_id=6>`_
 
   * NumPy is included in the Superpack.  For best compatibility, make sure you use the version in the Superpack.
 

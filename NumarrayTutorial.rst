@@ -18,9 +18,9 @@ Data and scripts for examples and exercises
 
 The following gzipped tar files contain data files and scripts used by the tutorial examples and exercises. There are two different tar files to choose from. The first is complete, but quite large. The second has everything the first has except the acs.fits file and is considerably smaller.
 
-[`http://stsdas.stsci.edu/perry/full_numarray.tar.gz`_ Download complete set of data and scripts (120 MB)]
+`Download complete set of data and scripts (120 MB) <http://stsdas.stsci.edu/perry/full_numarray.tar.gz>`_
 
-[`http://stsdas.stsci.edu/perry/partial_numarray.tar.gz`_ Download all except acs.fits (3.2 MB)]
+`Download all except acs.fits (3.2 MB) <http://stsdas.stsci.edu/perry/partial_numarray.tar.gz>`_
 
 Contents of gzipped tar files:
 

@@ -14,7 +14,7 @@ EuroScipy 2008
 
 -------------------------
 
- Our first European SciPy_ meeting was a great success (with many thanks to the organizers and sponsors -- `Python Academy <http://python-academy.com>`_, [`http://www.enthought.com`_ Enthought, Inc.] and `Logilab <http://www.logilab.fr>`_).  The attendance was around 44 this year.  We had a fantastic venue and many compelling talks.  There were fantastic, wide-ranging discussions between sessions and the city (`Leipzig <http://en.wikipedia.org/wiki/Leipzig>`_) proved to be a main character in the weekend.  All in all, a great group of people in a beautiful place.
+ Our first European SciPy_ meeting was a great success (with many thanks to the organizers and sponsors -- `Python Academy <http://python-academy.com>`_, `Enthought, Inc. <http://www.enthought.com>`_ and `Logilab <http://www.logilab.fr>`_).  The attendance was around 44 this year.  We had a fantastic venue and many compelling talks.  There were fantastic, wide-ranging discussions between sessions and the city (`Leipzig <http://en.wikipedia.org/wiki/Leipzig>`_) proved to be a main character in the weekend.  All in all, a great group of people in a beautiful place.
 
 Keep an eye out for more updates and a forthcoming EuroSciPyPhotoGallery_.  If you've taken any interesting (or scandalous) photos from the meeting, post them as well.
 
@@ -70,7 +70,7 @@ Sunday, July 27, 2008
 Pre-Conference courses
 ----------------------
 
-There will be two Python courses just the week before the conference. A 2-day course [`http://www.python-academy.com/courses/python_course_programmers.html`_ "Introductory to Python for Programmers"] will be followed by 3-day course [`http://www.python-academy.com/courses/python_course_scientists.html`_ "Python for Scientists and Engineers"] both courses can be booked `together <http://www.python-academy.com/courses/python_summer_course.html>`_.
+There will be two Python courses just the week before the conference. A 2-day course `"Introductory to Python for Programmers" <http://www.python-academy.com/courses/python_course_programmers.html>`_ will be followed by 3-day course `"Python for Scientists and Engineers" <http://www.python-academy.com/courses/python_course_scientists.html>`_ both courses can be booked `together <http://www.python-academy.com/courses/python_summer_course.html>`_.
 
 The courses are offered by `Python Academy <http://www.python-academy.com>`_ in their Leipzig teaching center, which is just a few kilometers from the conference building.
 

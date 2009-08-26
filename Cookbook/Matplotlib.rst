@@ -2,7 +2,7 @@
 
 The cookbook is a place for community contributions of recipes, howtos and examples.
 
-Complete documentation and tutorials for matplotlib can be found at [`http://matplotlib.sourceforge.net/`_ matplotlib's webpage]
+Complete documentation and tutorials for matplotlib can be found at `matplotlib's webpage <http://matplotlib.sourceforge.net/>`_
 
   **Table of Contents**
 
@@ -127,7 +127,7 @@ Misc
 
 * `matplotlib without GUI <http://www.dalkescientific.com/writings/diary/archive/2005/04/23/matplotlib_without_gui.html>`_ by Andrew Dalke.
 
-* [`http://debs.astraw.com/dapper/`_ Andrew Straw's Apt Repository] - Bleeding edge deb packages for Debian, Ubuntu (also has packages for numpy/scipy etc.).
+* `Andrew Straw's Apt Repository <http://debs.astraw.com/dapper/>`_ - Bleeding edge deb packages for Debian, Ubuntu (also has packages for numpy/scipy etc.).
 
 * [:Cookbook/Matplotlib/AdjustingImageSize:Adjusting Image Size] - a brief discussion of how to adjust the size of figures -- for printing, web, etc.
 
@@ -141,11 +141,11 @@ Misc
 
 * [:Cookbook/Matplotlib/Multiple Subplots with One Axis Label:Multiple Subplots with One Axis Label] - how to use one centered label to annotate several subplots
 
-* [`http://www.nabble.com/Multiple-Y-axis-td10734643.html`_ Multiple Y-axis] - How to plot different variables on the same plot but different Y-Axis (one left and one right)
+* `Multiple Y-axis <http://www.nabble.com/Multiple-Y-axis-td10734643.html>`_ - How to plot different variables on the same plot but different Y-Axis (one left and one right)
 
 * `WxMpl <http://agni.phys.iit.edu/~kmcivor/wxmpl>`_: Integration of matplotlib into WxPython_ GUIs
 
-* [`http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html`_ Gael Varoquax's scientific GUI tutorial] includes an instructive example of embedding matplotlib in a Traits GUI.
+* `Gael Varoquax's scientific GUI tutorial <http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html>`_ includes an instructive example of embedding matplotlib in a Traits GUI.
 
 -------------------------
 

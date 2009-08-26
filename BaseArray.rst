@@ -35,7 +35,7 @@ The proposed basearray type does not have a fully-filled type-object structure. 
 
 Alongside basearray and datatype (a descriptor of the type an array carries), an array iterator type is defined to facilitate some procedures. There are also two auxialliary structures and a number of C-API functions.
 
-Ultimately, there are two files to be added: [`http://svn.scipy.org/svn/PEP/basearray.c`_ basearray.c] and [`http://svn.scipy.org/svn/PEP/basearray.h`_ basearray.h].
+Ultimately, there are two files to be added: `basearray.c <http://svn.scipy.org/svn/PEP/basearray.c>`_ and `basearray.h <http://svn.scipy.org/svn/PEP/basearray.h>`_.
 
 C structures defined
 --------------------

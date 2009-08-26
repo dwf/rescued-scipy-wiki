@@ -2,7 +2,7 @@
 
 This package contains various functions for any-dimensional image processing.
 
-See also [`http://stsdas.stsci.edu/numarray/numarray-1.5.html/module-numarray.ndimage.html`_ numarray.ndimage documentation].
+See also `numarray.ndimage documentation <http://stsdas.stsci.edu/numarray/numarray-1.5.html/module-numarray.ndimage.html>`_.
 
 Filters
 -------

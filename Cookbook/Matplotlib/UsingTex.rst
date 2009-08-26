@@ -2,7 +2,7 @@
 
 Matplotlib can use LaTeX to handle the text layout in your figures.  This option (which is still somewhat experimental) can be activated by setting text.usetex : true in your rc settings.  Text handling with matplotlib's LaTeX support is slower than standard text handling, but is more flexible, and produces publication-quality plots.  The results are striking, especially when you take care to use the same fonts in your figures as in the main document.
 
-Matplotlib's LaTeX support is still under development, although at least two individuals have relied upon it to generate the figures for their doctoral dissertations.  Many improvements have been made beginning with matplotlib-0.87, please update matplotlib if you have an earlier version.  This option requires a working LaTeX installation, `dvipng <http://sourceforge.net/projects/dvipng>`_ (which may be included with your TeX installation), and ghostscript ([`http://www.cs.wisc.edu/~ghost/`_ AFPL, GPL], or `ESP <http://www.cups.org/espgs/index.php>`_ ghostscript should all work, but GPL ghostscript-8.60 or later is recommended).  The executables for these external dependencies must be located on your PATH.
+Matplotlib's LaTeX support is still under development, although at least two individuals have relied upon it to generate the figures for their doctoral dissertations.  Many improvements have been made beginning with matplotlib-0.87, please update matplotlib if you have an earlier version.  This option requires a working LaTeX installation, `dvipng <http://sourceforge.net/projects/dvipng>`_ (which may be included with your TeX installation), and ghostscript (`AFPL, GPL <http://www.cs.wisc.edu/~ghost/>`_, or `ESP <http://www.cups.org/espgs/index.php>`_ ghostscript should all work, but GPL ghostscript-8.60 or later is recommended).  The executables for these external dependencies must be located on your PATH.
 
 There are a couple of options to mention, which can be changed using rc settings, either using a matplotlibrc file, or the rcParams dict in your program. Here is an example matplotlibrc file:
 
@@ -16,7 +16,7 @@ There are a couple of options to mention, which can be changed using rc settings
 
    text.usetex        : true
 
-The first valid font in each family is the one that will be loaded. If the fonts are not specified, the Computer Modern fonts are used by default. All of the other fonts are Adobe fonts. Times and Palatino each have their own accompanying math fonts, while the other Adobe serif fonts make use of the Computer Modern math fonts. See [`http://www.ctan.org/tex-archive/macros/latex/required/psnfss/psnfss2e.pdf`_ psnfss2e.pdf] for more details.
+The first valid font in each family is the one that will be loaded. If the fonts are not specified, the Computer Modern fonts are used by default. All of the other fonts are Adobe fonts. Times and Palatino each have their own accompanying math fonts, while the other Adobe serif fonts make use of the Computer Modern math fonts. See `psnfss2e.pdf <http://www.ctan.org/tex-archive/macros/latex/required/psnfss/psnfss2e.pdf>`_ for more details.
 
 To use tex and select e.g. Helvetica as the default font, without edititing matplotlibrc use:
 

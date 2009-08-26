@@ -75,7 +75,7 @@ See also
 
 * ["Cookbook/Autovectorize"]
 
-* [`http://thread.gmane.org/gmane.comp.python.numeric.general/17266/focus=17280`_ Re: vectorizing loops - Discussion on scipy list]
+* `Re: vectorizing loops - Discussion on scipy list <http://thread.gmane.org/gmane.comp.python.numeric.general/17266/focus=17280>`_
 
 -------------------------
 

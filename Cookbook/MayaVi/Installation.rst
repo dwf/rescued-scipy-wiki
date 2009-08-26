@@ -119,7 +119,7 @@ The enthought egg contains the whole `Enthought Tool Suite <http://code.enthough
 
      easy_install -f http://code.enthought.com/enstaller/eggs numpy scipy wx VTK
 
-**Installation with Enstaller:** Enthought has also written a graphical front end to easy_install called `Enstaller <http://code.enthought.com/enstaller/>`_.  You can install Enstaller by running this script: [`http://code.enthought.com/enstaller/run_enstaller.py`_ run_enstaller.py].  Enstaller is still quite new, so you may or may not find it an improvement over the easy_install method at this time.
+**Installation with Enstaller:** Enthought has also written a graphical front end to easy_install called `Enstaller <http://code.enthought.com/enstaller/>`_.  You can install Enstaller by running this script: `run_enstaller.py <http://code.enthought.com/enstaller/run_enstaller.py>`_.  Enstaller is still quite new, so you may or may not find it an improvement over the easy_install method at this time.
 
 Creation of a Live CD (based on Debian) including MV2
 =====================================================

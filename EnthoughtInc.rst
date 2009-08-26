@@ -8,7 +8,7 @@ Enthought develops custom software applications in the Geophysics, Fluid Dynamic
 
 * `Home Page <http://www.enthought.com>`_
 
-* [`http://code.enthought.com`_ code.enthought.com open source site]
+* `code.enthought.com open source site <http://code.enthought.com>`_
 
 .. ############################################################################
 

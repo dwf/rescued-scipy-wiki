@@ -25,7 +25,7 @@ Abstracts
 
 * Robert Kern - [:Developer_Zone/Conferences/SciPy2005/Abstracts/IDocIPython: Interactive Documents with IPython]
 
-* Matthew Brett - [`http://old.scipy.org/wikis/scipy05/abstracts/nipy_scipy.pdf/download`_ NiPy_: NeuroImaging_ Software in Python]
+* Matthew Brett - `NiPy_: NeuroImaging_ Software in Python <http://old.scipy.org/wikis/scipy05/abstracts/nipy_scipy.pdf/download>`_
 
 * Michel Sanner - [:Developer_Zone/Conferences/SciPy2005/Abstracts/Vision: Vision: A Visual Programming Component]
 

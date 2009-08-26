@@ -1,6 +1,6 @@
 #format rst
 
-I'm collecting a wishlist of scientific and python related packages (numpy, scipy, etc) people would want installed on a Debian based [`http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=101`_ Amazon EC2 machine image (AMI)] for distributed computing.  I'll make more information available as the machine image develops, some of these will also go into the `Machetec2 <http://blog.infochimps.org/2009/02/06/start-hacking-machetec2-released/>`_ AMI.
+I'm collecting a wishlist of scientific and python related packages (numpy, scipy, etc) people would want installed on a Debian based `Amazon EC2 machine image (AMI) <http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=101>`_ for distributed computing.  I'll make more information available as the machine image develops, some of these will also go into the `Machetec2 <http://blog.infochimps.org/2009/02/06/start-hacking-machetec2-released/>`_ AMI.
 
 There is already a `list of packages <http://github.com/infochimps/machetec2/blob/2e3cbf26979f9dda74b43049f6f401bb1fafd220/config/packages.yaml>`_ installed on Machetec2.
 
@@ -80,7 +80,7 @@ Please add any packages you would want pre-installed on the image to the list be
 
 * easy_install IPython[kernel]
 
-* [`http://networkx.lanl.gov/`_ python-networkx]
+* `python-networkx <http://networkx.lanl.gov/>`_
 
 .. ############################################################################
 

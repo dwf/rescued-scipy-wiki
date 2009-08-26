@@ -69,7 +69,7 @@ NumPy and SciPy are two of many open-source packages for scientific computing th
 
 * ["Projects"] using NumPy / SciPy
 
-* [`http://scikits.appspot.com/`_ scikits add-on toolkits for numpy/scipy]
+* `scikits add-on toolkits for numpy/scipy <http://scikits.appspot.com/>`_
 
 * ["Download"] NumPy / SciPy
 

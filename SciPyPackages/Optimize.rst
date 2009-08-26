@@ -2,9 +2,9 @@
 
 There are two mainstream optimization packages available:
 
-* [`http://scipy.org/scipy/scikits/wiki/OpenOpt`_ scikits.openopt] (license: BSD)
+* `scikits.openopt <http://scipy.org/scipy/scikits/wiki/OpenOpt>`_ (license: BSD)
 
-* [`http://www.scipy.org/doc/api_docs/SciPy.optimize.html`_ SciPy_.optimize] (license: BSD)
+* `SciPy_.optimize <http://www.scipy.org/doc/api_docs/SciPy.optimize.html>`_ (license: BSD)
 
 * Also you could be interested in `Optimization <http://www.scipy.org/Topical_Software#head-d21a11d2d173826993e03eb937fac7e6347e6d5f>`_ section from `Topical software <http://www.scipy.org/Topical_Software>`_.
 

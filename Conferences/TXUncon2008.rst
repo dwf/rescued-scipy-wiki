@@ -47,5 +47,5 @@ Also thanks to `Zenoss <http://www.zenoss.org>`_ for sponsoring the lunch on Sat
 
 
 
-[`http://pycamp.python.org/Texas/HomePage`_ Last year's meeting] was a big success.  We look forward to this year's gathering in beautiful [`http://en.wikipedia.org/wiki/Austin,_tx`_ Austin, Texas].
+`Last year's meeting <http://pycamp.python.org/Texas/HomePage>`_ was a big success.  We look forward to this year's gathering in beautiful `Austin, Texas <http://en.wikipedia.org/wiki/Austin,_tx>`_.
 

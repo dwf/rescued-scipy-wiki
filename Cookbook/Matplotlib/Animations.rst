@@ -11,7 +11,7 @@ matplotlib supports 5 different graphical user interfaces (GTK, WX, Qt, Tkinter,
 
 When considering performance, the typical measure is frames per second.  Television is 30 frames per second, and for many application if you can get 10 or more frames per second the animation is smooth enough to "look good".  Monitors refresh at 75-80 frames per second typically, and so this is an upper limit for performance.  Any faster is probably wasted CPU cycles.
 
-Here are some numbers for the animated script [`http://matplotlib.sf.net/examples/anim.py`_ anim.py], which simply updates a sine wave on various backends, run under linux on a 3GHz Pentium IV.  To profile a script under different backends,  you can use the "GUI neutral" animation technique described below and then run it with the ``-dBackend`` flag, as in:
+Here are some numbers for the animated script `anim.py <http://matplotlib.sf.net/examples/anim.py>`_, which simply updates a sine wave on various backends, run under linux on a 3GHz Pentium IV.  To profile a script under different backends,  you can use the "GUI neutral" animation technique described below and then run it with the ``-dBackend`` flag, as in:
 
 ::
 
@@ -67,7 +67,7 @@ This can be much faster than clearing the axes and/or creating new objects for e
 Using the GUI timers or idle handlers
 =====================================
 
-If you are doing production code or anything semi-serious, you are advised to use the GUI event handling specific to your toolkit for animation, because this will give you more control over your animation than matplotlib can provide through the GUI neutral pylab interface to animation.  How you do this depends on your toolkit, but there are examples for several of the backends in the matplotlib examples directory, eg, [`http://matplotlib.sf.net/examples/anim_tk.py`_ anim_tk.py] for Tkinter, [`http://matplotlib.sf.net/examples/dynamic_image_gtkagg.py`_ dynamic_image_gtkagg.py] for GTKAgg and [`http://matplotlib.sf.net/examples/dynamic_image_wxagg.py`_ dynamic_image_wxagg.py] for WXAgg.
+If you are doing production code or anything semi-serious, you are advised to use the GUI event handling specific to your toolkit for animation, because this will give you more control over your animation than matplotlib can provide through the GUI neutral pylab interface to animation.  How you do this depends on your toolkit, but there are examples for several of the backends in the matplotlib examples directory, eg, `anim_tk.py <http://matplotlib.sf.net/examples/anim_tk.py>`_ for Tkinter, `dynamic_image_gtkagg.py <http://matplotlib.sf.net/examples/dynamic_image_gtkagg.py>`_ for GTKAgg and `dynamic_image_wxagg.py <http://matplotlib.sf.net/examples/dynamic_image_wxagg.py>`_ for WXAgg.
 
 The basic idea is to create your figure and a callback function that updates your figure.  You then pass that callback to the GUI idle handler or timer.  A simple example in GTK looks like
 
@@ -164,7 +164,7 @@ Figure canvas methods
 
 * ``canvas.blit(bbox)`` - transfer the pixel buffer in region bounded by bbox to the canvas.
 
-For *Agg backends, there is no need to implement the first two as Agg will do all the work (``FigureCanvasAgg`` defines them).  Thus you only need to be able to blit the agg buffer from a selected rectangle.  One thing that might make this easier for backends using string methods to transfer the agg pixel buffer to their respective canvas is to define a ``to_rgba_str(bbox)`` method in agg.  If you are working on this and need help, please contact the [`http://sourceforge.net/mailarchive/forum.php?forum_id=36187`_ matplotlib-devel list].
+For *Agg backends, there is no need to implement the first two as Agg will do all the work (``FigureCanvasAgg`` defines them).  Thus you only need to be able to blit the agg buffer from a selected rectangle.  One thing that might make this easier for backends using string methods to transfer the agg pixel buffer to their respective canvas is to define a ``to_rgba_str(bbox)`` method in agg.  If you are working on this and need help, please contact the `matplotlib-devel list <http://sourceforge.net/mailarchive/forum.php?forum_id=36187>`_.
 
 Once all/most of the backends have implemented these methods, the matplotlib front end can do all the work of managing the background/restore/blit opertations, and userland animated code can look like
 

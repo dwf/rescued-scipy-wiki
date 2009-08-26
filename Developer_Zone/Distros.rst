@@ -16,7 +16,7 @@ Each distributor has a different process for replacing the old package with the 
 Debian
 ------
 
-Ondrej Certik (`MailTo(ondrej AT certik DOT cz)`_) and [`http://wiki.debian.org/Teams/PythonModulesTeam`_ Debian Python Modules Team (DPMT)]
+Ondrej Certik (`MailTo(ondrej AT certik DOT cz)`_) and `Debian Python Modules Team (DPMT) <http://wiki.debian.org/Teams/PythonModulesTeam>`_
 
 Fedora
 ------

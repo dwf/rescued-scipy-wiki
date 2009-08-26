@@ -39,5 +39,5 @@ Linear Regression Example
 
 attachment:linregress.png
 
-Another example: [`http://www2.warwick.ac.uk/fac/sci/moac/currentstudents/peter_cock/python/lin_reg`_ using scipy (and R) to calculate Linear Regressions]
+Another example: `using scipy (and R) to calculate Linear Regressions <http://www2.warwick.ac.uk/fac/sci/moac/currentstudents/peter_cock/python/lin_reg>`_
 

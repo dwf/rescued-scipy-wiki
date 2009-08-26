@@ -34,7 +34,7 @@ Please follow the links below to view various artifacts from the Conference.
 
 
 
-* We're excited to have [`http://laptop.org/vision/people/IvanKrstic/`_ Ivan Krstić], the director of security architecture for the `One Laptop Per Child <http://laptop.org>`_ project as this year's keynote speaker.
+* We're excited to have `Ivan Krstić <http://laptop.org/vision/people/IvanKrstic/>`_, the director of security architecture for the `One Laptop Per Child <http://laptop.org>`_ project as this year's keynote speaker.
 
 * The [:`SciPy2007/ConferenceSchedule`_: Schedule] of talks is **now available**.
 
@@ -89,7 +89,7 @@ Some helpful links:
 Student Sponsorship
 -------------------
 
-[`http://www.enthought.com`_ Enthought, Inc.] is sponsoring the registration fees for up to 5 college or graduate students to attend the conference.  To apply, please send a short description of what you are studying and why you'd like to attend to [`mailto:info@enthought.com`_ `info@enthought.com`_].  Please include telephone contact information.
+`Enthought, Inc. <http://www.enthought.com>`_ is sponsoring the registration fees for up to 5 college or graduate students to attend the conference.  To apply, please send a short description of what you are studying and why you'd like to attend to [`mailto:info@enthought.com`_ `info@enthought.com`_].  Please include telephone contact information.
 
 Sponsors:
 ---------

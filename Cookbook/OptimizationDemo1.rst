@@ -8,7 +8,7 @@ SciPy_'s optimization package is scipy.optimize. The most basic non-linear optim
 
 * optimize.fminbound(func, x1, x2), which finds the minimum of a scalar function func(x) for the range [x1,x2] (x1,x2 must be a scalar and func(x) must return a scalar)
 
-See the [`http://docs.scipy.org/doc/scipy/reference/optimize.html`_ scipy.optimze documentation] for details.
+See the `scipy.optimze documentation <http://docs.scipy.org/doc/scipy/reference/optimize.html>`_ for details.
 
 This is a quick demonstration of generating data from several Bessel functions and finding some local maxima using fminbound.  This uses ipython with the -pylab switch.
 

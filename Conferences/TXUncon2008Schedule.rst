@@ -119,7 +119,7 @@ Afternoon Sessions
 
   Using the `Enthought Tool Suite <http://code.enthought.com/projects/tool-suite.php>`_ to Build Applications - Travis N. Vaught (Enthought, Inc.)
 
-  [`http://code.enthought.com/projects/traits/documentation.php`_ Traits 3.0 Documentation]
+  `Traits 3.0 Documentation <http://code.enthought.com/projects/traits/documentation.php>`_
 
   ..
 

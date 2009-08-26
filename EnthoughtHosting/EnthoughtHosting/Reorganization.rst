@@ -5,7 +5,7 @@ SciPy Server Reorganization
 
 Please comment on these ideas. If you have others, please add them.
 
-There is also a mailing list at [`http://projects.scipy.org/mailman/listinfo/administration`_ `administration@scipy.org`_].
+There is also a mailing list at ``administration@scipy.org` <http://projects.scipy.org/mailman/listinfo/administration>`_.
 
 Goals
 -----

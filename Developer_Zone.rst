@@ -86,7 +86,7 @@ Getting Releases Into Distribution
 Packaging Team
 --------------
 
-* Debian - Ondrej Certik (`MailTo(ondrej AT certik DOT cz)`_) and [`http://wiki.debian.org/Teams/PythonModulesTeam`_ Debian Python Modules Team (DPMT)]
+* Debian - Ondrej Certik (`MailTo(ondrej AT certik DOT cz)`_) and `Debian Python Modules Team (DPMT) <http://wiki.debian.org/Teams/PythonModulesTeam>`_
 
 * Ubuntu - [`https://edge.launchpad.net/~kitterman`_ Scott Kitterman] and others
 

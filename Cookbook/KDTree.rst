@@ -1,6 +1,6 @@
 #format rst
 
-This is an example of how to construct and search a [`http://en.wikipedia.org/wiki/Kd-tree`_ kd-tree] in `Python  <http://www.python.org>`_with NumPy_. kd-trees are e.g. used to search for neighbouring data points in multidimensional space. Searching the kd-tree for the nearest neighbour of all n points has O(n log n) complexity with respect to sample size.
+This is an example of how to construct and search a `kd-tree <http://en.wikipedia.org/wiki/Kd-tree>`_ in `Python  <http://www.python.org>`_with NumPy_. kd-trees are e.g. used to search for neighbouring data points in multidimensional space. Searching the kd-tree for the nearest neighbour of all n points has O(n log n) complexity with respect to sample size.
 
 Building a kd-tree
 ~~~~~~~~~~~~~~~~~~
