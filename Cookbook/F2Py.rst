@@ -5,7 +5,7 @@ Example of using f2py
 
 *Taken from a message on 2006-06-22 to scipy-user by* ArndBaecker_
 
-Thanks to f2py, wrapping Fortran code is (with a bit of effort) trivial in many cases. For complicated functions requiring many arguments the wrapper can become longish. Fortunately, many things can be learnt from looking at scipy/Lib/linalg/generic_flapack.pyf In particular, the documentation at `http://cens.ioc.ee/projects/f2py2e/`_ is excellent. I also found  the f2py notes by FernandoPerez_ very helpful, `http://cens.ioc.ee/pipermail/f2py-users/2003-April/000472.html`_
+Thanks to f2py, wrapping Fortran code is (with a bit of effort) trivial in many cases. For complicated functions requiring many arguments the wrapper can become longish. Fortunately, many things can be learnt from looking at scipy/Lib/linalg/generic_flapack.pyf In particular, the documentation at http://cens.ioc.ee/projects/f2py2e/  is excellent. I also found  the f2py notes by FernandoPerez_ very helpful, http://cens.ioc.ee/pipermail/f2py-users/2003-April/000472.html
 
 Let me try to give some general remarks on how to start (the real authority on all this is of course Pearu, so please correct me if I got things wrong here):
 
@@ -15,7 +15,7 @@ Let me try to give some general remarks on how to start (the real authority on a
 
       ``apropos  keyword``
 
-  * `http://www.netlib.org/`_ provides a nice decision tree
+  * http://www.netlib.org/  provides a nice decision tree
 
 * make sure that that it does not exist in scipy:
 
@@ -50,7 +50,7 @@ Concrete (and very simple) example (non-lapack):
 Wrapping Hermite polynomials
 ----------------------------
 
-Download code (found after hours of googling |;-)| , from `http://cdm.unimo.it/home/matematica/funaro.daniele/splib.txt`_
+Download code (found after hours of googling |;-)| , from http://cdm.unimo.it/home/matematica/funaro.daniele/splib.txt
 
 and extract ``hermite.f``
 
@@ -83,7 +83,7 @@ Simple test:
      import scipy
      scipy.special.hermite(2)(2.0)
 
-A more complicated example about how to wrap routines for band matrices can be found at `http://www.physik.tu-dresden.de/~baecker/comp_talks.html`_ under "Python and Co - some recent developments".
+A more complicated example about how to wrap routines for band matrices can be found at http://www.physik.tu-dresden.de/~baecker/comp_talks.html  under "Python and Co - some recent developments".
 
 Step by step wrapping of a simple numerical code
 ------------------------------------------------

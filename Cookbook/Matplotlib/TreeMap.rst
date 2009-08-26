@@ -2,7 +2,7 @@
 
 Treemaps are a nice way of showing tree information not based on a connected node approach.
 
-See `http://www.cs.umd.edu/hcil/treemap/`_
+See http://www.cs.umd.edu/hcil/treemap/
 
 inline:TreeMap_.png
 

@@ -28,7 +28,7 @@ UI
 
   * **GV =** GaelVaroquaux_ Once IPython gets its new front end this will be easy, maybe by reussing some of the work of enthought.
 
-  * For a better terminal on windows, takes a look at Console: `http://sourceforge.net/projects/console/`_. It looks like it can work with ipython, and it gives you a terminal with easy cut/copy/past, many fonts, tabbed terminals, etc...
+  * For a better terminal on windows, takes a look at Console: http://sourceforge.net/projects/console/ . It looks like it can work with ipython, and it gives you a terminal with easy cut/copy/past, many fonts, tabbed terminals, etc...
 
 * A unified IDE-type environment might be handy
 

@@ -3,7 +3,7 @@
 EuroScipy 2009
 --------------
 
-|/!/| **EuroSciPy has a new home. Please go to the [**`http://www.euroscipy.org`_ **new** EuroSciPy_ **website] for information about the 2009 conference.**
+|/!/| **EuroSciPy has a new home. Please go to the [* http://www.euroscipy.org  **new** EuroSciPy_ **website] for information about the 2009 conference.**
 
 EuroScipy 2008
 --------------

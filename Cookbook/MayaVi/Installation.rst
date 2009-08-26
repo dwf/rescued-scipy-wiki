@@ -105,7 +105,7 @@ Read installation information above (Debian etch distro) and grab the eggs at [`
 Installation on a Windows box
 =============================
 
-**Installation with Enthon:** For Windows, you can download the enthought edition at `http://code.enthought.com/enthon`_ (>=0.9.3).  This includes Python itself along with MayaVi2 and many other tools.
+**Installation with Enthon:** For Windows, you can download the enthought edition at http://code.enthought.com/enthon  (>=0.9.3).  This includes Python itself along with MayaVi2 and many other tools.
 
 **Installation with easy_install:** The enthought tools are now also available via individual `eggs <http://peak.telecommunity.com/DevCenter/PythonEggs>`_ that can be installed on top of an existing Python using `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_.  Assuming you've already `installed easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_ the following command will do it:
 

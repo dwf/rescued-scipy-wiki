@@ -1,6 +1,6 @@
 #format rst
 
-The examples below show simple 3D plots using matplotlib. matplotlib's 3D capabilities were added by incorporating John Porter's mplot3d module, thus no additional download is required any more, the following examples will run with an up to date matplotlib installation.  **Note, this code is not supported in the matplotlib-0.98 branch, but you can use either the latest 0.99 release or the 0.91 maintenance version if you need this functionality.**  Alternatively, the Mayavi2 project provides a pylab-like API for extensive 3D plotting: `http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/mlab.html`_
+The examples below show simple 3D plots using matplotlib. matplotlib's 3D capabilities were added by incorporating John Porter's mplot3d module, thus no additional download is required any more, the following examples will run with an up to date matplotlib installation.  **Note, this code is not supported in the matplotlib-0.98 branch, but you can use either the latest 0.99 release or the 0.91 maintenance version if you need this functionality.**  Alternatively, the Mayavi2 project provides a pylab-like API for extensive 3D plotting: http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/mlab.html
 
 Note that not all examples on this page are up to date, so some of them might not be working.
 

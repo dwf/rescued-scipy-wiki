@@ -4,7 +4,7 @@
 
 It makes building interactive graphical user interfaces much easier than working directly with the widgets.
 
-This page is nothing but a short introduction. An step-by-step tutorial on building an interactive scientific application with traitsUI is available at: `http://gael-varoquaux.info/computers/traits_tutorial/index.html`_ .
+This page is nothing but a short introduction. An step-by-step tutorial on building an interactive scientific application with traitsUI is available at: http://gael-varoquaux.info/computers/traits_tutorial/index.html  .
 
 The configure_traits dialog
 ===========================

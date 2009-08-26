@@ -11,7 +11,7 @@ FiPy
 
 *National Institute of Standards and Technology, Gaithersburg, MD.*
 
-FiPy website: `http://www.ctcms.nist.gov/fipy`_
+FiPy website: http://www.ctcms.nist.gov/fipy
 
 We will present a description of an object-oriented PDE solver based on a standard finite volume (FV) approach. We will describe how the Numeric and SciPy_ modules have been used in the design and development of FiPy and the efficiency issues that still need to be addressed.
 

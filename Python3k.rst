@@ -22,7 +22,7 @@ of some interest, too:
 
 Link to some documents which describe changes in Python 3 :
 
-1. `http://docs.python.org/dev/3.0/whatsnew/3.0.html`_  Mostly describes language and standard library changes. Has a very tiny paragraph on API changes. A change to the buffer is potentially very important?
+1. http://docs.python.org/dev/3.0/whatsnew/3.0.html   Mostly describes language and standard library changes. Has a very tiny paragraph on API changes. A change to the buffer is potentially very important?
 
 Findings :
 

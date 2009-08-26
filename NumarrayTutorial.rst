@@ -50,23 +50,23 @@ Contents of gzipped tar files:
 Software needed to run examples:
 --------------------------------
 
-* Python (`http://www.python.org`_)
+* Python  http://www.python.org )
 
-* numarray (`http://www.stsci.edu/resources/software_hardware/numarray`_)
+* numarray  http://www.stsci.edu/resources/software_hardware/numarray )
 
-* PyFITS (`http://www.stsci.edu/resources/software_hardware/pyfits`_)
+* PyFITS  http://www.stsci.edu/resources/software_hardware/pyfits )
 
-* matplotlib (`http://matplotlib.sourceforge.net`_)
+* matplotlib  http://matplotlib.sourceforge.net )
 
-* numdisplay (`http://stsdas.stsci.edu/numdisplay/`_) (for displaying images to display programs such as DS9 or ximtool
+* numdisplay  http://stsdas.stsci.edu/numdisplay/ ) (for displaying images to display programs such as DS9 or ximtool
 
-* DS9 (`http://hea-www.harvard.edu/RD/ds9/`_) (for non-matplotlib image display examples)
+* DS9  http://hea-www.harvard.edu/RD/ds9/ ) (for non-matplotlib image display examples)
 
 To run the IRAF-related examples one needs to install IRAF and PyRAF as well.
 
-* IRAF (`http://iraf.noao.edu/iraf-homepage.html`_)
+* IRAF  http://iraf.noao.edu/iraf-homepage.html )
 
-* PyRAF (`http://www.stsci.edu/resources/software_hardware/pyraf`_)
+* PyRAF  http://www.stsci.edu/resources/software_hardware/pyraf )
 
 Solutions to exercises
 ----------------------

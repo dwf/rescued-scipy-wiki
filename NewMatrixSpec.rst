@@ -5,7 +5,7 @@ Matrix Specification
 
 A design specification for a new matrix class could serve as a guide for making changes to the current matrix class. Or, if the final design breaks too much with current matrix behavior, it could serve as a guide to making a new matrix class.
 
-The most basic, and the most contentious, design decision of a new matrix class is matrix indexing. Several possible approaches have been discussed, as documented at  `http://www.scipy.org/MatrixIndexing`_. What follows is a summary of options.
+The most basic, and the most contentious, design decision of a new matrix class is matrix indexing. Several possible approaches have been discussed, as documented at  http://www.scipy.org/MatrixIndexing . What follows is a summary of options.
 
 1. Matrices should be more like arrays
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

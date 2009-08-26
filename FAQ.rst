@@ -456,7 +456,7 @@ IMPORTANT: It is highly recommended that all libraries that scipy uses (e.g. bla
 xplt for plotting
 ~~~~~~~~~~~~~~~~~
 
-If after installing scipy, you want to follow a manual and encounter commands about xplt for plotting, the following could be interesting:  `http://www.scipy.net/pipermail/scipy-user/2006-April/007693.html`_
+If after installing scipy, you want to follow a manual and encounter commands about xplt for plotting, the following could be interesting:  http://www.scipy.net/pipermail/scipy-user/2006-April/007693.html
 
 Basically, to enable xplt, you have to edit the file setup.py in /Lib/sanbox/. However, it seems that in the last tarball (0.4.9), xplt is not present anymore and enabling it causes an error at built time.
 

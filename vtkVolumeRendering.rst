@@ -1,6 +1,6 @@
 #format rst
 
-As I had some problems in figuring out how to use VTK to render data contained in a three dimensional numpy array, I have decided to share my code. This code is based on the otherwise excellent documentation for VTK and the now outdated vtkImageImportFromArray-class created by David Gobbi found at `http://public.kitware.com/cgi-bin/cvsweb.cgi/vtk/python/?cvsroot=vtk`_
+As I had some problems in figuring out how to use VTK to render data contained in a three dimensional numpy array, I have decided to share my code. This code is based on the otherwise excellent documentation for VTK and the now outdated vtkImageImportFromArray-class created by David Gobbi found at http://public.kitware.com/cgi-bin/cvsweb.cgi/vtk/python/?cvsroot=vtk
 
 The example is very simple, for more advanced functionality: read the documentation.
 

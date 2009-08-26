@@ -10,7 +10,7 @@ SimPy, a discrete event simulation package in Python
 
  **by: Klaus G. Müller**
 
-The presentation will address SimPy (Simulation in Python), an Open Source discrete event simulation package. It is written completely in Python. SimPy is released under a LGPL license and can be downloaded free of charge from `http://sourceforge.net/project/showfiles.php?group_id=62366`_. The SimPy website `http://simpy.sourceforge.net`_ describes the package in detail and provides extensive user documentation.
+The presentation will address SimPy (Simulation in Python), an Open Source discrete event simulation package. It is written completely in Python. SimPy is released under a LGPL license and can be downloaded free of charge from http://sourceforge.net/project/showfiles.php?group_id=62366 . The SimPy website http://simpy.sourceforge.net  describes the package in detail and provides extensive user documentation.
 
 SimPy is being used for teaching and research purposes at universities in several countries. Many companies and institutes also use it for simulation studies.
 

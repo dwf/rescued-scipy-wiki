@@ -1,6 +1,6 @@
 #format rst
 
-Following `http://www.enthought.com/enthought/wiki/GrabbingAndBuilding`_, you have to build/install VTK 5.0 and a few python extensions from sources.
+Following http://www.enthought.com/enthought/wiki/GrabbingAndBuilding , you have to build/install VTK 5.0 and a few python extensions from sources.
 
 All needed installation information for a given python module or VTK can be reached on its webpage.
 
@@ -27,7 +27,7 @@ Is is also supposed that you download and uncompress all tarball sources in a sp
 Installing python2.3/python2.4
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download Python-2.3.5.tar.bz2 at `http://www.python.org/download/releases/2.3.5`_ or Python-2.4.3.tar.bz2 at `http://www.python.org/download/releases/2.4.3`_ and untar it in src/:
+Download Python-2.3.5.tar.bz2 at http://www.python.org/download/releases/2.3.5  or Python-2.4.3.tar.bz2 at http://www.python.org/download/releases/2.4.3  and untar it in src/:
 
 ::
 
@@ -48,7 +48,7 @@ Then you can make & make install:
 Installing VTK 5.0
 ~~~~~~~~~~~~~~~~~~
 
-Download vtk-5.0.0.tar.gz and vtkdata-5.0.0.tar.gz at `http://public.kitware.com/VTK/get-software.php`_ and untar them in src/:
+Download vtk-5.0.0.tar.gz and vtkdata-5.0.0.tar.gz at http://public.kitware.com/VTK/get-software.php  and untar them in src/:
 
 ::
 
@@ -169,11 +169,11 @@ and install them:
 Installing scipy 0.5 & numpy 1.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download scipy-0.5.1.tar.gz at `http://www.scipy.org/Download`_
+Download scipy-0.5.1.tar.gz at http://www.scipy.org/Download
 
 Before installing scipy, you have to download and install:
 
-* numpy-1.0.tar.gz (`http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103`_)
+* numpy-1.0.tar.gz  http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103 )
 
 * Atlas libraries (you could install it with your packages manager, no need to build it in src/)
 

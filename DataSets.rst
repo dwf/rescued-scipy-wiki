@@ -8,7 +8,7 @@ The goal of this page is to gather informations on useful datasets related to sc
 Information on license
 ----------------------
 
-According to R. Kern (`http://projects.scipy.org/pipermail/scipy-dev/2007-May/007215.html`_)
+According to R. Kern  http://projects.scipy.org/pipermail/scipy-dev/2007-May/007215.html )
 
 "IANAL, but my approach would be to get in touch with the original source of the data if possible, and ask. The biggest problem you'll face is that few of those sources have ever thought about their datasets in terms of copyright licenses, particularly *software* copyright licenses that permit modification to their precious data. If it's an American source and the data appears to be freely distributed, as in the UCI database, I would probably just take it as public domain according to US law.
 
@@ -20,23 +20,23 @@ Links to Datasets
 Datasets for statistics
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* `http://lib.stat.cmu.edu/`_ (no license information found)
+* http://lib.stat.cmu.edu/  (no license information found)
 
-* `http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/datasets-package.html`_ (the package is licensed under the GPL, but the license of the data themselves is not clear: they are coming from copyrighted works, mainly books on statistics).
+* http://stat.ethz.ch/R-manual/R-patched/library/datasets/html/datasets-package.html  (the package is licensed under the GPL, but the license of the data themselves is not clear: they are coming from copyrighted works, mainly books on statistics).
 
-* `http://www.ics.uci.edu/~mlearn/`_
+* http://www.ics.uci.edu/~mlearn/
 
 Geophysical datasets
 ~~~~~~~~~~~~~~~~~~~~
 
-* `http://www.ngdc.noaa.gov/ngdcinfo/onlineaccess.html`_
+* http://www.ngdc.noaa.gov/ngdcinfo/onlineaccess.html
 
-* `http://adc.gsfc.nasa.gov/adc/questions_feedback.html#policies1%22`_
+* http://adc.gsfc.nasa.gov/adc/questions_feedback.html#policies1%22
 
 Weather forecast
 ~~~~~~~~~~~~~~~~
 
-* `http://www.weather.gov/disclaimer.php`_
+* http://www.weather.gov/disclaimer.php
 
-* `http://www.drugresearcher.com/news/ng.asp?id=10960-snp-database-goes`_
+* http://www.drugresearcher.com/news/ng.asp?id=10960-snp-database-goes
 

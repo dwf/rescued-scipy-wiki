@@ -17,7 +17,7 @@ It derives from the old Numeric code base and can be used as a replacement for N
 
 Numeric users should find the transition very easy.  There is a module (import numpy.lib.convertcode --- see the convertall and fromfile functions in that module) that can make (most of) the necessary changes to your Python code that used Numeric to make it work with the new NumPy.  Users of numarray currently need to do a bit more work (mostly import changes) to work with the new system because nobody has yet written an equivalent to convertcode.py
 
-Although Sourceforge is used to distribute releases, bugs and feature-requests should **not** be placed there.  Instead use the Trac pages for NumPy at `http://projects.scipy.org/scipy/numpy`_.  You will need to create an account and login to file a ticket (this is to avoid trouble with SPAM).  A ticket is a bug-report, feature-request, or patch.
+Although Sourceforge is used to distribute releases, bugs and feature-requests should **not** be placed there.  Instead use the Trac pages for NumPy at http://projects.scipy.org/scipy/numpy .  You will need to create an account and login to file a ticket (this is to avoid trouble with SPAM).  A ticket is a bug-report, feature-request, or patch.
 
 Other links:
 
@@ -37,7 +37,7 @@ Much of the documentation for Numeric and Numarray is applicable to the new NumP
 
 For about 6 months, the new package was called SciPy_ Core, and so you will occasionally see references to SciPy_ Core.   It was decided in January 2006 to go with the historical name of NumPy for the new package.  Realize that NumPy (module name numpy) is the new name.   Do not be confused by references to scipy_core.  These should all be replaced by numpy.  Also, because of the name-change, there were a lot of dicussions that took place on `scipy-dev@scipy.org`_ and `scipy-user@scipy.org`_.  If you have a question about the new system, you may wish to run a search on those mailing lists.
 
-See also `http://numeric.scipy.org`_ and `http://numpy.scipy.org`_
+See also http://numeric.scipy.org  and http://numpy.scipy.org
 
 .. ############################################################################
 

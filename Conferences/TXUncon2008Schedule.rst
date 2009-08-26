@@ -74,7 +74,7 @@ Afternoon Sessions
 
 
 
-  Pyparsing Quick Start - Paul McGuire_ (`http://pyparsing.wikispaces.com`_) (an updated version of my PyCon2006_ talk, with new examples and library features) (`Slides <http://www.geocities.com/ptmcg/python/confs/TxUnconf2008Pyparsing.html>`_)
+  Pyparsing Quick Start - Paul McGuire_  http://pyparsing.wikispaces.com ) (an updated version of my PyCon2006_ talk, with new examples and library features) (`Slides <http://www.geocities.com/ptmcg/python/confs/TxUnconf2008Pyparsing.html>`_)
 
 Sunday, October 5
 -----------------

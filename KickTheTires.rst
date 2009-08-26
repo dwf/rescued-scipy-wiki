@@ -22,9 +22,9 @@ Related posts on the mailing list
 
 We need to think about the organization of this website, as it will be with us for a long time.  Here are some recent emails concerning the site-structure:
 
-* `http://www.scipy.org/documentation/mailman?fn=scipy-dev/2005-December/004532.html`_
+* http://www.scipy.org/documentation/mailman?fn=scipy-dev/2005-December/004532.html
 
-* `http://www.scipy.org/documentation/mailman?fn=scipy-dev/2005-December/004534.html`_
+* http://www.scipy.org/documentation/mailman?fn=scipy-dev/2005-December/004534.html
 
 Andrew Straws layout suggestion
 -------------------------------

@@ -5,7 +5,7 @@ OLS
 
 OLS is an abbreviation for ordinary least squares.
 
-The class estimates a multi-variate regression model and provides a variety of fit-statistics. To see the class in action download the [attachment:ols.0.2.py ols.py] file and run it (python ols.py). This will estimate a multi-variate regression using simulated data and provide output. It will also provide output from R to validate the results if you have rpy installed (`http://rpy.sourceforge.net/`_).
+The class estimates a multi-variate regression model and provides a variety of fit-statistics. To see the class in action download the [attachment:ols.0.2.py ols.py] file and run it (python ols.py). This will estimate a multi-variate regression using simulated data and provide output. It will also provide output from R to validate the results if you have rpy installed  http://rpy.sourceforge.net/ ).
 
 To import the class:
 

@@ -6,7 +6,7 @@ One way that is known to work to get SciPy installed is to use the Fink package.
 
 * install Xcode
 
-* install the fink 0.8.1 binary installer for intel  (`http://fink.sourceforge.net/download/index.php?phpLang=en`_).
+* install the fink 0.8.1 binary installer for intel   http://fink.sourceforge.net/download/index.php?phpLang=en ).
 
 * edit /sw/etc/fink.conf and add 'unstable/main' to the 'Trees:' line.
 

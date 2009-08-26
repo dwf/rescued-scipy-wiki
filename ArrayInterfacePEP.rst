@@ -235,7 +235,7 @@ Abstract
 
 Rationale
 
-  Several extensions to Python utilize the buffer protocol to share the location of a data-buffer that is really an N-dimensional array.  However, there is no standard way to exchange the additional N-dimensional array information so that the data-buffer is interpreted correctly.  The NumPy_ project introduced an array interface (`http://numpy.scipy.org/array_interface.shtml`_) through a set of attributes on the object itself.  While this approach works, it requires attribute lookups which can be expensive when sharing many small arrays.
+  Several extensions to Python utilize the buffer protocol to share the location of a data-buffer that is really an N-dimensional array.  However, there is no standard way to exchange the additional N-dimensional array information so that the data-buffer is interpreted correctly.  The NumPy_ project introduced an array interface  http://numpy.scipy.org/array_interface.shtml ) through a set of attributes on the object itself.  While this approach works, it requires attribute lookups which can be expensive when sharing many small arrays.
 
   One of the key reasons that users often request to place something like NumPy_ into the standard library is so that it can be used as standard for other packages that deal with arrays.  This PEP provides a mechanism for extending the buffer protocol (which already allows data sharing) to add the additional information needed to understand the data.  This should be of benefit to all third-party modules that want to share memory through the buffer protocol such as GUI toolkits, PIL, PyGame_, CVXOPT, PyVoxel_, PyMedia_, audio libraries, video libraries etc.
 

@@ -6,7 +6,7 @@ THIS IS NOT COMPLETE YET
 
 See the following post for further discussion of the difference between the vision for a new PyLab expressed on this page, and the existing pylab package which is part of matplotlib:
 
-  `http://www.nabble.com/pylab-td24910613.html`_
+  http://www.nabble.com/pylab-td24910613.html
 
 The PyLab Vision
 ================

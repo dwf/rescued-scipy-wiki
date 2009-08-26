@@ -78,7 +78,7 @@ Original application
 Goals
 ~~~~~
 
-The goal is to prepare a simple, generic multidimensional array interface that can be readily placed in the Python core as a new built-in base type (called, for instance, "dimarray"), and possibly included in a future Python distribution (maybe 2.6?). This new base type will have the same C-structure as the current array implementation in numpy and will be based on a interface recently formulated by Travis Oliphant within a Python Enhancement Proposal (`http://svn.scipy.org/svn/PEP/`_). After preparing a "ready to insert" version of the array interface, it will be applied to numpy and several other packages that work with multidimensional data, and possibly modified in order to work out an optimal scope.
+The goal is to prepare a simple, generic multidimensional array interface that can be readily placed in the Python core as a new built-in base type (called, for instance, "dimarray"), and possibly included in a future Python distribution (maybe 2.6?). This new base type will have the same C-structure as the current array implementation in numpy and will be based on a interface recently formulated by Travis Oliphant within a Python Enhancement Proposal  http://svn.scipy.org/svn/PEP/ ). After preparing a "ready to insert" version of the array interface, it will be applied to numpy and several other packages that work with multidimensional data, and possibly modified in order to work out an optimal scope.
 
 **Entire application**: ["BaseArray/Application"]
 

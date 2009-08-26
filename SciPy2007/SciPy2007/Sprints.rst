@@ -17,7 +17,7 @@ docstrings (a documentation sprint)
 
 The idea here would be that the code is well-developed, but docstrings are lagging.  So a sprint effort might be much better for the average user than a coding sprint.
 
-  *Gaël Varoquaux*: If this could also modify the docstrings to allow to fit to a strict format in order to be used for documentation search tools (such as the propose ipython one) and documentation generation. (see `http://projects.scipy.org/scipy/numpy/wiki/DocstringStandards`_).
+  *Gaël Varoquaux*: If this could also modify the docstrings to allow to fit to a strict format in order to be used for documentation search tools (such as the propose ipython one) and documentation generation. (see http://projects.scipy.org/scipy/numpy/wiki/DocstringStandards ).
 
 A biology/sequence birds-of-a-feather
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -32,11 +32,11 @@
 
   * Below are some links to driving to Caltech, full campus map, and parking on campus.
 
-  * `http://www.admissions.caltech.edu/visiting/getting-here/`_
+  * http://www.admissions.caltech.edu/visiting/getting-here/
 
-  * `http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf`_
+  * http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf
 
-  * `http://www.atc.caltech.edu/CIT_Parking/parking_map.htm`_
+  * http://www.atc.caltech.edu/CIT_Parking/parking_map.htm
 
   * Note: Visitors to campus must sign in and park at the parking structure located off of Holliston Ave. You must check in at the Security office right as you enter the structure to get a permit for your vehicle. The number on the parking map is 66.
 

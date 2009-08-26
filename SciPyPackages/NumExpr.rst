@@ -10,7 +10,7 @@ Building
 
 The project is hosted `here <http://code.google.com/p/numexpr/wiki/Overview>`_.
 
-To use it as a standalone package, you can grab it from the Subversion repository at `http://numexpr.googlecode.com/svn/trunk/`_, and do the usual ``python setup.py install``. You will need NumPy_ installed.
+To use it as a standalone package, you can grab it from the Subversion repository at http://numexpr.googlecode.com/svn/trunk/ , and do the usual ``python setup.py install``. You will need NumPy_ installed.
 
 Using
 -----
@@ -63,7 +63,7 @@ This doesn't consume extra memory, and is good for the cache, but, if the expres
 
 (remember that the 3-arg form stores the result in the third argument, instead of allocating a new array). This achieves a good balance between cache and branch-prediction. And the virtual machine is written entirely in C, which makes it faster than the Python above.
 
-There is some more information and history at `http://isobaric.blogspot.com/2006/03/numerical-expression-evaluator-now-in.html`_.
+There is some more information and history at http://isobaric.blogspot.com/2006/03/numerical-expression-evaluator-now-in.html .
 
 Credits
 -------

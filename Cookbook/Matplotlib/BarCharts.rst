@@ -1,6 +1,6 @@
 #format rst
 
-Use the bar function to make bar charts: `http://matplotlib.sourceforge.net/matplotlib.pylab.html#-bar`_
+Use the bar function to make bar charts: http://matplotlib.sourceforge.net/matplotlib.pylab.html#-bar
 
 Here's an example script that makes a bar char with error bars  and labels centered under the bars.
 

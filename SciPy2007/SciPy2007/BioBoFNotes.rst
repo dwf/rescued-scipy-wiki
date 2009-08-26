@@ -7,7 +7,7 @@ The Biology BoF was organized by Titus Brown.
 
 -------------------------
 
- The following text was scraped from: `http://lists.idyll.org/pipermail/biology-in-python/2007-August/000059.html`_
+ The following text was scraped from: http://lists.idyll.org/pipermail/biology-in-python/2007-August/000059.html
 
 The mailing list posting has been duplicated here with slight formatting changes.
 

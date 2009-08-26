@@ -9,7 +9,7 @@ SciPy.org the Site
 
   * 1) the community of users of Python for scientific computing.
 
-  * 2) the web site hosted at [`http://www.scipy.org`_ `http://www.scipy.org`_]
+  * 2) the web site hosted at [`http://www.scipy.org`_ http://www.scipy.org ]
 
   * 3) a community domain and set of web tools offered to other Python based projects (see below) and maintained by the nice folks at EnthoughtInc_.
 

@@ -9,17 +9,17 @@ In simplier language: This function basically makes a functions which calculate 
 
 Some links and threads on this:
 
-* optimising single value functions for array calculations -  `http://article.gmane.org/gmane.comp.python.numeric.general/26543`_
+* optimising single value functions for array calculations -  http://article.gmane.org/gmane.comp.python.numeric.general/26543
 
-* vectorized function inside a class -  `http://article.gmane.org/gmane.comp.python.numeric.general/16438`_
+* vectorized function inside a class -  http://article.gmane.org/gmane.comp.python.numeric.general/16438
 
-* numpy.vectorize performance - `http://article.gmane.org/gmane.comp.python.numeric.general/6867`_
+* numpy.vectorize performance - http://article.gmane.org/gmane.comp.python.numeric.general/6867
 
-* vectorize() - `http://www.scipy.org/Numpy_Example_List_With_Doc#head-fbff061fdb843209707a8fa537d9b24b6a91245e`_
+* vectorize() - http://www.scipy.org/Numpy_Example_List_With_Doc#head-fbff061fdb843209707a8fa537d9b24b6a91245e
 
-* NumPy_: vectorization - `http://folk.uio.no/hpl/PyUiT/PyUiT-split/slide218.html`_
+* NumPy_: vectorization - http://folk.uio.no/hpl/PyUiT/PyUiT-split/slide218.html
 
-* vectorizing loops - `http://article.gmane.org/gmane.comp.python.numeric.general/17266`_
+* vectorizing loops - http://article.gmane.org/gmane.comp.python.numeric.general/17266
 
 See also
 --------

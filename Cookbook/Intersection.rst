@@ -26,5 +26,5 @@ The result of this should be:
 
    array([ 1.61803399,  2.61803399])
 
-See also: `http://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fsolve.html#scipy.optimize.fsolve`_
+See also: http://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fsolve.html#scipy.optimize.fsolve
 

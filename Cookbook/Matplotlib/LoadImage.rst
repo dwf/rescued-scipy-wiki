@@ -48,9 +48,9 @@ This permits to do some processing for further exporting such as for [:Cookbook/
      a = numpy.random.rand(25,50) #between 0. and 1.
      toimage(a, cmin=0., cmax=2.).save('low_contrast_snow.png')
 
-   (adapted from `http://telin.ugent.be/~slippens/drupal/scipy_unscaledimsave`_ )
+   (adapted from http://telin.ugent.be/~slippens/drupal/scipy_unscaledimsave  )
 
-* there was another (more direct) method suggested by `http://jehiah.cz/archive/creating-images-with-numpy`_
+* there was another (more direct) method suggested by http://jehiah.cz/archive/creating-images-with-numpy
 
 -------------------------
 

@@ -75,7 +75,7 @@ For the majority of users who do not want to build the code from source, binary 
 Making Source and Binary Releases
 ---------------------------------
 
-A releaseable tarball gets made from the sources following a straightforward procedure (see `http://projects.scipy.org/numpy/wiki/MakingReleases`_).  To make an official release to the community, someone on the packaging team, usually Jarrod Millman, makes a series of test releases and announces them on the mailing lists.  After getting feedback, the team makes a final release, posts it, and announces it on the mailing lists.
+A releaseable tarball gets made from the sources following a straightforward procedure (see http://projects.scipy.org/numpy/wiki/MakingReleases ).  To make an official release to the community, someone on the packaging team, usually Jarrod Millman, makes a series of test releases and announces them on the mailing lists.  After getting feedback, the team makes a final release, posts it, and announces it on the mailing lists.
 
 FILL IN: Packaging Team, please fill in more detail on how you cut releases and where you need help.  Describe the build system, standards for accepting a release candidate, what systems are tested, who does what, use of Trac for bugs, etc.
 

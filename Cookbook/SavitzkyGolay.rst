@@ -3,7 +3,7 @@
 Savitzky Golay Filtering
 ========================
 
-The Savitzky Golay filter is a particular type of low-pass filter, well adapted for data smoothing. For further information see: `http://www.nrbook.com/b/bookcpdf/c14-8.pdf`_ (or `http://www.dalkescientific.com/writings/NBN/data/savitzky_golay.py`_ for a pre-numpy implementation).
+The Savitzky Golay filter is a particular type of low-pass filter, well adapted for data smoothing. For further information see: http://www.nrbook.com/b/bookcpdf/c14-8.pdf  (or http://www.dalkescientific.com/writings/NBN/data/savitzky_golay.py  for a pre-numpy implementation).
 
 Sample Code
 -----------

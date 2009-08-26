@@ -51,7 +51,7 @@ Also read the `building instructions <http://scipy.org/Installing_SciPy/Building
 Unofficial releases
 ===================
 
-* Mac OS X binaries from svn by Chris Fonnesbeck: `http://macinscience.org`_
+* Mac OS X binaries from svn by Chris Fonnesbeck: http://macinscience.org
 
   * Make sure you are using OSX 10.5 Leopard's preinstalled Python 2.5.1, [`http://www.activestate.com/Products/ActivePython/`_ ActivePython_ 2.5] or [`http://www.pythonmac.org/packages/`_ MacPython_ 2.5]. Note: The Superpack's version detection may fail with other Python distributions (e.g., fink, Darwin Ports), and it will refuse to install.
 

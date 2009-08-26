@@ -20,7 +20,7 @@ For this example, we suppose several hypotheses:
 
 * a metallic parallellepiped is immersed in a EM field spreading over the whole volume data ; this object is made of faceted cells (4 vertices), called VTK_QUAD (#9) cells in VTK denomination. These faceted cells are used here because of the null EM field within the parallellepiped. Cell ids begin at #342881 and end at #345966.
 
-* as there are different kinds of cells, the UnstructuredGrid data set must be used (see `http://www.vtk.org/pdf/file-formats.pdf`_ to know how UnstructuredGrid files must be written, VTK cells syntax, etc).
+* as there are different kinds of cells, the UnstructuredGrid data set must be used (see http://www.vtk.org/pdf/file-formats.pdf  to know how UnstructuredGrid files must be written, VTK cells syntax, etc).
 
 To display the metallic parallellepiped as a separate object from the vaccum, you have to extract the cells corresponding to this object. Thus, you will be able to display this object using the Surface module for example.
 

@@ -9,7 +9,7 @@ Here's the real stuff |;-)|
 
 You'll be learned here how you can use the various modules in MayaVi2.
 
-Note: Some modules can't be added for any type of data set. Some work only for StructuredGrid or StructuredPoints for example (see `http://www.vtk.org/pdf/file-formats.pdf`_ for more information about VTK data type). It will be specified each time is needed.
+Note: Some modules can't be added for any type of data set. Some work only for StructuredGrid or StructuredPoints for example (see http://www.vtk.org/pdf/file-formats.pdf  for more information about VTK data type). It will be specified each time is needed.
 
 Note2: In the MayaVi2 tree view, the "Main Modules" (called "Modules") have been separated from the "Basic Modules" loading the ModuleManager. Of coutse, you can load all your modules and filters without using the ModuleManager.
 
