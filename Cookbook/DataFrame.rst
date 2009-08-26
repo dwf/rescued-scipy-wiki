@@ -3,7 +3,7 @@
 Data Frames
 ===========
 
-The attachment:DataFrame_.py class, posted by Andrew Straw on the scipy-user mailing list[`http://thread.gmane.org/gmane.comp.python.scientific.user/6860`_, original link], is an extremely useful tool for using alphanumerical tabular data, as often found in databases. Some data which might be ingested into a data frame could be:
+The attachment:DataFrame_.py class, posted by Andrew Straw on the scipy-user mailing list[ http://thread.gmane.org/gmane.comp.python.scientific.user/6860 , original link], is an extremely useful tool for using alphanumerical tabular data, as often found in databases. Some data which might be ingested into a data frame could be:
 
 [Table not converted]
 

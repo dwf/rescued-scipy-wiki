@@ -13,7 +13,7 @@ MayaVi2 and TVTK are part of the [`https://svn.enthought.com/enthought`_ enthoug
 
 
 
-Installation information is detailed here [`http://code.enthought.com/enstaller/eggs/debian/etch`_] for all UN*X flavours.
+Installation information is detailed here [ http://code.enthought.com/enstaller/eggs/debian/etch ] for all UN*X flavours.
 
 Installation on a Linux box
 ===========================
@@ -21,22 +21,22 @@ Installation on a Linux box
 Debian etch distro
 ------------------
 
-Read installation information at [`http://code.enthought.com/enstaller/eggs/debian/etch`_]
+Read installation information at [ http://code.enthought.com/enstaller/eggs/debian/etch ]
 
 RedHat Enterprise (3/4/5) distro
 --------------------------------
 
-Read installation information above (Debian etch distro) and grab the eggs at [`http://code.enthought.com/enstaller/eggs/rhel`_]
+Read installation information above (Debian etch distro) and grab the eggs at [ http://code.enthought.com/enstaller/eggs/rhel ]
 
 Suse v10.2 distro
 -----------------
 
-Read installation information above (Debian etch distro) and grab the eggs at [`http://code.enthought.com/enstaller/eggs/suse`_]
+Read installation information above (Debian etch distro) and grab the eggs at [ http://code.enthought.com/enstaller/eggs/suse ]
 
 Ubuntu (edgy & feisty) distro
 -----------------------------
 
-Read installation information above (Debian etch distro) and grab the eggs at [`http://code.enthought.com/enstaller/eggs/ubuntu`_]
+Read installation information above (Debian etch distro) and grab the eggs at [ http://code.enthought.com/enstaller/eggs/ubuntu ]
 
 Installation on a FreeBSD box
 =============================
@@ -100,7 +100,7 @@ Once you have installed all the required stuff, and because pre-built python egg
 Installation on a MacOS X box
 =============================
 
-Read installation information above (Debian etch distro) and grab the eggs at [`http://code.enthought.com/enstaller/eggs/macosx`_]
+Read installation information above (Debian etch distro) and grab the eggs at [ http://code.enthought.com/enstaller/eggs/macosx ]
 
 Installation on a Windows box
 =============================

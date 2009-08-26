@@ -17,7 +17,7 @@ Learning the Object-Oriented API
 
 If you're embedding matplotlib in a wxPython program, you're probably going to have to use Matplotlib's Object-Oriented API to at some point.  Take heart, as it matches the pylab API closely and is easy to pick up.  There are more nuts and bolts to deal with, but that's no problem to someone already programming with wxPython! |;-)|
 
-The matplotlib FAQ [`http://matplotlib.sourceforge.net/faq.html#OO`_" links] to several resources for learning about the OO API.  Once you've got your feet wet, reading the classdocs is the most helpful source of information.  The [`http://matplotlib.sourceforge.net/matplotlib.axes.html#Axes`_" matplotlib.axes.Axes] class is where most of the plotting methods live, so it's a good place to start after you've conquored creating a Figure.
+The matplotlib FAQ [ http://matplotlib.sourceforge.net/faq.html#OO " links] to several resources for learning about the OO API.  Once you've got your feet wet, reading the classdocs is the most helpful source of information.  The [ http://matplotlib.sourceforge.net/matplotlib.axes.html#Axes " matplotlib.axes.Axes] class is where most of the plotting methods live, so it's a good place to start after you've conquored creating a Figure.
 
 For your edification, a series of pylab examples have been translated to the OO API.  They are available in a demonstration script that must be run from a command line.  You may use any interactive matplotlib backend to display these plots.
 

@@ -39,7 +39,7 @@ These operations run sequentially, taking no advantage of multicore machines (bu
 Write multithreaded or multiprocess code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sometimes you can see how to break your problem into several parallel tasks, but those tasks need some kind of synchronization or communication. For example, you might have a list of jobs that can be run in parallel, but you need to gather all their results, do some summary calculation, then launch another batch of parallel jobs. There are two approaches to doing this in Python, using either multiple [`http://en.wikipedia.org/wiki/Thread_(computer_science`_) threads] or [`http://en.wikipedia.org/wiki/Process_(computing`_) processes].
+Sometimes you can see how to break your problem into several parallel tasks, but those tasks need some kind of synchronization or communication. For example, you might have a list of jobs that can be run in parallel, but you need to gather all their results, do some summary calculation, then launch another batch of parallel jobs. There are two approaches to doing this in Python, using either multiple [ http://en.wikipedia.org/wiki/Thread_(computer_science ) threads] or [ http://en.wikipedia.org/wiki/Process_(computing ) processes].
 
 Threads
 :::::::

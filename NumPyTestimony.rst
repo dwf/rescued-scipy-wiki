@@ -24,7 +24,7 @@ matlab is a great tool for beginners and intermediates.  For experts, it has lim
 
 * download and parse a CSV file from a web server, eg
 
-`http://ichart.finance.yahoo.com/table.csv?s=INTC&d=8&e=29&f=2006&g=d&a=6&b=9&c=1986&ignore=.csv`_
+ http://ichart.finance.yahoo.com/table.csv?s=INTC&d=8&e=29&f=2006&g=d&a=6&b=9&c=1986&ignore=.csv
 
   (for a python implementation, see the matplotlib.finance module)
 

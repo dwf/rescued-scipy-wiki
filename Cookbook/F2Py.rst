@@ -88,7 +88,7 @@ A more complicated example about how to wrap routines for band matrices can be f
 Step by step wrapping of a simple numerical code
 ------------------------------------------------
 
-`http://websrv.cs.umt.edu/isis/index.php/F2py_example`_
+ http://websrv.cs.umt.edu/isis/index.php/F2py_example
 
 -------------------------
 

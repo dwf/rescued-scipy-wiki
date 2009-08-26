@@ -59,7 +59,7 @@ New Code
 
 If you have some new code you'd like to see included in SciPy_, the first thing to do is make a SciKit_.  A SciKit_ is a stand-alone package including your code (including complete reference and user documentation).  SciKits_ are distributed here:
 
-`http://scikits.appspot.com/`_
+ http://scikits.appspot.com/
 
 This site is currently still in early construction phases, and will be moved (and linked) to the main page of this site when it is ready to accept new SciKits_.  Right now users and developers are encouraged to view the site and comment on `MailTo(scipy-dev@scipy.org)`_ to ensure it serves your needs.
 

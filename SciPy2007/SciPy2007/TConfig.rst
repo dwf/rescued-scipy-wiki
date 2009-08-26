@@ -62,7 +62,7 @@ TConfig = Traits + ConfigObj
 
 Where is TConfig?
 
-[`http://ipython.scipy.org/svn/ipython/ipython/branches/saw/sandbox/tconfig`_]
+[ http://ipython.scipy.org/svn/ipython/ipython/branches/saw/sandbox/tconfig ]
 
 **DEMO**
 
