@@ -21,17 +21,17 @@ This page contains feedback and summaries from the SciPy_ 2007 Conference.  Plea
 
 * Chris Hanley has also collected his notes for each day:
 
-  * [`http://www.google.com/notebook/public/00116375172106219610/BDQGkIwoQjc3Sq8Yi`_ Tutorial Day 1]
+  * `Tutorial Day 1 <http://www.google.com/notebook/public/00116375172106219610/BDQGkIwoQjc3Sq8Yi>`_
 
-  * [`http://www.google.com/notebook/public/00116375172106219610/BDRWYIgoQneKc0cYi`_ Tutorial Day 2]
+  * `Tutorial Day 2 <http://www.google.com/notebook/public/00116375172106219610/BDRWYIgoQneKc0cYi>`_
 
-  * [`http://www.google.com/notebook/public/00116375172106219610/BDRmeIwoQgPSp38Yi`_ Testing BoF]
+  * `Testing BoF <http://www.google.com/notebook/public/00116375172106219610/BDRmeIwoQgPSp38Yi>`_
 
-  * [`http://www.google.com/notebook/public/00116375172106219610/BDRmeIwoQlbO438Yi`_ Conference Day 1]
+  * `Conference Day 1 <http://www.google.com/notebook/public/00116375172106219610/BDRmeIwoQlbO438Yi>`_
 
-  * [`http://www.google.com/notebook/public/00116375172106219610/BDR6MIgoQvIi638Yi`_ Conference Day 2]
+  * `Conference Day 2 <http://www.google.com/notebook/public/00116375172106219610/BDR6MIgoQvIi638Yi>`_
 
-  * [`http://www.google.com/notebook/public/00116375172106219610/BDQGkIwoQzuK738Yi`_ Astronomy BoF]
+  * `Astronomy BoF <http://www.google.com/notebook/public/00116375172106219610/BDQGkIwoQzuK738Yi>`_
 
   .. ############################################################################
 

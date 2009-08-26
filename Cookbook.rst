@@ -25,7 +25,7 @@ NumPy / SciPy
 
 * [:Cookbook/MultiDot:Multiplying multiple arguments] Generalizing ``dot(a,b)`` to the case of N arguments.
 
-* [:Cookbook/KalmanFiltering:Kalman Filtering] Example from the Welch & Bishop [`http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html`_ Introduction to the Kalman Filter].
+* [:Cookbook/KalmanFiltering:Kalman Filtering] Example from the Welch & Bishop `Introduction to the Kalman Filter <http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html>`_.
 
 * [:`/FittingData`_:Fitting Data] Day to day work in the lab: fitting experimental data.
 

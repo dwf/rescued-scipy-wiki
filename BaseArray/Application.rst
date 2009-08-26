@@ -1,6 +1,6 @@
 #format rst
 
-Preparing the interface was part of a [`http://code.google.com/soc`_ Google Summer Of Code 2006] project ([`http://wiki.python.org/moin/SummerOfCode`_ list of PSF projects]) by KarolLangner_ - *Base multidimensional array type for Python core*. The project was not successfull, and is not being currently worked on. A proposed revision of the buffer protocol in Python, however, is outlined in [`http://svn.scipy.org/svn/numpy/trunk/numpy/doc/pep_buffer.txt`_ a PEP by Travis Oliphant].
+Preparing the interface was part of a `Google Summer Of Code 2006 <http://code.google.com/soc>`_ project (`list of PSF projects <http://wiki.python.org/moin/SummerOfCode>`_) by KarolLangner_ - *Base multidimensional array type for Python core*. The project was not successfull, and is not being currently worked on. A proposed revision of the buffer protocol in Python, however, is outlined in `a PEP by Travis Oliphant <http://svn.scipy.org/svn/numpy/trunk/numpy/doc/pep_buffer.txt>`_.
 
 **Proposal title**: Base multidimensional array type for Python core
 

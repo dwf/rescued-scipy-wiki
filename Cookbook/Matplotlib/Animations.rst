@@ -7,7 +7,7 @@ TableOfContents_
 Performance
 ===========
 
-matplotlib supports 5 different graphical user interfaces (GTK, WX, Qt, Tkinter, FLTK) and for some of those GUIs, there are various ways to draw to the canvas.  For example, for GTK, you can use native [`http://www.pygtk.org/pygtk2reference/class-gdkdrawable.html`_ GDK drawing], `antigrain <http://antigrain.com>`_, or `cairo <http://cairographics.org/>`_.  A GUI toolkit combined with some method of drawing comprises a `backend <http://matplotlib.sourceforge.net/backends.html>`_.  For example, drawing to a GTK canvas with the antigrain drawing toolkit is called the GTKAgg backend.  This is important because different backends have different performance characteristics, and the difference can be considerable.
+matplotlib supports 5 different graphical user interfaces (GTK, WX, Qt, Tkinter, FLTK) and for some of those GUIs, there are various ways to draw to the canvas.  For example, for GTK, you can use native `GDK drawing <http://www.pygtk.org/pygtk2reference/class-gdkdrawable.html>`_, `antigrain <http://antigrain.com>`_, or `cairo <http://cairographics.org/>`_.  A GUI toolkit combined with some method of drawing comprises a `backend <http://matplotlib.sourceforge.net/backends.html>`_.  For example, drawing to a GTK canvas with the antigrain drawing toolkit is called the GTKAgg backend.  This is important because different backends have different performance characteristics, and the difference can be considerable.
 
 When considering performance, the typical measure is frames per second.  Television is 30 frames per second, and for many application if you can get 10 or more frames per second the animation is smooth enough to "look good".  Monitors refresh at 75-80 frames per second typically, and so this is an upper limit for performance.  Any faster is probably wasted CPU cycles.
 
@@ -158,7 +158,7 @@ As noted above, only the GTKAgg supports the methods above to to the animations 
 Figure canvas methods
 ---------------------
 
-* ``background = canvas.copy_from_bbox(ax.bbox)`` - copy the region in ax.bbox into a pixel buffer and return it in an object type of your choosing.  bbox is a matplotlib BBox instance from the [`http://matplotlib.sf.net/transforms.html`_ transforms module]. ``background`` is not used by the matplotlib frontend, but it stores it and passes it back to the backend in the ``restore_region`` method. You will probably want to store not only the pixel buffer but the rectangular region of the canvas from whence it came in the background object.
+* ``background = canvas.copy_from_bbox(ax.bbox)`` - copy the region in ax.bbox into a pixel buffer and return it in an object type of your choosing.  bbox is a matplotlib BBox instance from the `transforms module <http://matplotlib.sf.net/transforms.html>`_. ``background`` is not used by the matplotlib frontend, but it stores it and passes it back to the backend in the ``restore_region`` method. You will probably want to store not only the pixel buffer but the rectangular region of the canvas from whence it came in the background object.
 
 * ``canvas.restore_region(background)`` - restore the region copied above to the canvas.
 

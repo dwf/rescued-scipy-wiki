@@ -21,17 +21,17 @@ Although Sourceforge is used to distribute releases, bugs and feature-requests s
 
 Other links:
 
-* [`http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103`_  Sourceforge download site]
+* ` Sourceforge download site <http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103>`_
 
-* `Documentation <http://www.trelgol.com/>`_ (fee-based) and [`http://www.tramy.us/numpybooksample.pdf`_ Sample Chapters]
+* `Documentation <http://www.trelgol.com/>`_ (fee-based) and `Sample Chapters <http://www.tramy.us/numpybooksample.pdf>`_
 
-Much of the documentation for Numeric and Numarray is applicable to the new NumPy package.  However, there are [`http://numeric.scipy.org/new_features.html`_ significant feature improvements].  A complete guide to the new system is being written by the primary developer, Travis Oliphant.  If you want to fully understand the new system, or you just want to encourage further development on NumPy (or SciPy_), you should purchase the documentation which is being sold for a relatively brief period of time to help offset the cost of producing the Numeric/numarray hybrid and to help raise money for future development.   If you have further questions about the fee-based documentation, Travis has written some `responses <http://www.tramy.us/FAQ.html>`_ to FAQs.
+Much of the documentation for Numeric and Numarray is applicable to the new NumPy package.  However, there are `significant feature improvements <http://numeric.scipy.org/new_features.html>`_.  A complete guide to the new system is being written by the primary developer, Travis Oliphant.  If you want to fully understand the new system, or you just want to encourage further development on NumPy (or SciPy_), you should purchase the documentation which is being sold for a relatively brief period of time to help offset the cost of producing the Numeric/numarray hybrid and to help raise money for future development.   If you have further questions about the fee-based documentation, Travis has written some `responses <http://www.tramy.us/FAQ.html>`_ to FAQs.
 
 * An extensive and free ["Numpy Example List"] illustrates the use of most of the Numpy features.
 
-* [`http://numeric.scipy.org/numpydoc/numdoc.htm`_ Free documentation for Numeric] (most of which is still valid) is available, or [`http://numeric.scipy.org/numpy.pdf`_ as a pdf file].   Obviously you should replace references to Numeric in that document with numpy (i.e. instead of import Numeric, use import numpy).
+* `Free documentation for Numeric <http://numeric.scipy.org/numpydoc/numdoc.htm>`_ (most of which is still valid) is available, or `as a pdf file <http://numeric.scipy.org/numpy.pdf>`_.   Obviously you should replace references to Numeric in that document with numpy (i.e. instead of import Numeric, use import numpy).
 
-* [`http://numeric.scipy.org/new_features.html`_ New Features of NumPy]
+* `New Features of NumPy <http://numeric.scipy.org/new_features.html>`_
 
 * A presentation of the new system was also made at SciPy_ 2005.  You can `download <http://www.scipy.org/wikis/scipy05/presentations/scipy_core_2005.ppt/download>`_ the presentation (or in `pdf <http://www.scipy.org/wikis/scipy05/presentations/scipy_2005_bas.pdf/download>`_ format)
 

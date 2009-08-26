@@ -19,7 +19,7 @@ ctypes also includes a code generator tool chain which allows automatic creation
 Getting Started with ctypes
 ===========================
 
-The [`http://starship.python.net/crew/theller/ctypes/tutorial.html`_ ctypes tutorial] and the [`http://docs.python.org/lib/module-ctypes.html`_ ctypes documentation for Python] provide extensive information on getting started with ctypes.
+The `ctypes tutorial <http://starship.python.net/crew/theller/ctypes/tutorial.html>`_ and the `ctypes documentation for Python <http://docs.python.org/lib/module-ctypes.html>`_ provide extensive information on getting started with ctypes.
 
 Assuming you've built a library called ``foo.dll`` or ``libfoo.so`` containing a function called ``bar`` that takes a pointer to a buffer of doubles and an int as arguments and returns an int, the following code should get you up and running. The following sections cover some possible build scripts, C code and Python code.
 
@@ -172,7 +172,7 @@ Using NumPy's ndpointer function, some very useful argtypes classes can be const
 
 Now, if an argument doesn't meet the requirements, a TypeError is raised. This allows one to make sure that arrays passed to the C function is in a form that the function can handle.
 
-See also the mailing list thread on [`http://thread.gmane.org/gmane.comp.python.numeric.general/7418/focus=7418`_ ctypes and ndpointer].
+See also the mailing list thread on `ctypes and ndpointer <http://thread.gmane.org/gmane.comp.python.numeric.general/7418/focus=7418>`_.
 
 Dynamic allocation through callbacks
 ====================================
@@ -212,7 +212,7 @@ Possible failures include a SystemError exception being raised, the interpreter 
 
 * [`http://thread.gmane.org/gmane.comp.python.ctypes/2974`_ Hang with callback returning POINTER(c_float)]
 
-* [`http://thread.gmane.org/gmane.comp.python.ctypes/2972`_ Error with callback function and as_parameter with NumPy_ ndpointer]
+* `Error with callback function and as_parameter with NumPy_ ndpointer <http://thread.gmane.org/gmane.comp.python.ctypes/2972>`_
 
 Time for an example. The C code for the example:
 
@@ -254,7 +254,7 @@ Time for an example. The C code for the example:
    }
    #endif
 
-Check the [`http://www.newty.de/fpt/index.html`_ The Function Pointer Tutorials] if you're new to function pointers in C or C++. And the Python code:
+Check the `The Function Pointer Tutorials <http://www.newty.de/fpt/index.html>`_ if you're new to function pointers in C or C++. And the Python code:
 
 ::
 
@@ -565,24 +565,24 @@ Some useful threads on the ctypes-users mailing list:
 
 * [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3119087`_ IndexError_ when indexing on POINTER(POINTER(ctype))]
 
-* [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118513`_ Adding ctypes support to NumPy_]
+* `Adding ctypes support to NumPy <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118513>`_
 
 * [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118656`_ Determining if a ctype is a pointer type (was RE: Adding ctypes support to NumPy_)]
 
-* [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3117306`_ Check for NULL pointer without ValueError_]
+* `Check for NULL pointer without ValueError <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3117306>`_
 
-* [`http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3205951`_ Problem with callbacks from C into Python]
+* `Problem with callbacks from C into Python <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3205951>`_
 
-* [`http://thread.gmane.org/gmane.comp.python.numeric.general/7418\`_ ctypes and ndpointer]
+* `ctypes and ndpointer <http://thread.gmane.org/gmane.comp.python.numeric.general/7418\>`_
 
-* [`http://thread.gmane.org/gmane.comp.python.ctypes/3116`_ Problems with 64 signed integer]
+* `Problems with 64 signed integer <http://thread.gmane.org/gmane.comp.python.ctypes/3116>`_
 
 Thomas Heller's answers are particularly insightful.
 
 Documentation
 =============
 
-* [`http://starship.python.net/crew/theller/ctypes/tutorial.html`_ ctypes tutorial]
+* `ctypes tutorial <http://starship.python.net/crew/theller/ctypes/tutorial.html>`_
 
 * [`http://docs.python.org/dev/lib/module-ctypes.html`_ 13.14 ctypes -- A foreign function library for Python.]
 

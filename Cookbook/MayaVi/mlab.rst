@@ -6,7 +6,7 @@
 
 The mlab.py module allows for simple 3D plotting of objects. It provides an object oriented approch to 3d visualization.
 
-It relies on the simple TVTK module, rather than on the full blown Mayavi application. As a result it has less dependencies. However, it is harder to extend and more limited. The developers are not planning any feature addition to this module, and we strongly advise you to use the Mayavi mlab module, which provides the same usecases, but with more functionalities and is under constant development. For more information, you can read [`http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/mlab.html`_ the relevant section of the Mayavi user guide]
+It relies on the simple TVTK module, rather than on the full blown Mayavi application. As a result it has less dependencies. However, it is harder to extend and more limited. The developers are not planning any feature addition to this module, and we strongly advise you to use the Mayavi mlab module, which provides the same usecases, but with more functionalities and is under constant development. For more information, you can read `the relevant section of the Mayavi user guide <http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/mlab.html>`_
 
  **Table of Contents**
 

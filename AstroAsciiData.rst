@@ -47,7 +47,7 @@ After the initial release (which was version 0.01), version 1.0 of the module co
 
 * there is a manual which covers all aspects of the module.
 
-If you have the feeling that the AstroAsciiData module might be the answer to some of your problems, then go to the [`http://www.stecf.org/software/PYTHONtools/astroasciidata/`_ AstroAsciiData project webpage] and download the software.
+If you have the feeling that the AstroAsciiData module might be the answer to some of your problems, then go to the `AstroAsciiData project webpage <http://www.stecf.org/software/PYTHONtools/astroasciidata/>`_ and download the software.
 
 In case that the module does **not** meet your expectations or is just disapointing, give a short feedback why, either on the wiki here or via email at AstroAsciiData@stecf.org.
 

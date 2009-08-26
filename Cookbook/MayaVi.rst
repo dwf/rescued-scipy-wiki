@@ -23,7 +23,7 @@ MayaVi2 topics
 
 MayaVi2 can be used as an interactive program or not, as it will be presented here.
 
-* For installation of MayaVi2 in the enthought tool suite see the [`http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/installation.html`_ Mayavi documentation]
+* For installation of MayaVi2 in the enthought tool suite see the `Mayavi documentation <http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/installation.html>`_
 
 * Using MayaVi2:
 

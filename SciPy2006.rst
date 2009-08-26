@@ -4,7 +4,7 @@
 
 </strong>[Table not converted]
 
-* Keynote Speaker: [`http://www.python.org/~guido/`_ Guido van Rossum], the author of the Python Language.
+* Keynote Speaker: `Guido van Rossum <http://www.python.org/~guido/>`_, the author of the Python Language.
 
 * [:SciPy2006/Schedule:Conference Schedule] -- **Updated**
 
@@ -12,7 +12,7 @@
 
 * [:`SciPy2006/CodingSprints`_:Coding Sprints]
 
-* **There is now a [**`http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf`_ **map] available** showing the locations of each event next week.  Note, there is also a [`http://www.cacr.caltech.edu/projects/danse/meetings/kickoff/`_ DANSE Kickoff meeting] at Caltech next week as well, and the various meeting locations for DANSE are also noted on the map.
+* **There is now a [**`http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf`_ **map] available** showing the locations of each event next week.  Note, there is also a `DANSE Kickoff meeting <http://www.cacr.caltech.edu/projects/danse/meetings/kickoff/>`_ at Caltech next week as well, and the various meeting locations for DANSE are also noted on the map.
 
   * Monday and Tuesday, 9:00am - 5:30pm the *Sprints* will be held in the Powell-Booth building as noted on the map--follow the signs from the building entrance to find the meeting room.
 
@@ -42,7 +42,7 @@
 
   * `http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf`_
 
-  * Parking: NB - **The parking situation has changed** -- everyone will need to purchase a visitor permit at automated pay stations at the parking lots.  Good parking locations are also noted on the [`http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf`_ SciPy_ map].  Please see the full details at the Caltech [`http://parking.caltech.edu/permits.html#visitor`_ visitor parking info site]
+  * Parking: NB - **The parking situation has changed** -- everyone will need to purchase a visitor permit at automated pay stations at the parking lots.  Good parking locations are also noted on the `SciPy_ map <http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf>`_.  Please see the full details at the Caltech `visitor parking info site <http://parking.caltech.edu/permits.html#visitor>`_
 
 This conference provides a unique opportunity to learn and affect what is happening in the realm of scientific computing with Python. Attendees will have the opportunity to review the available tools and how they apply to specific problems. By providing a forum for developers to share their Python expertise with the wider commercial, academic, and research communities, this workshop will foster collaboration and facilitate the sharing of software components, techniques and a vision for high level language use in scientific computing.
 

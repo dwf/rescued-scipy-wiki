@@ -123,9 +123,9 @@ Misc
 
 * [:Cookbook/Matplotlib/Using MatPlotLib_ in a CGI script:Using MatPlotLib_ in a CGI script] - steps needed to be able to use matplotlib from a python cgi script
 
-* [`http://www.answermysearches.com/index.php/making-dynamic-charts-and-graphs-for-your-webpage/135/`_ Making Dynamic Charts for your Webpage] - Complete CGI script example.
+* `Making Dynamic Charts for your Webpage <http://www.answermysearches.com/index.php/making-dynamic-charts-and-graphs-for-your-webpage/135/>`_ - Complete CGI script example.
 
-* [`http://www.dalkescientific.com/writings/diary/archive/2005/04/23/matplotlib_without_gui.html`_ matplotlib without GUI] by Andrew Dalke.
+* `matplotlib without GUI <http://www.dalkescientific.com/writings/diary/archive/2005/04/23/matplotlib_without_gui.html>`_ by Andrew Dalke.
 
 * [`http://debs.astraw.com/dapper/`_ Andrew Straw's Apt Repository] - Bleeding edge deb packages for Debian, Ubuntu (also has packages for numpy/scipy etc.).
 
@@ -135,7 +135,7 @@ Misc
 
 * [:Cookbook/Matplotlib/Django:Embedding in Django] - example on how to use matplotlib with Django.
 
-* [`http://pytseries.sourceforge.net`_ timeseries scikit] - The documentation contains a section on plotting ``TimeSeries`` objects using matplotlib
+* `timeseries scikit <http://pytseries.sourceforge.net>`_ - The documentation contains a section on plotting ``TimeSeries`` objects using matplotlib
 
 * `/TreeMap`_ - A compact way of showing weighted tree information.
 

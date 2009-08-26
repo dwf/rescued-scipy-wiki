@@ -323,7 +323,7 @@ This comes up from time to time on the mailing list. See `here <http://projects.
    >>> A
    array([ 1.,  1.,  1.])
 
-One might, quite reasonably, have expected A to contain [1,2,1]. Unfortunately this is not what is implemented in numpy. More, the [`http://docs.python.org/ref/augassign.html`_ Python Reference Manual] specifies that
+One might, quite reasonably, have expected A to contain [1,2,1]. Unfortunately this is not what is implemented in numpy. More, the `Python Reference Manual <http://docs.python.org/ref/augassign.html>`_ specifies that
 
 ::
 
@@ -489,7 +489,7 @@ To be sure that !NumPy/!SciPy_ is built against a complete LAPACK, check the siz
 
    python numpy/distutils/system_info.py lapack
 
-To fix: follow the instructions in [`http://math-atlas.sourceforge.net/errata.html#completelp`_ Building a complete LAPACK library] to create a complete liblapack.a. Then copy liblapack.a to the same location where libatlas.a is installed and retry with scipy build.
+To fix: follow the instructions in `Building a complete LAPACK library <http://math-atlas.sourceforge.net/errata.html#completelp>`_ to create a complete liblapack.a. Then copy liblapack.a to the same location where libatlas.a is installed and retry with scipy build.
 
 Using ATLAS 3.2.1
 ~~~~~~~~~~~~~~~~~

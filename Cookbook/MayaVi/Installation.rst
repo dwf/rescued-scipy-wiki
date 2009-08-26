@@ -107,13 +107,13 @@ Installation on a Windows box
 
 **Installation with Enthon:** For Windows, you can download the enthought edition at `http://code.enthought.com/enthon`_ (>=0.9.3).  This includes Python itself along with MayaVi2 and many other tools.
 
-**Installation with easy_install:** The enthought tools are now also available via individual `eggs <http://peak.telecommunity.com/DevCenter/PythonEggs>`_ that can be installed on top of an existing Python using `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_.  Assuming you've already [`http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install`_ installed easy_install] the following command will do it:
+**Installation with easy_install:** The enthought tools are now also available via individual `eggs <http://peak.telecommunity.com/DevCenter/PythonEggs>`_ that can be installed on top of an existing Python using `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_.  Assuming you've already `installed easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_ the following command will do it:
 
 ::
 
      easy_install -f http://code.enthought.com/enstaller/eggs enthought
 
-The enthought egg contains the whole [`http://code.enthought.com/ets/`_ Enthought Tool Suite], which includes MayaVi2.  You may also need to install a few other things that MayaVi2 depends on, like VTK, numpy, scipy, and Enthought's precompiled version of wxWidgets *(can someone verify these are all really dependencies?)*:
+The enthought egg contains the whole `Enthought Tool Suite <http://code.enthought.com/ets/>`_, which includes MayaVi2.  You may also need to install a few other things that MayaVi2 depends on, like VTK, numpy, scipy, and Enthought's precompiled version of wxWidgets *(can someone verify these are all really dependencies?)*:
 
 ::
 

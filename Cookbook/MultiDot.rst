@@ -28,7 +28,7 @@ The simplest way it to just use reduce.
    def mdot(*args):
        return reduce(numpy.dot, args)
 
-Or use the equivalent loop (which is apparently the preferred style [`http://www.python.org/dev/peps/pep-3100/#id53`_ for Py3K]):
+Or use the equivalent loop (which is apparently the preferred style `for Py3K <http://www.python.org/dev/peps/pep-3100/#id53>`_):
 
 ::
 

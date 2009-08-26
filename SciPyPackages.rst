@@ -1,6 +1,6 @@
 #format rst
 
-**Note: These pages are deprecated in favour of the**  [`http://docs.scipy.org/scipy/docs/scipy/`_ online documentation].
+**Note: These pages are deprecated in favour of the**  `online documentation <http://docs.scipy.org/scipy/docs/scipy/>`_.
 
 SciPy_ is composed of several modules under the ``scipy`` namespace. Here is a list:
 
@@ -42,7 +42,7 @@ Other packages
 
 * [:Weave: Weave] : C/C++ integration
 
-You might also want to check out the [`http://www.scipy.org/doc/api_docs/`_ SciPy_ API documentation]
+You might also want to check out the `SciPy_ API documentation <http://www.scipy.org/doc/api_docs/>`_
 
 -------------------------
 

@@ -382,7 +382,7 @@ Sparse Matrix File Input/Output
 MatrixMarket
 ------------
 
-  The `MatrixMarket <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_ format stores matrices in a simple ASCII file format.  Software for reading and writing MatrixMatrix_ in various programming languages files is [`http://math.nist.gov/MatrixMarket/formats.html#MMformat`_ freely available].  The [`http://bebop.cs.berkeley.edu/smc/`_ BeBOP sparse matrix converter] can be used to convert between the MatrixMarket_ format and other sparse formats (e.g. Harwell-Boeing).
+  The `MatrixMarket <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_ format stores matrices in a simple ASCII file format.  Software for reading and writing MatrixMatrix_ in various programming languages files is `freely available <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_.  The `BeBOP sparse matrix converter <http://bebop.cs.berkeley.edu/smc/>`_ can be used to convert between the MatrixMarket_ format and other sparse formats (e.g. Harwell-Boeing).
 
   Reading and writing files in the MatrixMarket_ format is easy:
 
@@ -449,7 +449,7 @@ Python
 Books
 -----
 
-* [`http://www-users.cs.umn.edu/~saad/books.html`_ Iterative Methods for Sparse Linear Systems] by Yousef Saad (first edition is freely available)
+* `Iterative Methods for Sparse Linear Systems <http://www-users.cs.umn.edu/~saad/books.html>`_ by Yousef Saad (first edition is freely available)
 
 Other Packages and Libraries
 ----------------------------

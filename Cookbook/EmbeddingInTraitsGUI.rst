@@ -3,7 +3,7 @@
 Embedding a Matplotlib Figure in a Traits App
 =============================================
 
-Traits, part of the[`http://code.enthought.com/`_ Enthought Tools Suit ], provides a great framework for creating GUI Apps without a lot of the normal boilerplate required to connect the UI the rest of the application logic. A brief introduction to Traits can be found [:TraitsUI:here]. Although ETS comes with it's own traits-aware plotting framework (Chaco), if you already know matplotlib it is just as easy to embed this instead. The advantages of Chaco (IMHO) are its interactive "tools", an (in development) OpenGL rendering backend and an easy-to-understand codebase. However, matplotlib has more and better documentation and better defaults; it just works. The key to getting TraitsUI and matplotlib to play nice is to use the mpl object-oriented API, rather than pylab / pyplot. This recipe requires the following packages:
+Traits, part of the`Enthought Tools Suit  <http://code.enthought.com/>`_, provides a great framework for creating GUI Apps without a lot of the normal boilerplate required to connect the UI the rest of the application logic. A brief introduction to Traits can be found [:TraitsUI:here]. Although ETS comes with it's own traits-aware plotting framework (Chaco), if you already know matplotlib it is just as easy to embed this instead. The advantages of Chaco (IMHO) are its interactive "tools", an (in development) OpenGL rendering backend and an easy-to-understand codebase. However, matplotlib has more and better documentation and better defaults; it just works. The key to getting TraitsUI and matplotlib to play nice is to use the mpl object-oriented API, rather than pylab / pyplot. This recipe requires the following packages:
 
 * numpy
 

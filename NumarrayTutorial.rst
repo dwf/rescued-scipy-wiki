@@ -4,7 +4,7 @@ This tutorial has been written by Perry Greenfield and Robert Jedrzejewski to il
 
 The version of the tutorial available on this page uses the older array package numarray, which is being phased out. **Unless you have a very strong reason to learn using numarray, please use the numpy version of the tutorial!**
 
-[`http://stsdas.stsci.edu/perry/pydatatut_numarray.pdf`_ Download tutorial]
+`Download tutorial <http://stsdas.stsci.edu/perry/pydatatut_numarray.pdf>`_
 
 Using the tutorial for fields other than astronomy
 --------------------------------------------------

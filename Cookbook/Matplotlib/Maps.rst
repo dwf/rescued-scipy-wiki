@@ -2,7 +2,7 @@
 
 Plotting data on map projections is easy with the basemap toolkit.  Toolkits are collections of application-specific functions that extend matplotlib.
 
-**The basemap toolkit is not in the default matplotlib install** - you can download it from the matplotlib sourceforge [`http://sourceforge.net/project/showfiles.php?group_id=80706&package_id=142792`_ download page].
+**The basemap toolkit is not in the default matplotlib install** - you can download it from the matplotlib sourceforge `download page <http://sourceforge.net/project/showfiles.php?group_id=80706&package_id=142792>`_.
 
 Suppose you'd like to make a map of the world using an orthographic, or satellite projection and plot some data on it. Here's how to make the map (using matplotlib >= 0.98.0 and basemap >= 0.99):
 
@@ -28,7 +28,7 @@ Suppose you'd like to make a map of the world using an orthographic, or satellit
    map.drawparallels(np.arange(-90,90,30))
    plt.show()
 
-There are many other map projections available, probably more than you've even heard of before.  A complete list is available in the [`http://matplotlib.sourceforge.net/mpl_toolkits.basemap.basemap.html`_ basemap docstrings]. Coastlines, political boundaries and rivers are available in four resolutions, ``crude``, ``low``, ``intermediate`` and ``high``.  Here's what the ``low`` resolution coastlines look like.
+There are many other map projections available, probably more than you've even heard of before.  A complete list is available in the `basemap docstrings <http://matplotlib.sourceforge.net/mpl_toolkits.basemap.basemap.html>`_. Coastlines, political boundaries and rivers are available in four resolutions, ``crude``, ``low``, ``intermediate`` and ``high``.  Here's what the ``low`` resolution coastlines look like.
 
 inline:basemap0.png
 

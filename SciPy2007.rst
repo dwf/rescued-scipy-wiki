@@ -34,7 +34,7 @@ Please follow the links below to view various artifacts from the Conference.
 
 
 
-* We're excited to have [`http://laptop.org/vision/people/IvanKrstic/`_ Ivan Krstić], the director of security architecture for the [`http://laptop.org`_ One Laptop Per Child] project as this year's keynote speaker.
+* We're excited to have [`http://laptop.org/vision/people/IvanKrstic/`_ Ivan Krstić], the director of security architecture for the `One Laptop Per Child <http://laptop.org>`_ project as this year's keynote speaker.
 
 * The [:`SciPy2007/ConferenceSchedule`_: Schedule] of talks is **now available**.
 
@@ -76,15 +76,15 @@ Registration
 
 Some helpful links:
 
-* [`http://admissions.caltech.edu/visiting/accommodations`_ Nearby accomodations]
+* `Nearby accomodations <http://admissions.caltech.edu/visiting/accommodations>`_
 
 * `Directions <http://www.admissions.caltech.edu/visiting/getting-here/>`_
 
-* [`http://www.cacr.caltech.edu/visit_contact/index.cfm`_ Visit CACR site]
+* `Visit CACR site <http://www.cacr.caltech.edu/visit_contact/index.cfm>`_
 
 * [attachment:SciPymap2007_.pdf Campus Map]
 
-* [`http://www.parking.caltech.edu/permits.html#visitor`_ Parking Instructions] - parking is now $15/week or $5/day.  Allow time in the morning to park and fill out a parking form.
+* `Parking Instructions <http://www.parking.caltech.edu/permits.html#visitor>`_ - parking is now $15/week or $5/day.  Allow time in the morning to park and fill out a parking form.
 
 Student Sponsorship
 -------------------

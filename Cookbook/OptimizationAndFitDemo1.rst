@@ -1,6 +1,6 @@
 #format rst
 
-This is a quick example of creating data from several [`http://www.scipy.org/doc/api_docs/scipy.special.info.html`_ Bessel functions] and finding local maxima, then fitting a curve using some spline functions from the [`http://www.scipy.org/doc/api_docs/scipy.interpolate.info.html`_ scipy.interpolate] module.  The [`http://code.enthought.com/chaco/`_ enthought.chaco] package and `wxpython <http://www.wxpython.org/>`_ are used for creating the plot.  `PyCrust <http://wiki.wxpython.org/index.cgi/PyCrust>`_ (which comes with wxpython) was used as the python shell.
+This is a quick example of creating data from several `Bessel functions <http://www.scipy.org/doc/api_docs/scipy.special.info.html>`_ and finding local maxima, then fitting a curve using some spline functions from the [`http://www.scipy.org/doc/api_docs/scipy.interpolate.info.html`_ scipy.interpolate] module.  The [`http://code.enthought.com/chaco/`_ enthought.chaco] package and `wxpython <http://www.wxpython.org/>`_ are used for creating the plot.  `PyCrust <http://wiki.wxpython.org/index.cgi/PyCrust>`_ (which comes with wxpython) was used as the python shell.
 
 ::
 

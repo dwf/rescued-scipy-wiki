@@ -86,7 +86,7 @@ The syntax of signature files is borrowed from the Fortran 90/95 language specif
 
     * Practice has shown that F2PY generated interfaces (to C or Fortran functions) are less error prone and even more efficient than handwritten extension modules. The F2PY generated interfaces are easy to maintain and any future optimization of F2PY generated interfaces transparently apply to extension modules by just regenerating them with the latest version of F2PY.
 
-    * [`http://cens.ioc.ee/projects/f2py2e/usersguide/index.html`_ F2PY Users Guide and Reference Manual] --- it is based on f2py2e but most of it is valid for F2PY.
+    * `F2PY Users Guide and Reference Manual <http://cens.ioc.ee/projects/f2py2e/usersguide/index.html>`_ --- it is based on f2py2e but most of it is valid for F2PY.
 
 Prerequisites
 -------------

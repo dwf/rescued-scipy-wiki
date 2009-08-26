@@ -30,7 +30,7 @@ SciPy (pronounced "Sigh Pie") is open-source software for mathematics, science, 
 The SciPy conference
 ====================
 
-The [`http://conference.scipy.org`_ annual conference on Python in Science] is to be held in Pasadena, CA, August 18-23. Early bird registration until July 17.
+The `annual conference on Python in Science <http://conference.scipy.org>`_ is to be held in Pasadena, CA, August 18-23. Early bird registration until July 17.
 
 .. Hack to get some vertical spacing
 

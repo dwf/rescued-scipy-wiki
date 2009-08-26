@@ -25,7 +25,7 @@ The November 2007 issue of **[**`http://pymag.phparch.com`_ **Python Magazine]**
    #class left
    [[ImageLink(C1.jpg,http://computer.org/cise)]]
 
-The May/June issue of **[**`http://computer.org/cise`_**: Computing in Science and Engineering]** is out and has a Python theme.  Many folks we know and love from the community and mailing lists contribute to the issue.  Read articles by Paul Dubois and Travis Oliphant for free through the CiSE site online.  Fernando Perez and Brian Granger's article on IPython is also [`http://amath.colorado.edu/faculty/fperez/preprints/ipython-cise-final.pdf`_ available here] (PDF format).
+The May/June issue of **[**`http://computer.org/cise`_**: Computing in Science and Engineering]** is out and has a Python theme.  Many folks we know and love from the community and mailing lists contribute to the issue.  Read articles by Paul Dubois and Travis Oliphant for free through the CiSE site online.  Fernando Perez and Brian Granger's article on IPython is also `available here <http://amath.colorado.edu/faculty/fperez/preprints/ipython-cise-final.pdf>`_ (PDF format).
 
 .. ############################################################################
 

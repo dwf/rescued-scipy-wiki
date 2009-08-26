@@ -1,6 +1,6 @@
 #format rst
 
-**BaseArray** was a proposed base multidimensional array type, ready-to-include in the Python core sometime in the future. This page aims at summarizing the various efforts that have gone in this direction. The long-term outcome of these is [`http://www.python.org/dev/peps/pep-3118`_ PEP 3118], *Revising the buffer protocol*. Note that alot of the text on this page is taken directly from [`http://svn.scipy.org/svn/PEP/PEP_basearray.txt`_ the text description of the PEP].
+**BaseArray** was a proposed base multidimensional array type, ready-to-include in the Python core sometime in the future. This page aims at summarizing the various efforts that have gone in this direction. The long-term outcome of these is `PEP 3118 <http://www.python.org/dev/peps/pep-3118>`_, *Revising the buffer protocol*. Note that alot of the text on this page is taken directly from `the text description of the PEP <http://svn.scipy.org/svn/PEP/PEP_basearray.txt>`_.
 
 Introduction
 ============
@@ -57,14 +57,14 @@ Related projects
 
 * NumPy_, the successor of Numeric and `NumArray <http://www.stsci.edu/resources/software_hardware/numarray>`_, is the starting point -  basearray is in fact a modification of the essential fragments of the numpy core source code. Naturally, the array type in numpy will be the first target to use basearray as a subtype for.
 
-* [`http://numeric.scipy.org/array_interface.html`_ Array interface] - a mechanism for a Python object (or PyCObject) to share information about its multidimensional data. This is like a "protocol", which sets the ground rules for objects that wish to be interpreted through this interface by code written to understand it. Interestingly, this array interface surfaced from discussion between developers of Numeric, Numarray, and numpy.
+* `Array interface <http://numeric.scipy.org/array_interface.html>`_ - a mechanism for a Python object (or PyCObject) to share information about its multidimensional data. This is like a "protocol", which sets the ground rules for objects that wish to be interpreted through this interface by code written to understand it. Interestingly, this array interface surfaced from discussion between developers of Numeric, Numarray, and numpy.
 
 * `Arraykit <http://svn.scipy.org/svn/numpy/branches/arraykit/>`_ - a similar project by Tim Hochberg, which can be used to create custom array-like objects.
 
 Summer of Code Project
 ======================
 
-Preparing the interface is formally part of a [`http://code.google.com/soc`_ Google Summer Of Code] project ([`http://wiki.python.org/moin/SummerOfCode`_ list of PSF projects]), currently being worked on by KarolLangner_ - *Base multidimensional array type for Python core*.
+Preparing the interface is formally part of a `Google Summer Of Code <http://code.google.com/soc>`_ project (`list of PSF projects <http://wiki.python.org/moin/SummerOfCode>`_), currently being worked on by KarolLangner_ - *Base multidimensional array type for Python core*.
 
 Original application
 --------------------

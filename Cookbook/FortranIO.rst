@@ -12,7 +12,7 @@ The following is an example of how to read a particular unformatted output file.
 Reading FORTRAN "unformatted IO" files
 ======================================
 
-Lots of scientific code is written in FORTRAN. One of the most convenient file formats to create in FORTRAN is the so-called "[`http://local.wasp.uwa.edu.au/~pbourke/dataformats/fortran/`_ unformatted binary file]". These files have all the disadvantages of raw binary IO - no metadata, data depends on host endianness, floating-point representation, and possibly word size - but are not simply raw binary. They are organized into "records", which are padded with size information. Nevertheless, one does encounter such files from time to time. No prewritten code appears to be available to read them in numpy/scipy, but it can be done with relative ease using numpy's record arrays:
+Lots of scientific code is written in FORTRAN. One of the most convenient file formats to create in FORTRAN is the so-called "`unformatted binary file <http://local.wasp.uwa.edu.au/~pbourke/dataformats/fortran/>`_". These files have all the disadvantages of raw binary IO - no metadata, data depends on host endianness, floating-point representation, and possibly word size - but are not simply raw binary. They are organized into "records", which are padded with size information. Nevertheless, one does encounter such files from time to time. No prewritten code appears to be available to read them in numpy/scipy, but it can be done with relative ease using numpy's record arrays:
 
 ::
 
@@ -29,5 +29,5 @@ Lots of scientific code is written in FORTRAN. One of the most convenient file f
    ...    ('pad3','i8'),
    ...    ('pad2','i4')]))
 
-This example is designed to read [`http://www.atnf.csiro.au/research/pulsar/tempo/ref_man_sections/output.txt`_ a file] output by `TEMPO <http://www.atnf.csiro.au/research/pulsar/tempo/>`_. Most of the fields, "TOA" up to "preres_s", are fields that are present and of interest in the file. The field "pad3" is either an undocumented addition to the file format or some kind of padding (it is always zero in my test file). The FORTRAN unformatted I/O adds the fields "pad1"  and "pad2". Each should contain the length, in bytes, of each record (so the presence of the extra "pad3" field could be deduced).   This code ignores tProxy-Connection: keep-alive Cache-Con
+This example is designed to read `a file <http://www.atnf.csiro.au/research/pulsar/tempo/ref_man_sections/output.txt>`_ output by `TEMPO <http://www.atnf.csiro.au/research/pulsar/tempo/>`_. Most of the fields, "TOA" up to "preres_s", are fields that are present and of interest in the file. The field "pad3" is either an undocumented addition to the file format or some kind of padding (it is always zero in my test file). The FORTRAN unformatted I/O adds the fields "pad1"  and "pad2". Each should contain the length, in bytes, of each record (so the presence of the extra "pad3" field could be deduced).   This code ignores tProxy-Connection: keep-alive Cache-Con
 

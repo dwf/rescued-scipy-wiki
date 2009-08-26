@@ -13,13 +13,13 @@ The coding sprints will be Monday and Tuesday the 14th and 15th of August.  We w
 
 * PyTrilinos_ - Introduction and basic tutorial; hands-on setup and guide
 
-* Porting the [`http://code.enthought.com/ets`_ Enthought Tool Suite] to Mac OS X: Robert Kern, Prabhu Ramachandran
+* Porting the `Enthought Tool Suite <http://code.enthought.com/ets>`_ to Mac OS X: Robert Kern, Prabhu Ramachandran
 
 * Porting applications to NumPy: Travis Oliphant -- free porting of open-source applications.  Priority will be given to projects with developers attending the conference but others are also encouraged to inquire.
 
 * Complete porting of scipy to numpy (removal of need for oldnumeric compatibility module)
 
-* Completion of [`http://projects.scipy.org/scipy/scipy/wiki/StatisticsReview`_ Statistics Review]
+* Completion of `Statistics Review <http://projects.scipy.org/scipy/scipy/wiki/StatisticsReview>`_
 
 * More unit tests for numpy and scipy
 

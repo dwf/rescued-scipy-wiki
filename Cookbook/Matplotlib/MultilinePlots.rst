@@ -70,9 +70,9 @@ inline:multipleaxes.png
 Manipulating transforms
 =======================
 
-For large numbers of lines the approach above is inefficient because creating a separate axes for each line creates a lot of useless overhead. The application that gave birth to matplotlib is an [`http://matplotlib.sourceforge.net/screenshots/eeg_small.png`_ EEG viewer] which must efficiently handle hundreds of lines; this is is available as part of the [`http://pbrain.sf.net`_ pbrain package].
+For large numbers of lines the approach above is inefficient because creating a separate axes for each line creates a lot of useless overhead. The application that gave birth to matplotlib is an `EEG viewer <http://matplotlib.sourceforge.net/screenshots/eeg_small.png>`_ which must efficiently handle hundreds of lines; this is is available as part of the `pbrain package <http://pbrain.sf.net>`_.
 
-Here is an example of how that application does multiline plotting with "in place" gain changes.  Note that this will break the y behavior of the toolbar because we have changed all the default transforms.  In my application I have a custom toolbar to increase or decrease the y scale.  In this example, I bind the plus/minus keys to a function which increases or decreases the y gain.  Perhaps I will take this and wrap it up into a function called plot_signals or something like that because the code is a bit hairy since it makes heavy use of the somewhat arcane matplotlib transforms.  I suggest reading up on the [`http://matplotlib.sourceforge.net/matplotlib.transforms.html`_ transforms module] before trying to understand this example:
+Here is an example of how that application does multiline plotting with "in place" gain changes.  Note that this will break the y behavior of the toolbar because we have changed all the default transforms.  In my application I have a custom toolbar to increase or decrease the y scale.  In this example, I bind the plus/minus keys to a function which increases or decreases the y gain.  Perhaps I will take this and wrap it up into a function called plot_signals or something like that because the code is a bit hairy since it makes heavy use of the somewhat arcane matplotlib transforms.  I suggest reading up on the `transforms module <http://matplotlib.sourceforge.net/matplotlib.transforms.html>`_ before trying to understand this example:
 
 ::
 

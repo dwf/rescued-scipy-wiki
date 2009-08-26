@@ -54,9 +54,9 @@ Attendee list
 
 * Jim Money (BancVue_)
 
-* [`http://xkenneth.blogspot.com`_ Kenneth Miller] (Teledrill - University of Houston)
+* `Kenneth Miller <http://xkenneth.blogspot.com>`_ (Teledrill - University of Houston)
 
-* Steve Tucker ([`http://www.continental.com`_ Continental Airlines])
+* Steve Tucker (`Continental Airlines <http://www.continental.com>`_)
 
 * Patricia Medina (Clear Creek ISD)
 
@@ -94,7 +94,7 @@ Attendee list
 
 * Nick Luchsinger (Student, CS, The University of Texas at Austin)
 
-* [`http://www.nigels.com`_ Nigel Stewart] (`NVIDIA <http://www.nvidia.com>`_)
+* `Nigel Stewart <http://www.nigels.com>`_ (`NVIDIA <http://www.nvidia.com>`_)
 
 * Gregory Matous (Momentum Software)
 

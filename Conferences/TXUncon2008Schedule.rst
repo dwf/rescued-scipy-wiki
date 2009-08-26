@@ -68,7 +68,7 @@ Afternoon Sessions
 
 
 
-  Developing Dynamic and Flexible programs with Python (based on the [`http://www.cs.wustl.edu/~schmidt/ACE.html`_ Adaptive Communication Environment] (ACE) task pattern) - Steve Tucker ([`http://www.continental.com`_ Continental Airlines])
+  Developing Dynamic and Flexible programs with Python (based on the `Adaptive Communication Environment <http://www.cs.wustl.edu/~schmidt/ACE.html>`_ (ACE) task pattern) - Steve Tucker (`Continental Airlines <http://www.continental.com>`_)
 
 -------------------------
 
@@ -102,7 +102,7 @@ More Lightning Talks
 
 
 
-  Short introduction to the [`http://pypi.python.org/pypi/bitarray/`_ bitarray module] -- Ilan Schnell (Enthought, Inc.)
+  Short introduction to the `bitarray module <http://pypi.python.org/pypi/bitarray/>`_ -- Ilan Schnell (Enthought, Inc.)
 
 -------------------------
 
@@ -117,7 +117,7 @@ Afternoon Sessions
 
 
 
-  Using the [`http://code.enthought.com/projects/tool-suite.php`_ Enthought Tool Suite] to Build Applications - Travis N. Vaught (Enthought, Inc.)
+  Using the `Enthought Tool Suite <http://code.enthought.com/projects/tool-suite.php>`_ to Build Applications - Travis N. Vaught (Enthought, Inc.)
 
   [`http://code.enthought.com/projects/traits/documentation.php`_ Traits 3.0 Documentation]
 

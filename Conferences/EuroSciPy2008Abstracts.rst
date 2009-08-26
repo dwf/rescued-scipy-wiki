@@ -143,12 +143,12 @@ Metric functions
   Performance assessment can be evaluated by a set of different measures with variability assessed by Standard Deviation or Bootstrap Confidence Intervals: among those we mention Error, Accuracy, Matthews Correlation Coefficient, Area Under the ROC Curve.
 
 Feature list analysis
-  The ordered lists from the feature ranking experiments can be analyzed in terms of stability (Canberra indicator, extraction/position indicator) and an optimal list can be retrieved [`http://biodcv.fbk.eu/listspy.html`_ Borda count].
+  The ordered lists from the feature ranking experiments can be analyzed in terms of stability (Canberra indicator, extraction/position indicator) and an optimal list can be retrieved `Borda count <http://biodcv.fbk.eu/listspy.html>`_.
 
 Landscaping tools
   The package includes executable scripts to be used off-the-shelf for typical parameter tuning tasks such as SVM-kernel choice and optimization.
 
-[`https://mlpy.fbk.eu`_ mlpy] is a project developed by [`http://mpba.fbk.eu`_ MPBA Group] at [`http://www.fbk.eu`_ Fondazione Bruno Kessler]. It is free software licensed under the GNU General Public License (GPL) version 3.
+[`https://mlpy.fbk.eu`_ mlpy] is a project developed by `MPBA Group <http://mpba.fbk.eu>`_ at `Fondazione Bruno Kessler <http://www.fbk.eu>`_. It is free software licensed under the GNU General Public License (GPL) version 3.
 
 `Anchor(kzimmermann)`_
 

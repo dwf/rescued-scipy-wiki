@@ -8,7 +8,7 @@ Official source and binary releases
 NumPy
 -----
 
-Official releases are on [`http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103`_ SourceForge_ download site for numpy].
+Official releases are on `SourceForge_ download site for numpy <http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103>`_.
 
 Pre-built binary packages for Ubuntu are available on [`https://edge.launchpad.net/~scipy/+archive/ppa`_ scipy ppa]
 
@@ -25,7 +25,7 @@ Unofficial Add-ons
 SciKits
 -------
 
-Please visit the [`http://scikits.appspot.com`_ SciKits_ portal] for additional toolkits, such as delaunay, umfpack, audiolab, learn and many others.
+Please visit the `SciKits_ portal <http://scikits.appspot.com>`_ for additional toolkits, such as delaunay, umfpack, audiolab, learn and many others.
 
 Bleeding-edge repository access
 ===============================
@@ -46,7 +46,7 @@ SciPy
 
    svn co http://svn.scipy.org/svn/scipy/trunk scipy
 
-Also read the [`http://scipy.org/Installing_SciPy/BuildingGeneral`_ building instructions].
+Also read the `building instructions <http://scipy.org/Installing_SciPy/BuildingGeneral>`_.
 
 Unofficial releases
 ===================
@@ -61,7 +61,7 @@ Unofficial releases
 
   * Note that the Chris Fonnesbeck's Superpacks are based on recent SVN code, and not the latest official release.
 
-[`http://sourceforge.net/project/showfiles.php?group_id=27747`_ SourceForge_ download site for SciPy_]
+`SourceForge_ download site for SciPy <http://sourceforge.net/project/showfiles.php?group_id=27747>`_
 
 Marketing material
 ==================

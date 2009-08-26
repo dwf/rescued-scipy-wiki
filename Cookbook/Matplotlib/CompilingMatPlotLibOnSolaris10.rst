@@ -1,6 +1,6 @@
 #format rst
 
-[`http://blogs.sun.com/migi/entry/opensolaris_howto_install_sun_studio`_ how to install sunstudio] and [`http://blogs.sun.com/yongsun/entry/build_matplotlib_0_98_3`_ build matplotlib on solaris 10] might give some hints.
+`how to install sunstudio <http://blogs.sun.com/migi/entry/opensolaris_howto_install_sun_studio>`_ and `build matplotlib on solaris 10 <http://blogs.sun.com/yongsun/entry/build_matplotlib_0_98_3>`_ might give some hints.
 
 JDH said:
 

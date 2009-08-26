@@ -22,7 +22,7 @@ Meals (bagels/muffins, lunch and snacks) will be provided for the tutorial days.
 Tutorial Schedule
 -----------------
 
-Tutorials will be held at 306 Firestone.  Near the south side on the [`http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf`_ Campus Map].
+Tutorials will be held at 306 Firestone.  Near the south side on the `Campus Map <http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf>`_.
 
 Tuesday, August 14
 ~~~~~~~~~~~~~~~~~~
@@ -37,7 +37,7 @@ Wednesday, August 15
 Schedule of Talks:
 ------------------
 
-The Conference will be held in the Beckman Institute large meeting room.  It is just West of the large round Beckman Auditorium.  (see [`http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf`_ Campus Map]).
+The Conference will be held in the Beckman Institute large meeting room.  It is just West of the large round Beckman Auditorium.  (see `Campus Map <http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf>`_).
 
 Thursday, August 16
 ~~~~~~~~~~~~~~~~~~~

@@ -7,7 +7,7 @@ Please list any Birds-of-a-feather (BOF) sessions here.
 
 [Table not converted]
 
-Note: Stats BoF changed to [`http://www.scipy.org/SciPy2007/Sprints`_ stats sprint]
+Note: Stats BoF changed to `stats sprint <http://www.scipy.org/SciPy2007/Sprints>`_
 
 Testing BOF
 -----------

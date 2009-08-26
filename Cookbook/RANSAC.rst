@@ -1,6 +1,6 @@
 #format rst
 
-The attached file ( attachment:ransac.py ) implements the [`http://en.wikipedia.org/wiki/RANSAC`_ RANSAC algorithm]. An example image:
+The attached file ( attachment:ransac.py ) implements the `RANSAC algorithm <http://en.wikipedia.org/wiki/RANSAC>`_. An example image:
 
 attachment:ransac.png
 

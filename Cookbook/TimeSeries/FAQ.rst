@@ -4,7 +4,7 @@
 
 `TableOfContents(4)`_
 
-NOTE: The official documentation and important remarks from the developers can be found at the [`http://pytseries.sourceforge.net`_ timseries scikit sourceforge page].
+NOTE: The official documentation and important remarks from the developers can be found at the `timseries scikit sourceforge page <http://pytseries.sourceforge.net>`_.
 
 FAQ
 ===

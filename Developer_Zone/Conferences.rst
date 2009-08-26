@@ -29,9 +29,9 @@ Past SciPy Conferences and Workshops
 
 [:Developer_Zone/Conferences/SciPy2005: SciPy2005_ Conference]
 
-[`http://old.scipy.org/wikis/scipy04/`_ SciPy2004_ Conference]
+`SciPy2004_ Conference <http://old.scipy.org/wikis/scipy04/>`_
 
-[`http://old.scipy.org/documentation/Workshops/SciPy03/`_ SciPy2003_ Workshop]
+`SciPy2003_ Workshop <http://old.scipy.org/documentation/Workshops/SciPy03/>`_
 
-[`http://old.scipy.org/documentation/Workshops/SciPy02/`_ SciPy2002_ Workshop]
+`SciPy2002_ Workshop <http://old.scipy.org/documentation/Workshops/SciPy02/>`_
 

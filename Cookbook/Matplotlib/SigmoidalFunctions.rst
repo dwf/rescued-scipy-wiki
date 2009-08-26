@@ -12,7 +12,7 @@ matplotlib's approach to plotting functions requires you to compute the x and y 
    p.plot(x,y, color='red', lw=2)
    p.show()
 
-Of course, some curves do not have closed form expressions and are not amenable for such treatment.  Some of the matplotlib backends have the capability to draw arbitrary paths with splines (cubic and quartic) but this functionality hasn't been exposed to the user yet (as of 0.83).  If you need this, please post to the [`http://sourceforge.net/mail/?group_id=80706`_ mailing list] or submit a sourceforge [`http://sourceforge.net/tracker/?group_id=80706&atid=560721`_ support request].
+Of course, some curves do not have closed form expressions and are not amenable for such treatment.  Some of the matplotlib backends have the capability to draw arbitrary paths with splines (cubic and quartic) but this functionality hasn't been exposed to the user yet (as of 0.83).  If you need this, please post to the `mailing list <http://sourceforge.net/mail/?group_id=80706>`_ or submit a sourceforge `support request <http://sourceforge.net/tracker/?group_id=80706&atid=560721>`_.
 
 Rich Shepard was interested in plotting "S curves" and "Z curves", and a little bit of googling suggests that the S curve is a sigmoid and the Z curve is simply 1.0-sigmoid.  There are many simple forms for sigmoids: eg, the hill, boltzman, and arc tangent functions.  Here is an example of the boltzman function:
 
@@ -32,9 +32,9 @@ Rich Shepard was interested in plotting "S curves" and "Z curves", and a little 
    p.plot(x, S, x, Z, color='red', lw=2)
    p.show()
 
-See also [`http://mathworld.wolfram.com/SigmoidFunction.html`_ sigmoids at mathworld].
+See also `sigmoids at mathworld <http://mathworld.wolfram.com/SigmoidFunction.html>`_.
 
-People often want to shade an area under these curves, eg [`http://www.appl-ecosys.com/newstuff.html`_ under their intersection], which you can do with the magic of numerix and the matplotlib `fill <http://matplotlib.sourceforge.net/matplotlib.pylab.html#-fill>`_ function:
+People often want to shade an area under these curves, eg `under their intersection <http://www.appl-ecosys.com/newstuff.html>`_, which you can do with the magic of numerix and the matplotlib `fill <http://matplotlib.sourceforge.net/matplotlib.pylab.html#-fill>`_ function:
 
 ::
 

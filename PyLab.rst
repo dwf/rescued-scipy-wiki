@@ -68,7 +68,7 @@ For now this section only talks about docstrings, and ignores the other forms of
 Docstring standard
 ~~~~~~~~~~~~~~~~~~
 
-Travis Oliphant posted a [`http://article.gmane.org/gmane.comp.python.scientific.devel/5572`_ draft docstring standard on January 10th 2007] which is the basis for the following proposed standard, which is now the DocstringStandard_ page. Please look at it.
+Travis Oliphant posted a `draft docstring standard on January 10th 2007 <http://article.gmane.org/gmane.comp.python.scientific.devel/5572>`_ which is the basis for the following proposed standard, which is now the DocstringStandard_ page. Please look at it.
 
 Available modules in docstrings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

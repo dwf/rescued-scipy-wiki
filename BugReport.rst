@@ -6,9 +6,9 @@ We make use of `Trac <http://trac.edgewall.org/>`_ to do project management.  Th
 
 1. Go to the relevant Trac page:
 
-   - [`http://projects.scipy.org/scipy`_ SciPy_ Developer Page]
+   - `SciPy_ Developer Page <http://projects.scipy.org/scipy>`_
 
-   - [`http://projects.scipy.org/numpy`_ NumPy_ Developer Page]
+   - `NumPy_ Developer Page <http://projects.scipy.org/numpy>`_
 
 #. Register your username (we require logins to prevent spam), by clicking on "register". You only need to do this once (i.e, SciPy_ and NumPy_ Developer Pages use the same login/password).
 
@@ -47,7 +47,7 @@ Guidelines for submitting bugs
       Reading symbols for shared libraries . done
       ...
 
-  Then use the "bt" command after the segfault happens to get the backtrace. Alternatively, [`http://www.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8`_ run the code through Valgrind].
+  Then use the "bt" command after the segfault happens to get the backtrace. Alternatively, `run the code through Valgrind <http://www.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
 
 * Set the milestone to the next release.
 

@@ -21,7 +21,7 @@ SciPy.org the Site
 
 * Scientific Python:
 
-  * Python library by Konrad Hinson not related to SciPy, but having similar goals.  See the [`http://dirac.cnrs-orleans.fr/plone/software/scientificpython/`_ home page] for more info.
+  * Python library by Konrad Hinson not related to SciPy, but having similar goals.  See the `home page <http://dirac.cnrs-orleans.fr/plone/software/scientificpython/>`_ for more info.
 
 About the scipy.org domain
 --------------------------

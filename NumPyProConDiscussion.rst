@@ -89,7 +89,7 @@ Installation
 
   * **GV** Certainly not if you are using the enthought distribution.
 
-  * **AS** Over the long term, the Enthought distribution is definately a good option. But that doesn't solve everyone's problems. I can think of at least 2 scenarios in which Windows users will still want to build from source. Firstly, to test bugfixes only available from SVN. Secondly, to compile NumPy_ with a third party BLAS or LAPACK, like ATLAS tuned for a specific processor, Intel's MKL or AMD's ACML. Remember, [`http://eclipse-projects.blogspot.com/2006/09/open-means-buildable.html`_ open means buildable].
+  * **AS** Over the long term, the Enthought distribution is definately a good option. But that doesn't solve everyone's problems. I can think of at least 2 scenarios in which Windows users will still want to build from source. Firstly, to test bugfixes only available from SVN. Secondly, to compile NumPy_ with a third party BLAS or LAPACK, like ATLAS tuned for a specific processor, Intel's MKL or AMD's ACML. Remember, `open means buildable <http://eclipse-projects.blogspot.com/2006/09/open-means-buildable.html>`_.
 
     * **AMA** It should indeed be buildable, but I think for the purposes of this discussion, that's not so important. Here we're looking (I gather) at people trying to use PyLab_ as a MATLAB alternative and who want to just use it. People who want to build it from scratch seem like another category entirel, to me.
 

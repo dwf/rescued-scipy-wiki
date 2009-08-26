@@ -1,6 +1,6 @@
 #format rst
 
-This is code implements the example given in pages 11-15 of [`http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html`_ An Introduction to the Kalman Filter] by Greg Welch and Gary Bishop, University of North Carolina at Chapel Hill, Department of Computer Science.
+This is code implements the example given in pages 11-15 of `An Introduction to the Kalman Filter <http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html>`_ by Greg Welch and Gary Bishop, University of North Carolina at Chapel Hill, Department of Computer Science.
 
 It produces plots that look something like this:
 
