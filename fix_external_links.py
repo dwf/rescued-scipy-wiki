@@ -3,7 +3,7 @@ import fileinput
 import re
 
 for line in fileinput.input():
-    link_pattern = r'\[`(https?:\/\/[^\s]+)`_ ([^\]]+)\]'
+    link_pattern = r'\[`((?:ht|f)tps?:\/\/[^\s]+)`_ ([^\]]+)\]'
     match = re.search(link_pattern, line)
     line_accum = []
     while match:
