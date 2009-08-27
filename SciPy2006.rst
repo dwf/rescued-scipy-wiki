@@ -20,7 +20,7 @@
 
   * Thursday and Friday the *Conference* will be held in the Beckman Institute Auditorium.  Please see the [:SciPy2006/Schedule:Conference Schedule] for times.
 
-* [`https://www.enthought.com/scipy06/`_ Online Registration Form] - Early Registration is $100.00 (the registration fee will increase to $150.00 after July 14). If you have any questions, or would like to register over the phone you may contact Leah at (512)536-1057.  Registration includes breakfast and lunch on Thursday and Friday, and dinner on Thursday night. Please [`https://www.enthought.com/scipy06/`_ register] as soon as possible, as it will help us in planning for food, meeting room sizes, etc.
+* `Online Registration Form <https://www.enthought.com/scipy06/>`_ - Early Registration is $100.00 (the registration fee will increase to $150.00 after July 14). If you have any questions, or would like to register over the phone you may contact Leah at (512)536-1057.  Registration includes breakfast and lunch on Thursday and Friday, and dinner on Thursday night. Please `register <https://www.enthought.com/scipy06/>`_ as soon as possible, as it will help us in planning for food, meeting room sizes, etc.
 
 * Dates:
 

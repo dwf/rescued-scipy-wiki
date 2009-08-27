@@ -15,9 +15,9 @@ The Lightning Talk session is scheduled for 50 minutes beginning at 3:40pm Thurs
 
 * Brian Granger, Tech-X Corporation, "`PyStream <http://code.google.com/p/pystream>`_: Stream and GPU computing in Python"
 
-* Prabhu Ramachandran, IIT Mumbai, "TVTK and MayaVi2" - [`https://svn.enthought.com/enthought/attachment/wiki/MayaVi/tvtk_mayavi2_lightning_scipy07.pdf`_ slides (PDF)]
+* Prabhu Ramachandran, IIT Mumbai, "TVTK and MayaVi2" - `slides (PDF) <https://svn.enthought.com/enthought/attachment/wiki/MayaVi/tvtk_mayavi2_lightning_scipy07.pdf>`_
 
-* Gaël Varoquaux, Laboratoire Charles Fabry, Institut d’Optique, "MLab" - [`https://svn.enthought.com/enthought/attachment/wiki/MayaVi/Scipy2007_mlab_slides.pdf`_ slides (PDF)]
+* Gaël Varoquaux, Laboratoire Charles Fabry, Institut d’Optique, "MLab" - `slides (PDF) <https://svn.enthought.com/enthought/attachment/wiki/MayaVi/Scipy2007_mlab_slides.pdf>`_
 
 * Fernando Perez, University of Colorado at Boulder. "[:SciPy2007/TConfig: TConfig] - Traits-based declarative configuration for programs"
 

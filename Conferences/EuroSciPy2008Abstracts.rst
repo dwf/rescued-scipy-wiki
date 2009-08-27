@@ -148,7 +148,7 @@ Feature list analysis
 Landscaping tools
   The package includes executable scripts to be used off-the-shelf for typical parameter tuning tasks such as SVM-kernel choice and optimization.
 
-[`https://mlpy.fbk.eu`_ mlpy] is a project developed by `MPBA Group <http://mpba.fbk.eu>`_ at `Fondazione Bruno Kessler <http://www.fbk.eu>`_. It is free software licensed under the GNU General Public License (GPL) version 3.
+`mlpy <https://mlpy.fbk.eu>`_ is a project developed by `MPBA Group <http://mpba.fbk.eu>`_ at `Fondazione Bruno Kessler <http://www.fbk.eu>`_. It is free software licensed under the GNU General Public License (GPL) version 3.
 
 `Anchor(kzimmermann)`_
 

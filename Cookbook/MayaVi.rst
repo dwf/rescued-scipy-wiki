@@ -2,13 +2,13 @@
 
 `MayaVi2 <http://code.enthought.com/projects/mayavi/>`_ is the successor of `MayaVi <http://mayavi.sf.net>`_ for 3D visualization. It is a interactive program allowing elaborate plots of scientific data.
 
-MayaVi2 relies on `VTK <http://www.vtk.org>`_, and especially a python interface to it: [`https://svn.enthought.com/enthought/wiki/TVTK`_ TVTK].
+MayaVi2 relies on `VTK <http://www.vtk.org>`_, and especially a python interface to it: `TVTK <https://svn.enthought.com/enthought/wiki/TVTK>`_.
 
 <strong class="highlight">.. raw:: html
 
 </strong>[Table not converted]
 
-If you need more help, you are invited to ask questions on the [`https://mail.enthought.com/mailman/listinfo/enthought-dev`_ Enthought-dev] mailing list.
+If you need more help, you are invited to ask questions on the `Enthought-dev <https://mail.enthought.com/mailman/listinfo/enthought-dev>`_ mailing list.
 
 ::
 

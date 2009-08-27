@@ -88,7 +88,7 @@ Packaging Team
 
 * Debian - Ondrej Certik (`MailTo(ondrej AT certik DOT cz)`_) and `Debian Python Modules Team (DPMT) <http://wiki.debian.org/Teams/PythonModulesTeam>`_
 
-* Ubuntu - [`https://edge.launchpad.net/~kitterman`_ Scott Kitterman] and others
+* Ubuntu - `Scott Kitterman <https://edge.launchpad.net/~kitterman>`_ and others
 
 * numpy.distutils - Pearu Peterson
 

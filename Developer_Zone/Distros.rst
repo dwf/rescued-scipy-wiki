@@ -27,5 +27,5 @@ Gentoo
 Ubuntu
 ------
 
-[`https://edge.launchpad.net/~kitterman`_ Scott Kitterman] and others
+`Scott Kitterman <https://edge.launchpad.net/~kitterman>`_ and others
 
