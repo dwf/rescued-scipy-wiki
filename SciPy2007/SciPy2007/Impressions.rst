@@ -17,7 +17,7 @@ This page contains feedback and summaries from the SciPy_ 2007 Conference.  Plea
 
 * `Titus Brown's Blog entry <http://advogato.org/person/titus/diary/294.html>`_... and another one from Titus `here <http://ivory.idyll.org/blog/aug-07/scipy-testing-bof>`_
 
-* [`https://www.osc.edu/blogs/index.php/sip/2007/08/22/p36`_ Jose Unpingco's Blog entry]
+* `Jose Unpingco's Blog entry <https://www.osc.edu/blogs/index.php/sip/2007/08/22/p36>`_
 
 * Chris Hanley has also collected his notes for each day:
 

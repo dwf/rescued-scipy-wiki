@@ -64,11 +64,11 @@ Directions
 Registration
 ------------
 
-[`https://www.enthought.com/scipy07`_ Online Registration] is now available.  Early registration for the conference is **$150.00**.  Tutorials are **$75.00**.
+`Online Registration <https://www.enthought.com/scipy07>`_ is now available.  Early registration for the conference is **$150.00**.  Tutorials are **$75.00**.
 
 -------------------------
 
- ****Update: Early  registration has been extended through Wednesday July 18, 2007.** After July 18, the registration fee will increase to $200.00, so register early at [`https://www.enthought.com/scipy07`_ the registration page] hosted by Enthought.
+ ****Update: Early  registration has been extended through Wednesday July 18, 2007.** After July 18, the registration fee will increase to $200.00, so register early at `the registration page <https://www.enthought.com/scipy07>`_ hosted by Enthought.
 
 -------------------------
 

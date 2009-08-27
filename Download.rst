@@ -10,14 +10,14 @@ NumPy
 
 Official releases are on `SourceForge_ download site for numpy <http://sourceforge.net/project/showfiles.php?group_id=1369&package_id=175103>`_.
 
-Pre-built binary packages for Ubuntu are available on [`https://edge.launchpad.net/~scipy/+archive/ppa`_ scipy ppa]
+Pre-built binary packages for Ubuntu are available on `scipy ppa <https://edge.launchpad.net/~scipy/+archive/ppa>`_
 
 SciPy
 -----
 
-Official releases are on [`https://sourceforge.net/project/showfiles.php?group_id=27747`_ SourceForge_ download site for scipy.]
+Official releases are on `SourceForge_ download site for scipy. <https://sourceforge.net/project/showfiles.php?group_id=27747>`_
 
-Pre-built binary packages for Ubuntu are available on [`https://edge.launchpad.net/~scipy/+archive/ppa`_ scipy ppa]
+Pre-built binary packages for Ubuntu are available on `scipy ppa <https://edge.launchpad.net/~scipy/+archive/ppa>`_
 
 Unofficial Add-ons
 ==================

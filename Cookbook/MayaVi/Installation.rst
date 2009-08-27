@@ -5,9 +5,9 @@ TableOfContents_
 Introduction
 ============
 
-MayaVi2 and TVTK are part of the [`https://svn.enthought.com/enthought`_ enthought tool suite].
+MayaVi2 and TVTK are part of the `enthought tool suite <https://svn.enthought.com/enthought>`_.
 
-**These instructions are out of date**, see the [`https://svn.enthought.com/enthought/wiki/MayaVi`_ Mayavi2 homepage]
+**These instructions are out of date**, see the `Mayavi2 homepage <https://svn.enthought.com/enthought/wiki/MayaVi>`_
 
 -------------------------
 
