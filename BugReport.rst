@@ -1,14 +1,14 @@
-#format rst
-
+Bug Reports
+===========
 **Please help us by reporting any problems you find.**
 
 We make use of `Trac <http://trac.edgewall.org/>`_ to do project management.  There, you can see what we are currently working on, as well as file bug-reports (known as *tickets*).
 
 1. Go to the relevant Trac page:
 
-   - `SciPy_ Developer Page <http://projects.scipy.org/scipy>`_
+   - `SciPy Developer Page <http://projects.scipy.org/scipy>`_
 
-   - `NumPy_ Developer Page <http://projects.scipy.org/numpy>`_
+   - `NumPy Developer Page <http://projects.scipy.org/numpy>`_
 
 #. Register your username (we require logins to prevent spam), by clicking on "register". You only need to do this once (i.e, SciPy_ and NumPy_ Developer Pages use the same login/password).
 
@@ -48,6 +48,9 @@ Guidelines for submitting bugs
       ...
 
   Then use the "bt" command after the segfault happens to get the backtrace. Alternatively, `run the code through Valgrind <http://www.scipy.org/Cookbook/C_Extensions#head-9d3c4f5894aa215af47ea7784a33ab0252d230d8>`_.
+
+.. FIXME: the link for running code through Valgrind will change once we
+    migrate from the wiki
 
 * Set the milestone to the next release.
 
