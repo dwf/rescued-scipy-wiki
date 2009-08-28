@@ -1,0 +1,7 @@
+--20:36:35--  http://scipy.org//Cookbook/Matplotlib/MulticoloredLine?action=AttachFile
+           => `MulticoloredLine?action=AttachFile'
+Resolving scipy.org... 216.62.213.231
+Connecting to scipy.org|216.62.213.231|:80... connected.
+HTTP request sent, awaiting response... 403 FORBIDDEN
+20:36:36 ERROR 403: FORBIDDEN.
+

@@ -1,0 +1,7 @@
+--20:36:40--  http://scipy.org//Cookbook/SphericalBesselZeros?action=AttachFile
+           => `SphericalBesselZeros?action=AttachFile'
+Resolving scipy.org... 216.62.213.231
+Connecting to scipy.org|216.62.213.231|:80... connected.
+HTTP request sent, awaiting response... 403 FORBIDDEN
+20:36:41 ERROR 403: FORBIDDEN.
+
