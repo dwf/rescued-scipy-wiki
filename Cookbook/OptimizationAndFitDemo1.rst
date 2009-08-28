@@ -31,7 +31,7 @@ This is a quick example of creating data from several `Bessel functions <http://
 
    #class left
 
-   
+
 .. image:: images/Cookbook/OptimizationAndFitDemo1/chacoscreenshot.png
    Optimization Example
 

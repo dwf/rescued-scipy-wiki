@@ -14,7 +14,7 @@ If you need more help, you are invited to ask questions on the `Enthought-dev <h
 
    #class right
    ## Snazzy graphics here...
-   
+
 .. image:: images/Cookbook/MayaVi/mayavi2.png
 
    A mayavi2 session.
@@ -59,7 +59,7 @@ TVTK
 
    #class inline
    ## Snazzy graphics here...
-   
+
 .. image:: images/Cookbook/MayaVi/mlab.png
 
    Using the mlab module from ipython
@@ -75,5 +75,5 @@ TVTK
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

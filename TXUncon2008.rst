@@ -7,7 +7,7 @@ Texas Regional Python Unconference 2008
 
    #class right
    ## Snazzy graphics here...
-   
+
 .. image:: images/TXUncon2008/capital.jpg
 
 * **October 4-5, 2008**

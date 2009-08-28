@@ -3,12 +3,12 @@
 SciPy 2008 Conference
 ---------------------
 
-The SciPy_ Conference 2008 was held at CalTech_ again during the week of August 19-24, 2008.  More information is available at the [:SciPy2008_:SciPy2008_ page].
+The SciPy Conference 2008 was held at CalTech again during the week of August 19-24, 2008.  More information is available at the [:SciPy2008_:SciPy2008_ page].
 
 EuroSciPy 2008 Conference
 -------------------------
 
-The first [:EuroSciPy2008_:EuroScipy_ Conference] was held in Leipzig, Germany on Saturday and Sunday July 26-27, 2008.
+The first [:EuroSciPy2008_:EuroScipy Conference] was held in Leipzig, Germany on Saturday and Sunday July 26-27, 2008.
 
 SciPy 2007 Conference
 ---------------------

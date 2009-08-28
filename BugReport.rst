@@ -10,7 +10,7 @@ We make use of `Trac <http://trac.edgewall.org/>`_ to do project management.  Th
 
    - `NumPy Developer Page <http://projects.scipy.org/numpy>`_
 
-#. Register your username (we require logins to prevent spam), by clicking on "register". You only need to do this once (i.e, SciPy_ and NumPy_ Developer Pages use the same login/password).
+#. Register your username (we require logins to prevent spam), by clicking on "register". You only need to do this once (i.e, SciPy and NumPy Developer Pages use the same login/password).
 
 #. Make sure the bug hasn't already been reported.  Click on "Search".  Then, type in some keywords, select "Tickets" and click "Search".
 
@@ -19,7 +19,7 @@ We make use of `Trac <http://trac.edgewall.org/>`_ to do project management.  Th
 Guidelines for submitting bugs
 ------------------------------
 
-* Provide a good description.  We tend to ignore tickets named "SciPy_ is BROKEN!!!", and focus on ones that state the problem clearly, e.g. "scipy.ndimage ignores keyword 'axis'".
+* Provide a good description.  We tend to ignore tickets named "SciPy is BROKEN!!!", and focus on ones that state the problem clearly, e.g. "scipy.ndimage ignores keyword 'axis'".
 
 * Include a code snippet to illustrate the problem.  Try to narrow it down to a few lines.
 
@@ -54,7 +54,7 @@ Guidelines for submitting bugs
 
 * Set the milestone to the next release.
 
-**Thank you for helping to make** SciPy_ **better!**
+**Thank you for helping to make** SciPy **better!**
 
 .. ############################################################################
 

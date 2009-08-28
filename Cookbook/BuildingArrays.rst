@@ -240,5 +240,5 @@ These can be combined to do some useful things, like enlarging image data stored
 
 
 
-  CategoryCookbook_
+  CategoryCookbook
 

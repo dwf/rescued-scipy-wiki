@@ -2,7 +2,7 @@
 
 This page shows you how to fit experimental data and plots the results using matplotlib.
 
-TableOfContents_
+TableOfContents
 
 Fit examples with sinusoidal functions
 ======================================

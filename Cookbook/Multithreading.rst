@@ -21,13 +21,13 @@ The code implementing parallel_map is not too complicated, and is attached to th
 
 This replaces a for loop.
 
-See attachments for code (written by AMArchibald). AttachList_
+See attachments for code (written by AMArchibald). AttachList
 
-See also ParallelProgramming_ for alternatives and more discussion.
+See also ParallelProgramming for alternatives and more discussion.
 
 -------------------------
 
 
 
-  CategoryCookbook_
+  CategoryCookbook
 

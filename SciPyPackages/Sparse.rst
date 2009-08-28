@@ -5,7 +5,7 @@
 Introduction
 ============
 
-  This guide provides an overview of the sparse matrix support in SciPy_ version 0.7.  The following topics are covered:
+  This guide provides an overview of the sparse matrix support in SciPy version 0.7.  The following topics are covered:
 
 * Constructing sparse matrices
 
@@ -27,7 +27,7 @@ Where do sparse matrices arise?
 
 * show a 2D triangle mesh and associated graph Laplacian (nonzeros only exist when two vertices share and edge, typically 6-7 neighbors, therefore sparse)
 
-* briefly mention existence of non-physical examples (PageRank_, LinearProgramming_)
+* briefly mention existence of non-physical examples (PageRank, LinearProgramming)
 
 Sparsity Patterns
 =================
@@ -69,7 +69,7 @@ Constructing Sparse Matrices
 sparse from dense
 ~~~~~~~~~~~~~~~~~
 
-  There are several ways to construct a sparse matrices in SciPy_.  The simplest method is to pass a dense NumPy_ ``matrix`` or two-dimensional ``ndarray`` to the desired sparse matrix constructor:
+  There are several ways to construct a sparse matrices in SciPy.  The simplest method is to pass a dense NumPy ``matrix`` or two-dimensional ``ndarray`` to the desired sparse matrix constructor:
 
   ::
 
@@ -110,7 +110,7 @@ sparse from dense
 
   However, some sparse formats (e.g. ``dia_matrix``, ``csr_matrix``) can contain explicit zero entries. In this situation ``A.nnz`` overestimates the true number of non-zero values in the matrix.
 
-  |/!/| ``scipy.sparse`` now supports most NumPy_ data types (e.g. ``unit8``, ``int32``, ``complex128``, etc.) with the exception of the ``object`` and ``bool`` dtypes.
+  |/!/| ``scipy.sparse`` now supports most NumPy data types (e.g. ``unit8``, ``int32``, ``complex128``, etc.) with the exception of the ``object`` and ``bool`` dtypes.
 
 sparse to dense
 ~~~~~~~~~~~~~~~
@@ -131,7 +131,7 @@ sparse to dense
      array([[1, 0, 2],
             [0, 3, 0]])
 
-  This feature is useful for debugging and for using functions in NumPy_ and SciPy_ that don't support sparse matrices directly.
+  This feature is useful for debugging and for using functions in NumPy and SciPy that don't support sparse matrices directly.
 
 sparse to sparse conversions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -197,7 +197,7 @@ implementation considerations
 sparsity structure changes can be expensive
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  It is **very inefficient** to change the sparsity structure of other formats in ``scipy.sparse``!  Indeed, most sparse formats in SciPy_ do not even support setting matrix entries.  Notable exceptions are ``csr_matrix`` and ``csc_matrix`` which do permit such modifications. Nevertheless, don't do it!  If you do, you'll be greeted with a ``SparseEfficiencyWarning`` the first time you try.
+  It is **very inefficient** to change the sparsity structure of other formats in ``scipy.sparse``!  Indeed, most sparse formats in SciPy do not even support setting matrix entries.  Notable exceptions are ``csr_matrix`` and ``csc_matrix`` which do permit such modifications. Nevertheless, don't do it!  If you do, you'll be greeted with a ``SparseEfficiencyWarning`` the first time you try.
 
   ::
 
@@ -382,9 +382,9 @@ Sparse Matrix File Input/Output
 MatrixMarket
 ------------
 
-  The `MatrixMarket <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_ format stores matrices in a simple ASCII file format.  Software for reading and writing MatrixMatrix_ in various programming languages files is `freely available <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_.  The `BeBOP sparse matrix converter <http://bebop.cs.berkeley.edu/smc/>`_ can be used to convert between the MatrixMarket_ format and other sparse formats (e.g. Harwell-Boeing).
+  The `MatrixMarket <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_ format stores matrices in a simple ASCII file format.  Software for reading and writing MatrixMatrix in various programming languages files is `freely available <http://math.nist.gov/MatrixMarket/formats.html#MMformat>`_.  The `BeBOP sparse matrix converter <http://bebop.cs.berkeley.edu/smc/>`_ can be used to convert between the MatrixMarket format and other sparse formats (e.g. Harwell-Boeing).
 
-  Reading and writing files in the MatrixMarket_ format is easy:
+  Reading and writing files in the MatrixMarket format is easy:
 
   ::
 
@@ -400,7 +400,7 @@ MatrixMarket
      <2x3 sparse matrix of type '<type 'numpy.float64'>'
              with 3 stored elements in COOrdinate format>
 
-  Reading MatrixMarket_ files compressed with ``gzip`` is also supported:
+  Reading MatrixMarket files compressed with ``gzip`` is also supported:
 
   ::
 
@@ -412,7 +412,7 @@ MatrixMarket
 MATLAB
 ------
 
-  The ``scipy.io`` module also supports the MATLAB (tm) file format.  Considerably more sophisticated than the MatrixMarket_ format, MATLAB stores data in a binary format, so reading and writing large matrices is noticably more efficient.  On the other hand, the simplicity of the MatrixMatket_ makes it particularly easy to work with in other software (e.g. using ``fprintf()`` and ``fscanf()``).
+  The ``scipy.io`` module also supports the MATLAB (tm) file format.  Considerably more sophisticated than the MatrixMarket format, MATLAB stores data in a binary format, so reading and writing large matrices is noticably more efficient.  On the other hand, the simplicity of the MatrixMatket makes it particularly easy to work with in other software (e.g. using ``fprintf()`` and ``fscanf()``).
 
   The MATLAB format supports multiple matrices per-file.  These are stored in a Python ``dict`` object as shown in the following example:
 
@@ -461,7 +461,7 @@ Other Packages and Libraries
 TODO: update and integrate this information where possible
 ==========================================================
 
-for convenience; the ``lil_matrix`` class supports basic slicing and fancy indexing with a similar syntax to NumPy_ arrays, and is adapted to gradually fill your sparse matrix, while compressed formats are not suited to a progressive filling.
+for convenience; the ``lil_matrix`` class supports basic slicing and fancy indexing with a similar syntax to NumPy arrays, and is adapted to gradually fill your sparse matrix, while compressed formats are not suited to a progressive filling.
 
 To perform manipulations such as multiplication or inversion, first convert the matrix to either CSC or CSR format. These formats store the sparse matrix in arrays and allow faster computations than the list or dictionary-based formats. The ``lil_matrix`` format is row-based, so conversion to CSR is efficient, whereas conversion to CSC is less so.
 
@@ -600,7 +600,7 @@ Now convert it to CSR format and solve (A A^T) x = b for x:
    b = random.rand(1000)
    x = linsolve.spsolve(A * A.T, b)
 
-  The ``.T`` bit of ``A.T`` above computes the transpose of ``A``, i.e., it's a shortcut for ``A.transpose()``. It will also work for 'normal' dense (numpy) matrices and currently works for arrays in the latest SVN versions of NumPy. Also take note of the differences between matrices and arrays when working with them. If ``B`` is a matrix and ``C`` an array, both with the same size and entries, then ``B*B`` is **not** the same as ``C*C``. See ["NumPy_ for Matlab Users"] for more details.
+  The ``.T`` bit of ``A.T`` above computes the transpose of ``A``, i.e., it's a shortcut for ``A.transpose()``. It will also work for 'normal' dense (numpy) matrices and currently works for arrays in the latest SVN versions of NumPy. Also take note of the differences between matrices and arrays when working with them. If ``B`` is a matrix and ``C`` an array, both with the same size and entries, then ``B*B`` is **not** the same as ``C*C``. See ["NumPy for Matlab Users"] for more details.
 
 Convert it to a dense matrix and solve, and check that the result is the same:
 

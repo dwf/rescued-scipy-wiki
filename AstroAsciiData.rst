@@ -30,7 +30,7 @@ In general, the ASCII tables used in astronomy have a rather small size. As an e
 
 The project started with a design paper, which was published on this wiki. This paper as well as the feedback to this draft were the main guidelines in the implementation of the module.
 
-Although all conversation based on the design dratft remains still valid, the information in this discussion is now, after the first releases, somewhat outdated, and all content was moved to the ["AstroAsciiData_history"] page.
+Although all conversation based on the design dratft remains still valid, the information in this discussion is now, after the first releases, somewhat outdated, and all content was moved to the ["AstroAsciiDatahistory"] page.
 
 In October 2006 version 1.0 of the AstroAsciiData module was released. The project webpages are at:  http://www.stecf.org/software/PYTHONtools/astroasciidata/
 

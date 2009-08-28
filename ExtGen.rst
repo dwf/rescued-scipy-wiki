@@ -44,7 +44,7 @@ For more examples and documentation, see the documentation strings of the compon
 Getting and installing ExtGen
 -----------------------------
 
-Get and install NumPy_ from SVN. ExtGen is currently a subpackage of numpy.f2py.lib package.
+Get and install NumPy from SVN. ExtGen is currently a subpackage of numpy.f2py.lib package.
 
 .. ############################################################################
 

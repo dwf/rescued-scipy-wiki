@@ -3,9 +3,9 @@
 Example of using f2py
 =====================
 
-*Taken from a message on 2006-06-22 to scipy-user by* ArndBaecker_
+*Taken from a message on 2006-06-22 to scipy-user by* ArndBaecker
 
-Thanks to f2py, wrapping Fortran code is (with a bit of effort) trivial in many cases. For complicated functions requiring many arguments the wrapper can become longish. Fortunately, many things can be learnt from looking at scipy/Lib/linalg/generic_flapack.pyf In particular, the documentation at http://cens.ioc.ee/projects/f2py2e/  is excellent. I also found  the f2py notes by FernandoPerez_ very helpful, http://cens.ioc.ee/pipermail/f2py-users/2003-April/000472.html
+Thanks to f2py, wrapping Fortran code is (with a bit of effort) trivial in many cases. For complicated functions requiring many arguments the wrapper can become longish. Fortunately, many things can be learnt from looking at scipy/Lib/linalg/generic_flapack.pyf In particular, the documentation at http://cens.ioc.ee/projects/f2py2e/  is excellent. I also found  the f2py notes by FernandoPerez very helpful, http://cens.ioc.ee/pipermail/f2py-users/2003-April/000472.html
 
 Let me try to give some general remarks on how to start (the real authority on all this is of course Pearu, so please correct me if I got things wrong here):
 
@@ -92,5 +92,5 @@ Step by step wrapping of a simple numerical code
 
 -------------------------
 
- CategoryCookbook_ CategoryCookbook_
+ CategoryCookbook CategoryCookbook
 

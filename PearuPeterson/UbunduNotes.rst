@@ -71,7 +71,7 @@ To rebuild numpy, run
 Building and testing SciPy
 --------------------------
 
-Optional packages for building SciPy_ packages:
+Optional packages for building SciPy packages:
 
 ::
 

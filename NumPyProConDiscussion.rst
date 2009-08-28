@@ -1,8 +1,8 @@
 #format rst
 
-NumPy_ (and associated packages) can be used as an alternative to packages such as MATLAB, Octave, Yorick, and tela; the advantages and disadvantages are summarized at NumPyProConPage_. This page is for a more free-form discussion. Take its contents with even more than the usual Wiki-sized grain of salt.
+NumPy (and associated packages) can be used as an alternative to packages such as MATLAB, Octave, Yorick, and tela; the advantages and disadvantages are summarized at NumPyProConPage. This page is for a more free-form discussion. Take its contents with even more than the usual Wiki-sized grain of salt.
 
-Some aspects of PyLab_ can only be expected to measure up once some package reaches a stable state. See PyLabAwaits_.
+Some aspects of PyLab can only be expected to measure up once some package reaches a stable state. See PyLabAwaits.
 
 Integration
 -----------
@@ -15,7 +15,7 @@ Integration
 
 * Providing a canonical bundle would resolve the "which package do I want?" problem for users, and focus developer attention on a smaller number of packages. (Of course, this isn't so good if one chooses *bad* packages for the bundle...)
 
-* A canonical distribution would make a task-oriented ScientificCalculationHowto_ much easier to write (although the ["Cookbook"] is a good start)
+* A canonical distribution would make a task-oriented ScientificCalculationHowto much easier to write (although the ["Cookbook"] is a good start)
 
 UI
 --
@@ -26,7 +26,7 @@ UI
 
 * Under windows, the terminal seems to be pretty ugly, so people using ipython feel unhappy. (A better terminal program?)
 
-  * **GV =** GaelVaroquaux_ Once IPython gets its new front end this will be easy, maybe by reussing some of the work of enthought.
+  * **GV =** GaelVaroquaux Once IPython gets its new front end this will be easy, maybe by reussing some of the work of enthought.
 
   * For a better terminal on windows, takes a look at Console: http://sourceforge.net/projects/console/ . It looks like it can work with ipython, and it gives you a terminal with easy cut/copy/past, many fonts, tabbed terminals, etc...
 
@@ -36,7 +36,7 @@ UI
 
     * **GV** I have tryed to offer part of this functionality throught `pyreport <http://gael-varoquaux.info/computers/pyreport>`_, eventhought it does not offer the interactive part of the notebooks. At least it ease editor agnostic and uses files that are still standard python files.
 
-* OpenMath_ cut-and-paste?
+* OpenMath cut-and-paste?
 
 * A source level profiling tool would be great. That's something I miss a lot from matlab (profile on - run matlab code - profile report;  gives you the time spent in each function, and at each line. I don't know if it is doable in python)
 
@@ -59,15 +59,15 @@ Symbolic computation
 
     * **AMA** My personal feeling is that symbolic computation is a very big job to get right, and we're better off using a system that's been pounded on a bit. It's akin to using ODEPACK or LAPACK instead of writing our own DE solver or LU factorization system. "It's python, of course it's slow" is a bit disingenuous - when the hard work is done by somebody else's optimized library, python need not be slow.
 
-      * **MMF =** MichaelMcNeilForbes_ Some of the need for symbolic computations may be relieved if a good, easy to use automatic differentiation package existed.  In particular, for solvers that require jacobians etc. automatic differentiation can work very nicely.
+      * **MMF =** MichaelMcNeilForbes Some of the need for symbolic computations may be relieved if a good, easy to use automatic differentiation package existed.  In particular, for solvers that require jacobians etc. automatic differentiation can work very nicely.
 
         * **AMA** I agree, symbolic differentiation is relatively easy and would cover a lot of what people need. In fact, if we want symbolic derivatives of everything in scipy.special, we will probably need to implement them more-or-less by hand no matter which tool we choose.
 
-        * **OC** SymPy_ can differentiate symbolically. Please report everything, that you find not working, or too difficult to use. It can also solve some differential equations symbolically, if you need more, please write into the Issues on the sympy webpage what functionality you need and sympy developers will help you implement it.
+        * **OC** SymPy can differentiate symbolically. Please report everything, that you find not working, or too difficult to use. It can also solve some differential equations symbolically, if you need more, please write into the Issues on the sympy webpage what functionality you need and sympy developers will help you implement it.
 
 * None of them seem to support Grobner bases, but probably nobody but AMArchibald minds.
 
-  * **OC** SymPy_ supports Groebner bases
+  * **OC** SymPy supports Groebner bases
 
 Plotting, particularly 3D
 -------------------------
@@ -76,9 +76,9 @@ Plotting, particularly 3D
 
   * **GV** The best way to build documentation for scipy & Co is probably to rely a lot on the wiki. Hopefully there is a way off export the info to static pages.
 
-* MayaVis_ seems to be the standard tool to recommend for 3D plotting, but it's (another) separate package.
+* MayaVis seems to be the standard tool to recommend for 3D plotting, but it's (another) separate package.
 
-* SymPy_ supports 3D plotting
+* SymPy supports 3D plotting
 
 Installation
 ------------
@@ -89,9 +89,9 @@ Installation
 
   * **GV** Certainly not if you are using the enthought distribution.
 
-  * **AS** Over the long term, the Enthought distribution is definately a good option. But that doesn't solve everyone's problems. I can think of at least 2 scenarios in which Windows users will still want to build from source. Firstly, to test bugfixes only available from SVN. Secondly, to compile NumPy_ with a third party BLAS or LAPACK, like ATLAS tuned for a specific processor, Intel's MKL or AMD's ACML. Remember, `open means buildable <http://eclipse-projects.blogspot.com/2006/09/open-means-buildable.html>`_.
+  * **AS** Over the long term, the Enthought distribution is definately a good option. But that doesn't solve everyone's problems. I can think of at least 2 scenarios in which Windows users will still want to build from source. Firstly, to test bugfixes only available from SVN. Secondly, to compile NumPy with a third party BLAS or LAPACK, like ATLAS tuned for a specific processor, Intel's MKL or AMD's ACML. Remember, `open means buildable <http://eclipse-projects.blogspot.com/2006/09/open-means-buildable.html>`_.
 
-    * **AMA** It should indeed be buildable, but I think for the purposes of this discussion, that's not so important. Here we're looking (I gather) at people trying to use PyLab_ as a MATLAB alternative and who want to just use it. People who want to build it from scratch seem like another category entirel, to me.
+    * **AMA** It should indeed be buildable, but I think for the purposes of this discussion, that's not so important. Here we're looking (I gather) at people trying to use PyLab as a MATLAB alternative and who want to just use it. People who want to build it from scratch seem like another category entirel, to me.
 
 * On the Mac?
 

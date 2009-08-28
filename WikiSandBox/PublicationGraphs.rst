@@ -8,7 +8,7 @@ This page describes several ways to produce publication quality graphics for LaT
 LaTeX UsingTex
 --------------
 
-This section describes a technique following the UsingTex_ guidelines.
+This section describes a technique following the UsingTex guidelines.
 
 Here is the outline of the LaTeX file used to include the figure (example for ``REVTeX4`` for publication is APS physics journals with a two column format.)
 
@@ -206,5 +206,5 @@ Bugs
 
 I have not yet figured out how to set the default size of the legend fonts: they are presently too large.
 
--- MichaelMcNeilForbes_ `DateTime(2006-05-11T09:49:11Z)`_
+-- MichaelMcNeilForbes `DateTime(2006-05-11T09:49:11Z)`_
 

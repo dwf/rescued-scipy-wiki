@@ -9,7 +9,7 @@ Ultimately, there are two files to be added: `basearray.c <http://svn.scipy.org/
 C structures defined
 --------------------
 
-PyBaseArrayObject
+``PyBaseArrayObject``
 ~~~~~~~~~~~~~~~~~
 
 [Table not converted]
@@ -20,7 +20,7 @@ The flags variable is the bit-wise OR of:
 
   FORTRAN - set if array is fortran-style contiguous in memory, with the first dimension varying the fastest.  OWN_DATA - set if this array owns the data buffer and should de-allocate it when the array is deallocated. WRITEABLE - the memory can be written to.  ALIGNED - the memory (for each stride) is aligned properly for the type.
 
-PyDataTypeObject
+``PyDataTypeObject``
 ~~~~~~~~~~~~~~~~
 
 Describes the type of data the array carries. There are instances of this object for a fixed set of built-in Python types.
@@ -32,11 +32,11 @@ PyDataTypeFuncs
 
 Carries pointers to functions specific to a given datatype object. Currently two such function are included in this structure:
 
-* PyDataType__GetItemFunc_ *getitem;
+* PyDataType_GetItemFunc *getitem;
 
-* PyDataType__SetItemFunc_ *setitem;
+* PyDataType_SetItemFunc *setitem;
 
-PyBaseArrayIterObject
+``PyBaseArrayIterObject``
 ~~~~~~~~~~~~~~~~~~~~~
 
 This iterator structure is usefull for looping over a basearray.

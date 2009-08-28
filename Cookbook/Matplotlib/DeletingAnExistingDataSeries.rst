@@ -27,5 +27,5 @@ which will plot three lines, and then delete the second.
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

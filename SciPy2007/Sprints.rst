@@ -27,7 +27,7 @@ See `SciPy2007/BoFs`_.
 Software Carpentry Sprint
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Software Carpentry <http://swc.scipy.org/>`_ provides free, fully deployable instructional material for teaching best programming practices to scientists and engineers. This sprint will enhance, augment, and fix various errata the existing materials. Namely, we will integrate original material created by `Titus Brown <http://ivory.idyll.org/articles/advanced-swc/>`_, `Chris Lasher <http://gotgenes.com/swcatvtwiki/>`_, and `Rick Wagner <http://lca.ucsd.edu/projects/scicomp>`_ and address questions on how to deploy Software Carpentry in organizations and educational institutions. -- ChrisLasher_ `DateTime(2007-07-19T20:40:37Z)`_
+`Software Carpentry <http://swc.scipy.org/>`_ provides free, fully deployable instructional material for teaching best programming practices to scientists and engineers. This sprint will enhance, augment, and fix various errata the existing materials. Namely, we will integrate original material created by `Titus Brown <http://ivory.idyll.org/articles/advanced-swc/>`_, `Chris Lasher <http://gotgenes.com/swcatvtwiki/>`_, and `Rick Wagner <http://lca.ucsd.edu/projects/scicomp>`_ and address questions on how to deploy Software Carpentry in organizations and educational institutions. -- ChrisLasher `DateTime(2007-07-19T20:40:37Z)`_
 
 Stats Sprint
 ~~~~~~~~~~~~

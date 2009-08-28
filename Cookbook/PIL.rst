@@ -158,5 +158,5 @@ Exemple
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

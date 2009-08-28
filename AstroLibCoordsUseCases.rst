@@ -60,7 +60,7 @@ D. Working with two lists of objects, or an object and a list
 
 Comments on category D:
 
-Catalog matching strikes me as an application that would use the coord library and the AstroAsciiData_ library. The goal here *really* would be to develop the two libraries, but the application provides complex use cases and an immediate user draw once the basic functionality is complete.
+Catalog matching strikes me as an application that would use the coord library and the AstroAsciiData library. The goal here *really* would be to develop the two libraries, but the application provides complex use cases and an immediate user draw once the basic functionality is complete.
 
 E. Working with polygons and/or ellipses
 ----------------------------------------

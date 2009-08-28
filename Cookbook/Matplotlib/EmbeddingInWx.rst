@@ -28,5 +28,5 @@ Here is a simple example of an application written in wx that embeds a ["Matplot
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

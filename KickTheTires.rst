@@ -12,7 +12,7 @@
 
 -------------------------
 
- Contents: TableOfContents_
+ Contents: TableOfContents
 
 Planning the future
 ===================

@@ -206,5 +206,5 @@ Under csh shell-like, type:
 
 -------------------------
 
- CategoryInstallation_
+ CategoryInstallation
 

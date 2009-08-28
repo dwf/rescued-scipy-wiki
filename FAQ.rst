@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 General questions about numpy
 =============================
@@ -123,7 +123,7 @@ stats
 weave
   compilation of numeric expressions to C++ for fast execution
 
-See `scikits <http://scipy.org/scipy/scikits>`_ for more packages: MlabWrap_, AudioLab_, `Learn <http://scipy.org/scipy/scikits/wiki/MachineLearning>`_, `GenericOpt <http://scipy.org/scipy/scikits/wiki/Optimization>`_, `OpenOpt <http://scipy.org/scipy/scikits/wiki/OpenOpt>`_ etc
+See `scikits <http://scipy.org/scipy/scikits>`_ for more packages: MlabWrap, AudioLab, `Learn <http://scipy.org/scipy/scikits/wiki/MachineLearning>`_, `GenericOpt <http://scipy.org/scipy/scikits/wiki/Optimization>`_, `OpenOpt <http://scipy.org/scipy/scikits/wiki/OpenOpt>`_ etc
 
 The following modules are in testing in the "sandbox":
 
@@ -155,7 +155,7 @@ plt
   plotting library
 
 pysparse
-  version of PySparse_ compatible with numpy
+  version of PySparse compatible with numpy
 
 umfpack
   UMFPACK wrappers for sparse matrices
@@ -309,7 +309,7 @@ Those wishing to avoid potential headaches will be interested in an alternative 
 I have a multiprocessor/multicore machine. How can I use this to speed up my code?
 ----------------------------------------------------------------------------------
 
-There are a variety of techniques, but none of them are automatic. See ParallelProgramming_.
+There are a variety of techniques, but none of them are automatic. See ParallelProgramming.
 
 Why doesn't A[[0,1,1,2]]+=1 do what I think it should?
 ------------------------------------------------------
@@ -348,12 +348,12 @@ This leads to other peculiarities sometimes; if the indexing operation is actual
 NumPy/SciPy installation
 ========================
 
-See also the ["Installing SciPy_"] page.
+See also the ["Installing SciPy"] page.
 
 Basics
 ------
 
-First make sure that all `NumPy/SciPy`_ prerequisites are installed and working properly.  Then be sure to remove any old !NumPy/!SciPy_ installations (e.g. /usr/lib/python2.4/site-packages/{numpy,scipy} or $HOME/lib/python2.4/site-packages/{numpy,scipy}).
+First make sure that all `NumPy/SciPy`_ prerequisites are installed and working properly.  Then be sure to remove any old !NumPy/!SciPy installations (e.g. /usr/lib/python2.4/site-packages/{numpy,scipy} or $HOME/lib/python2.4/site-packages/{numpy,scipy}).
 
 Prerequisities
 ~~~~~~~~~~~~~~
@@ -370,7 +370,7 @@ Python must also be compiled with the zlib module enabled.
 
 2. A C compiler.
 
-3. Optionally an optimized LAPACK library. Similar, to scipy setup.py script, numpy setup.py script can detect optimized LAPACK libraries in the system. See SciPy_ notes below.
+3. Optionally an optimized LAPACK library. Similar, to scipy setup.py script, numpy setup.py script can detect optimized LAPACK libraries in the system. See SciPy notes below.
 
 Scipy requires the following software installed:
 
@@ -380,7 +380,7 @@ Scipy requires the following software installed:
 
 Debian packages: atlas2-headers atlas2-base atlas2-base-dev
 
-Various SciPy_ packages do linear algebra computations using the LAPACK routines. SciPy_'s setup.py scripts can use number of different LAPACK library setups, including optimized LAPACK libraries such as ATLAS :underline:`or the Accelerate/vecLib framework on OS X. The notes below give more information on how to prepare the build environment so that` SciPy_:underline:`'s setup.py scripts can use whatever LAPACK library setup one has.`
+Various SciPy packages do linear algebra computations using the LAPACK routines. SciPy's setup.py scripts can use number of different LAPACK library setups, including optimized LAPACK libraries such as ATLAS :underline:`or the Accelerate/vecLib framework on OS X. The notes below give more information on how to prepare the build environment so that` SciPy:underline:`'s setup.py scripts can use whatever LAPACK library setup one has.`
 
 :underline:`3. C and Fortran compilers.`
 
@@ -404,7 +404,7 @@ where $MYDIR is, for example, $HOME or $HOME/usr.
 Testing
 ~~~~~~~
 
-To test SciPy_ after installation (highly recommended), execute in Python
+To test SciPy after installation (highly recommended), execute in Python
 
 ::
 
@@ -427,9 +427,9 @@ Customizing
 Compilers
 ~~~~~~~~~
 
-Note that !NumPy/!SciPy_ is developed mainly using GNU compilers. Compilers from other vendors such as Intel, Absoft, Sun, NAG, Compaq, Vast, Porland, Lahey, HP, IBM are supported in the form of community feedback.
+Note that !NumPy/!SciPy is developed mainly using GNU compilers. Compilers from other vendors such as Intel, Absoft, Sun, NAG, Compaq, Vast, Porland, Lahey, HP, IBM are supported in the form of community feedback.
 
-gcc 3.x compilers are recommended.  gcc 4.0.x also works on some platforms (e.g. Linux x86).  SciPy_ is not fully compatible with gcc 4.0.x on OS X.  If building on OS X, we recommend you use gcc 3.3, by typing:
+gcc 3.x compilers are recommended.  gcc 4.0.x also works on some platforms (e.g. Linux x86).  SciPy is not fully compatible with gcc 4.0.x on OS X.  If building on OS X, we recommend you use gcc 3.3, by typing:
 
 ::
 
@@ -437,7 +437,7 @@ gcc 3.x compilers are recommended.  gcc 4.0.x also works on some platforms (e.g.
 
 Building NumPy requires only a C compiler. To build SciPy, also a Fortran compiler is required.
 
-If BLAS/LAPACK libraries used by NumPy_ linalg module is built with a Fortran compiler, then linking extension modules must be carried out with Fortran linker (then all necessary Fortran compiler specific libraries are correctly linked to extension modules). This is the only case where Fortran compiler is required for building NumPy.
+If BLAS/LAPACK libraries used by NumPy linalg module is built with a Fortran compiler, then linking extension modules must be carried out with Fortran linker (then all necessary Fortran compiler specific libraries are correctly linked to extension modules). This is the only case where Fortran compiler is required for building NumPy.
 
 You can specify which Fortran compiler to use by using the following install command
 
@@ -483,7 +483,7 @@ You will notice it when getting import errors like
 
    ImportError: .../flapack.so : undefined symbol: sgesdd_
 
-To be sure that !NumPy/!SciPy_ is built against a complete LAPACK, check the size of the file liblapack.a - it should be about 6MB. The location of liblapack.a is shown by executing
+To be sure that !NumPy/!SciPy is built against a complete LAPACK, check the size of the file liblapack.a - it should be about 6MB. The location of liblapack.a is shown by executing
 
 ::
 
@@ -529,7 +529,7 @@ If using non-GNU C compiler or linker, the location of g2c library can be specif
 Intel Fortran Compiler
 ::::::::::::::::::::::
 
-Note that code compiled by the Intel Fortran Compiler (IFC) is not binary compatible with code compiled by g77. Therefore, when using IFC, all Fortran codes used in SciPy must be compiled with IFC. This also includes the LAPACK, BLAS, and ATLAS libraries. Using GCC for compiling C code is OK. IFC version 5.0 is not supported (because it has bugs that cause SciPy_'s tests to segfault).
+Note that code compiled by the Intel Fortran Compiler (IFC) is not binary compatible with code compiled by g77. Therefore, when using IFC, all Fortran codes used in SciPy must be compiled with IFC. This also includes the LAPACK, BLAS, and ATLAS libraries. Using GCC for compiling C code is OK. IFC version 5.0 is not supported (because it has bugs that cause SciPy's tests to segfault).
 
 Minimum IFC flags for building LAPACK and ATLAS are
 
@@ -562,7 +562,7 @@ More precisely: add_headers install headers system-wide (e.g. in /usr/include/ o
 Troubleshooting
 ---------------
 
-If you experience problems when building/installing/testing SciPy_, you can ask help from `scipy-user@scipy.org`_ or `scipy-dev@scipy.org`_ mailing lists. Please include the following information in your message: os.name, ``uname -a``, sys.platform, sys.version, numpy.version:underline:`, ATLAS version, compiler versions, etc.  This information can be generated by executing:`
+If you experience problems when building/installing/testing SciPy, you can ask help from `scipy-user@scipy.org`_ or `scipy-dev@scipy.org`_ mailing lists. Please include the following information in your message: os.name, ``uname -a``, sys.platform, sys.version, numpy.version:underline:`, ATLAS version, compiler versions, etc.  This information can be generated by executing:`
 
 ::
 

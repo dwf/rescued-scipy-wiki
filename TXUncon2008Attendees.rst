@@ -52,7 +52,7 @@ Attendee list
 
 * Scott Nemeth (United Space Alliance)
 
-* Jim Money (BancVue_)
+* Jim Money (BancVue)
 
 * `Kenneth Miller <http://xkenneth.blogspot.com>`_ (Teledrill - University of Houston)
 
@@ -90,7 +90,7 @@ Attendee list
 
 * Gary Bankston (M6 Research)
 
-* [:PaulMcGuire:Paul McGuire_]
+* [:PaulMcGuire:Paul McGuire]
 
 * Nick Luchsinger (Student, CS, The University of Texas at Austin)
 
@@ -98,7 +98,7 @@ Attendee list
 
 * Gregory Matous (Momentum Software)
 
-* [:DanDees:Dan Dees] (AppSmiths_)
+* [:DanDees:Dan Dees] (AppSmiths)
 
 * Benjamin Kidd (Texas Department of Transportation)
 

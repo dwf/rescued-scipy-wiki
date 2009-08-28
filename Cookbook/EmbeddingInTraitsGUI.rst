@@ -17,7 +17,7 @@ Traits, part of the`Enthought Tools Suit  <http://code.enthought.com/>`_, provid
 
 * TraitsBackendWX > 3.0
 
-For this example, we will display a function (y, a sine wave) of one variable (x, a numpy ndarray) and one parameter (scale, a float value with bounds). We want to be able to vary the parameter from the UI and see the resulting changes to y in a plot window. Here's what the final result looks like: 
+For this example, we will display a function (y, a sine wave) of one variable (x, a numpy ndarray) and one parameter (scale, a float value with bounds). We want to be able to vary the parameter from the UI and see the resulting changes to y in a plot window. Here's what the final result looks like:
 .. image:: images/Cookbook/EmbeddingInTraitsGUI/mpl_in_traits_view.png
  The TraitsUI "CustomEditor" can be used to display any wxPython window as the editor for the object. You simply pass the CustomEditor a callable which, when called, returns the wxPython window you want to display. In this case, our MakePlot() function returns a wxPanel containing the mpl FigureCanvas and Navigation toolbar. This example exploits a few of Traits' features. We use "dynamic initialisation" to create the Axes and Line2D objects on demand (using the _xxx_default methods).  We use Traits "notification", to call update_line(...) whenever the x- or y-data is changed. Further, the y-data is declared as a Property trait which depends on both the 'scale' parameter and the x-data. 'y' is then recalculated on demand, whenever either 'scale' or 'x' change. The 'cached_property' decorator prevents recalculation of y if it's dependancies *are not* modified.
 

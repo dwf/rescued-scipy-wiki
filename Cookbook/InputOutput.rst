@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -127,7 +127,7 @@ Raw binary
 
 These file formats simply write out the internal representation of the arrays. This is platform-dependent and includes no information about array shape or datatype, but is quick and easy.
 
-SciPy_ provides  fwrite() from scipy.io.numpyio.  You have to set the size of your data, and optionally, its type (integer, short, float, etc; see http://docs.neuroinf.de/api/scipy/scipy.io.numpyio-module.html).
+SciPy provides  fwrite() from scipy.io.numpyio.  You have to set the size of your data, and optionally, its type (integer, short, float, etc; see http://docs.neuroinf.de/api/scipy/scipy.io.numpyio-module.html).
 
 For reading binary files, scipy.io.numpyio provides fread(). You have to know the datatype of your array, its size and its shape.
 
@@ -183,7 +183,7 @@ And reading back:
 Write a Fortran or C array to a binary file with metadata
 ---------------------------------------------------------
 
-`libnpy <http://www.maths.unsw.edu.au/~mclean/libnpy-0.1.tgz>`_ is a small library that provides simple routines for saving a C or Fortran array to a data file using NumPy_'s own binary format.  For a description of this format, do
+`libnpy <http://www.maths.unsw.edu.au/~mclean/libnpy-0.1.tgz>`_ is a small library that provides simple routines for saving a C or Fortran array to a data file using NumPy's own binary format.  For a description of this format, do
 
 ::
 
@@ -227,7 +227,7 @@ The corresponding Fortran program, ``fex.f95``, looks like
        call save_double("fa.npy", shape(a), a)
    end program fex
 
-but the entries of the NumPy_ array now follow the Fortran (column-major) ordering.
+but the entries of the NumPy array now follow the Fortran (column-major) ordering.
 
 ::
 
@@ -252,5 +252,5 @@ Similarly, with ``npy.mod`` and ``libnpy.a`` in the same directory as ``fex.f95`
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

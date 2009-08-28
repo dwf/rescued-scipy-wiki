@@ -64,5 +64,5 @@ It produces plots that look something like this:
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

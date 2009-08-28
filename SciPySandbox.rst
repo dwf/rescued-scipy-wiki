@@ -12,7 +12,7 @@ Some of the more mature sandbox modules are
 
 -------------------------
 
- CategorySciPyPackages_
+ CategorySciPyPackages
 
 .. ############################################################################
 

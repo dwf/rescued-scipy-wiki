@@ -10,7 +10,7 @@ Building
 
 The project is hosted `here <http://code.google.com/p/numexpr/wiki/Overview>`_.
 
-To use it as a standalone package, you can grab it from the Subversion repository at http://numexpr.googlecode.com/svn/trunk/ , and do the usual ``python setup.py install``. You will need NumPy_ installed.
+To use it as a standalone package, you can grab it from the Subversion repository at http://numexpr.googlecode.com/svn/trunk/ , and do the usual ``python setup.py install``. You will need NumPy installed.
 
 Using
 -----
@@ -38,7 +38,7 @@ The expression is first compiled using Python's ``compile`` function (this means
 
 This parse tree is then compiled to a bytecode program, which describes how to perform the operation elementwise. The virtual machine uses "vector registers": each register is many elements wide (by default, the first pass uses 128 elements). The key to ``numexpr``'s speed is handling chunks of elements at a time.
 
-There are two extremes to evaluating an expression elementwise. You can do each operation as arrays, returning temporary arrays. This is what you do when you use NumPy_: ``2*a+3*b`` uses three temporary arrays as large as ``a`` or ``b``. This strategy wastes memory (a problem if your arrays are large), and also is not a good use of cache memory: for large arrays, the results of ``2*a`` and ``3*b`` won't be in cache when you do the add.
+There are two extremes to evaluating an expression elementwise. You can do each operation as arrays, returning temporary arrays. This is what you do when you use NumPy: ``2*a+3*b`` uses three temporary arrays as large as ``a`` or ``b``. This strategy wastes memory (a problem if your arrays are large), and also is not a good use of cache memory: for large arrays, the results of ``2*a`` and ``3*b`` won't be in cache when you do the add.
 
 The other extreme is to loop over each element, as in
 
@@ -68,7 +68,7 @@ There is some more information and history at http://isobaric.blogspot.com/2006/
 Credits
 -------
 
-Numexpr was initially written by DavidCooke_, and extended to more types by TimHochberg_.
+Numexpr was initially written by DavidCooke, and extended to more types by TimHochberg.
 
 See also
 --------
@@ -81,5 +81,5 @@ See also
 
 
 
-  CategorySciPyPackages_
+  CategorySciPyPackages
 

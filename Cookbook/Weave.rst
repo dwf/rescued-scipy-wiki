@@ -3,7 +3,7 @@
 Inline Weave With Basic Array Conversion (no Blitz)
 ---------------------------------------------------
 
-Python and Numpy are designed to express general statements that work transparently on many sizes of incoming data. Using inline Weave with Blitz conversion can dramatically speed up many numerical operations (eg, addition of a series of arrays) because in some ways it bypasses generality. How can you speed up your algorithms with inline C code while maintaining generality? One tool provided by Numpy is the **iterator**. Because an iterator keeps track of memory indexing for you, its operation is very analogous to the concept of iteration in Python itself. You can write loop in C that simply says "take the next element in a serial object--the PyArrayObject--and operate on it, until there are no more elements."
+Python and Numpy are designed to express general statements that work transparently on many sizes of incoming data. Using inline Weave with Blitz conversion can dramatically speed up many numerical operations (eg, addition of a series of arrays) because in some ways it bypasses generality. How can you speed up your algorithms with inline C code while maintaining generality? One tool provided by Numpy is the **iterator**. Because an iterator keeps track of memory indexing for you, its operation is very analogous to the concept of iteration in Python itself. You can write loop in C that simply says "take the next element in a serial object--the ``PyArrayObject``--and operate on it, until there are no more elements."
 
 -------------------------
 
@@ -11,7 +11,7 @@ Python and Numpy are designed to express general statements that work transparen
 
 * py_a -- PyObject *
 
-* a_array -- PyArrayObject *
+* a_array -- ``PyArrayObject`` *
 
 * a -- (c-type *) py_array->data
 
@@ -34,12 +34,12 @@ Python and Numpy are designed to express general statements that work transparen
    """
    %s *p1, *p2;
    PyObject *itr;
-   itr = PyArray_MultiIterNew(2, a_array, b_array);
-   while(PyArray_MultiIter_NOTDONE(itr)) {
-     p1 = (%s *) PyArray_MultiIter_DATA(itr, 0);
-     p2 = (%s *) PyArray_MultiIter_DATA(itr, 1);
+   itr = PyArrayMultiIterNew(2, a_array, b_array);
+   while(PyArrayMultiIterNOTDONE(itr)) {
+     p1 = (%s *) PyArrayMultiIterDATA(itr, 0);
+     p2 = (%s *) PyArrayMultiIterDATA(itr, 1);
      *p1 = (*p1) * (*p2);
-     PyArray_MultiIter_NEXT(itr);
+     PyArrayMultiIterNEXT(itr);
    }
    """ % (dt, dt, dt)
        b = npy.arange(4, dtype=a.dtype)
@@ -123,5 +123,5 @@ Some more notes: Can anyone tell me why the single-precision FFTW is giving me s
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

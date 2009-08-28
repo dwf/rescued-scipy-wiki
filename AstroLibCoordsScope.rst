@@ -1,6 +1,6 @@
 #format rst
 
-The project scope will most likely emerge from the AstroLibCoordsUseCases_, but we can identify some user communities that we will, or will not, try to serve.
+The project scope will most likely emerge from the AstroLibCoordsUseCases, but we can identify some user communities that we will, or will not, try to serve.
 
 Target Users
 ------------
@@ -22,20 +22,20 @@ Finding the right niche
 
 This project has potential overlaps with other existing projects, and it's worth carefully considering where we fit.
 
-* This library doesn't need to provide the level of precision or detailed modelling provided by astrometric libraries (see SLALIB, NOVAS, TPM on the AstroLibCoordsSoftwareSurvey_ page). But, if the machinery already exists, it may be easier to wrap and provide it.
+* This library doesn't need to provide the level of precision or detailed modelling provided by astrometric libraries (see SLALIB, NOVAS, TPM on the AstroLibCoordsSoftwareSurvey page). But, if the machinery already exists, it may be easier to wrap and provide it.
 
-* If we were to take catalog matching as one of our AstroLibCoordsUseCases_, it's worth noting that this is one of the fundamental problems the Virtual Observatory needs to tackle. The VO, however, needs to consider much larger, more distributed, and more general cases than we do. On the other hand, it would be good to be able to interface with the VO.
+* If we were to take catalog matching as one of our AstroLibCoordsUseCases, it's worth noting that this is one of the fundamental problems the Virtual Observatory needs to tackle. The VO, however, needs to consider much larger, more distributed, and more general cases than we do. On the other hand, it would be good to be able to interface with the VO.
 
 Interfaces with other libraries
 -------------------------------
 
-* AstroAsciiData_ for getting data
+* AstroAsciiData for getting data
 
-* AstroLibDatesTimes_ (although this may come as part & parcel of some of the external libraries)
+* AstroLibDatesTimes (although this may come as part & parcel of some of the external libraries)
 
-* AstroLibFormats_ to handle various representations (decimal, sexagesimal)
+* AstroLibFormats to handle various representations (decimal, sexagesimal)
 
-* AstroLibUnits_ to handle various units (degrees, hour angle, radians)
+* AstroLibUnits to handle various units (degrees, hour angle, radians)
 
 .. ############################################################################
 

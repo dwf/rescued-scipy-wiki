@@ -5,7 +5,7 @@ Treemaps are a nice way of showing tree information not based on a connected nod
 See http://www.cs.umd.edu/hcil/treemap/
 
 
-.. image:: images/Cookbook/Matplotlib/TreeMap/TreeMap_.png
+.. image:: images/Cookbook/Matplotlib/TreeMap/TreeMap.png
 
 ::
 
@@ -66,5 +66,5 @@ See http://www.cs.umd.edu/hcil/treemap/
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

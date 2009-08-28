@@ -74,7 +74,7 @@ Afternoon Sessions
 
 
 
-  Pyparsing Quick Start - Paul McGuire_  http://pyparsing.wikispaces.com ) (an updated version of my PyCon2006_ talk, with new examples and library features) (`Slides <http://www.geocities.com/ptmcg/python/confs/TxUnconf2008Pyparsing.html>`_)
+  Pyparsing Quick Start - Paul McGuire  http://pyparsing.wikispaces.com ) (an updated version of my PyCon2006_ talk, with new examples and library features) (`Slides <http://www.geocities.com/ptmcg/python/confs/TxUnconf2008Pyparsing.html>`_)
 
 Sunday, October 5
 -----------------
@@ -108,7 +108,7 @@ More Lightning Talks
 
 
 
-  GUIs Made Simple - Kenneth Miller - A quick introduction to creating simple Python GUIs with PyroGlyph_ and Wildfire. (`Slides <http://sites.google.com/site/xkenneth/presentations>`_)
+  GUIs Made Simple - Kenneth Miller - A quick introduction to creating simple Python GUIs with PyroGlyph and Wildfire. (`Slides <http://sites.google.com/site/xkenneth/presentations>`_)
 
 Afternoon Sessions
 ~~~~~~~~~~~~~~~~~~

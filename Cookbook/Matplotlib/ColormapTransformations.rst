@@ -46,7 +46,7 @@ Lets try it out: I want a jet colormap, but lighter, so that I can plot things o
 
 .. image:: images/Cookbook/Matplotlib/ColormapTransformations/light_jet4.png
 
-As a comparison, this is what the original jet looks like: 
+As a comparison, this is what the original jet looks like:
 .. image:: images/Cookbook/Matplotlib/ColormapTransformations/jet.png
 
 Operating on indices
@@ -109,6 +109,6 @@ Here is how you can discretize a continuous colormap.
        # Return colormap object.
        return matplotlib.colors.LinearSegmentedColormap('colormap',cdict,1024)
 
-So for instance, this is what you would get by doing ``cmap_discretize(cm.jet, 6)``. 
+So for instance, this is what you would get by doing ``cmap_discretize(cm.jet, 6)``.
 .. image:: images/Cookbook/Matplotlib/ColormapTransformations/dicrete_jet1.png
 

@@ -1,4 +1,4 @@
-TableOfContents_
+TableOfContents
 
 Introduction
 ============

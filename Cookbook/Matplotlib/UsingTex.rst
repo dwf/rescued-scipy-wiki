@@ -81,5 +81,5 @@ In the event that things dont work
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

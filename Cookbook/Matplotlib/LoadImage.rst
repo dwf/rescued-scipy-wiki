@@ -54,5 +54,5 @@ This permits to do some processing for further exporting such as for [:Cookbook/
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

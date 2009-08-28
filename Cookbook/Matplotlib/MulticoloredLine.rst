@@ -79,5 +79,5 @@ If you have a parametric curve to display, and want to represent the parameter u
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

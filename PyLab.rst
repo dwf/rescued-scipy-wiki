@@ -1,6 +1,6 @@
 #format rst
 
-Currently this page reflects the vision of KeirMierle_, and not necessarily the community as a whole. By integrating consensus from mailing list discussions, I will refine and polish this vision and form a plan of action such that the community can move the numpy+scipy+ipython+matplotlib ensemble closer to the vision outlined below.
+Currently this page reflects the vision of KeirMierle, and not necessarily the community as a whole. By integrating consensus from mailing list discussions, I will refine and polish this vision and form a plan of action such that the community can move the numpy+scipy+ipython+matplotlib ensemble closer to the vision outlined below.
 
 THIS IS NOT COMPLETE YET
 
@@ -15,18 +15,18 @@ To make PyLab an easy to use, well packaged, well integrated, and well documente
 
 The philosophy behind this vision is to consider Rails and Ruby; while Ruby was somewhat popular beforehand, it was Rails which propelled it to the forefront.
 
-At the moment, the current combination of Python, NumPy_**,** SciPy_**, Matplotlib, and IPython** provide a compelling environment for numerical analysis and computation.  **Unfortunately**, for those who are not already familiar with Python and the intricacies of how to build your own Python environment, or for those not familiar with the details of how there are conflicting names exported by different modules, or how the best list of NumPy_ examples is found on the wiki in a non-obvious place (and that the docstrings are not the best documentation), or that the speed of linear algebra operators is dependent on a carefully compiled combination of LAPACK, ATLAS, and Goto BLAS, or a host of other reasons (some outlined below), **the picture is not nearly so rosy.**
+At the moment, the current combination of Python, NumPy**,** SciPy**, Matplotlib, and IPython** provide a compelling environment for numerical analysis and computation.  **Unfortunately**, for those who are not already familiar with Python and the intricacies of how to build your own Python environment, or for those not familiar with the details of how there are conflicting names exported by different modules, or how the best list of NumPy examples is found on the wiki in a non-obvious place (and that the docstrings are not the best documentation), or that the speed of linear algebra operators is dependent on a carefully compiled combination of LAPACK, ATLAS, and Goto BLAS, or a host of other reasons (some outlined below), **the picture is not nearly so rosy.**
 
 Short-term Goals
 ~~~~~~~~~~~~~~~~
 
-1. **Documentation** - Dramatically enhance the standard documentation by consistently adopting the new DocstringStandard_ for all functions in the NumPy_ API.
+1. **Documentation** - Dramatically enhance the standard documentation by consistently adopting the new DocstringStandard for all functions in the NumPy API.
 
 #. **API Consistency** - Create an official API for the PyLab system such that there is an official way to import the PyLab packages, and such that there are not multiple functions with very similar names in different packages.
 
 #. **Installation** - Make the installation process trivial, especially for, e.g. people without root access or spare time.
 
-#. **Build Process** - Make the build process simple for the combination of the five core components (Python, NumPy_, SciPy_, Matplotlib, and IPython).
+#. **Build Process** - Make the build process simple for the combination of the five core components (Python, NumPy, SciPy, Matplotlib, and IPython).
 
 A simple user story
 ~~~~~~~~~~~~~~~~~~~
@@ -68,19 +68,19 @@ For now this section only talks about docstrings, and ignores the other forms of
 Docstring standard
 ~~~~~~~~~~~~~~~~~~
 
-Travis Oliphant posted a `draft docstring standard on January 10th 2007 <http://article.gmane.org/gmane.comp.python.scientific.devel/5572>`_ which is the basis for the following proposed standard, which is now the DocstringStandard_ page. Please look at it.
+Travis Oliphant posted a `draft docstring standard on January 10th 2007 <http://article.gmane.org/gmane.comp.python.scientific.devel/5572>`_ which is the basis for the following proposed standard, which is now the DocstringStandard page. Please look at it.
 
 Available modules in docstrings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Examples in docstrings are extremely valuable. However, it is currently never the case that the docstrings in either NumPy_ or SciPy_ use any of the functionality offered by matplotlib. This in unfortunate, especially in the case of SciPy_, because often the clearest way of demonstrating a function is to plot something.
+Examples in docstrings are extremely valuable. However, it is currently never the case that the docstrings in either NumPy or SciPy use any of the functionality offered by matplotlib. This in unfortunate, especially in the case of SciPy, because often the clearest way of demonstrating a function is to plot something.
 
-While it is true that there is an argument which says that SciPy_ should not become dependent on matplotlib, it appears that this dependence already exists for all intents and purposes. It is likely that only in the most extreme cases one would want to use SciPy_ without matplotlib. Furthermore, the dependency would only be in the case where a user is executing docstrings in the interactive interpreter; in this case, it is highly likely that the user is doing something which requires some sort of plotting package regardless.
+While it is true that there is an argument which says that SciPy should not become dependent on matplotlib, it appears that this dependence already exists for all intents and purposes. It is likely that only in the most extreme cases one would want to use SciPy without matplotlib. Furthermore, the dependency would only be in the case where a user is executing docstrings in the interactive interpreter; in this case, it is highly likely that the user is doing something which requires some sort of plotting package regardless.
 
 2. Fixing API consistency
 =========================
 
-The current PyLab ensemble has issues with API consistency, mainly stemming from Matplotlib's compatability layer. For example, **consider the load function**, which exists in both NumPy_ and Matplotlib:
+The current PyLab ensemble has issues with API consistency, mainly stemming from Matplotlib's compatability layer. For example, **consider the load function**, which exists in both NumPy and Matplotlib:
 
 ::
 
@@ -95,7 +95,7 @@ This function isn't matched! They are clearly different, yet each accepts a file
 
 Another example is the confusion around the min and max functions overwriting the builtins, then breaking in weird and unexpected ways. It appears this is now sorted out, with numpy.amax and numpy.amin being the array versions, with numpy.min and numpy.max new names for numpy.amin/amax. I feel as though from numpy import * should import min and max, but import a min and a max that throw an exception!
 
-Here's a list of conflicts between SciPy_ and Matplotlib:
+Here's a list of conflicts between SciPy and Matplotlib:
 
 ::
 
@@ -150,7 +150,7 @@ What most users want is for a single import statement to get a consistent set of
 
    from pylab import *
 
-That gets them NumPy_, SciPy_, and Matplotlib. A rough equivalent would be:
+That gets them NumPy, SciPy, and Matplotlib. A rough equivalent would be:
 
 ::
 
@@ -166,7 +166,7 @@ Not really. from scipy import * brings in about 20 subpackages (i.e. signal such
 How to fix the API
 ------------------
 
-Fixing the API will involve a discussion between the core maintainers of each of the core modules (excepting IPython): NumPy_, SciPy_, and Matplotlib.
+Fixing the API will involve a discussion between the core maintainers of each of the core modules (excepting IPython): NumPy, SciPy, and Matplotlib.
 
 3. Fixing installation process
 ==============================
@@ -189,7 +189,7 @@ Becoming a better foundation for SAGE
 
 There is a package called `SAGE <http://sage.math.washington.edu/sage/>`_ which aims for almost exactly the same goals as PyLab. However, it is even more extreme than the PyLab vision outlined here, because SAGE includes many third party programs for cutting-edge support of symbolic computation. It also makes some incompatible changes to the Python syntax.
 
-SAGE is built from a core of Python, IPython, and NumPy_. In a `posting <http://arcknowledge.com/gmane.comp.mathematics.sage.devel/2006-12/msg00111.html>`_ to the SAGE developer list, the lead SAGE developer, William Stein, described how he wishes NumPy_ and SciPy_ would follow more consistent documentation standards. Shortly thereafter Travis Oliphant committed the documentation standard which should be used in NumPy_ and SciPy_. **By slowly working the docstring documentation into a consistent state, PyLab can form a more consistent and usable foundation for SAGE.**
+SAGE is built from a core of Python, IPython, and NumPy. In a `posting <http://arcknowledge.com/gmane.comp.mathematics.sage.devel/2006-12/msg00111.html>`_ to the SAGE developer list, the lead SAGE developer, William Stein, described how he wishes NumPy and SciPy would follow more consistent documentation standards. Shortly thereafter Travis Oliphant committed the documentation standard which should be used in NumPy and SciPy. **By slowly working the docstring documentation into a consistent state, PyLab can form a more consistent and usable foundation for SAGE.**
 
 .. ############################################################################
 

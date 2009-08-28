@@ -25,7 +25,7 @@ Other links:
 
 * `Documentation <http://www.trelgol.com/>`_ (fee-based) and `Sample Chapters <http://www.tramy.us/numpybooksample.pdf>`_
 
-Much of the documentation for Numeric and Numarray is applicable to the new NumPy package.  However, there are `significant feature improvements <http://numeric.scipy.org/new_features.html>`_.  A complete guide to the new system is being written by the primary developer, Travis Oliphant.  If you want to fully understand the new system, or you just want to encourage further development on NumPy (or SciPy_), you should purchase the documentation which is being sold for a relatively brief period of time to help offset the cost of producing the Numeric/numarray hybrid and to help raise money for future development.   If you have further questions about the fee-based documentation, Travis has written some `responses <http://www.tramy.us/FAQ.html>`_ to FAQs.
+Much of the documentation for Numeric and Numarray is applicable to the new NumPy package.  However, there are `significant feature improvements <http://numeric.scipy.org/new_features.html>`_.  A complete guide to the new system is being written by the primary developer, Travis Oliphant.  If you want to fully understand the new system, or you just want to encourage further development on NumPy (or SciPy), you should purchase the documentation which is being sold for a relatively brief period of time to help offset the cost of producing the Numeric/numarray hybrid and to help raise money for future development.   If you have further questions about the fee-based documentation, Travis has written some `responses <http://www.tramy.us/FAQ.html>`_ to FAQs.
 
 * An extensive and free ["Numpy Example List"] illustrates the use of most of the Numpy features.
 
@@ -33,9 +33,9 @@ Much of the documentation for Numeric and Numarray is applicable to the new NumP
 
 * `New Features of NumPy <http://numeric.scipy.org/new_features.html>`_
 
-* A presentation of the new system was also made at SciPy_ 2005.  You can `download <http://www.scipy.org/wikis/scipy05/presentations/scipy_core_2005.ppt/download>`_ the presentation (or in `pdf <http://www.scipy.org/wikis/scipy05/presentations/scipy_2005_bas.pdf/download>`_ format)
+* A presentation of the new system was also made at SciPy 2005.  You can `download <http://www.scipy.org/wikis/scipy05/presentations/scipy_core_2005.ppt/download>`_ the presentation (or in `pdf <http://www.scipy.org/wikis/scipy05/presentations/scipy_2005_bas.pdf/download>`_ format)
 
-For about 6 months, the new package was called SciPy_ Core, and so you will occasionally see references to SciPy_ Core.   It was decided in January 2006 to go with the historical name of NumPy for the new package.  Realize that NumPy (module name numpy) is the new name.   Do not be confused by references to scipy_core.  These should all be replaced by numpy.  Also, because of the name-change, there were a lot of dicussions that took place on `scipy-dev@scipy.org`_ and `scipy-user@scipy.org`_.  If you have a question about the new system, you may wish to run a search on those mailing lists.
+For about 6 months, the new package was called SciPy Core, and so you will occasionally see references to SciPy Core.   It was decided in January 2006 to go with the historical name of NumPy for the new package.  Realize that NumPy (module name numpy) is the new name.   Do not be confused by references to scipy_core.  These should all be replaced by numpy.  Also, because of the name-change, there were a lot of dicussions that took place on `scipy-dev@scipy.org`_ and `scipy-user@scipy.org`_.  If you have a question about the new system, you may wish to run a search on those mailing lists.
 
 See also http://numeric.scipy.org  and http://numpy.scipy.org
 

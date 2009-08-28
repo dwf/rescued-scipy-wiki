@@ -5,7 +5,7 @@ SciPy Tutorial Day 2 Notes
 
 by David Shupe
 
-{{{SciPy_ Tutorials
+{{{SciPy Tutorials
 
 Eric Jones - Python as "Glue" (we were given a PDF of Eric's slides)
 
@@ -31,7 +31,7 @@ Reading and writing
 
   - scipy.io.read_array - use csv module - "roll your own"
 
-NetCDF reader in SciPy_ opens the arrays as memory-mapped arrays....Travis says this is nice, encouraged for other readers (like PyFITS?).
+NetCDF reader in SciPy opens the arrays as memory-mapped arrays....Travis says this is nice, encouraged for other readers (like PyFITS?).
 
 Makewav.py - plays notes.  Use Audacity to play.
 
@@ -55,7 +55,7 @@ Filtering
 
 [Interesting: Travis starts python with "ipython -gthread"]
 
-Eigenimages - of 15 photos of faces of SciPy_ attendees.
+Eigenimages - of 15 photos of faces of SciPy attendees.
 
 scipy.signal -- more needed for wavelets.
 

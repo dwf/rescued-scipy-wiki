@@ -154,5 +154,5 @@ Would the reader discover why is the difference?  *Hint: think in terms of the s
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -42,7 +42,7 @@ MayaVi2 will be launched with a TVTK Scene which is blank.
 
 * Now lets add three grid planes.
 
-  Select Visualize/Modules/!GridPlane_, this create a grid plane in the X axis. We can create two more grid planes. By selecting Axis in object editor, we can set those grid planes in the Y and Z axis.
+  Select Visualize/Modules/!GridPlane, this create a grid plane in the X axis. We can create two more grid planes. By selecting Axis in object editor, we can set those grid planes in the Y and Z axis.
 
 * We can project the object onto the Grid planes using contour grid planes. Select Visualize/Modules/Contour grid plane. Do this for the Y, and Z planes as well.
 
@@ -210,5 +210,5 @@ This is the simplest way to use MayaVi2. You are recalled here that you can also
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

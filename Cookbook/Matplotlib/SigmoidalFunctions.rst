@@ -71,5 +71,5 @@ As these examples illustrate, matplotlib doesn't come with helper functions for 
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

@@ -63,7 +63,7 @@ NumPy and SciPy are two of many open-source packages for scientific computing th
 </div>
 **Good places to start to learn more about SciPy:**
 
-* [:more about SciPy:More about NumPy_ / SciPy]
+* [:more about SciPy:More about NumPy / SciPy]
 
 * Index of [:Topical Software:Python packages] for scientific computing
 
@@ -89,7 +89,7 @@ SciPy is sponsored by [:EnthoughtInc:Enthought, Inc.]
 
 
 
-  CategoryHomepage_
+  CategoryHomepage
 
 .. ############################################################################
 

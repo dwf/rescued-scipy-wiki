@@ -28,7 +28,7 @@ The Traits documentation is not too bad. There's enough to get going. Here's som
 
 * Pickling traited objects. I spent some time wondering why I couldn't pickle traited object before discovering that this is a peculiarity of IPython. Pickling traited objects works fine, just not within the ipython shell (is this issue known?).
 
-* The default editor for Array traits is a grid of text-control widgets. The first time I tried configure_traits() on an object with some arrays in it, my PC locked up for 20 minutes while wxPython tried to render 4096 text-controls! This is a poor choice of defult editor for arrays. A new scientific users is quite likely want to view/edit arrays and it's quite likely these arrays may bve big. Thus, the default editor should handle this gracefully. I'd like to see an ArrayEditor_ based on a "virtual" wxGrid control, which has a default maximum size of say 10 rows and ~4 cols (so as not to hog the entire display). The ArrayEditor_ should obviously be a scrolled window so all parts of the array can be accessed. To handle arrays with dimensions>2, there shouls be a control bar where the user can select which 2D slices of a N>2 dims array to display. The columns should be labeled by index number, like the rows.
+* The default editor for Array traits is a grid of text-control widgets. The first time I tried configure_traits() on an object with some arrays in it, my PC locked up for 20 minutes while wxPython tried to render 4096 text-controls! This is a poor choice of defult editor for arrays. A new scientific users is quite likely want to view/edit arrays and it's quite likely these arrays may bve big. Thus, the default editor should handle this gracefully. I'd like to see an ArrayEditor based on a "virtual" wxGrid control, which has a default maximum size of say 10 rows and ~4 cols (so as not to hog the entire display). The ArrayEditor should obviously be a scrolled window so all parts of the array can be accessed. To handle arrays with dimensions>2, there shouls be a control bar where the user can select which 2D slices of a N>2 dims array to display. The columns should be labeled by index number, like the rows.
 
 PlotItems
 ~~~~~~~~~
@@ -39,7 +39,7 @@ Traits/TraitsUI could change this. It lets the user focus on their Model (the da
 
 The key feature is to give the user a brain-dead simple way of visualising their data. In the context of Traits MVC architecture, this means having a set of ready-to-go PlotItems which can be dropped into View definitions to get a plot based on one or more data-arrays. The Chaco2PlotItem is the only thing available out-the-box and is (frankly) a bit crap. It provides a basic level of zooming and panning but nothing else. Here's what I think is required of a universal plot component:
 
-* For line- or scatter plots, the PlotItem_ constructor should take a seris of tuples as it's input (+keyword args). The first two components of the tuple give the names of the x-data and y-data traits to use and the third (optional) component should be a format string (like matplab/matplotlib) specifying the format of the plot (line-type, marker-type etc.). The forth (optional) component should give the data series label.
+* For line- or scatter plots, the PlotItem constructor should take a seris of tuples as it's input (+keyword args). The first two components of the tuple give the names of the x-data and y-data traits to use and the third (optional) component should be a format string (like matplab/matplotlib) specifying the format of the plot (line-type, marker-type etc.). The forth (optional) component should give the data series label.
 
 * The PlotEditor should provide a control toolbar with buttons to save the figure. Save formats should include bitmap and vector output formats. Where bitmap output is chosen, a magnification factor of at least 2x should automatically be used such that the results are print-quality. SVG output would be useful: it's quite common to want to add annotations or otherwise edit figures afterwards. This is tricky with PDF, but easy with SVG.
 
@@ -82,9 +82,9 @@ Here's a class tree for the Chaco API:
 
 The anatomy of a chaco plot comprises the following:
 
-* PlotRenderers_ - these are the actual plot/points/image plotted on the screen
+* PlotRenderers - these are the actual plot/points/image plotted on the screen
 
-* PlotContainers_ - These layout PlotRenders_ spatially
+* PlotContainers - These layout PlotRenders spatially
 
 * Mappers - these map data coorinates to screen coordinates, based on ...
 
@@ -92,7 +92,7 @@ The anatomy of a chaco plot comprises the following:
 
 * Overlays - these are all the other visual components of a plot, like axes, grids, labels etc.
 
-* DataSources_ - these are the "plot pipeline" entry point for the input data.
+* DataSources - these are the "plot pipeline" entry point for the input data.
 
 For example, a simple line plot has the following structure (internally).
 
@@ -106,7 +106,7 @@ PlotRenderers (subclasses of AbstractPlotRenderer) are the object that closest r
 
 Note, however, there is a one-to-one relationship between a plot item (line, bar etc.) and PlotRenderer object. If you want multiple lines/series on your chart, you need one PlotRenderer per series. For multiline plots, the PlotRenderer instances are contained by a PlotContainer object. In the case of a multiline plot, this would probably be an OverlayPlotContainer, which, as it's name suggests, draws all it's contained components on top of each other.
 
-Note also, that a bare PlotRenderer_ does not include any axes or grids or any other annotation. These are handled by other objects. (PlotAxis and PlotGrid objects, appropriately enough)
+Note also, that a bare PlotRenderer does not include any axes or grids or any other annotation. These are handled by other objects. (PlotAxis and PlotGrid objects, appropriately enough)
 
 PlotContainer
 ~~~~~~~~~~~~~
@@ -121,7 +121,7 @@ The DataSources (i.e. subclasses of AbstractDataSource) are how your data gets i
 DataRanges
 ~~~~~~~~~~
 
-These define the visual extent of the source data to be plotted. I.e. these represent the axis ranges. Thus, to change the scales on your plot, you need to access/edit the Range objects. These usually a Range object for each index and value object respectively. Note, however, that PlotComponents_ can share Ranges.
+These define the visual extent of the source data to be plotted. I.e. these represent the axis ranges. Thus, to change the scales on your plot, you need to access/edit the Range objects. These usually a Range object for each index and value object respectively. Note, however, that PlotComponents can share Ranges.
 
 Mappers
 ~~~~~~~
@@ -198,7 +198,7 @@ This is another area where TVTK scores over the standard VTK distribution. The c
    frame.Show()
    app.MainLoop()
 
-Pyface also provides a DecoratedScene_ class which adds a nice toolbar for configuring the camera view, saving a snapshot (with magnification control! yeay!) and a full-screen mode. This is great.
+Pyface also provides a DecoratedScene class which adds a nice toolbar for configuring the camera view, saving a snapshot (with magnification control! yeay!) and a full-screen mode. This is great.
 
 Like other traited components based on wxPython widgets, you access the underlying widget via the .control trait, which returns the wxPython window, for inclusion in parent windows or sizers etc.
 

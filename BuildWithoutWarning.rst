@@ -70,7 +70,7 @@ Just put the elements with ``NULL`` in it.
 
 -------------------------
 
- ProposedEnhancements_
+ ProposedEnhancements
 
 .. ############################################################################
 

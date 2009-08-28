@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -191,5 +191,5 @@ Coming soon...
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

@@ -1,6 +1,6 @@
 #format rst
 
-Those wanting to present at the [:SciPy2006_: SciPy_ 2006 Conference] should conform to the following guidelines.
+Those wanting to present at the [:SciPy2006_: SciPy 2006 Conference] should conform to the following guidelines.
 
 * Deadlines
 

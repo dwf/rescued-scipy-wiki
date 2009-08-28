@@ -3,7 +3,7 @@
 Table of Contents
 =================
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -125,7 +125,7 @@ foo.py
 NumPy arrays' ctypes property
 =============================
 
-A ctypes property was recently added to NumPy_ arrays:
+A ctypes property was recently added to NumPy arrays:
 
 ::
 
@@ -212,7 +212,7 @@ Possible failures include a SystemError exception being raised, the interpreter 
 
 * `Hang with callback returning POINTER(c_float) <http://thread.gmane.org/gmane.comp.python.ctypes/2974>`_
 
-* `Error with callback function and as_parameter with NumPy_ ndpointer <http://thread.gmane.org/gmane.comp.python.ctypes/2972>`_
+* `Error with callback function and as_parameter with NumPy ndpointer <http://thread.gmane.org/gmane.comp.python.ctypes/2972>`_
 
 Time for an example. The C code for the example:
 
@@ -364,7 +364,7 @@ Heterogeneous Types Example
 
 Here's a simple example when using heterogeneous dtypes (record arrays).
 
-But, be warned that NumPy_ recarrays and corresponding structs in C **may not** be congruent.
+But, be warned that NumPy recarrays and corresponding structs in C **may not** be congruent.
 
 Also structs are not standardized across platforms ...In other words,  **be aware of padding issues!**
 
@@ -563,11 +563,11 @@ Pertinent Mailing List Threads
 
 Some useful threads on the ctypes-users mailing list:
 
-* `IndexError_ when indexing on POINTER(POINTER(ctype)) <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3119087>`_
+* `IndexError when indexing on POINTER(POINTER(ctype)) <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3119087>`_
 
 * `Adding ctypes support to NumPy <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118513>`_
 
-* `Determining if a ctype is a pointer type (was RE: Adding ctypes support to NumPy_) <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118656>`_
+* `Determining if a ctype is a pointer type (was RE: Adding ctypes support to NumPy) <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3118656>`_
 
 * `Check for NULL pointer without ValueError <http://aspn.activestate.com/ASPN/Mail/Message/ctypes-users/3117306>`_
 
@@ -588,5 +588,5 @@ Documentation
 
 -------------------------
 
- CategoryCookbook_ CategoryCookbook_
+ CategoryCookbook CategoryCookbook
 

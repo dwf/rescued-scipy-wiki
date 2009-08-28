@@ -1,6 +1,6 @@
 #format rst
 
-SciPy_'s optimization package is scipy.optimize. The most basic non-linear optimization functions are:
+SciPy's optimization package is scipy.optimize. The most basic non-linear optimization functions are:
 
 * optimize.fmin(func, x0), which finds the minimum of f(x) starting x with x0 (x can be a vector)
 
@@ -30,12 +30,12 @@ This is a quick demonstration of generating data from several Bessel functions a
 ::
 
    #class left
-   
+
 .. image:: images/Cookbook/OptimizationDemo1/NumPyOptimizationSmall.png
 
    Optimization Example
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

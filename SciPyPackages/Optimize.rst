@@ -4,7 +4,7 @@ There are two mainstream optimization packages available:
 
 * `scikits.openopt <http://scipy.org/scipy/scikits/wiki/OpenOpt>`_ (license: BSD)
 
-* `SciPy_.optimize <http://www.scipy.org/doc/api_docs/SciPy.optimize.html>`_ (license: BSD)
+* `SciPy.optimize <http://www.scipy.org/doc/api_docs/SciPy.optimize.html>`_ (license: BSD)
 
 * Also you could be interested in `Optimization <http://www.scipy.org/Topical_Software#head-d21a11d2d173826993e03eb937fac7e6347e6d5f>`_ section from `Topical software <http://www.scipy.org/Topical_Software>`_.
 

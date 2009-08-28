@@ -3,14 +3,14 @@
 MetaArray
 =========
 
-MetaArray_ is a class that extends ndarray, adding support for per-axis meta data storage. This class is useful for storing data arrays along with units, axis names, column names, axis values, etc. MetaArray_ objects can be indexed and sliced arbitrarily using named axes and columns.
+MetaArray is a class that extends ndarray, adding support for per-axis meta data storage. This class is useful for storing data arrays along with units, axis names, column names, axis values, etc. MetaArray objects can be indexed and sliced arbitrarily using named axes and columns.
 
-Download here: attachment:MetaArray_.py
+Download here: attachment:MetaArray.py
 
 Example Uses
 ------------
 
-Here is an example of the type of data one might store with MetaArray_:
+Here is an example of the type of data one might store with MetaArray:
 
 
 .. image:: images/Cookbook/MetaArray/example.png
@@ -72,7 +72,7 @@ Instantiation
     # Constructs MetaArray from file written using MetaArray.write()
    MetaArray(file='fileName')
 
-  info parameter: This parameter specifies the entire set of meta data for this MetaArray_ and must follow a specific format. First, info is a list of axis descriptions:
+  info parameter: This parameter specifies the entire set of meta data for this MetaArray and must follow a specific format. First, info is a list of axis descriptions:
 
 ::
 
@@ -141,7 +141,7 @@ Data can be accessed through a variety of methods:
      sel = data["ColumnName", 0, 0] > 0.2
      data[sel]
 
-* Access axis values using MetaArray_.axisValues(), or .xvals() for short.
+* Access axis values using MetaArray.axisValues(), or .xvals() for short.
 
 * Access axis units using .axisUnits(), column units using .columnUnits()
 
@@ -158,7 +158,7 @@ File I/O
 Performance Tips
 ~~~~~~~~~~~~~~~~
 
-MetaArray_ is a subclass of ndarray which overrides the :underline:`getitem` and :underline:`setitem` methods. Since these methods must alter the structure of the meta information for each access, they are quite slow compared to the native methods. As a result, many builtin functions will run very slowly when operating on a MetaArray_. It is recommended, therefore, that you recast your arrays before performing these operations like this:
+MetaArray is a subclass of ndarray which overrides the :underline:`getitem` and :underline:`setitem` methods. Since these methods must alter the structure of the meta information for each access, they are quite slow compared to the native methods. As a result, many builtin functions will run very slowly when operating on a MetaArray. It is recommended, therefore, that you recast your arrays before performing these operations like this:
 
 ::
 
@@ -217,7 +217,7 @@ Luke Campagnola - `lcampagn@email.unc.edu`_
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 
 .. ############################################################################
 

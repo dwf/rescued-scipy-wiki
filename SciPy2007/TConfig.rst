@@ -50,7 +50,7 @@ ConfigObj
 TConfig = Traits + ConfigObj
 ============================
 
-* Changes to the Traited instance propagate back into the ConfigObj_.
+* Changes to the Traited instance propagate back into the ConfigObj.
 
 * A purely declarative interface for describing configurations.
 

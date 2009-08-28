@@ -20,7 +20,7 @@ m:subscript:`1` x:subscript:`1`' ' + b:subscript:`1` x:subscript:`1`' + k:subscr
 
 m:subscript:`2` x:subscript:`2`' ' + b:subscript:`2` x:subscript:`2`' + k:subscript:`2` (x:subscript:`2` - x:subscript:`1` - L:subscript:`2`) = 0
 
-This is a pair of coupled second order equations. To solve this system with one of the ODE solvers provided by SciPy_, we must first convert this to a system of first order differential equations.  We introduce two variables
+This is a pair of coupled second order equations. To solve this system with one of the ODE solvers provided by SciPy, we must first convert this to a system of first order differential equations.  We introduce two variables
 
 y:subscript:`1` = x:subscript:`1`',  y:subscript:`2` = x:subscript:`2`'
 

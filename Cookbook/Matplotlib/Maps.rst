@@ -94,5 +94,5 @@ You can also plot images, pcolor plots and vectors over map projections. Example
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

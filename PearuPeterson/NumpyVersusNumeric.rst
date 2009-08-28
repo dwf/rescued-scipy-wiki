@@ -15,7 +15,7 @@ In Numeric the lenght of a scalar is 1:
    >>> len(array(1))
    1
 
-In numpy a TypeError_ is raised:
+In numpy a TypeError is raised:
 
 ::
 

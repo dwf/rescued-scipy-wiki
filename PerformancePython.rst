@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 A beginners guide to using Python for performance computing
 ===========================================================
@@ -132,7 +132,7 @@ It turns out that the innermost loop of the ``LaplaceSolver.slowTimeStep`` metho
                             (u[1:-1,0:-2] + u[1:-1, 2:])*dx2)*dnr_inv
            return g.computeError()
 
-The entire for i and j loops have been replaced by a single NumPy expression. NumPy expressions operate elementwise and hence the above expression works. It basically computes the four point average. If you have gone through the NumPy tutorial and played with NumPy_ a bit you should be able to understand how this works. The beauty of the expression is that its completely done in C. This makes the computation *much* faster. For a quick comparison here are some numbers for a single iteration on a 500x500 grid. On a PIII 450Mhz with 192 MB RAM, the above takes about 0.3 seconds whereas the previous one takes around 15 seconds. This is close to a 50 fold speed increase. You will also note a few things.
+The entire for i and j loops have been replaced by a single NumPy expression. NumPy expressions operate elementwise and hence the above expression works. It basically computes the four point average. If you have gone through the NumPy tutorial and played with NumPy a bit you should be able to understand how this works. The beauty of the expression is that its completely done in C. This makes the computation *much* faster. For a quick comparison here are some numbers for a single iteration on a 500x500 grid. On a PIII 450Mhz with 192 MB RAM, the above takes about 0.3 seconds whereas the previous one takes around 15 seconds. This is close to a 50 fold speed increase. You will also note a few things.
 
 1. We cannot compute the error the way we did earlier inside the for loop. We need to make a copy of the data and then use the computeError function to do this. This costs us memory and is not very pretty. This is certainly a limitation but is worth a 50 fold speed increase.
 
@@ -314,7 +314,7 @@ The function looks long but is not too hard to write. It is also possible to wri
 Using Matlab and Octave
 -----------------------
 
-We have implemented the Numeric version in Matlab and Octave ( attachment:laplace.m ) and run the tests on a different computer (hence the "estimate" values in the table below). We have found that no significant speed-up is obtained in Matlab, while Octave runs twice slower than NumPy_. Detailed graphs can be found `here <http://lbolla.wordpress.com/2007/04/11/numerical-computing-matlab-vs-pythonnumpyweave/>`_.
+We have implemented the Numeric version in Matlab and Octave ( attachment:laplace.m ) and run the tests on a different computer (hence the "estimate" values in the table below). We have found that no significant speed-up is obtained in Matlab, while Octave runs twice slower than NumPy. Detailed graphs can be found `here <http://lbolla.wordpress.com/2007/04/11/numerical-computing-matlab-vs-pythonnumpyweave/>`_.
 
 An implementation in C++
 ------------------------

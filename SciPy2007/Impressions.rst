@@ -3,7 +3,7 @@
 Impressions
 ===========
 
-This page contains feedback and summaries from the SciPy_ 2007 Conference.  Please post links to your blog, or upload your own content.
+This page contains feedback and summaries from the SciPy 2007 Conference.  Please post links to your blog, or upload your own content.
 
 * David Shupe was kind enough to provide his summaries of each day here:
 

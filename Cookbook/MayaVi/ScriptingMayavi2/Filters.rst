@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -233,5 +233,5 @@ TransformData filter
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

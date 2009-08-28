@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -128,5 +128,5 @@ A step-by-step guide to creating your own bootable CD-ROM, running `Debian <http
 
 -------------------------
 
- CategoryInstallation_
+ CategoryInstallation
 

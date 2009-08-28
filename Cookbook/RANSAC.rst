@@ -27,7 +27,7 @@ To use the module you need to create a model class with two methods
    def get_error(self, data, model):
      """Given a set of data and a model, what is the error of using this model to estimate the data """
 
-An example of such model is the class LinearLeastSquaresModel_ as seen the file source (below)
+An example of such model is the class LinearLeastSquaresModel as seen the file source (below)
 
 inline:ransac.py
 
@@ -35,5 +35,5 @@ inline:ransac.py
 
 
 
-  CategoryCookbook_
+  CategoryCookbook
 

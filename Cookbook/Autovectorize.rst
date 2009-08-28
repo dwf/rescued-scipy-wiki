@@ -17,7 +17,7 @@ Some links and threads on this:
 
 * vectorize() - http://www.scipy.org/Numpy_Example_List_With_Doc#head-fbff061fdb843209707a8fa537d9b24b6a91245e
 
-* NumPy_: vectorization - http://folk.uio.no/hpl/PyUiT/PyUiT-split/slide218.html
+* NumPy: vectorization - http://folk.uio.no/hpl/PyUiT/PyUiT-split/slide218.html
 
 * vectorizing loops - http://article.gmane.org/gmane.comp.python.numeric.general/17266
 

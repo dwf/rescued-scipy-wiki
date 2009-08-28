@@ -7,7 +7,7 @@
 
 </strong>[Table not converted]
 
-RecentChanges_
+RecentChanges
 
 .. last, but not least, a randomly chosen page: [[RandomPage(1)]]
 

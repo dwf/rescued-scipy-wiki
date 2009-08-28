@@ -23,7 +23,7 @@ Literal translations of IDL procedures vs redesign (by literal translation we me
 
     * E.g., various FITS libraries (contrast with PyFITS)
 
-  * doesn't provide easy means of user and other applications using common machinery (See the Coordinate topic, AstroLibCoordsStartingThoughts_, for an illustration).
+  * doesn't provide easy means of user and other applications using common machinery (See the Coordinate topic, AstroLibCoordsStartingThoughts, for an illustration).
 
   * Many aspects superceeded by more functional libraries (E.g, database functionality)
 

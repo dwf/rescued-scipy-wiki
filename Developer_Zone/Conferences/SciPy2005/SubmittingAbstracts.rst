@@ -3,7 +3,7 @@
 Submitting Abstracts
 --------------------
 
-Those wanting to present at the [:Developer_Zone/Conferences/SciPy2005: SciPy_ 2005 Conference] should conform to the following guidelines.
+Those wanting to present at the [:Developer_Zone/Conferences/SciPy2005: SciPy 2005 Conference] should conform to the following guidelines.
 
 * Deadlines
 

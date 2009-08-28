@@ -1,11 +1,11 @@
 #format rst
 
-So what's this SciPy_ conference thing all about?  One way to find out, is to check out [:SciPy2006_:previous conference pages] to review presentation topics presented last year.  A bit more general info is below:
+So what's this SciPy conference thing all about?  One way to find out, is to check out [:SciPy2006_:previous conference pages] to review presentation topics presented last year.  A bit more general info is below:
 
 Presenters
 ==========
 
-The presentations at a SciPy Conference are very cross-disciplinary.  Some Presenters talk about interesting things they have accomplished in their scientific domain using Python.  Some people present the latest developments in a particular open source application or library they are releasing.  Still others talk about particular problems encountered with performance, interaction, etc. and how they solved them.  Some speakers use the NumPy_ and/or SciPy_ libraries, while others are just using Python for a scientific task or workflow.
+The presentations at a SciPy Conference are very cross-disciplinary.  Some Presenters talk about interesting things they have accomplished in their scientific domain using Python.  Some people present the latest developments in a particular open source application or library they are releasing.  Still others talk about particular problems encountered with performance, interaction, etc. and how they solved them.  Some speakers use the NumPy and/or SciPy libraries, while others are just using Python for a scientific task or workflow.
 
 Attendees
 =========

@@ -6,7 +6,7 @@ News
 (2007-12-28)
 ~~~~~~~~~~~~
 
-SciPy_ **Conference Save the Date**
+SciPy **Conference Save the Date**
 
 The [:Developer_Zone/Conferences:SciPy Conference] 2008 will be held at CalTech again during the week of August 19-24, 2008.  The exact schedule will be announced soon.  Most likely, the actual conference days will be Thursday and Friday with Tutorials and Sprints before and after, respectively.
 

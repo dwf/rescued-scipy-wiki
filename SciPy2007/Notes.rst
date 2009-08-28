@@ -3,7 +3,7 @@
 BoF Notes
 =========
 
-During the SciPy_ 2007 Conference there were 4 different "Birds of a Feather" (BoF) sessions.  (Please post your notes if you haven't already.)
+During the SciPy 2007 Conference there were 4 different "Birds of a Feather" (BoF) sessions.  (Please post your notes if you haven't already.)
 
 * [:`SciPy2007/TestingNotes`_: Testing BoF]
 

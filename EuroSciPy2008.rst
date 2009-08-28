@@ -3,7 +3,7 @@
 EuroScipy 2009
 --------------
 
-|/!/| **EuroSciPy has a new home. Please go to the [* http://www.euroscipy.org  **new** EuroSciPy_ **website] for information about the 2009 conference.**
+|/!/| **EuroSciPy has a new home. Please go to the [* http://www.euroscipy.org  **new** EuroSciPy **website] for information about the 2009 conference.**
 
 EuroScipy 2008
 --------------
@@ -14,9 +14,9 @@ EuroScipy 2008
 
 -------------------------
 
- Our first European SciPy_ meeting was a great success (with many thanks to the organizers and sponsors -- `Python Academy <http://python-academy.com>`_, `Enthought, Inc. <http://www.enthought.com>`_ and `Logilab <http://www.logilab.fr>`_).  The attendance was around 44 this year.  We had a fantastic venue and many compelling talks.  There were fantastic, wide-ranging discussions between sessions and the city (`Leipzig <http://en.wikipedia.org/wiki/Leipzig>`_) proved to be a main character in the weekend.  All in all, a great group of people in a beautiful place.
+ Our first European SciPy meeting was a great success (with many thanks to the organizers and sponsors -- `Python Academy <http://python-academy.com>`_, `Enthought, Inc. <http://www.enthought.com>`_ and `Logilab <http://www.logilab.fr>`_).  The attendance was around 44 this year.  We had a fantastic venue and many compelling talks.  There were fantastic, wide-ranging discussions between sessions and the city (`Leipzig <http://en.wikipedia.org/wiki/Leipzig>`_) proved to be a main character in the weekend.  All in all, a great group of people in a beautiful place.
 
-Keep an eye out for more updates and a forthcoming EuroSciPyPhotoGallery_.  If you've taken any interesting (or scandalous) photos from the meeting, post them as well.
+Keep an eye out for more updates and a forthcoming EuroSciPyPhotoGallery.  If you've taken any interesting (or scandalous) photos from the meeting, post them as well.
 
 Many thanks to all who attended.  We're definitely planning on making this an annual event. So, see you next year.
 
@@ -24,11 +24,11 @@ Many thanks to all who attended.  We're definitely planning on making this an an
 
  We are very excited to create a venue for the European community of users of the Python programming language in science.  This conference will bring the presentations and collaboration that [:Developer Zone/Conferences:we've enjoyed at Caltech each year] closer to home for many users of `SciPy <http://www.scipy.org>`_, `NumPy <http://numpy.scipy.org>`_ and `Python <http://www.python.org>`_ generally--with a similar focus and schedule.
 
-**Keynote Speaker: Travis Oliphant** - To kick off the first annual EuroSciPy, Travis Oliphant has agreed to deliver our keynote talk.  Travis is the primary developer of the NumPy package and the author of the definitive Guide to NumPy. He was an early contributor to the documentation for the Numeric package and was one of the original authors of the SciPy_ package. He has a Ph.D. in Biomedical Engineering from the Mayo Clinic. He was an Assistant Professor of Electrical and Computer Engineering at Brigham Young University from 2001 to 2007, and directed the BYU Biomedical Imaging Lab.
+**Keynote Speaker: Travis Oliphant** - To kick off the first annual EuroSciPy, Travis Oliphant has agreed to deliver our keynote talk.  Travis is the primary developer of the NumPy package and the author of the definitive Guide to NumPy. He was an early contributor to the documentation for the Numeric package and was one of the original authors of the SciPy package. He has a Ph.D. in Biomedical Engineering from the Mayo Clinic. He was an Assistant Professor of Electrical and Computer Engineering at Brigham Young University from 2001 to 2007, and directed the BYU Biomedical Imaging Lab.
 
 [Table not converted]
 
-This conference provides a unique opportunity to learn and affect what is happening in the realm of scientific computing with Python. Attendees will have the opportunity to review the available tools and how they apply to specific problems. By providing a forum for developers to share their Python expertise with the wider commercial, academic, and research communities, this conference fosters collaboration and facilitates the sharing of software components, techniques and a vision for high level language use in scientific computing. For a little more background on what happens at a SciPy_ Conference, please see `some notes from previous meetings <http://www.scipy.org/SciPy2007/WhatsThisConferenceLike>`_.
+This conference provides a unique opportunity to learn and affect what is happening in the realm of scientific computing with Python. Attendees will have the opportunity to review the available tools and how they apply to specific problems. By providing a forum for developers to share their Python expertise with the wider commercial, academic, and research communities, this conference fosters collaboration and facilitates the sharing of software components, techniques and a vision for high level language use in scientific computing. For a little more background on what happens at a SciPy Conference, please see `some notes from previous meetings <http://www.scipy.org/SciPy2007/WhatsThisConferenceLike>`_.
 
 Registration
 ------------

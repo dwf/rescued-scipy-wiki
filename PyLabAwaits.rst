@@ -1,6 +1,6 @@
 #format rst
 
-Packages (and package versions) that are needed before PyLab_ becomes a comfortable alternative to MATLAB:
+Packages (and package versions) that are needed before PyLab becomes a comfortable alternative to MATLAB:
 
 Important
 ---------
@@ -11,7 +11,7 @@ Important
 
 * matplotlib 1.0
 
-* MayaVis_ 1.0
+* MayaVis 1.0
 
 * bundle packages for Linux, Windows and Mac
 
@@ -22,7 +22,7 @@ Valuable
 
 * ipython gui
 
-* ScientificCalculationHowto_
+* ScientificCalculationHowto
 
 * `PyDSTool <http://pydstool.sourceforge.net>`_
 
@@ -44,7 +44,7 @@ Conversion utilities
 
 * Convert XML vector field specifications for ODEs/DDEs automatically using `VFGEN <http://www.warrenweckesser.net/vfgen/>`_ -- to use with PyDSTool or Scipy integrators.
 
-See also NumPyProConPage_ and NumPyProConDiscussion_.
+See also NumPyProConPage and NumPyProConDiscussion.
 
 .. ############################################################################
 

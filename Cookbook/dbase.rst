@@ -73,5 +73,5 @@ There is an extensive set of examples at the bottom of the code file that demons
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

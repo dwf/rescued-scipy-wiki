@@ -12,9 +12,9 @@ The weave package allows the inclusion of C/C++ within Python code and is useful
    cd weave
    sudo python setup.py install
 
-* Current documentation (which is still being updated to reflect the move to NumPy_) can be seen `here <http://projects.scipy.org/scipy/scipy/browser/trunk/scipy/weave/doc/tutorial.txt?format=raw>`_
+* Current documentation (which is still being updated to reflect the move to NumPy) can be seen `here <http://projects.scipy.org/scipy/scipy/browser/trunk/scipy/weave/doc/tutorial.txt?format=raw>`_
 
-* PerformancePython_: A comparison of various ways to improve the performance of Python code using Numeric,  weave, Pyrex, Psyco and Fortran (f2py) for solving Laplace's equation.  These are compared with code written in C++.
+* PerformancePython: A comparison of various ways to improve the performance of Python code using Numeric,  weave, Pyrex, Psyco and Fortran (f2py) for solving Laplace's equation.  These are compared with code written in C++.
 
 * [:Cookbook/Weave] Some cookbook examples of using low level Numpy C-API
 
@@ -90,7 +90,7 @@ Weave and Numpy array arguments
 
    Yes. Specifically:
 
-   arr_array is the actual PyArrayObject* corresponding to the Python object.
+   arr_array is the actual ``PyArrayObject``* corresponding to the Python object.
 
    Narr = arr_array->dimensions
    Sarr = arr_array->strides
@@ -109,7 +109,7 @@ Weave and Numpy array arguments
 
 -------------------------
 
- CategorySciPyPackages_
+ CategorySciPyPackages
 
 .. ############################################################################
 

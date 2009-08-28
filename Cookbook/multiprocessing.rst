@@ -7,5 +7,5 @@ This page was obsolete as multiprocessing's internals have changed. More informa
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

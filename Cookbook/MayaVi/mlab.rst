@@ -10,7 +10,7 @@ It relies on the simple TVTK module, rather than on the full blown Mayavi applic
 
  **Table of Contents**
 
-TableOfContents_
+TableOfContents
 
 A Simple Example
 ================
@@ -71,7 +71,7 @@ Changing axis and colour
 List of different functionalities
 =================================
 
-The implementation provided here is object oriented and each visualization capability is implemented as a class that has traits. So each of these may be configured.  Each visualization class derives (ultimately) from MLabBase which is responsible for adding/removing its actors into the render window.  The classes all require that the RenderWindow_ be a ``pyface.tvtk.scene.Scene`` instance (this constraint can be relaxed if necessary later on).
+The implementation provided here is object oriented and each visualization capability is implemented as a class that has traits. So each of these may be configured.  Each visualization class derives (ultimately) from MLabBase which is responsible for adding/removing its actors into the render window.  The classes all require that the RenderWindow be a ``pyface.tvtk.scene.Scene`` instance (this constraint can be relaxed if necessary later on).
 
 This module offers the following broad class of functionality:
 
@@ -99,7 +99,7 @@ This module offers the following broad class of functionality:
 
     Manages a lookup table and a scalar bar (legend) for it.  This  is subclassed by all classes that need a LUT.
 
-* SurfRegular_
+* SurfRegular
 
     MayaVi1_'s imv.surf like functionality that plots surfaces given x (1D), y(1D) and z (or a callable) arrays.
 
@@ -107,11 +107,11 @@ This module offers the following broad class of functionality:
 
     Also plots contour lines.
 
-* TriMesh_
+* TriMesh
 
     Given triangle connectivity and points, plots a mesh of them.
 
-* FancyTriMesh_
+* FancyTriMesh
 
     Plots the mesh using tubes and spheres so its fancier.
 
@@ -119,7 +119,7 @@ This module offers the following broad class of functionality:
 
     Given x, y generated from scipy.mgrid, and a z to go with it.  Along with optional scalars.  This class builds the triangle connectivity (assuming that x, y are from scipy.mgrid) and builds a mesh and shows it.
 
-* FancyMesh_
+* FancyMesh
 
     Like mesh but shows the mesh using tubes and spheres.
 
@@ -131,7 +131,7 @@ This module offers the following broad class of functionality:
 
     Shows contour for a mesh.
 
-* ImShow_
+* ImShow
 
     Allows one to view large numeric arrays as image data using an image actor.  This is just like MayaVi1_'s ``mayavi.tools.imv.viewi``.
 

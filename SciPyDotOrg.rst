@@ -11,11 +11,11 @@ SciPy.org the Site
 
   * 2) the web site hosted at `http://www.scipy.org  <http://www.scipy.org>`_
 
-  * 3) a community domain and set of web tools offered to other Python based projects (see below) and maintained by the nice folks at EnthoughtInc_.
+  * 3) a community domain and set of web tools offered to other Python based projects (see below) and maintained by the nice folks at EnthoughtInc.
 
 * SciPy:
 
-  * the library of scientific codes built on top of NumPy_ and hosted at scipy.org
+  * the library of scientific codes built on top of NumPy and hosted at scipy.org
 
   * the annual conference (i.e. SciPy2007_) for scientific computing using python in which the SciPy and NumPy libraries share the stage with many other projects that use Python for science.
 
@@ -26,7 +26,7 @@ SciPy.org the Site
 About the scipy.org domain
 --------------------------
 
-The scipy.org domain is owned and hosted by [:EnthoughtInc:Enthought, Inc.], who supports and promotes the development of several Open Source initiatives.  The original site was launched February 19, 2001--before Enthought was even founded--as a first act of a fledgling entity and its collaborators.  Other subdomains hosted at scipy.org are for projects promoting scientific work in python.  Enthought's contribution to these projects is limited; from simple hosting of their web site to interested observation.  All these projects (much like SciPy_, now) are the products of their respective authors and community:
+The scipy.org domain is owned and hosted by [:EnthoughtInc:Enthought, Inc.], who supports and promotes the development of several Open Source initiatives.  The original site was launched February 19, 2001--before Enthought was even founded--as a first act of a fledgling entity and its collaborators.  Other subdomains hosted at scipy.org are for projects promoting scientific work in python.  Enthought's contribution to these projects is limited; from simple hosting of their web site to interested observation.  All these projects (much like SciPy, now) are the products of their respective authors and community:
 
 * `ipython.scipy.org <http://ipython.scipy.org/>`_: **The** python interactive shell--accept no substitutes.
 

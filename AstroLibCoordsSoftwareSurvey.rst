@@ -3,14 +3,14 @@
 Underlying machinery
 --------------------
 
-After a survey of the available software (listed below for reference), we selected the TPM (Telescope Pointing Machine) software, which Jeff Percival has graciously made available, as the underlying machinery for the AstroLibCoords_ project.
+After a survey of the available software (listed below for reference), we selected the TPM (Telescope Pointing Machine) software, which Jeff Percival has graciously made available, as the underlying machinery for the AstroLibCoords project.
 
 * The `Telescope Pointing Machine <http://www.sal.wisc.edu/~jwp/astro/tpm/tpm.html>`_ is a coordinate conversion program built around `state machine software <http://cadcwww.dao.nrc.ca/ADASS/adass_proc/adass3/papers/percivalj/percivalj.html>`_. Its results match both NOVAS and SLALIB, and the underlying engine is also used to point the WIYN telescope.
 
 User tools
 ----------
 
-  Libraries and applications that provide some of the functionality we hope to provide with the AstroLibCoords_
+  Libraries and applications that provide some of the functionality we hope to provide with the AstroLibCoords
 
 * ["IDLAstronCoordTasks"]
 
@@ -27,9 +27,9 @@ Packages that provide trusted, accurate astrometric results for these tasks. We 
 
 * `NOVAS <http://aa.usno.navy.mil/software/novas/novas_info.html>`_ This is the USNO software that underlies the Astronomical Almanac. Originally in FORTRAN, there is now a C version.
 
-  * There's also a `PyNOVAS <http://pynovas.sourceforge.net/>`_ project at SourceForge_, but it appears to be moribund: created in 2001 and no activity since. There was a slight revival January, 2006.
+  * There's also a `PyNOVAS <http://pynovas.sourceforge.net/>`_ project at SourceForge, but it appears to be moribund: created in 2001 and no activity since. There was a slight revival January, 2006.
 
-* The `PyEphem_ <http://www.rhodesmill.org/brandon/projects/pyephem.html>`_ software includes support for fixed targets in a package that is primarily aimed at supporting moving targets. Its design and user interface look crisp and clean.
+* The `PyEphem <http://www.rhodesmill.org/brandon/projects/pyephem.html>`_ software includes support for fixed targets in a package that is primarily aimed at supporting moving targets. Its design and user interface look crisp and clean.
 
   * It uses `XEphem <http://www.clearskyinstitute.com/xephem/>`_ by Elwood Charles Downey as its computing engine. XEphem is commercial software, with a restrictive license for free use. Its documentation claims "professional accuracy" but doesn't cite any test standards. The AAVSO `recommends <http://www.aavso.org/data/software/xephem.shtml>`_ it for their observers.
 

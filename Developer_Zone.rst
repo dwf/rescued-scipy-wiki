@@ -18,12 +18,12 @@ STEERING COMMITTEE
 
 * Stefan van der Walt
 
-The purpose of this group is to ensure coherency in the SciPy_ library and advocate its progression.  It organizes doc-days, bug-days, coding sprints, and assists with organizing the SciPy_ conference.  It also serves to resolve questions that come up regarding the future of SciPy_.
+The purpose of this group is to ensure coherency in the SciPy library and advocate its progression.  It organizes doc-days, bug-days, coding sprints, and assists with organizing the SciPy conference.  It also serves to resolve questions that come up regarding the future of SciPy.
 
 SOURCE CODE
 ===========
 
-Make contributions (e.g. code patches), feature requests and file bug reports by submitting a "ticket" on the Trac pages linked below.  Because of spam abuse, you must create an account on our Trac in order to submit a ticket, then click on the "New Ticket" tab that only appears when you have logged in.  Please give as much information as you can in the ticket.  Also specify the component, the version you are referring to and the milestone.  Report bugs to the appropriate Trac instance (there is one for NumPy_ and a different one for SciPy_).  There are [:Mailing Lists:read-only mailing lists] for tracking the status of your bug ticket.
+Make contributions (e.g. code patches), feature requests and file bug reports by submitting a "ticket" on the Trac pages linked below.  Because of spam abuse, you must create an account on our Trac in order to submit a ticket, then click on the "New Ticket" tab that only appears when you have logged in.  Please give as much information as you can in the ticket.  Also specify the component, the version you are referring to and the milestone.  Report bugs to the appropriate Trac instance (there is one for NumPy and a different one for SciPy).  There are [:Mailing Lists:read-only mailing lists] for tracking the status of your bug ticket.
 
 Note that NumPy contains the most basic numerical functionality, and SciPy is layered on top of NumPy to provide a much wider range of capability.  You need NumPy for SciPy to work.
 
@@ -57,20 +57,20 @@ FILL IN URLs and emails and more projects
 New Code
 --------
 
-If you have some new code you'd like to see included in SciPy_, the first thing to do is make a SciKit_.  A SciKit_ is a stand-alone package including your code (including complete reference and user documentation).  SciKits_ are distributed here:
+If you have some new code you'd like to see included in SciPy, the first thing to do is make a SciKit.  A SciKit is a stand-alone package including your code (including complete reference and user documentation).  SciKits are distributed here:
 
  http://scikits.appspot.com/
 
-This site is currently still in early construction phases, and will be moved (and linked) to the main page of this site when it is ready to accept new SciKits_.  Right now users and developers are encouraged to view the site and comment on `MailTo(scipy-dev@scipy.org)`_ to ensure it serves your needs.
+This site is currently still in early construction phases, and will be moved (and linked) to the main page of this site when it is ready to accept new SciKits.  Right now users and developers are encouraged to view the site and comment on `MailTo(scipy-dev@scipy.org)`_ to ensure it serves your needs.
 
-Once you get some use experience, the community may decide to include your SciKit_ in SciPy_.  These decisions are based on many factors, including maturity of the code API and the docs, ease of building it on all platforms, how many people use it, how well it is integrated into SciPy_, etc.
+Once you get some use experience, the community may decide to include your SciKit in SciPy.  These decisions are based on many factors, including maturity of the code API and the docs, ease of building it on all platforms, how many people use it, how well it is integrated into SciPy, etc.
 
-Because it must remain small and easy to build, new additions of entire packages to NumPy_ are extremely rare.  Contact the Steering Committee or post on the `MailTo(numpy-discussion@scipy.org)`_ mailing list if you think you have a compelling case.
+Because it must remain small and easy to build, new additions of entire packages to NumPy are extremely rare.  Contact the Steering Committee or post on the `MailTo(numpy-discussion@scipy.org)`_ mailing list if you think you have a compelling case.
 
 PACKAGING
 =========
 
-For the majority of users who do not want to build the code from source, binary installers that "just work" are the key to using SciPy_.  Producing these after the coding is finished is the Packaging Team's job.
+For the majority of users who do not want to build the code from source, binary installers that "just work" are the key to using SciPy.  Producing these after the coding is finished is the Packaging Team's job.
 
 Making Source and Binary Releases
 ---------------------------------

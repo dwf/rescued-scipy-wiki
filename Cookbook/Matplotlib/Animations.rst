@@ -2,7 +2,7 @@
 
 matplotlib supports animated plots, and provides a number of demos. An important question when considering whether to use matplotlib for animation is what kind of speed do you need.  matplotlib is not the fastest plotting library in the west, and may be too slow for some animation applications.  Nonetheless, it is fast enough for many if not most, and this tutorial is geared to showing you how to make it fast enough for you.  In particular, the section *Animating selected plot elements* shows you how to get top speed out of matplotlib animations.
 
-TableOfContents_
+TableOfContents
 
 Performance
 ===========
@@ -180,5 +180,5 @@ and the rest will happen automagically.  Since some backends **do not** currentl
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

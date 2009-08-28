@@ -23,7 +23,7 @@ Well, it has turned out to be easier than giving up the sauce (at least for me),
 
 The problem was with Solaris's support for the X/Open standards.  To make a long story short, you can use Open Group Technical Standard, Issue 6 (XPG6/UNIX 03/SUSv3) (_XOPEN_SOURCE == 600) if and only if you are using an ISO C99 compiler.  If you use X/Open CAE Specification, Issue 5 (XPG5/UNIX 98/SUSv2) (_XOPEN_SOURCE == 500), you don't have to use an ISO C99 compiler.  For full details, see the Solaris header file /usr/include/sys/feature_tests.h.
 
-This is why muhpubuh (AKA matplotlib---long story) compiles on Solaris 10 if you have the big bucks and can afford Sun's OpenStudio_ 10 compiler.  gcc does not have full C99 support yet.  In particular, its lack of support for the wide character library makes the build go bust.  (See, e.g., http://gcc.gnu.org/c99status.html .)
+This is why muhpubuh (AKA matplotlib---long story) compiles on Solaris 10 if you have the big bucks and can afford Sun's OpenStudio 10 compiler.  gcc does not have full C99 support yet.  In particular, its lack of support for the wide character library makes the build go bust.  (See, e.g., http://gcc.gnu.org/c99status.html .)
 
 More helpful links on the wchar problem with Python.h and Solaris :
 
@@ -35,5 +35,5 @@ More helpful links on the wchar problem with Python.h and Solaris :
 
 * http://mail.python.org/pipermail/python-bugs-list/2005-November/030900.html
 
-CategoryCookbookMatplotlib_
+CategoryCookbookMatplotlib
 

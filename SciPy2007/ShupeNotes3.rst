@@ -127,8 +127,8 @@ by David Shupe
    writing a paper!  requires a lot of attention, peer review)
 
    PEP 3118 Overview
-   - redefines tp_as_buffer fcn ptr table for every PyTypeObject
-   - Adds PyMemoryViewObject (memoryview in Python) -- will be the 1st
+   - redefines tp_as_buffer fcn ptr table for every ``PyTypeObject``
+   - Adds ``PyMemoryViewObject`` (memoryview in Python) -- will be the 1st
    object in Python to support multi-D slicing.
    - expands struct module with new character-based syntax.
    - creates new C-API fcns to make common things simple for extension
@@ -152,16 +152,16 @@ by David Shupe
    Pybuffer structure [I can't really follow these slides]
 
    New C_API:
-   PyObject_CheckBuffer (make sure is present)
-   PyObject_GetBuffer
-   PyObject_ReleaseBuffer
-   PyBuffer_FromContiguous, ToContiguous
-   PyObject_CopyData
-   PyBuffer_IsContiguous
-   PyBuffer_FillContiguousStrides
-   PyBuffer_FillInfo
-   PyMemoryView_Check
-   PyMemoryView_GetContiguous,FromObject, FromMemory
+   PyObjectCheckBuffer (make sure is present)
+   PyObjectGetBuffer
+   PyObjectReleaseBuffer
+   PyBufferFromContiguous, ToContiguous
+   PyObjectCopyData
+   PyBufferIsContiguous
+   PyBufferFillContiguousStrides
+   PyBufferFillInfo
+   PyMemoryViewCheck
+   PyMemoryViewGetContiguous,FromObject, FromMemory
 
    If you have ideas, now is the time!  Can get into Python 3.0.
 

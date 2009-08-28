@@ -8,7 +8,7 @@ Radial basis functions can be used for smoothing/interpolating scattered data in
 1d example
 ----------
 
-This example compares the usage of the Rbf and UnivariateSpline_ classes from the scipy.interpolate module.
+This example compares the usage of the Rbf and UnivariateSpline classes from the scipy.interpolate module.
 
 ::
 

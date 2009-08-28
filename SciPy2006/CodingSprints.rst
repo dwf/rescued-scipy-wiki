@@ -7,11 +7,11 @@ The coding sprints will be Monday and Tuesday the 14th and 15th of August.  We w
 
   Please list any code areas you're interested in Sprinting over below:
 
-* Threaded Version of NumPy_: Eric Jones
+* Threaded Version of NumPy: Eric Jones
 
 * Documentation Sprint - Ideas: web site, update scipy tutorial for numpy
 
-* PyTrilinos_ - Introduction and basic tutorial; hands-on setup and guide
+* PyTrilinos - Introduction and basic tutorial; hands-on setup and guide
 
 * Porting the `Enthought Tool Suite <http://code.enthought.com/ets>`_ to Mac OS X: Robert Kern, Prabhu Ramachandran
 

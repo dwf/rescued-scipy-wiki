@@ -42,7 +42,7 @@
 
   * http://www.caltech.edu/map/Caltech-map-2003-01-27.pdf
 
-  * Parking: NB - **The parking situation has changed** -- everyone will need to purchase a visitor permit at automated pay stations at the parking lots.  Good parking locations are also noted on the `SciPy_ map <http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf>`_.  Please see the full details at the Caltech `visitor parking info site <http://parking.caltech.edu/permits.html#visitor>`_
+  * Parking: NB - **The parking situation has changed** -- everyone will need to purchase a visitor permit at automated pay stations at the parking lots.  Good parking locations are also noted on the `SciPy map <http://www.scipy.org/SciPy2006?action=AttachFile&do=get&target=scipymap2006.pdf>`_.  Please see the full details at the Caltech `visitor parking info site <http://parking.caltech.edu/permits.html#visitor>`_
 
 This conference provides a unique opportunity to learn and affect what is happening in the realm of scientific computing with Python. Attendees will have the opportunity to review the available tools and how they apply to specific problems. By providing a forum for developers to share their Python expertise with the wider commercial, academic, and research communities, this workshop will foster collaboration and facilitate the sharing of software components, techniques and a vision for high level language use in scientific computing.
 

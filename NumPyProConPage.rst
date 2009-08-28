@@ -33,7 +33,7 @@ PyLab Advantages
 
 * libraries available to input and output binary files in a variety of formats (raster images in practically any consumer format, CDF, astronomical FITS data, ...)
 
-* a variety of different tools are available to accelerate key pieces of code (see PerformancePython_ for a comparison)
+* a variety of different tools are available to accelerate key pieces of code (see PerformancePython for a comparison)
 
 * free as in 'beer' and as in 'speech'
 
@@ -78,11 +78,11 @@ PyLab Disadvantages (compared with Mathematica)
 
 * no built-in symbolic manipulation (`SymPy <http://code.google.com/p/sympy/>`_ is coming along nicely though.)
 
-Some of these deficiencies are expected to be remedied by packages now in development. See PyLabAwaits_
+Some of these deficiencies are expected to be remedied by packages now in development. See PyLabAwaits
 
-[:NumPyTestimony_: User testimony] on comparing the MatLab/PyLab comparison.
+[:NumPyTestimony: User testimony] on comparing the MatLab/PyLab comparison.
 
-See also NumPyProConDiscussion_ for a more free-form page.
+See also NumPyProConDiscussion for a more free-form page.
 
 .. ############################################################################
 

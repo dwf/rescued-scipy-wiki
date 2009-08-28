@@ -40,7 +40,7 @@ Possible solutions can be obtained via:
 
 * CXX
 
-For a full discussion with examples on performance gains through interfacing with other languages see [:PerformancePython_: this article].
+For a full discussion with examples on performance gains through interfacing with other languages see [:PerformancePython: this article].
 
 Examples
 ========

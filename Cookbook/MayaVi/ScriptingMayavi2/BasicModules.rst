@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -286,5 +286,5 @@ Now, it's time to read the most interesting part: configuring and using modules 
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

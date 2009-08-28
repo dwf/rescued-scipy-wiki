@@ -40,31 +40,31 @@ Ultimately, there are two files to be added: `basearray.c <http://svn.scipy.org/
 C structures defined
 --------------------
 
-* PyBaseArrayObject_
+* ``PyBaseArrayObject``
 
-* PyDataTypeObject_ describes the type of data the array carries. There are instances of this object for a fixed set of built-in Python types.
+* ``PyDataTypeObject`` describes the type of data the array carries. There are instances of this object for a fixed set of built-in Python types.
 
-* PyDataTypeFuncs_ carries pointers to functions specific to a given datatype object. Currently two such function pointers are included in this structure: *getitem and *setitem.
+* PyDataTypeFuncs carries pointers to functions specific to a given datatype object. Currently two such function pointers are included in this structure: *getitem and *setitem.
 
-* PyBaseArrayIterObject_ is a structure useful for looping over a basearray.
+* ``PyBaseArrayIterObject`` is a structure useful for looping over a basearray.
 
-* PyBaseArrayDims_ is an auxiliary structure used for interpreting the shape and stride of Python objects when they are converted to useful C objects.
+* PyBaseArrayDims is an auxiliary structure used for interpreting the shape and stride of Python objects when they are converted to useful C objects.
 
-* PyBaseArrayChunk_ is an auxiliary structure for representing a memory segment, the equivalent of the Python buffer object.
+* PyBaseArrayChunk is an auxiliary structure for representing a memory segment, the equivalent of the Python buffer object.
 
 Related projects
 ================
 
-* NumPy_, the successor of Numeric and `NumArray <http://www.stsci.edu/resources/software_hardware/numarray>`_, is the starting point -  basearray is in fact a modification of the essential fragments of the numpy core source code. Naturally, the array type in numpy will be the first target to use basearray as a subtype for.
+* NumPy, the successor of Numeric and `NumArray <http://www.stsci.edu/resources/software_hardware/numarray>`_, is the starting point -  basearray is in fact a modification of the essential fragments of the numpy core source code. Naturally, the array type in numpy will be the first target to use basearray as a subtype for.
 
-* `Array interface <http://numeric.scipy.org/array_interface.html>`_ - a mechanism for a Python object (or PyCObject) to share information about its multidimensional data. This is like a "protocol", which sets the ground rules for objects that wish to be interpreted through this interface by code written to understand it. Interestingly, this array interface surfaced from discussion between developers of Numeric, Numarray, and numpy.
+* `Array interface <http://numeric.scipy.org/array_interface.html>`_ - a mechanism for a Python object (or ``PyCObject``) to share information about its multidimensional data. This is like a "protocol", which sets the ground rules for objects that wish to be interpreted through this interface by code written to understand it. Interestingly, this array interface surfaced from discussion between developers of Numeric, Numarray, and numpy.
 
 * `Arraykit <http://svn.scipy.org/svn/numpy/branches/arraykit/>`_ - a similar project by Tim Hochberg, which can be used to create custom array-like objects.
 
 Summer of Code Project
 ======================
 
-Preparing the interface is formally part of a `Google Summer Of Code <http://code.google.com/soc>`_ project (`list of PSF projects <http://wiki.python.org/moin/SummerOfCode>`_), currently being worked on by KarolLangner_ - *Base multidimensional array type for Python core*.
+Preparing the interface is formally part of a `Google Summer Of Code <http://code.google.com/soc>`_ project (`list of PSF projects <http://wiki.python.org/moin/SummerOfCode>`_), currently being worked on by KarolLangner - *Base multidimensional array type for Python core*.
 
 Original application
 --------------------
@@ -91,13 +91,13 @@ Due to a late start, the planned realization dates for the project need to be ch
 
 .. _BaseArray/CodeDescription: /CodeDescription
 
-.. _PyBaseArrayObject: ../PyBaseArrayObject
+.. _``PyBaseArrayObject``: ../``PyBaseArrayObject``
 
-.. _PyDataTypeObject: ../PyDataTypeObject
+.. _``PyDataTypeObject``: ../``PyDataTypeObject``
 
 .. _PyDataTypeFuncs: ../PyDataTypeFuncs
 
-.. _PyBaseArrayIterObject: ../PyBaseArrayIterObject
+.. _``PyBaseArrayIterObject``: ../``PyBaseArrayIterObject``
 
 .. _PyBaseArrayDims: ../PyBaseArrayDims
 

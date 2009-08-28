@@ -1,6 +1,6 @@
 #format rst
 
-Preparing the interface was part of a `Google Summer Of Code 2006 <http://code.google.com/soc>`_ project (`list of PSF projects <http://wiki.python.org/moin/SummerOfCode>`_) by KarolLangner_ - *Base multidimensional array type for Python core*. The project was not successfull, and is not being currently worked on. A proposed revision of the buffer protocol in Python, however, is outlined in `a PEP by Travis Oliphant <http://svn.scipy.org/svn/numpy/trunk/numpy/doc/pep_buffer.txt>`_.
+Preparing the interface was part of a `Google Summer Of Code 2006 <http://code.google.com/soc>`_ project (`list of PSF projects <http://wiki.python.org/moin/SummerOfCode>`_) by KarolLangner - *Base multidimensional array type for Python core*. The project was not successfull, and is not being currently worked on. A proposed revision of the buffer protocol in Python, however, is outlined in `a PEP by Travis Oliphant <http://svn.scipy.org/svn/numpy/trunk/numpy/doc/pep_buffer.txt>`_.
 
 **Proposal title**: Base multidimensional array type for Python core
 
@@ -36,7 +36,7 @@ Using as a starting point the "array_interface" description for a Python object 
 
 After creating a working interface for a N-D array object, I will proceed to attempt to apply it to several common packages that operate on multidimensional data. This will allow the new interface to be observed in action, and possible modifications to be made. Each package will be focused on seperately in time (max. two weeks for each), and more may be added within the framework of the program if time permits. The initial choices for targets are:
 
-* NumPy_ (the present N-D array implementation, successor of Numeric and numarry) - this is the first and most obvious target, in which the native array interface will be simply replaced by the new built-in interface,
+* NumPy (the present N-D array implementation, successor of Numeric and numarry) - this is the first and most obvious target, in which the native array interface will be simply replaced by the new built-in interface,
 
 * `wxPython <http://www.wxpython.org/>`_ - the parts of this module that use data stored in array-like objects will be patched to use the new array interface,
 

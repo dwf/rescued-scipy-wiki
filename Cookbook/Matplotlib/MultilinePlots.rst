@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Multiple line plots
 ===================
@@ -173,5 +173,5 @@ Here is an example of how that application does multiline plotting with "in plac
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

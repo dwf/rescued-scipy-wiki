@@ -649,5 +649,5 @@ for this proposal purposes.</p>
 </div>
 -------------------------
 
- ProposedEnhancements_
+ ProposedEnhancements
 

@@ -5,7 +5,7 @@ Indexing numpy arrays
 
 The whole point of numpy is to introduce a multidimensional array object for holding homogeneously-typed numerical data. This is of course a useful tool for storing data, but it is also possible to manipulate large numbers of values without writing inefficient python loops. To accomplish this, one needs to be able to refer to elements of the arrays in many different ways, from simple "slices" to using arrays as lookup tables. The purpose of this page is to go over the various different types of indexing available. Hopefully the sometimes-peculiar syntax will also become more clear.
 
-TableOfContents_
+TableOfContents
 
 We will use the same arrays as examples wherever possible:
 

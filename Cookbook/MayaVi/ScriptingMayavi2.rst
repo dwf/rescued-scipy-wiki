@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 <strong class="highlight">.. raw:: html
 
@@ -74,7 +74,7 @@ To add a filter, type:
    myfilter = BarFilter()
    script.add_filter(myfilter)
 
-Notice the used syntax: for modules for example, foo_module is the foo_module python file (without the extension .py) in the subdirectory module/ of mayavi/ directory (lower case, underscore); this file contains the class FooModule_ (no underscore, capitalized name).
+Notice the used syntax: for modules for example, foo_module is the foo_module python file (without the extension .py) in the subdirectory module/ of mayavi/ directory (lower case, underscore); this file contains the class FooModule (no underscore, capitalized name).
 
 But first of all, before rendering your scene with the modules and the filters you want to use, you have to load some data, of course.
 
@@ -130,7 +130,7 @@ To load a VTK data file, say heart.vtk file in mayavi/examples/data/ directory, 
    src = VTKFileReader()
    src.initialize("heart.vtk")
 
-Note: Files with .vtk extension are called "legacy VTK" files. MayaVi2 can read a lot of other files formats (XML, files from Ensight, Plot3D and so on). For example, you can load an XML file (with extension .vti, .vtp, .vtr, .vts, .vtu, etc) using VTKXML!FileReader_ method.
+Note: Files with .vtk extension are called "legacy VTK" files. MayaVi2 can read a lot of other files formats (XML, files from Ensight, Plot3D and so on). For example, you can load an XML file (with extension .vti, .vtp, .vtr, .vts, .vtu, etc) using VTKXML!FileReader method.
 
 Add the source to your MayaVi2 class
 ------------------------------------
@@ -160,5 +160,5 @@ See the [:Cookbook/MayaVi/ScriptingMayavi2/Filters: Filters] wiki page.
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

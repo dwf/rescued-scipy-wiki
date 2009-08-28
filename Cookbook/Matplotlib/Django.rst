@@ -53,5 +53,5 @@ Since some versions of Internet Explorer ignore the content_type. The URL should
 
 
 
-  CategoryCookbookMatplotlib_
+  CategoryCookbookMatplotlib
 

@@ -2,7 +2,7 @@
 
 **Note: These pages are deprecated in favour of the**  `online documentation <http://docs.scipy.org/scipy/docs/scipy/>`_.
 
-SciPy_ is composed of several modules under the ``scipy`` namespace. Here is a list:
+SciPy is composed of several modules under the ``scipy`` namespace. Here is a list:
 
 Tools
 -----
@@ -36,17 +36,17 @@ Other packages
 
 * [:SciPyPackages/Lib: Lib] : wrappers to external libraries (BLAS, LAPACK)
 
-* [:SciPySandbox_: Sandbox] : incomplete, poorly-tested, or experimental code
+* [:SciPySandbox: Sandbox] : incomplete, poorly-tested, or experimental code
 
 * [:SciPyPackages/Special: Special] : definitions of many usual math functions
 
 * [:Weave: Weave] : C/C++ integration
 
-You might also want to check out the `SciPy_ API documentation <http://www.scipy.org/doc/api_docs/>`_
+You might also want to check out the `SciPy API documentation <http://www.scipy.org/doc/api_docs/>`_
 
 -------------------------
 
- CategorySciPyPackages_
+ CategorySciPyPackages
 
 .. ############################################################################
 

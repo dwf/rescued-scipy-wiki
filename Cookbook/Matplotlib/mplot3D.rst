@@ -149,7 +149,7 @@ Contourf3D:
 
 
 .. image:: images/Cookbook/Matplotlib/mplot3D/contour.jpg
- 
+
 .. image:: images/Cookbook/Matplotlib/mplot3D/contourf.jpg
 
 For some other examples of 3d plotting capability, run the following commands. See the source of matplotlib/axes3d.py for more information:
@@ -176,9 +176,9 @@ For some other examples of 3d plotting capability, run the following commands. S
 
 
 .. image:: images/Cookbook/Matplotlib/mplot3D/test1.jpg
- 
+
 .. image:: images/Cookbook/Matplotlib/mplot3D/test2.jpg
- 
+
 .. image:: images/Cookbook/Matplotlib/mplot3D/test3.jpg
 
 Another example
@@ -222,5 +222,5 @@ And now you can call the plot function:
 
 
 
-  CategoryCookbookMatplotlib_
+  CategoryCookbookMatplotlib
 

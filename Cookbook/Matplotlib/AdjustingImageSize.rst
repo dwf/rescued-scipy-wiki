@@ -115,5 +115,5 @@ The solution isn't particularly object oriented, but at least it gets to the pra
 
 
 
-  CategoryCookbookMatplotlib_
+  CategoryCookbookMatplotlib
 

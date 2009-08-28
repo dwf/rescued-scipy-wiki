@@ -5,7 +5,7 @@
 
 `FullSearch(CategoryCategory)`_ **Feel free to experiment here, after the four dashes below. Please do not create new pages without any meaningful content just to try it out!**
 
-**Tip:** Shift-click "HelpOnEditing_" to open a second window with the help pages.
+**Tip:** Shift-click "HelpOnEditing" to open a second window with the help pages.
 
 -------------------------
 

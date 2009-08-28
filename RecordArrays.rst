@@ -3,7 +3,7 @@
 Table of Contents
 =================
 
-TableOfContents_
+TableOfContents
 
 Overview
 ========

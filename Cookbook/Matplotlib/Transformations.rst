@@ -94,5 +94,5 @@ The way this works is by first taking a shallow copy of ``transData`` and then a
 
 -------------------------
 
- CategoryCookbookMatplotlib_
+ CategoryCookbookMatplotlib
 

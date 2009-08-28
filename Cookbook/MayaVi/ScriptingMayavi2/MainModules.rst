@@ -1,6 +1,6 @@
 #format rst
 
-TableOfContents_
+TableOfContents
 
 Introduction
 ============
@@ -20,7 +20,7 @@ The simpliest (and easiest, but not the most impressive |;-)| ) way to display 3
 
 One of the modules you can use to do this is called ScalarCutPlane. It works for any data.
 
-Note: As the ImagePlaneWidget module also display scalars data on a plane (but it does not "cut" data), please see [:Cookbook/MayaVi/Examples: Example with a 3D array as numerical source (numeric_source.py)] or [:Cookbook/MayaVi/Examples: Example using ImagePlaneWidget_ Module (test.py)] to get more information on how you can use this module.
+Note: As the ImagePlaneWidget module also display scalars data on a plane (but it does not "cut" data), please see [:Cookbook/MayaVi/Examples: Example with a 3D array as numerical source (numeric_source.py)] or [:Cookbook/MayaVi/Examples: Example using ImagePlaneWidget Module (test.py)] to get more information on how you can use this module.
 
 You have to set several parameters:
 
@@ -552,5 +552,5 @@ Note: you can also see an example of using the Streamline module in [:Cookbook/M
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

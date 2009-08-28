@@ -207,5 +207,5 @@ A python version of congrid, used in IDL, for resampling of data to arbitrary si
 
 -------------------------
 
- CategoryCookbook_
+ CategoryCookbook
 

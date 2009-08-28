@@ -128,7 +128,7 @@ Something to start with (ignore the argument names for now...):
 
 -------------------------
 
- ProposedEnhancements_
+ ProposedEnhancements
 
 .. ############################################################################
 

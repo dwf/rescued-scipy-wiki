@@ -23,14 +23,14 @@ And at the end of the simulation it can look like this, depending on the actual 
 
 
 .. image:: images/Cookbook/SchrodingerFDTD/schrod_step_lo_sm2.png
- 
+
 .. image:: images/Cookbook/SchrodingerFDTD/schrod_step_hi_sm2.png
 
 This illustrates the tunneling through a thin barrier, depending on the barrier height.  In the second case, a classical particle would completely bounce off since its energy is lower than the potential barrier:
 
 
 .. image:: images/Cookbook/SchrodingerFDTD/schrod_barrier_lo_sm2.png
- 
+
 .. image:: images/Cookbook/SchrodingerFDTD/schrod_barrier_hi_sm2.png
 
 Code
@@ -289,5 +289,5 @@ Code
 
 
 
-  CategoryCookbook_
+  CategoryCookbook
 

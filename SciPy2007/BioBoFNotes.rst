@@ -15,7 +15,7 @@ The mailing list posting has been duplicated here with slight formatting changes
 
  Hi All,
 
-Last night we had a biology birds of a feather meeting as part of SciPy_  2007. I have included notes below from both Diane and myself. To  summarize, there were two general trends during the evening:
+Last night we had a biology birds of a feather meeting as part of SciPy  2007. I have included notes below from both Diane and myself. To  summarize, there were two general trends during the evening:
 
 1. Need to establish python/biology community, via website,
 
@@ -53,7 +53,7 @@ Share [complex] functionality.
 
     * alignment (--> annotation)
 
-    * (BioPython_ seq_io)
+    * (BioPython seq_io)
 
 Parsing (Only need one / format).
 
@@ -67,7 +67,7 @@ Large analysis management / parallel / cluster processing.
 
 Other people's databases.
 
-Problems with BioPython_:
+Problems with BioPython:
 
 * big, sprawling, interconnected.
 
@@ -90,7 +90,7 @@ Where is the community?
 
   * extract?
 
-  * use SciPy_
+  * use SciPy
 
 * "Don't suck." / easy_install
 
@@ -196,9 +196,9 @@ Diane Trout's Notes
 
 * Microarray Formats
 
-  * R-BioConductor_
+  * R-BioConductor
 
-* Problems with BioPython_
+* Problems with BioPython
 
   * Big, Sprawling, Interconnected
 
@@ -246,7 +246,7 @@ Diane Trout's Notes
 
     * Entry documentation
 
-    * Good thing in BioPython_
+    * Good thing in BioPython
 
       * Intro to how to use their blast parser
 

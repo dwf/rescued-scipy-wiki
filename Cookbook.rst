@@ -47,7 +47,7 @@ NumPy / SciPy
 
 * [:`/SegmentAxis`_:Segment axis] Devious trick using strides to allow general operations (like convolution) on successive, overlapping pieces of an array
 
-* [:`/MetaArray`_:MetaArray_] Class for storing per-axis meta information with an array (axis names, column names, units, etc.)
+* [:`/MetaArray`_:MetaArray] Class for storing per-axis meta information with an array (axis names, column names, units, etc.)
 
 * [:/Obarray:Obarray] Trick for avoiding object arrays when dealing with arrays of objects.
 
@@ -102,7 +102,7 @@ Input Output
 
 * [:Cookbook/DataFrame:DataFrames] A useful class for storing alphanumerical data, similar to GNU R's data frames.
 
-* [:Cookbook/Data Acquisition with PyUL:Data acquisition with PyUniversalLibrary_] A series of examples using an inexpensive USB data acquisition device from Measurement Computing.
+* [:Cookbook/Data Acquisition with PyUL:Data acquisition with PyUniversalLibrary] A series of examples using an inexpensive USB data acquisition device from Measurement Computing.
 
 * [:Cookbook/Data Acquisition with NIDAQmx:Data acquisition with Ni-DAQmx] A simple example of using ctypes and numpy to access data acquisition devices from National Instruments.
 
@@ -115,7 +115,7 @@ Input Output
 Graphics
 ========
 
-There are several packages available to produce interactive screen graphics (use the mouse to zoom, orient, and fine-tune) and publication-quality printed plots, in 2D, 3D, and 4D (animations).  These packages have releases more frequently than SciPy_.  Rather than bundling out-of-date packages with SciPy_, the plotting packages are released separately.  However, their developers work closely with the SciPy_ developers to ensure compatibility.
+There are several packages available to produce interactive screen graphics (use the mouse to zoom, orient, and fine-tune) and publication-quality printed plots, in 2D, 3D, and 4D (animations).  These packages have releases more frequently than SciPy.  Rather than bundling out-of-date packages with SciPy, the plotting packages are released separately.  However, their developers work closely with the SciPy developers to ensure compatibility.
 
 * ["Plotting Tutorial"].
 
@@ -144,15 +144,15 @@ Using NumPy With Other Languages (Advanced)
 
 * A [:PerformancePython:comparison] of Weave with NumPy, Pyrex, Psyco, Fortran and C++ using Laplace's equation as an example.
 
-* Using [:Cookbook/Pyrex and NumPy:Pyrex and NumPy_] to share data between your Pyrex/C extension module and NumPy.
+* Using [:Cookbook/Pyrex and NumPy:Pyrex and NumPy] to share data between your Pyrex/C extension module and NumPy.
 
 * Using [:Cookbook/ArrayStruct and Pyrex:Pyrex and the array_struct interface] to access array data without requiring a C dependency on Numeric, numarray, or NumPy.
 
-* **NumInd**: [:Cookbook/A Numerical Agnostic Pyrex Class:A Numerical Agnostic Pyrex Class] to access Numeric/numarray/!NumPy_ arrays in an uniform way from both C and Pyrex space.
+* **NumInd**: [:Cookbook/A Numerical Agnostic Pyrex Class:A Numerical Agnostic Pyrex Class] to access Numeric/numarray/!NumPy arrays in an uniform way from both C and Pyrex space.
 
-* Using [:Cookbook/SWIG and NumPy:SWIG and NumPy_] to access and modify NumPy arrays in C libraries.
+* Using [:Cookbook/SWIG and NumPy:SWIG and NumPy] to access and modify NumPy arrays in C libraries.
 
-* **numpy.i**: A few [:Cookbook/SWIG NumPy_ examples:SWIG and numpy.i] basic examples.
+* **numpy.i**: A few [:Cookbook/SWIG NumPy examples:SWIG and numpy.i] basic examples.
 
 * **numpy.i**: Using [:Cookbook/SWIG Memory Deallocation:SWIG and numpy.i] to handle automatic C memory deallocation from Python (using a modified numpy.i).
 
@@ -162,7 +162,7 @@ Using NumPy With Other Languages (Advanced)
 
 * Writing [:Cookbook/C Extensions:C Extensions].
 
-* Using [:Cookbook/Ctypes:ctypes with NumPy_].
+* Using [:Cookbook/Ctypes:ctypes with NumPy].
 
 * Using ["/Weave"] and **iterators** for fast, generalized code.
 
@@ -185,13 +185,13 @@ Scientific GUIs
 
 
 
-  CategoryCookbook_
+  CategoryCookbook
 
 -------------------------
 
 
 
-  CategoryCookbook_ CategoryCookbook_ CategoryCookbook_ CategoryCookbook_ CategoryCookbook_
+  CategoryCookbook CategoryCookbook CategoryCookbook CategoryCookbook CategoryCookbook
 
 .. ############################################################################
 
