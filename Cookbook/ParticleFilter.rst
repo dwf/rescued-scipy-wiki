@@ -60,5 +60,6 @@ The following code shows the tracker operating on a test sequence featuring a mo
        spy(particle_overlay, marker=',', color='r')    # Plot the particles
      show()
 
-attachment:track.jpg
+
+.. image:: images/Cookbook/ParticleFilter/track.jpg
 

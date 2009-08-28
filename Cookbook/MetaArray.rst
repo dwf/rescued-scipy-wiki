@@ -12,7 +12,8 @@ Example Uses
 
 Here is an example of the type of data one might store with MetaArray_:
 
-attachment:example.png
+
+.. image:: images/Cookbook/MetaArray/example.png
 
 Notice that each axis is named and can store different types of meta information:
 

@@ -12,5 +12,6 @@ This shows a simple example of how to create a quick 3-d surface visualization u
    z = special.j0(r)
    xplt.surf(z,x,y,shade=1,palette='heat')
 
-inline:surface.png
+
+.. image:: images/Cookbook/xplt/surface.png
 

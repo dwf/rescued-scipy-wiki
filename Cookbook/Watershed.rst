@@ -4,7 +4,8 @@ The watershed algorithm (see [ http://en.wikipedia.org/wiki/Watershed_(algorithm
 
 Suppose that we have the following image, composed of three whites disks (pixels of value 1) and a black background (pixels of value 0). We want to obtain a new array where each pixel is labeled with the index of the component to which it belongs, that is a segmentation of the orginal array, as shown in the image below. We will use the watershed algorithm provided by scipy.ndimage, scipy.ndimage.watershed_ift.
 
-attachment:watershed.png
+
+.. image:: images/Cookbook/Watershed/watershed.png
 
 ::
 

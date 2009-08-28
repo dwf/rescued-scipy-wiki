@@ -58,7 +58,8 @@ You can plot series 'b' and 'c' in the file using
 
    data.dataplot('b','c')
 
-attachment:ex_plot.0.1.png
+
+.. image:: images/Cookbook/dbase/ex_plot.0.1.png
 
 You get descriptive statistics for series 'a','b', and 'c' by using
 

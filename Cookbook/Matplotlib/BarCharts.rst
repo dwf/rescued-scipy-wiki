@@ -23,5 +23,6 @@ Here's an example script that makes a bar char with error bars  and labels cente
    gca().get_yaxis().tick_left()
    show()
 
-  inline:barchart.png
+  
+.. image:: images/Cookbook/Matplotlib/BarCharts/barchart.png
 

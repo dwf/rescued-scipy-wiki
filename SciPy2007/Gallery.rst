@@ -3,7 +3,8 @@
 Photo Gallery
 =============
 
-attachment:IMG_4873.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4873.jpg
 
 Beautiful Caltech Campus
 
@@ -11,7 +12,8 @@ Beautiful Caltech Campus
 
 
 
-attachment:IMG_4878.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4878.jpg
 
 Powell Booth Lab
 
@@ -19,7 +21,8 @@ Powell Booth Lab
 
 
 
-attachment:IMG_4880.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4880.jpg
 
 Another Campus Shot
 
@@ -27,7 +30,8 @@ Another Campus Shot
 
 
 
-attachment:IMG_4882.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4882.jpg
 
 Gael and Eric deep in conversation
 
@@ -35,7 +39,8 @@ Gael and Eric deep in conversation
 
 
 
-attachment:IMG_4886.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4886.jpg
 
 Dave Peterson, Eric Jones, Prabhu Ramachandran
 
@@ -43,7 +48,8 @@ Dave Peterson, Eric Jones, Prabhu Ramachandran
 
 
 
-attachment:IMG_4889.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4889.jpg
 
 Outside Beckman Institute Auditorium
 
@@ -51,7 +57,8 @@ Outside Beckman Institute Auditorium
 
 
 
-attachment:IMG_4891.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4891.jpg
 
 Between sessions with Bryce, Christfried, Gael and Prabhu
 
@@ -59,7 +66,8 @@ Between sessions with Bryce, Christfried, Gael and Prabhu
 
 
 
-attachment:IMG_4893.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4893.jpg
 
 Jarrod, Brian and Daniel looking skeptical
 
@@ -67,7 +75,8 @@ Jarrod, Brian and Daniel looking skeptical
 
 
 
-attachment:IMG_4894.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4894.jpg
 
 Titus Brown holding forth
 
@@ -75,7 +84,8 @@ Titus Brown holding forth
 
 
 
-attachment:IMG_4976.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4976.jpg
 
 Nice campus! A view of the Athenaeum
 
@@ -83,7 +93,8 @@ Nice campus! A view of the Athenaeum
 
 
 
-attachment:IMG_4979.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4979.jpg
 
 The Mighty Beavers.
 
@@ -91,7 +102,8 @@ The Mighty Beavers.
 
 
 
-attachment:IMG_4981.jpg
+
+.. image:: images/SciPy2007/Gallery/IMG_4981.jpg
 
 Multitouch, yeah!
 

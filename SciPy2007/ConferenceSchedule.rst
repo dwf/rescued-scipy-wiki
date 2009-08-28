@@ -1,6 +1,7 @@
 #format rst
 
-attachment:calendargraphic.png
+
+.. image:: images/SciPy2007/ConferenceSchedule/calendargraphic.png
 
 Conference Schedule
 ===================

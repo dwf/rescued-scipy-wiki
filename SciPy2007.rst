@@ -1,6 +1,7 @@
 #format rst
 
-attachment:scipy2007conf.png
+
+.. image:: images/SciPy2007/scipy2007conf.png
 
 -------------------------
 

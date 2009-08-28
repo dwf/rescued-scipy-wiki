@@ -54,7 +54,9 @@ Sample Code
 Figure
 ------
 
-inline:cd_spec.png CD-spectrum of a protein. Black: raw data. Red: filter applied
+
+.. image:: images/Cookbook/SavitzkyGolay/cd_spec.png
+ CD-spectrum of a protein. Black: raw data. Red: filter applied
 
 A fix for data which do not start and end at zero
 -------------------------------------------------

@@ -37,7 +37,8 @@ Linear Regression Example
    print('Linear regression using stats.linregress')
    print('parameters: a=%.2f b=%.2f \nregression: a=%.2f b=%.2f, std error= %.3f' % (a,b,a_s,b_s,stderr))
 
-attachment:linregress.png
+
+.. image:: images/Cookbook/LinearRegression/linregress.png
 
 Another example: `using scipy (and R) to calculate Linear Regressions <http://www2.warwick.ac.uk/fac/sci/moac/currentstudents/peter_cock/python/lin_reg>`_
 

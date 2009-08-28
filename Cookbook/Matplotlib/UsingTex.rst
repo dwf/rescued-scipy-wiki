@@ -50,7 +50,8 @@ Here is the standard example, tex_demo.py:
    savefig('tex_demo')
    show()
 
-attachment:tex_demo.png
+
+.. image:: images/Cookbook/Matplotlib/UsingTex/tex_demo.png
 
 Note that when TeX/LaTeX support is enabled, you can mix text and math modes. Display math mode ($$ e=mc^2 $$) is  not supported, but adding the command \displaystyle, as in tex_demo.py, will produce the same results.
 

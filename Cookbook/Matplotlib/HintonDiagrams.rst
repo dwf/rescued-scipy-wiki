@@ -5,7 +5,8 @@ Hinton diagrams with matplotlib
 
 Hinton diagrams are a way of visualizing numerical values in a matrix/vector, popular in the neural networks and machine learning literature. The area occupied by a square is proportional to a value's magnitude, and the colour (black or white in this case) indicates it's sign (positive/negative).
 
-attachment:hinton.png
+
+.. image:: images/Cookbook/Matplotlib/HintonDiagrams/hinton.png
 
 ::
 

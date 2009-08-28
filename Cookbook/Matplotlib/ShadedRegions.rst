@@ -14,5 +14,6 @@ Use the fill function to make shaded regions of any color tint. Here is an examp
    # WARNING: alpha doesn't work in postscript output....
    fill([3,4,4,3], [2,2,4,4], 'b', alpha=0.2, edgecolor='r')
 
-inline:shaded.png
+
+.. image:: images/Cookbook/Matplotlib/ShadedRegions/shaded.png
 

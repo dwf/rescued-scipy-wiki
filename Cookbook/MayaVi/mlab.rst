@@ -35,7 +35,8 @@ Start with ``ipython -wthread`` and paste the following code::
    s = mlab.SurfRegular(x, y, f)
    fig.add(s)
 
-inline:simple_example.png
+
+.. image:: images/Cookbook/MayaVi/mlab/simple_example.png
 
 Changing axis and colour
 ========================
@@ -64,7 +65,8 @@ Changing axis and colour
    # Edit the title properties with the GUI:
    t.edit_traits()
 
-inline:tvtk.mlab_example.png
+
+.. image:: images/Cookbook/MayaVi/mlab/tvtk.mlab_example.png
 
 List of different functionalities
 =================================

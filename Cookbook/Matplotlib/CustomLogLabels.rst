@@ -31,5 +31,6 @@ Example of how to replace the default log-plot exponential labels with integer l
    xlabel(r"Result", fontsize = 12)
    ylabel(r"Prediction", fontsize = 12)
 
-inline:log_labels.png
+
+.. image:: images/Cookbook/Matplotlib/CustomLogLabels/log_labels.png
 

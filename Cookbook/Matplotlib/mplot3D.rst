@@ -34,7 +34,8 @@ Wireframe (works on 0.87.5):
    ax.set_zlabel('Z')
    p.show()
 
-attachment:wireframe.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/wireframe.jpg
 
 3D Plot:
 
@@ -52,7 +53,8 @@ attachment:wireframe.jpg
    fig.add_axes(ax)
    p.show()
 
-attachment:plot.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/plot.jpg
 
 Scatter (works on 0.87.5, shows some artefacts):
 
@@ -68,7 +70,8 @@ Scatter (works on 0.87.5, shows some artefacts):
    ax.set_zlabel('Z')
    p.show()
 
-attachment:scatter.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/scatter.jpg
 
 Surface (works on 0.87.5):
 
@@ -83,7 +86,8 @@ Surface (works on 0.87.5):
    ax.set_zlabel('Z')
    p.show()
 
-attachment:surface.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/surface.jpg
 
 Contour3D (works on 0.87.5):
 
@@ -105,7 +109,8 @@ Contour3D (works on 0.87.5):
    ax.set_zlabel('Z')
    p.show()
 
-attachment:contour3D.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/contour3D.jpg
 
 Contourf3D:
 
@@ -125,7 +130,8 @@ Contourf3D:
    fig.add_axes(ax)
    p.show()
 
-attachment:contourf3D.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/contourf3D.jpg
 
 2D Contour Plots (work on 0.87.5):
 
@@ -141,7 +147,10 @@ attachment:contourf3D.jpg
    p.contourf(x,y,z)
    p.show()
 
-attachment:contour.jpg attachment:contourf.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/contour.jpg
+ 
+.. image:: images/Cookbook/Matplotlib/mplot3D/contourf.jpg
 
 For some other examples of 3d plotting capability, run the following commands. See the source of matplotlib/axes3d.py for more information:
 
@@ -165,7 +174,12 @@ For some other examples of 3d plotting capability, run the following commands. S
    p3.test_polys()
    p3.test_wire()
 
-attachment:test1.jpg attachment:test2.jpg attachment:test3.jpg
+
+.. image:: images/Cookbook/Matplotlib/mplot3D/test1.jpg
+ 
+.. image:: images/Cookbook/Matplotlib/mplot3D/test2.jpg
+ 
+.. image:: images/Cookbook/Matplotlib/mplot3D/test3.jpg
 
 Another example
 ---------------

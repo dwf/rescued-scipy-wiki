@@ -30,7 +30,8 @@ This is a quick demonstration of generating data from several Bessel functions a
 ::
 
    #class left
-   inline:NumPyOptimizationSmall.png
+   
+.. image:: images/Cookbook/OptimizationDemo1/NumPyOptimizationSmall.png
 
    Optimization Example
 

@@ -52,7 +52,8 @@ MayaVi2 will be launched with a TVTK Scene which is blank.
 
 The result should look like this (for issue concerning background/forground colors, see [:Cookbook/MayaVi/Tips: Cookbook/MayaVi/Tips]):
 
-inline:mv2.png
+
+.. image:: images/Cookbook/MayaVi/RunningMayavi2/mv2.png
 
 Run MayaVi2 with some parameters: modules and filters available
 ===============================================================
@@ -153,7 +154,8 @@ Thus, typing (in MayaVi2's examples directory, see [:Cookbook/MayaVi/Installatio
 
 you should get this:
 
-inline:mv2_cmdline.png
+
+.. image:: images/Cookbook/MayaVi/RunningMayavi2/mv2_cmdline.png
 
 Ok, this is not exactly the same as on the previous figure although exactly the same modules have been loaded.
 

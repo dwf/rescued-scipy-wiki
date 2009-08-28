@@ -55,11 +55,13 @@ and
    scp.actor.property.opacity = 1.0 #
    scp.module_manager.scalar_lut_manager.data_range = [0, 1]
 
-inline:module_scp.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_scp.png
 
 Note that if you enable widget, you will be able to translate (move the mouse to the red frame), change the normal (move the mouse to the grey arrow) of the cutplanes in "real-time" :
 
-inline:module_scp_widg_en.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_scp_widg_en.png
 
 You can also display the cutplanes as "warped surfaces", just adding a few lines, setting the scale factor and the normals to be computed (smoother surface) or not:
 
@@ -69,7 +71,8 @@ You can also display the cutplanes as "warped surfaces", just adding a few lines
    scp.compute_normals = True
    scp.warp_scalar.filter.scale_factor = 20
 
-inline:module_scp_warp.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_scp_warp.png
 
 Of course, you can add as many cutplanes as you want, oblique or not.
 
@@ -148,7 +151,8 @@ Note: I agree, this is not the best way to write such a code. You can obviously 
 
 which looks like this:
 
-inline:module_scp2.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_scp2.png
 
 Another module that slices grid is called SliceUnstructuredGrid. As it is called, it should work only for unstructured grids. But, because it has been tested on a structured grid, even MayaVi2 complains about it with a warning message, it "works" even for structured grid (happily for our example |;-)| )
 
@@ -183,7 +187,8 @@ and
 
 The scene should look like this:
 
-inline:module_sug.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_sug.png
 
 GridPlane/StructuredGridOutline module
 ======================================
@@ -242,7 +247,8 @@ and
 
 The scene is rendered as this:
 
-inline:module_sgo_gp.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_sgo_gp.png
 
 Surface/IsoSurface module
 =========================
@@ -277,7 +283,8 @@ then
 
 The scene should look like this:
 
-inline:module_surface.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_surface.png
 
 Using the IsoSurface module is not more difficult. As an example, say that we want the same result as the Surface module displays.
 
@@ -298,7 +305,8 @@ and
 
 This yelds the same scene as previous, of course, but now, you can control each isovalue separately.
 
-inline:module_isosurface.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_isosurface.png
 
 The funny part is that you can set the minimum/maximum contour for Surface or Contours for IsoSurface in "real-time", moving the slide-bar. This is a very useful feature. And can render very nice "dynamic" scene ! |:-)|
 
@@ -335,7 +343,8 @@ Note that the Volume module has a "Color Transfer Function", which is quite diff
 
 The rendered scene should look like this (thanks to Prabhu to have made the CTF similar to the LUT) :
 
-inline:module_volume.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_volume.png
 
 Vectors/Glyph/VectorCutPlane/WarpVectorCutPlane module
 ======================================================
@@ -419,7 +428,8 @@ For instance, for Vectors module, you can type:
 
 If we consider, once again ;-), the same 3D data already shown before, but this time, with vectors instead of scalars data, the scene should look like this:
 
-inline:module_vectors.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_vectors.png
 
 For the VectorCutPlane module, you can set the same properties as above plus the properties of the ScalarCutPlane module such as implicit_plane.normal, implicit_plane.origin, implicit_plane.widget.enabled, etc:
 
@@ -450,7 +460,8 @@ For the VectorCutPlane module, you can set the same properties as above plus the
 
 This should render this scene:
 
-inline:module_vcp.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_vcp.png
 
 You can also warp a cutplane according to the vectors field. To do this, you have to load another module, instead of VectorCutPlane, called WarpVectorCutPlane.
 
@@ -474,7 +485,8 @@ then
 
 You should get this (compare to the warped surface with ScalarCutPlane module):
 
-inline:module_warpvcp.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_warpvcp.png
 
 Streamline module
 =================
@@ -533,7 +545,8 @@ In this example, we want streamlines displayed as tubes, with 10 sides, and the 
 
 This should look like:
 
-inline:module_streamline.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/MainModules/module_streamline.png
 
 Note: you can also see an example of using the Streamline module in [:Cookbook/MayaVi/Examples: Cookbook/MayaVi/Examples].
 

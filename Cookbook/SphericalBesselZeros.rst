@@ -74,5 +74,6 @@ A sample example is shown, for the 10 first zeros of the spherical Bessel functi
 
    bessph_zeros_rec 5 10
 
-inline:snapshot.png
+
+.. image:: images/Cookbook/SphericalBesselZeros/snapshot.png
 

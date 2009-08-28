@@ -71,5 +71,6 @@ Code
 Figure
 ======
 
-inline:filfilt.jpg
+
+.. image:: images/Cookbook/FiltFilt/filfilt.jpg
 

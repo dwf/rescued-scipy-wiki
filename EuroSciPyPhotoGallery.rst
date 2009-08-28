@@ -2,11 +2,15 @@
 
 Some photos from the meeting:
 
-attachment:group1.jpg
 
-attachment:outsidevenue1.jpg
+.. image:: images/EuroSciPyPhotoGallery/group1.jpg
 
-attachment:backcrowd1.jpg
 
-attachment:backcrowd2.jpg
+.. image:: images/EuroSciPyPhotoGallery/outsidevenue1.jpg
+
+
+.. image:: images/EuroSciPyPhotoGallery/backcrowd1.jpg
+
+
+.. image:: images/EuroSciPyPhotoGallery/backcrowd2.jpg
 

@@ -17,15 +17,18 @@ Drag and drop object
 
 Running the contour.py python script example, you should get:
 
-inline:ps1.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps1.png
 
 First, enable python shell clicking on Python in the "View" menu. A python shell should appear at the bottom of the MayaVi2 window:
 
-inline:ps2.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps2.png
 
 Then drag any object from the tree view on the left and drop it on the python shell and you'll get the object. Say you want to get the Outline module:
 
-inline:ps3.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps3.png
 
 Now, you can use your object following two ways: typing directly in the python shell or using the explore() method.
 
@@ -34,13 +37,15 @@ Typing in the python shell
 
 You can create an instance of your object in the python shell window.
 
-inline:ps4.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps4.png
 
 Note that you benefit of "word completion" in this python shell, ie a little window popups letting you choose the name of the expected object or method.
 
 Thus, you can display the RGB values of the outline color for instance:
 
-inline:ps5.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps5.png
 
 However, find out objects or methods can be not so easy: you may not know how they depends from each other. An easier way is using the explore() method.
 
@@ -61,15 +66,18 @@ or
 
 if you have previously defined it:
 
-inline:ps6.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps6.png
 
 Then, you get the following window:
 
-inline:ps7.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps7.png
 
 Considering the last example, about the color of the outline module, you can unfold the "tree" and thus, get the info you need:
 
-inline:ps8.png
+
+.. image:: images/Cookbook/MayaVi/Tips/ps8.png
 
 Very powerful, isn't it ! |:-)|
 
@@ -169,7 +177,8 @@ Suppose that you want to change background color: click on "Background color" ta
 
 Here, you can choose a predefined color, or click in the square to set your RGB value, for instance.
 
-inline:setcolors.png
+
+.. image:: images/Cookbook/MayaVi/Tips/setcolors.png
 
 Also, if you want to set foreground color, it will be applied for all modules and filters, i.e. outline color, text color, labels axes, and so on.
 

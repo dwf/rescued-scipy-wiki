@@ -65,7 +65,8 @@ If you have just a few signals, you could make each signal a separate axes and m
        setp(ax.get_xticklabels(), visible=False)
    show()
 
-inline:multipleaxes.png
+
+.. image:: images/Cookbook/Matplotlib/MultilinePlots/multipleaxes.png
 
 Manipulating transforms
 =======================
@@ -167,7 +168,8 @@ Here is an example of how that application does multiline plotting with "in plac
    ax.set_title('Use + / - to change y gain')
    show()
 
-inline:multiline.png
+
+.. image:: images/Cookbook/Matplotlib/MultilinePlots/multiline.png
 
 -------------------------
 

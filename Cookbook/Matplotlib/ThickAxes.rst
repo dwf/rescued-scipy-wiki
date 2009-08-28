@@ -30,5 +30,6 @@ Example of how to thicken the lines around your plot (axes lines) and to get big
    # Save figure
    savefig('thick_axes.png')
 
-inline:thick_axes.png
+
+.. image:: images/Cookbook/Matplotlib/ThickAxes/thick_axes.png
 

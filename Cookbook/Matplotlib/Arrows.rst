@@ -20,5 +20,6 @@ Some example code for how to plot an arrow using the Arrow function.
    # Lets make it green.
    arr.set_facecolor('g')
 
-inline:plot_arrow.png
+
+.. image:: images/Cookbook/Matplotlib/Arrows/plot_arrow.png
 

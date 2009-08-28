@@ -57,5 +57,6 @@ Now we can make plots:
 
 Here you can find this functionality packaged up into attachment:histOutline.py
 
-inline:hist_outline.png
+
+.. image:: images/Cookbook/Matplotlib/UnfilledHistograms/hist_outline.png
 

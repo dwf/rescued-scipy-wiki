@@ -21,7 +21,8 @@ Example showing how to use B-splines in scipy.signal to do interpolation. The in
    plot(newx, newy, x, y, 'o')
    show()
 
-inline:interpolate_figure1.png
+
+.. image:: images/Cookbook/Interpolation/interpolate_figure1.png
 
 N-D interpolation for equally-spaced data
 =========================================
@@ -50,7 +51,8 @@ To pre-compute the weights (for multiple interpolation results),  you would use
    coeffs = ndimage.spline_filter(fvals)
    newf = ndimage.map_coordinates(coeffs, coords, prefilter=False)
 
-inline:interpolate_figure2.png
+
+.. image:: images/Cookbook/Interpolation/interpolate_figure2.png
 
 Interpolation of an N-D curve
 =============================
@@ -99,5 +101,6 @@ The scipy.interpolate packages wraps the netlib FITPACK routines (Dierckx) for c
    pylab.ylabel('z')
    pylab.savefig('splprep_demo.png')
 
-inline:splprep_demo.png
+
+.. image:: images/Cookbook/Interpolation/splprep_demo.png
 

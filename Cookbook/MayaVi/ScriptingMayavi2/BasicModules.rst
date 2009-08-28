@@ -39,7 +39,8 @@ then
    script.add_module(o)
    o.actor.property.color = fg_color
 
-inline:basic_outline.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_outline.png
 
 Axes module
 ===========
@@ -76,7 +77,8 @@ then
 
 Label format is the format for the dimensions along Ox, Oy and Oz axis. By default, it is set to %6.3g.
 
-inline:basic_axes.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_axes.png
 
 OrientationAxes module
 ======================
@@ -99,7 +101,8 @@ and
    script.add_module(oa)
    oa.text_property.color = fg_color
 
-inline:basic_orientationaxes.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_orientationaxes.png
 
 Text module
 ===========
@@ -131,7 +134,8 @@ and
    t.x_position = 0.5-t.width/2
    t.y_position = 1-height
 
-inline:basic_title.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_title.png
 
 Now, we will present how to set up the color bar, called "scalar" or "vector" color bar. It depends of the data you have in your file.
 
@@ -157,7 +161,8 @@ Then, you can configure the color bar as follows (keywords are self-explanatory)
    mmsclut.number_of_colors = 64
    mmsclut.data_name = "My Label"
 
-inline:basic_colorbar.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_colorbar.png
 
 Note: To configure a color bar for vectors instead of scalars, replace "scalar_lut_manager" by "vector_lut_manager" above.
 
@@ -259,7 +264,8 @@ At last, you can choose if you want a perspective view or a parallel projection 
 
    t.scene.camera.parallel_projection = True
 
-inline:basic_scene_parall.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_scene_parall.png
 
 for a parallel projection, or:
 
@@ -267,7 +273,8 @@ for a parallel projection, or:
 
    t.scene.camera.parallel_projection = False
 
-inline:basic_scene_persp.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/BasicModules/basic_scene_persp.png
 
 for a perspective view.
 

@@ -30,7 +30,8 @@ Suppose you'd like to make a map of the world using an orthographic, or satellit
 
 There are many other map projections available, probably more than you've even heard of before.  A complete list is available in the `basemap docstrings <http://matplotlib.sourceforge.net/mpl_toolkits.basemap.basemap.html>`_. Coastlines, political boundaries and rivers are available in four resolutions, ``crude``, ``low``, ``intermediate`` and ``high``.  Here's what the ``low`` resolution coastlines look like.
 
-inline:basemap0.png
+
+.. image:: images/Cookbook/Matplotlib/Maps/basemap0.png
 
 Now, suppose you would like to plot the locations of five cities on this map.  Add the following just before the ``p.show()`` in the above script:
 
@@ -49,7 +50,8 @@ Now, suppose you would like to plot the locations of five cities on this map.  A
    for name,xpt,ypt in zip(cities,x,y):
        plt.text(xpt+50000,ypt+50000,name)
 
-inline:basemap1b.png
+
+.. image:: images/Cookbook/Matplotlib/Maps/basemap1b.png
 
 Calling a basemap class instance with arrays of longitudes and latitudes returns those locations in native map projection coordinates using the `proj4 <http://proj.maptools.org>`_ library. Now suppose you have some data on a regular latitude/longitude grid and you would like to plot contours of that data over the map.  Try adding the following lines just before ``p.show()``
 
@@ -66,7 +68,8 @@ Calling a basemap class instance with arrays of longitudes and latitudes returns
    # contour data over the map.
    CS = map.contour(x,y,wave+mean,15,linewidths=1.5)
 
-inline:basemap2b.png
+
+.. image:: images/Cookbook/Matplotlib/Maps/basemap2b.png
 
 Instead of plotting the continents and coastlines, you can use an image as a map background using the ``warpimage`` method.  The default background image is the NASA 'blue marble' image, which you can apply by using
 
@@ -84,7 +87,8 @@ in place of
 
 Here's what the resulting plot looks like (using white text instead of black, and white dots instead of blue)
 
-inline:basemap3c.png
+
+.. image:: images/Cookbook/Matplotlib/Maps/basemap3c.png
 
 You can also plot images, pcolor plots and vectors over map projections. Examples that illustrate this and more can be found in the examples directory of the basemap source distribution.
 

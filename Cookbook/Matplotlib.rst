@@ -13,15 +13,18 @@ Simple plotting
 
 * [:Cookbook/Matplotlib/SigmoidalFunctions:Sigmoidal Functions] - plotting simple functions
 
-    attachment:sigmoids_small.png
+    
+.. image:: images/Cookbook/Matplotlib/sigmoids_small.png
 
 * [:Cookbook/Matplotlib/MultilinePlots:Multiline Plots] - how to plot multiple lines over one another
 
-    attachment:multiline.png
+    
+.. image:: images/Cookbook/Matplotlib/multiline.png
 
 * [:Cookbook/Matplotlib/BarCharts:Bar Charts] - how to make a bar chart
 
-    attachment:barchartscaled.png
+    
+.. image:: images/Cookbook/Matplotlib/barchartscaled.png
 
 * [:Cookbook/Matplotlib/Common Errors:Common Errors] - Compilation of common errors that can cause erroneous behavior. Check before emailing mailing lists.
 
@@ -29,31 +32,38 @@ Simple plotting
 
 * [:Cookbook/Matplotlib/MulticoloredLine:Multicolored Line] - different colors for different parts of a line
 
-    attachment:colored_line.png
+    
+.. image:: images/Cookbook/Matplotlib/colored_line.png
 
 * [:Cookbook/Matplotlib/ShadedRegions:Shaded Regions] - how to plot grey shaded regions using transparency.
 
-    attachment:shaded_small.png
+    
+.. image:: images/Cookbook/Matplotlib/shaded_small.png
 
 * ["/Arrows"] - how to plot arrows
 
-    attachment:plot_arrow_small.png
+    
+.. image:: images/Cookbook/Matplotlib/plot_arrow_small.png
 
 * [:Cookbook/Matplotlib/UnfilledHistograms:Unfilled Histograms] - how to plot histograms that are un-filled and don't look like bar charts.
 
-    attachment:hist_outline_small.png
+    
+.. image:: images/Cookbook/Matplotlib/hist_outline_small.png
 
 * [:Cookbook/Matplotlib/CustomLogLabels:Custom Log Plot Labels] - plotting log plots with custom tick labels that are formatted as integer numbers rather than exponents as is the default.
 
-    attachment:log_labels_small.png
+    
+.. image:: images/Cookbook/Matplotlib/log_labels_small.png
 
 * [:Cookbook/Matplotlib/ThickAxes:Thick Axes] - how to make thick axes lines and bold fonts.
 
-    attachment:thick_axes.png
+    
+.. image:: images/Cookbook/Matplotlib/thick_axes.png
 
 * ["/Maps"] - how to plot data on map projections
 
-    attachment:basemap1.png
+    
+.. image:: images/Cookbook/Matplotlib/basemap1.png
 
 * [:Cookbook/Matplotlib/Plotting values with masked arrays:Plotting values with masked arrays] - How to plot only selected values of an array, because some values are meaningless (detector malfunction), out of range, etc. etc.
 
@@ -65,7 +75,8 @@ Simple plotting
 
 * [:Cookbook/Matplotlib/HintonDiagrams:Hinton Diagrams] - A way of visualizing weight matrices
 
-    attachment:hinton-small.png
+    
+.. image:: images/Cookbook/Matplotlib/hinton-small.png
 
 Pseudo color plots
 ==================
@@ -80,7 +91,8 @@ Pseudo color plots
 
 * [:Cookbook/Matplotlib/Plotting Images with Special Values:Plotting Images with Special Values] - how to plot an image with special values mapped to specific colors, e.g. missing values or data extrema
 
-    attachment:sentinel.png
+    
+.. image:: images/Cookbook/Matplotlib/sentinel.png
 
 * [:Cookbook/Matplotlib/ColormapTransformations:Transformations on Colormaps] - how to apply a function to the look up table of a colormap and turn it into another one.
 
@@ -89,7 +101,8 @@ Typesetting
 
 * [:Cookbook/Matplotlib/UsingTex:Using TeX] - formatting matplotlib text with LaTeX
 
-    attachment:tex_demo.png
+    
+.. image:: images/Cookbook/Matplotlib/tex_demo.png
 
 * [:Cookbook/Matplotlib/LaTeX Examples:LaTeX Examples] - Complete examples for generating publication quality figures using LaTeX.
 
@@ -100,11 +113,13 @@ Typesetting
 
 * [:Cookbook/Matplotlib/mplot3D:3D plots] - Simple 3D plots using matplotlibs built-in 3D functions (which were originally provided by John Porter's mplot3d add-on module).
 
-    attachment:contourf3D.jpg
+    
+.. image:: images/Cookbook/Matplotlib/contourf3D.jpg
 
 * [:Cookbook/Matplotlib/VTK Integration:VTK Integration] - how to import plots into vtk
 
-    attachment:mpl_vtk.png
+    
+.. image:: images/Cookbook/Matplotlib/mpl_vtk.png
 
 Misc
 ====

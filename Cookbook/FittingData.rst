@@ -56,7 +56,8 @@ We now have two sets of data: Tx and Ty, the time series, and tX and tY, sinusoi
         transform=ax.transAxes)
    show()
 
-inline:datafit.png
+
+.. image:: images/Cookbook/FittingData/datafit.png
 
 A clever use of the cost function
 ---------------------------------
@@ -165,7 +166,8 @@ However this works only if the gaussian is not cut out too much, and if it is no
    plot(fit(X))
    show()
 
-inline:gaussianfit.png
+
+.. image:: images/Cookbook/FittingData/gaussianfit.png
 
 Fitting a 2D gaussian
 ---------------------
@@ -228,7 +230,8 @@ And here is an example using it:
            verticalalignment='bottom', transform=ax.transAxes)
    show()
 
-inline:fitgaussian.png
+
+.. image:: images/Cookbook/FittingData/fitgaussian.png
 
 Fitting a power-law to data with errors
 =======================================
@@ -308,5 +311,6 @@ If your data is well-behaved, you can fit a power-law function by first converti
    xlim(1.0, 11)
    savefig('power_law_fit.png')
 
-inline:power_law_fit.png
+
+.. image:: images/Cookbook/FittingData/power_law_fit.png
 

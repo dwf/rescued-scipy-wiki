@@ -14,7 +14,8 @@ If you need more help, you are invited to ask questions on the `Enthought-dev <h
 
    #class right
    ## Snazzy graphics here...
-   inline:mayavi2.png
+   
+.. image:: images/Cookbook/MayaVi/mayavi2.png
 
    A mayavi2 session.
 
@@ -58,7 +59,8 @@ TVTK
 
    #class inline
    ## Snazzy graphics here...
-   inline:mlab.png
+   
+.. image:: images/Cookbook/MayaVi/mlab.png
 
    Using the mlab module from ipython
 
@@ -66,7 +68,8 @@ TVTK
 
 * [:Cookbook/MayaVi/tvtk: tvtk]: Traited VTK, including iVTK
 
-inline:5_2_1.png
+
+.. image:: images/Cookbook/MayaVi/5_2_1.png
 
 **Visualization of the (5,2,1) orbital of the H-atom using an iso-surface and a semi-transparant scalar cut plane.**
 

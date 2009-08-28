@@ -4,9 +4,13 @@ This is code implements the example given in pages 11-15 of `An Introduction to 
 
 It produces plots that look something like this:
 
-inline:estimate_vs_iteration.png **Estimate vs. iteration step**
 
-inline:error_vs_iteration.png **Estimated** *a priori* **error vs. iteration step**
+.. image:: images/Cookbook/KalmanFiltering/estimate_vs_iteration.png
+ **Estimate vs. iteration step**
+
+
+.. image:: images/Cookbook/KalmanFiltering/error_vs_iteration.png
+ **Estimated** *a priori* **error vs. iteration step**
 
 ::
 

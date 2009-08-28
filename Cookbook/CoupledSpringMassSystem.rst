@@ -7,7 +7,8 @@ A Coupled Spring-Mass System
 
 This figure shows the system to be modeled:
 
-attachment:two_springs_diagram.png
+
+.. image:: images/Cookbook/CoupledSpringMassSystem/two_springs_diagram.png
 
 Two objects with masses m:subscript:`1` and m:subscript:`2` are coupled through springs with spring constants k:subscript:`1` and k:subscript:`2`.  The left end of the left spring is fixed.  We assume that the lengths of the springs, when subjected to no external forces, are L:subscript:`1` and L:subscript:`2`.
 
@@ -158,5 +159,6 @@ The commands
 
 generate the following plot of the solution:
 
-attachment:two_springs.png
+
+.. image:: images/Cookbook/CoupledSpringMassSystem/two_springs.png
 

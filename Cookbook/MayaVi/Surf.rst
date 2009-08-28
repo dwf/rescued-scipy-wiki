@@ -27,5 +27,6 @@ If you want to plot a surface representing a matrix by elevation and colour of i
 
 You can run this script by running "mayavi2 -n -x script.py", loading it through the menu (File -> Open File), and pressing Ctrl+R, or entering "execfile('script.py') in the python shell.
 
-inline:surf.png
+
+.. image:: images/Cookbook/MayaVi/Surf/surf.png
 

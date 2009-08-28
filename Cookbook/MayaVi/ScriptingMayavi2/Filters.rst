@@ -59,7 +59,8 @@ then
 
 This should look like this:
 
-inline:filter_eug1.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/Filters/filter_eug1.png
 
 For this first example, there was only one object, and it was faceted.
 
@@ -99,7 +100,8 @@ Now, say we have a second object, not metallic but dielectric (so the EM field w
 
 This should render this:
 
-inline:filter_eug2.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/Filters/filter_eug2.png
 
 ExtractGrid filter
 ==================
@@ -138,7 +140,8 @@ then you can set filter's limits as:
    s.contour.maximum_contour = 1
    s.module_manager.scalar_lut_manager.data_range = [0, 1]
 
-inline:filter_eg.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/Filters/filter_eg.png
 
 Threshold filter
 ================
@@ -147,7 +150,8 @@ Using this filter, you can consider scalars values contained in a specific range
 
 Suppose that your scalars data spread from 0 to 1, but you are only interested by the values in the range [0.4, 0.6] and you want to play with the slidebar of the IsoSurface module within this range, around 0.5. By default, min & max values of the slidebar will be set to 0 & 1, because of your data range:
 
-inline:filter_thrld1.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/Filters/filter_thrld1.png
 
 To play more accurately with the slidebar of the IsoSurface module, you have to set min & max values to the required values, i.e. 0.4 & 0.6. Thus, if you want to see your scalars data around 0.5, you can set the slidebar from 0.4 to 0.6 more easily than in the case where slidebar goes form 0 to 1.
 
@@ -179,7 +183,8 @@ and you're done !
 
 This should look like this:
 
-inline:filter_thrld2.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/Filters/filter_thrld2.png
 
 You can notice on the two previous figures that the Threshold module approximates bounds to the nearest values (there are not strictly equal to 0.4 & 0.6).
 
@@ -215,7 +220,8 @@ then add the ScalarCutPlane module "above" the PointToCellData filter, as usual:
 
 Thus, you can see your data on each cell and not as points (compare to the first figure showing the use of the ScalarCutPlane module):
 
-inline:filter_p2c.png
+
+.. image:: images/Cookbook/MayaVi/ScriptingMayavi2/Filters/filter_p2c.png
 
 WarpScalar filter
 =================

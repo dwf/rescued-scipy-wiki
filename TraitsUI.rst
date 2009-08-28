@@ -37,7 +37,8 @@ A traited object has a method that can display a dialog to edit its attributes:
 
    >>> joe.configure_traits()
 
-attachment:configure_traits.png
+
+.. image:: images/TraitsUI/configure_traits.png
 
 Interactive dialogs
 ===================
@@ -58,7 +59,8 @@ Using a few simple modification notifications makes the application interactive:
            self.pounds = value*2.2
    UnitConverter().configure_traits()
 
-attachment:unit_converter.png
+
+.. image:: images/TraitsUI/unit_converter.png
 
 An "edit_traits" method is available to create a dialog that will be part of the WxPython event-loop. You can use it in "ipython -wthread", that has the WxPython loop running, or in a larger WxPython  application. The tutorial shows how to integrate traits and matplotlib plots. [:EmbeddingInTraitsGUI:Here's] another recipe for embedding a matplotlib figure in a TraitsUI app.
 

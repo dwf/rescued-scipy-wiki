@@ -39,7 +39,8 @@ This example compares the usage of the Rbf and UnivariateSpline_ classes from th
    plt.title('Interpolation using RBF - multiquadrics')
    plt.savefig('rbf1d.png')
 
-inline:rbf1dnew.png
+
+.. image:: images/Cookbook/RadialBasisFunctions/rbf1dnew.png
 
 2d example
 ==========
@@ -74,5 +75,6 @@ This example shows how to interpolate scattered 2d data.
    plt.colorbar()
    plt.savefig('rbf2d.png')
 
-inline:rbf2dnew.png
+
+.. image:: images/Cookbook/RadialBasisFunctions/rbf2dnew.png
 

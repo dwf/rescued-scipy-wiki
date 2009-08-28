@@ -1,6 +1,7 @@
 #format rst
 
-attachment:scipy2008bg.png
+
+.. image:: images/SciPy2008/scipy2008bg.png
 
 The SciPy_ 2008 Conference will be held at Caltech again this year during the week of August 19-24, 2008.
 

@@ -2,7 +2,8 @@
 
 In 1950, Taylor published two papers (`The Formation of a Blast Wave by a Very Intense Explosion. I. Theoretical Discussion <http://adsabs.harvard.edu/abs/1950RSPSA.201..159T>`_ and `The Formation of a Blast Wave by a Very Intense Explosion. II. The Atomic Explosion of 1945 <http://adsabs.harvard.edu/abs/1950RSPSA.201..175T>`_, both of which I will follow closely). The first describes numerically the evolution of a blast wave, and the second uses declassified photographs to compute the energy released by the Trinity atomic bomb test. Evaluating the required integrals numerically was a laborious process in 1950, but it can be done quite straightforwardly now.
 
-attachment:Trinity_explosion.jpg
+
+.. image:: images/Trinity/Trinity_explosion.jpg
 
 A blast wave is a spherical shock that arises when a large amount of energy is deposited more or less instantaneously in a small volume of a homogeneous medium. The heated medium then expands, causing a spherical shock wave to propagate outward. The external pressure is assumed to be negligible compared to the density of kinetic energy near the shock front, and the Mach number of the shock is assumed to be high (a "strong shock"). These conditions are reasonably well satisfied by the explosion of a nuclear weapon, and they are also satisfied by a supernova explosion during certain phases of its evolution.
 
@@ -89,7 +90,8 @@ The result returned by odeint is an array, three by a thousand. Each row is a va
    pylab.xlabel("eta")
    pylab.show()
 
-attachment:trinity-plots-small.png
+
+.. image:: images/Trinity/trinity-plots-small.png
 
 However, we are interested in more than the shape of these functions; we would also like to be able to relate the total energy in the explosion and the growth of the blast wave. Some further calculation gives that
 
@@ -170,7 +172,8 @@ Now let's plot the points and the best-fit line:
    pylab.ylabel("log10(Rs)")
    pylab.show()
 
-attachment:trinity-data-small.png
+
+.. image:: images/Trinity/trinity-data-small.png
 
 Looks like the data fits the model pretty well (better than one would expect, as Taylor points out, since gamma changes significantly with temperature).
 

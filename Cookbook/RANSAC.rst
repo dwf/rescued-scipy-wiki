@@ -2,7 +2,8 @@
 
 The attached file ( attachment:ransac.py ) implements the `RANSAC algorithm <http://en.wikipedia.org/wiki/RANSAC>`_. An example image:
 
-attachment:ransac.png
+
+.. image:: images/Cookbook/RANSAC/ransac.png
 
 To run the file, save it to your computer, start IPython
 

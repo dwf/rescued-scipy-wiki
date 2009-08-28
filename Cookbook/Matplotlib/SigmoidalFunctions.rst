@@ -66,7 +66,8 @@ People often want to shade an area under these curves, eg `under their intersect
 
 As these examples illustrate, matplotlib doesn't come with helper functions for all the kinds of curves people want to plot, but along with numerix and python, provides the basic tools to enable you to build them yourself.
 
-inline:sigmoids2.png
+
+.. image:: images/Cookbook/Matplotlib/SigmoidalFunctions/sigmoids2.png
 
 -------------------------
 

@@ -88,7 +88,8 @@ Code
 Figure
 ------
 
-inline:smoothsignal.jpg
+
+.. image:: images/Cookbook/SignalSmooth/smoothsignal.jpg
 
 Smoothing of a 2D signal
 ========================
@@ -128,13 +129,15 @@ Example
    X, Y = mgrid[-70:70, -70:70]
    Z = cos((X**2+Y**2)/200.)+ random.normal(size=X.shape)
 
-inline:noisy.png
+
+.. image:: images/Cookbook/SignalSmooth/noisy.png
 
 ::
 
    blur_image(Z, 3)
 
-inline:convolved.png
+
+.. image:: images/Cookbook/SignalSmooth/convolved.png
 
 The attachment attachment:cookb_signalsmooth.py contains a version of this script with some stylistic cleanup.
 
