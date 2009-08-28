@@ -77,7 +77,7 @@ Class Inheritance Diagram
 
 Here's a class tree for the Chaco API:
 
-attachment:ChacoClassTreeSmall_.png
+attachment:ChacoClassTreeSmall.png
 
 The anatomy of a chaco plot comprises the following:
 
@@ -95,7 +95,7 @@ The anatomy of a chaco plot comprises the following:
 
 For example, a simple line plot has the following structure (internally).
 
-attachment:ChacoPlotRelationships_.png
+attachment:ChacoPlotRelationships.png
 
 PlotRenderers
 ~~~~~~~~~~~~~
